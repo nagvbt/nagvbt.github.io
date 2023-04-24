@@ -1,6 +1,6 @@
 ---
 authors: nagvbt
-tags: [react]
+tags: [React]
 ---
 
 # Using Flow in React Native project
