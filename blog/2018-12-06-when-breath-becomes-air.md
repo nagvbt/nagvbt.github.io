@@ -1,5 +1,4 @@
 ---
-slug: when-breath-becomes-air
 authors: nagvbt
 tags: [Books]
 ---

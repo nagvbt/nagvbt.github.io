@@ -1,9 +1,9 @@
 ---
-slug: rn-minimal-app
-title: React Native minimal app component
 authors: nagvbt
 tags: [React Native]
 ---
+
+# React Native minimal app component
 
 Minimal code required to start a React-Native component is
 

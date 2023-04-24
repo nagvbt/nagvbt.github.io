@@ -1,5 +1,4 @@
 ---
-slug: steve-jobs-walter
 authors: nagvbt
 tags: [Books]
 ---

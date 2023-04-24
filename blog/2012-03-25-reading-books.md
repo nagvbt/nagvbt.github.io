@@ -1,5 +1,4 @@
 ---
-slug: reading-books
 authors: nagvbt
 tags: [Books]
 ---

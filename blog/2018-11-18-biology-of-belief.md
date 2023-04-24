@@ -1,5 +1,4 @@
 ---
-slug: biology-of-belief
 tags: [Books]
 authors: nagvbt
 ---

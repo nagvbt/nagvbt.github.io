@@ -1,10 +1,12 @@
 ---
-slug: building-a-component-library-with-react
-title: Building A Component Library With React
 authors: nagvbt
 tags: [react]
 ---
+
+# Building A Component Library With React
+
 ![Docusaurus Plushie](./img/nag-rlib.png)
+
 
 1\. Summary
 -----------

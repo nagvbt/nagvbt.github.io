@@ -13,6 +13,5 @@ set USE_SSH=false
 :: echo %USE_SSH%
 
 :: Deploy
-:: yarn deploy
+yarn deploy
 
-git push -u origin main
