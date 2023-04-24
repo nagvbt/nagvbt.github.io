@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[7118],{6199:e=>{e.exports=JSON.parse('{"title":"C","description":"Master C using quick FAQ","slug":"/category/c","permalink":"/docs/category/c","navigation":{"previous":{"title":"Articles","permalink":"/docs/category/articles"},"next":{"title":"Basics","permalink":"/docs/articles/C/Basics"}}}')}}]);
