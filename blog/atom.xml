@@ -31,7 +31,7 @@
             <name>Nag VBT</name>
             <uri>https://nagvbt.github.io/</uri>
         </author>
-        <category label="react" term="react"/>
+        <category label="React" term="React"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Component Library With Ionic+Angular]]></title>
@@ -68,7 +68,7 @@ import ExampleComponent2 from './components/ExampleComponent2/ExampleComponent2'
             <name>Nag VBT</name>
             <uri>https://nagvbt.github.io/</uri>
         </author>
-        <category label="react" term="react"/>
+        <category label="React" term="React"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[When Breath Becomes Air]]></title>
@@ -149,6 +149,5 @@ Jobs read and re-read many times during his life. Jobs had first read as a teena
             <name>Nag VBT</name>
             <uri>https://nagvbt.github.io/</uri>
         </author>
-        <category label="docusaurus" term="docusaurus"/>
     </entry>
 </feed>
