@@ -89,7 +89,6 @@ function HomepageHeader() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
-  // console.log(recentPosts.items[0].get());
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}

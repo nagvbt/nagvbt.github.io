@@ -1,6 +1,6 @@
 ---
 authors: nagvbt
-tags: [react]
+tags: [React]
 ---
 
 # Building A Component Library With React
