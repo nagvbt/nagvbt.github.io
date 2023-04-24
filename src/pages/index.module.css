@@ -1,0 +1,61 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  /*  background-image: url("/static/img/header.jpg"); */
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  padding-right: 1rem;
+}
+
+
+/* sdsd */
+.hero {
+  display: flex;
+  padding: 4rem 0;
+  text-align: center;
+  align-items: center;
+  vertical-align: center;
+  position: relative;
+  background: #f9f9f9;
+}
+
+.hero h1 {
+  font-size: 3rem;  
+}
+
+.getStartedButton {
+  margin-right: 0.6rem;
+}
+
+.githubIcon {
+  vertical-align: middle;
+}
+
+.githubButtonText {
+  vertical-align: middle;
+}
+
+.logo {
+  width: 12rem;
+  height: 12rem;
+}
