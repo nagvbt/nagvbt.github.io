@@ -11,7 +11,7 @@ Today March 10, 2012 12.20 PM I had completed reading the book it contains 42 ch
 
 Reality Distortion Field: It can be done
 
-![Docusaurus Plushie](./img/steve-jobs-walter.jpg)
+![](/img/steve-jobs-walter.JPG)
 
 ## Books That Inspired Steve Jobs
 
