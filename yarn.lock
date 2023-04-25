@@ -6763,6 +6763,11 @@ react-fast-compare@^3.2.0:
   resolved "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.1.tgz#53933d9e14f364281d6cba24bfed7a4afb808b5f"
   integrity sha512-xTYf9zFim2pEif/Fw16dBiXpe0hoy5PxcD8+OwBnTtNLfIm3g6WxhKNurY+6OmdH1u6Ta/W/Vl6vjbYP1MFnDg==
 
+react-goodreads-shelf@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.npmjs.org/react-goodreads-shelf/-/react-goodreads-shelf-3.1.3.tgz#88a87bcaa51a2a32ddd1d37e34e475a92f6c0e96"
+  integrity sha512-npeXUSS26gMSUIe+gy8A4FNTPTngdOYS3cE/QdhvvaxI0rcGx4fUDnwZI9Du94d2gzaggbiITYD4NBDr8tSJRg==
+
 react-helmet-async@*, react-helmet-async@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npmjs.org/react-helmet-async/-/react-helmet-async-1.3.0.tgz#7bd5bf8c5c69ea9f02f6083f14ce33ef545c222e"

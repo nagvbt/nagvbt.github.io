@@ -1,0 +1,19 @@
+{
+"review": [
+  {
+    "title": "Steve Jobs by Walter Isaacson",
+    "url": "/blog/2012/03/10/steve-jobs-walter",
+    "imgSrc": "/img/steve-jobs-walter.jpg"
+  },
+  {
+    "title": "When Breath Becomes Air",
+    "url": "/blog/2018/12/06/when-breath-becomes-air",
+    "imgSrc": "/img/when-breath-becomes-air.JPG"
+  },
+  {
+    "title": "The Biology of Belief",
+    "url": "/blog/2018/11/18/biology-of-belief",
+    "imgSrc": "/img/biology-of-belief.jpg"
+  }
+]
+}

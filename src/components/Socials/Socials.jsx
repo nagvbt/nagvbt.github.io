@@ -43,9 +43,8 @@ const getHoverIconColor = (site) => {
   }
 };
 
-export const Socials = () => {
+export default function Socials() {
   const { isDarkTheme } = useColorMode();
-
   return (
     <div>
       {socialDetails.map((cn) => {
@@ -73,4 +72,4 @@ export const Socials = () => {
       })}
     </div>
   );
-};
+}

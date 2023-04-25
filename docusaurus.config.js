@@ -79,15 +79,16 @@ const config = {
           {
             type: "doc",
             docId: "intro",
-            position: "left",
+            position: "right",
             label: "Articles",
           },
+          { to: "books", label: "Books", position: "right" },
           //  To open a page from '/src/pages' folder
           { to: "about", label: "About", position: "right" },
           { to: "terms", label: "Terms", position: "right" },
 
           // To  open  a folder from ./blog
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Blog", position: "right" },
           // To open ouside link
           {
             href: "https://github.com/nagvbt",
