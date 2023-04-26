@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[36467],{74770:a=>{a.exports=JSON.parse('{"label":"ebooks","permalink":"/blog/tags/ebooks","allTagsPath":"/blog/tags","count":1}')}}]);

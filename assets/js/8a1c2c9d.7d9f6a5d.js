@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[38343],{292:a=>{a.exports=JSON.parse('{"label":"wp8","permalink":"/blog/tags/wp-8","allTagsPath":"/blog/tags","count":1}')}}]);

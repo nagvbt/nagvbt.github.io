@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[73010],{17993:a=>{a.exports=JSON.parse('{"label":"win-apps","permalink":"/blog/tags/win-apps","allTagsPath":"/blog/tags","count":1}')}}]);

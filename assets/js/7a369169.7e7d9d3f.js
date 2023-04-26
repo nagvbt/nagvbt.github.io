@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[50285],{83046:a=>{a.exports=JSON.parse('{"label":"cpp-faq","permalink":"/blog/tags/cpp-faq","allTagsPath":"/blog/tags","count":1}')}}]);
