@@ -1,0 +1,45 @@
+---
+title: "Ionic 5 setup"
+date: "2020-02-20"
+categories: 
+  - "ionic"
+tags: 
+  - "hybrid-mobile-app"
+  - "ionic"
+  - "ionic-5"
+authors: nagvbt
+---
+
+1\. Install Ionic - Open the command prompt and run _npm install -g @ionic/cli_
+
+2\. Update the angular cli _npm install -g @angular/cli@latest_
+
+3\. Create an app ionic start nagTabs tabs syntax: _ionic start_ app types are a. tabs: A tabs based layout b. sidemenu: A sidemenu based layout c. blank: An empty project with a single page
+
+4\. Create framework features syntax: _ionic generate \[options\]_
+
+_type_ of framework features:
+
+page 
+
+componet
+
+service
+
+module
+
+class
+
+directive
+
+gaurd
+
+_name_: The name/path of the feature being generated
+
+5\. Run the App on browser _cd myApp_ _ionic serve_
+
+**Run the app on Android/iOS/Windows**
+
+6\. ionic cordova build Build (prepare + compile) an Ionic project for a given platform syntax: _ionic cordova build \[options\]_ eg: _ionic cordova build android_
+
+7\. ionic cordova run Run an Ionic project on a connected device syntax: _ionic cordova run \[\] \[options\]_ eg: _ionic cordova run android_

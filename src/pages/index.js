@@ -59,7 +59,6 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <BlogSidebarDesktop></BlogSidebarDesktop>
       </main>
     </Layout>
   );

@@ -1,0 +1,20 @@
+---
+title: "Microsoft® Visual Studio® LightSwitch&#x2122; 2011"
+date: "2011-07-27"
+categories: 
+  - "tools-technology-news"
+tags: 
+  - "visual-studio"
+---
+
+
+
+Microsoft® Visual Studio® LightSwitch™ is used to build business applications for the desktop and cloud and focused on making it easy to develop line of business applications. It is based on data + screens which is common for LOB Applications.
+
+**Here are important links:** Download a trial of LightSwitch 2011 for 90 days :
+
+[](http://www.microsoft.com/download/en/confirmation.aspx?id=26830)[http://www.microsoft.com/download/en/confirmation.aspx?id=26830](http://www.microsoft.com/download/en/confirmation.aspx?id=26830)
+
+IS0 format: [](http://go.microsoft.com/fwlink/?LinkId=216813)[http://go.microsoft.com/fwlink/?LinkId=216813](http://go.microsoft.com/fwlink/?LinkId=216813) LightSwitch Developer Center: [](http://msdn.microsoft.com/en-US/lightswitch/ff938857)[http://msdn.microsoft.com/en-US/lightswitch/ff938857](http://msdn.microsoft.com/en-US/lightswitch/ff938857)
+
+OverView: [](http://www.microsoft.com/visualstudio/en-us/lightswitch/overview)[http://www.microsoft.com/visualstudio/en-us/lightswitch/overview](http://www.microsoft.com/visualstudio/en-us/lightswitch/overview)

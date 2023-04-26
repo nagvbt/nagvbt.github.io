@@ -76,6 +76,8 @@ const config = {
           src: "img/logo.png",
         },
         items: [
+          // To  open  a folder from ./blog
+          { to: "/blog", label: "Blog", position: "right" },
           {
             type: "doc",
             docId: "intro",
@@ -87,8 +89,6 @@ const config = {
           { to: "about", label: "About", position: "right" },
           { to: "terms", label: "Terms", position: "right" },
 
-          // To  open  a folder from ./blog
-          { to: "/blog", label: "Blog", position: "right" },
           // To open ouside link
           {
             href: "https://github.com/nagvbt",

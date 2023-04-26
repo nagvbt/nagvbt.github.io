@@ -1,0 +1,23 @@
+---
+title: "How to Delete \"Windows.old\" in windows 8"
+date: "2013-01-04"
+categories: 
+  - "windows-apps"
+tags: 
+  - "cleanmgr"
+  - "disk-cleanup"
+  - "technology"
+  - "windows-8"
+---
+
+**1.** Press the **Windows+R** keys to open the Run dialog, type **cleanmgr**, and press Enter.
+
+**2.** Select the **Windows drive**, and click/tap on **OK**. **NOTE:** _You will not see this window unless you have more than one drive or partition on your computer with a drive letter._
+
+**3.** Click/tap on the **Clean up system files** button
+
+**4.** Click/tap on the **Previous Windows installation(s)** box to check it, and click/tap on **OK**. (see screenshot below)
+
+**5.** Click/tap on **Delete Files**.
+
+**6.** When Disk Cleanup finishes, the **C:Windows.old** folder will be deleted.
