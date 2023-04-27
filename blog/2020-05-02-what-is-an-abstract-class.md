@@ -5,16 +5,16 @@ categories:
   - "csharp"
   - "c-cpp-mfc-vcpp"
 tags: 
-  - "c-faq"
-  - "c"
+  - "C"
 authors: nagvbt
 ---
 
 Abstract classes are used for providing an abstraction to the code to make it reusable and extendable.
 
 **Abstract class in C++:** It is a class that has at least one pure virtual function (i.e., a function that has no definition). The classes inheriting the abstract class must provide a definition for the pure virtual function.
+<!--truncate-->
 
-Sample
+***Program***
 ```cpp
 #include "iostream"
 using namespace std;

@@ -4,7 +4,7 @@ date: "2012-09-27"
 categories: 
   - "tools-technology-news"
 tags: 
-  - "technology"
+  - "Technology"
 ---
 
 New way of interaction with the computers say good bye to Keyboard, Mouse even touch screen :)  ?

@@ -4,7 +4,7 @@ date: "2011-09-18"
 categories: 
   - "c-cpp-mfc-vcpp"
 tags: 
-  - "cpp"
+  - "Cpp"
 ---
 
 Let us know how the members of a class are stored in the C++ class object.

@@ -4,7 +4,7 @@ date: "2012-03-15"
 categories: 
   - "c-cpp-mfc-vcpp"
 tags: 
-  - "mfc"
+  - "MFC"
   - "vc"
 ---
 

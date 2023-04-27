@@ -2,9 +2,9 @@
 title: "All About Design Patterns"
 date: "2012-01-18"
 categories: 
-  - "design-patterns"
+  - "Design Patterns"
 tags: 
-  - "design-patterns"
+  - "Design Patterns"
 ---
 
 **Definition:** Design Patterns represent solutions to problems that arise when developing software within a particular context.

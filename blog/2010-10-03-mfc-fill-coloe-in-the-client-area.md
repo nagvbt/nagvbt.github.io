@@ -1,11 +1,14 @@
 ---
-title: "MFC Tip: To fill the Background of the client area with a desired color keeping the text in the client area unchanged"
+title: "MFC: Fill Client area with a desired color"
 date: "2010-10-03"
 categories: 
   - "c-cpp-mfc-vcpp"
 tags: 
-  - "mfc"
+  - "MFC"
+authors: nagvbt
 ---
+
+MFC Tip: To fill the Background of the client area with a desired color keeping the text in the client area unchanged
 
 ```c
 BOOL CMySDIView::OnEraseBkgnd(CDC\* pDC)

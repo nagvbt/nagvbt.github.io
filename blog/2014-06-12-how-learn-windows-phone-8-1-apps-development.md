@@ -4,7 +4,7 @@ date: "2014-06-12"
 categories: 
   - "windows-phone"
 tags: 
-  - "advanced-c"
+  - "Windows Phone"
 ---
 
 # **Vedios**

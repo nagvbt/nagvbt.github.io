@@ -2,9 +2,9 @@
 title: "Ionic blogs"
 date: "2017-06-07"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "ionic"
+  - "Ionic"
 ---
 
   

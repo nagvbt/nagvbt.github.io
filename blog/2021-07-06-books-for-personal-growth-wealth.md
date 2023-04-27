@@ -3,14 +3,14 @@ title: "Books For Personal Growth & Wealth"
 date: "2021-07-06"
 categories: 
   - "books"
+tags: ["Books"]
 authors: nagvbt
 ---
 
 Recently I had completed the set of four books which are worlds greatest books on personal Growth and Wealth.
+Lets have a look which books are contained in this set.
 
- 
-
-We will see which books are contained in this set.
+<!--truncate-->
 
 **Personal Growth:**
 
@@ -26,8 +26,8 @@ We will see which books are contained in this set.
 
 Wanted to buy the set of 4 books use below Links:
 
-Amazon Link for Paperback: [https://amzn.to/3AwekXB](https://amzn.to/3AwekXB)
+- Amazon Link for Paperback: [https://amzn.to/3AwekXB](https://amzn.to/3AwekXB)
 
-Amazon Link for Harcover: [https://amzn.to/2TJpgAp](https://amzn.to/2TJpgAp)
+- Amazon Link for Harcover: [https://amzn.to/2TJpgAp](https://amzn.to/2TJpgAp)
 
-Amazon Link for Kindle version: [https://amzn.to/3hDwLAU](https://amzn.to/3hDwLAU)
+- Amazon Link for Kindle version: [https://amzn.to/3hDwLAU](https://amzn.to/3hDwLAU)

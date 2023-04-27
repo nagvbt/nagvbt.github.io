@@ -4,7 +4,7 @@ date: "2014-06-04"
 categories: 
   - "windows-phone"
 tags: 
-  - "wp8-1"
+  - "Windows Phone"
 ---
 
 - Dual-SIM works in Windows Phone 8.1 by splitting out the phone dialer and messaging into two separate Live Tiles.

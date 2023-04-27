@@ -4,9 +4,7 @@ date: "2011-09-03"
 categories: 
   - "c-cpp-mfc-vcpp"
 tags: 
-  - "mfc"
-  - "vc"
-  - "win32"
+  - "MFC"
 ---
 
 Using **SetConsoleCtrlHandler** we can Add an application-defined HandlerRoutine function say myConsoleHandler.

@@ -4,7 +4,7 @@ date: "2014-06-05"
 categories: 
   - "windows-phone"
 tags: 
-  - "wp8-1"
+  - "Windows Phone"
 ---
 
 There are three approaches to develop Windows Phone 8.1 apps XAML Apps. I like third 'Use Windows XAML platform' approach as most of the users upgrade WP8 to WP8.1.

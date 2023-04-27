@@ -12,7 +12,7 @@ This book is a groundbreaking work in the field of new biology, and it will fore
 a. Interaction between your mind and body and the processes by which cells receive information.  
 
 b. Genes and DNA do not control our biology  
-
+<!--truncate-->
 c. EPigenetics
 
 ![](/img/biology-of-belief.jpg)

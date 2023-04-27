@@ -4,19 +4,27 @@ date: "2012-07-08"
 categories: 
   - "c-cpp-mfc-vcpp"
 tags: 
-  - "c-faq"
   - "c"
 ---
 
 **FAQ-1**
 
-```c void main() { int _p = 91; //compilation error printf("%d n",_ p); printf("%d n", p); } OUTPUT: Does not compile error C2440: 'initializing' : cannot convert from 'int' to 'int \*' ```
+```c 
+void main() { 
+  int _p = 91; //compilation error 
+  printf("%d n",_ p); 
+  printf("%d n", p); } 
+  OUTPUT: Does not compile error C2440: 'initializing' : cannot convert from 'int' to 'int \*' 
+  ```
 
 **FAQ-2**
 
-```c void main() { int i = 91; int \*p = &i;
+```c 
+void main() { int i = 91; int \*p = &i;
 
-printf("%d n", \*p); printf("%d n", p); } OUTPUT: 91 1245024 ```
+printf("%d n", \*p); printf("%d n", p); } 
+OUTPUT: 91 1245024 
+```
 
 **FAQ-3**
 

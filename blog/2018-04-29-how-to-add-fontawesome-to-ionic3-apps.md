@@ -2,10 +2,9 @@
 title: "How to add FontAwesome to ionic3+ apps"
 date: "2018-04-29"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "ionic"
-  - "ionic3"
+  - "Ionic"
 authors: nagvbt
 ---
 

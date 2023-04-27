@@ -3,6 +3,7 @@ title: "XAML Auto formatting in Visual Studio 2010"
 date: "2011-08-24"
 categories: 
   - "wpf"
+tags: ["WPF"]
 ---
 
 To Auto format XAML code in a readable and organized way
@@ -15,4 +16,10 @@ To Auto format XAML code in a readable and organized way
 
 **Sample Code:**
 
-```xml <Window x:Class="WpfApplication1.MainWindow" xmlns="[http://schemas.microsoft.com/winfx/2006/xaml/presentation"](http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot); xmlns:x="[http://schemas.microsoft.com/winfx/2006/xaml"](http://schemas.microsoft.com/winfx/2006/xaml&quot); Title="MainWindow" Height="350" Width="525"> <Grid> <!--Before Auto formatting --> <Button Content="Button" Height="23" HorizontalAlignment="Left" Margin="66,52,0,0" Name="button1" VerticalAlignment="Top" Width="75" /> <!--After Auto formatting --> <Button Content="Button" Height="23" HorizontalAlignment="Left" Margin="248,68,0,0" Name="button2" VerticalAlignment="Top" Width="75" /> </Grid> </Window> ```
+```xml 
+<Window x:Class="WpfApplication1.MainWindow" xmlns="[http://schemas.microsoft.com/winfx/2006/xaml/presentation"](http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot); xmlns:x="[http://schemas.microsoft.com/winfx/2006/xaml"](http://schemas.microsoft.com/winfx/2006/xaml&quot); Title="MainWindow" Height="350" Width="525"> 
+<Grid> <!--Before Auto formatting --> 
+<Button Content="Button" Height="23" HorizontalAlignment="Left" Margin="66,52,0,0" Name="button1" VerticalAlignment="Top" Width="75" /> <!--After Auto formatting --> 
+<Button Content="Button" Height="23" HorizontalAlignment="Left" Margin="248,68,0,0" Name="button2" VerticalAlignment="Top" Width="75" /> </Grid> 
+</Window> 
+```

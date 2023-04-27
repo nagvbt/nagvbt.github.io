@@ -2,11 +2,11 @@
 title: "Ionic5 Error:'You have to be inside an angular-cli project"
 date: "2020-02-16"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "hybrid-mobile-app"
-  - "ionic"
-  - "ionic-5"
+
+  - "Ionic"
+
 authors: nagvbt
 ---
 

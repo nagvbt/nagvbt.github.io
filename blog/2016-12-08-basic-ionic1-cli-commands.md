@@ -2,9 +2,9 @@
 title: "Basic Ionic1 CLI commands"
 date: "2016-12-08"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "ionic"
+  - "Ionic"
 ---
 
 1\. To start a new application  

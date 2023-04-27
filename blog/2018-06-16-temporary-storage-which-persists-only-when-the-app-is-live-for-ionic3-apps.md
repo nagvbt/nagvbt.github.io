@@ -2,10 +2,9 @@
 title: "Temporary Storage which persists only when the app is live for Ionic3+ Apps"
 date: "2018-06-16"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "ionic"
-  - "ionic3"
+  - "Ionic"
 authors: nagvbt
 ---
 

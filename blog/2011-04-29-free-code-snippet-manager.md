@@ -4,7 +4,7 @@ date: "2011-04-29"
 categories: 
   - "tools-technology-news"
 tags: 
-  - "tools"
+  - "Tools"
 ---
 
 One of the best freeware code snippet manager for download is available here visit [](http://www.snippetmanager.net/ "http://www.snippetmanager.net/")[http://www.snippetmanager.net/](http://www.snippetmanager.net/)  for more details.

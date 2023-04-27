@@ -3,6 +3,8 @@ title: "MASTER C++ Windows Phone App"
 date: "2012-10-08"
 categories: 
   - "windows-phone"
+tags: 
+  - "Windows Phone"
 ---
 
 I had developed an Windows Phone 7 App screen shots are shown below.

@@ -4,7 +4,7 @@ date: "2017-08-25"
 categories: 
   - "tools-technology-news"
 tags: 
-  - "technical"
+  - "Technology"
 ---
 
 As the Software Industry changes rapidly one needs to update their skills. Whoever involves in the software development needs to write down there skills and analyze are the skills up to date. There are many ways to add or update your skills.

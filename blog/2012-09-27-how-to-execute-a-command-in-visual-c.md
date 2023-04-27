@@ -4,7 +4,7 @@ date: "2012-09-27"
 categories: 
   - "windows-apps"
 tags: 
-  - "mfc"
+  - "MFC"
   - "vc"
   - "win32"
 ---

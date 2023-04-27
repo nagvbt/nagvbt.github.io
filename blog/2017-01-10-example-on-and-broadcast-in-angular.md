@@ -3,8 +3,7 @@ title: "Example: $on and $broadcast in angular"
 date: "2017-01-10"
 categories: 
   - "angular"
-tags: 
-  - "angularjs"
+tags: ["Angular"]
 ---
 
 ## With out Arguments:

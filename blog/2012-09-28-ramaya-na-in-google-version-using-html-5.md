@@ -4,7 +4,7 @@ date: "2012-09-28"
 categories: 
   - "tools-technology-news"
 tags: 
-  - "technology"
+  - "Technology"
 ---
 
 Ramayana which is an Indian epic story but shown as Indonesian way by www.ramaya.na website which was made by Google.

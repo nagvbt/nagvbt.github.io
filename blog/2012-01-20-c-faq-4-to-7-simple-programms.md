@@ -4,8 +4,7 @@ date: "2012-01-20"
 categories: 
   - "c-cpp-mfc-vcpp"
 tags: 
-  - "c-faq"
-  - "c"
+  - "C"
 ---
 
 ## 4. Swap of two numbers  with out temp

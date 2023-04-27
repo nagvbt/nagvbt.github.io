@@ -2,10 +2,10 @@
 title: "Design Pattern: C# Singleton"
 date: "2012-01-18"
 categories: 
-  - "design-patterns"
+  - "Design Patterns"
 tags: 
   - "csharp"
-  - "design-patterns"
+  - "Design Patterns"
 ---
 
 ```cs using System;

@@ -1,13 +1,14 @@
 ---
-title: "Software Architect"
+title: "Developer to Architect"
 date: "2010-09-29"
 categories: 
-  - "design-patterns"
+  - "Design Patterns"
 tags: 
-  - "design-patterns"
+  - "Design Patterns"
+authors: nagvbt
 ---
 
-Want to become an Software Architect then try this links.
+To become an Software Architect you can use following resources.
 
 0. www.architecturejournal.net
     

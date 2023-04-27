@@ -7,13 +7,16 @@ tags:
   - "cpp"
 ---
 
-C++ class have A. Data Members B. Members Functions
+C++ class have 
+
+A. Data Members
+B. Members Functions
 
 **A. Data Members**
 
 1. Static Data Member The size of a class object with only Static data members irrespective of Data Type (say float, long e.tc.) is equal to [one Byte (~ size of Empty class)](http://nagvbt.blogspot.com/2011/09/18/why-size-of-an-empty-c-class-not-zero/) 
     
-    ```cpp
+```cpp
     class CStaticDataMemberCls
     {
     public:
@@ -22,7 +25,8 @@ C++ class have A. Data Members B. Members Functions
     };
     
 
-void main() { CStaticDataMemberCls objSDMC; cout&lt;} \[/source\]
+void main() { CStaticDataMemberCls objSDMC; cout&lt;} 
+```
 
 2. Non Static Data Member The size of a class with non static data members is equal to sum of the data type size i.e. size of int = 4 size of float = 4 so total = 8
     
@@ -35,7 +39,7 @@ void main() { CStaticDataMemberCls objSDMC; cout&lt;} \[/source\]
     };
     
 
-void main() { CNonStaticDataMemberCls objNSDMC; cout&lt;} \[/source\] **B. Members Functions**
+void main() { CNonStaticDataMemberCls objNSDMC; cout&lt;} ``` **B. Members Functions**
 
 1. Static Members Functions
 2. Non Static Members Functions
@@ -55,7 +59,7 @@ void main()
 {
         CMemberFunctionsCls objMFC;
     cout&lt;}
-\[/source\]
+```
 
 3. Virtual Members Functions If a class consists of virtual functions a table of pointers(i.e. Virtual Table) to virtual functions is generated for each class. And a pointer (vptr) to the created Virtual Table is inserted with in each class object. So the size of CVirtualFunctionCls object will be 4 Bytes which is nothing but a size of vptr.
     
@@ -69,7 +73,9 @@ void main()
     };
     
 
-void main() { CVirtualFunctionCls objVFC; cout&lt;} \[/source\] Let us see the class with all the above members
+void main() { CVirtualFunctionCls objVFC; cout&lt;} 
+``` 
+Let us see the class with all the above members
 
 ```cpp
 class Sample
@@ -98,4 +104,4 @@ void main()
         Sample obj;
     cout&lt;}
 
-\[/source\]
+```

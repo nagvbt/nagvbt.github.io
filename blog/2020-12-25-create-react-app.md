@@ -7,6 +7,8 @@ tags: [React Native]
 
 Create React App is a easy and best environment for learning React, and is the easy way to start building a new single-page application in React.
 
+<!--truncate-->
+
 Steps To create a React App
 
 1.  Install Node >= 8.10 and npm >= 5.6 on your machine.

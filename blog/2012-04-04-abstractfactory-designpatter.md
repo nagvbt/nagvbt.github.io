@@ -5,7 +5,7 @@ categories:
   - "c-cpp-mfc-vcpp"
 tags: 
   - "cpp"
-  - "design-patterns"
+  - "Design Patterns"
 ---
 
 **Definition:** Provide an interface for creating families of related or dependent objects without specifying their concrete classes.

@@ -3,10 +3,10 @@ title: "Ionic – AngularJS templates"
 date: "2016-07-07"
 categories: 
   - "angular"
-  - "ionic"
+  - "Ionic"
 tags: 
   - "angular"
-  - "ionic"
+  - "Ionic"
 ---
 
 ##   

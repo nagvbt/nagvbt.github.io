@@ -4,7 +4,7 @@ date: "2014-05-31"
 categories: 
   - "windows-phone"
 tags: 
-  - "wp8-1"
+  - "Windows Phone"
 ---
 
 # **For Users**

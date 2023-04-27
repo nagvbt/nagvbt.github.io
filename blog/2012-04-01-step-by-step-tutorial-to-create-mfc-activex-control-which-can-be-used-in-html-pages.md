@@ -5,7 +5,7 @@ categories:
   - "com-dcom-atl"
 tags: 
   - "atl"
-  - "mfc"
+  - "MFC"
 ---
 
 **Definition:** ActiveX controls are COM components which are self-registering and Implements standard interfaces that deal specifically with GUI-based tasks such as rendering, sizing, activation, and property persistence.

@@ -4,8 +4,7 @@ date: "2012-09-03"
 categories: 
   - "c-cpp-mfc-vcpp"
 tags: 
-  - "mfc"
-  - "mfc-docview"
+  - "MFC"
 ---
 
 To Enumerate all views of the document the CDocument class provides GetFirstViewPosition and GetNextView member functions to enumerate all views associated with the document. We call view’s OnUpdate function to communicate with them.

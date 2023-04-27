@@ -2,16 +2,15 @@
 title: "How to open urls using InAppBrowser plugin & window.open from ionic3+ apps"
 date: "2018-07-15"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "ionic"
-  - "ionic3"
+  - "Ionic"
 authors: nagvbt
 ---
 
-How to open urls using InAppBrowser plugin & window.open from ionic3+ apps
+How to open urls using InAppBrowser plugin & window.open from ionic3+ apps. We can InAppBrowser plugin & window.open for opening urls from ionic3+ app
 
-We can InAppBrowser plugin & window.open for opening urls from ionic3+ app
+<!--truncate-->
 
 Steps: 1. Install below plugins ionic cordova plugin 
 add cordova-plugin-inappbrowser 

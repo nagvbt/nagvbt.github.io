@@ -2,16 +2,16 @@
 title: "How to Create and Use a Local StorageProvider in Ionic3+ Apps"
 date: "2018-06-22"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "ionic"
-  - "ionic3"
+  - "Ionic"
 authors: nagvbt
 ---
 
 Add a provider to the Ionic3 app refer and follow the below steps  
 [How to Add Providers in Ionic3+](http://nagvbt.blogspot.com/2018/06/how-to-add-providers-in-ionic3.html)   
-  
+
+<!--truncate-->
 Steps:  
   
 1\. Inject the Storage to the StorageProvider  and that was created in the [How to Add Providers in Ionic3+](http://nagvbt.blogspot.com/2018/06/how-to-add-providers-in-ionic3.html)   

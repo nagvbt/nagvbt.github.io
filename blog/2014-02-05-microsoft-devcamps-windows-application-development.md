@@ -4,7 +4,7 @@ date: "2014-02-05"
 categories: 
   - "tools-technology-news"
 tags: 
-  - "conference"
+  - "Technology"
 ---
 
 Attended Microsoft DevCamps  @ Regenta One hosted by Microsoft - winner of **2nd prize** for development of Windows 8.1 App - In Hackathon.

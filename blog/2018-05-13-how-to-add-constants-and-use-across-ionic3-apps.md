@@ -2,9 +2,9 @@
 title: "How to Add Constants and use across Ionic3+ Apps"
 date: "2018-05-13"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "ionic"
+  - "Ionic"
 authors: nagvbt
 ---
 

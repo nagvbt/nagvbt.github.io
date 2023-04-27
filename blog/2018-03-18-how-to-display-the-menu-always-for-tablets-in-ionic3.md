@@ -2,10 +2,9 @@
 title: "How to Display the Menu always for Tablets in Ionic3+"
 date: "2018-03-18"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "ionic"
-  - "ionic3"
+  - "Ionic"
 authors: nagvbt
 ---
 

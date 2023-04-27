@@ -4,7 +4,7 @@ date: "2012-12-07"
 categories: 
   - "books"
 tags: 
-  - "ebooks"
+  - "Books"
 ---
 
 **You can explore latest trends in software development, data visualization, and data science for free using the Succinctly Series Ebooks.**

@@ -4,7 +4,7 @@ date: "2017-08-11"
 categories: 
   - "machine-learning"
 tags: 
-  - "bots"
+  - "Technology"
 ---
 
 #### First thing first

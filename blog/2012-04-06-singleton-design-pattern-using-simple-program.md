@@ -5,7 +5,7 @@ categories:
   - "c-cpp-mfc-vcpp"
 tags: 
   - "cpp"
-  - "design-patterns"
+  - "Design Patterns"
 ---
 
 **Definition:** Ensure a class only has one instance and provide a global point of access to it.

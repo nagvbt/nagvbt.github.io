@@ -1,13 +1,16 @@
 ---
-title: "MFC Tip: To fill the Background of the client area with a bitmap"
+title: "MFC: Fill the Client area with a bitmap"
 date: "2010-10-03"
 categories: 
   - "c-cpp-mfc-vcpp"
 tags: 
-  - "mfc"
+  - "MFC"
+authors: nagvbt
 ---
 
-```c
+In MFC to fill the client area with a bitmap use the following code.
+
+```cpp
 BOOL CMySDIView::OnEraseBkgnd(CDC\* pDC)
 {
     CDC mymem;

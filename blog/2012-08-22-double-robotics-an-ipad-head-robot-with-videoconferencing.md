@@ -4,7 +4,7 @@ date: "2012-08-22"
 categories: 
   - "tools-technology-news"
 tags: 
-  - "technology"
+  - "Technology"
 ---
 
 Double Robotics is an low-cost telepresence robot which can be used in education, museums, health care, Offices, Retail stores, Families.

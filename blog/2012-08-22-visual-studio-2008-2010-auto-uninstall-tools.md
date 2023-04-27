@@ -4,7 +4,7 @@ date: "2012-08-22"
 categories: 
   - "tools-technology-news"
 tags: 
-  - "toos"
+  - "Tools"
   - "visual-studio"
 ---
 

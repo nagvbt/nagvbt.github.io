@@ -3,10 +3,11 @@ title: "WPF View Switcher"
 date: "2010-09-29"
 categories: 
   - "wpf"
+authors: nagvbt
 ---
 
-**[A Step by Step Tutorial](http://nagvbt.wordpress.com/wpf-viewswitcher/)**
+**[A Step by Step Tutorial](/docs/articles/WPF/ViewSwitcherTutorial)**
 
 Dynamic Switching of views in WPF using UserControl and Grid Layout.
 
-[Click here to read complete Article](http://nagvbt.wordpress.com/wpf-viewswitcher/)
+[Read More](/docs/articles/WPF/ViewSwitcherTutorial)

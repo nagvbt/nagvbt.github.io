@@ -3,6 +3,8 @@ title: "How to set a variable that can be accessed on all pages of a Windows Pho
 date: "2013-03-09"
 categories: 
   - "windows-phone"
+tags: 
+  - "Windows Phone"
 ---
 
 **App.xaml.cs**

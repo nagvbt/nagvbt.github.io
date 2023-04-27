@@ -2,9 +2,9 @@
 title: "Design Patterns and there advantages"
 date: "2017-08-25"
 categories: 
-  - "design-patterns"
+  - "Design Patterns"
 tags: 
-  - "design-patterns"
+  - "Design Patterns"
 ---
 
 ## What are Design Patterns:

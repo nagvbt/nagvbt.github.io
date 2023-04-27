@@ -4,8 +4,7 @@ date: "2012-01-19"
 categories: 
   - "c-cpp-mfc-vcpp"
 tags: 
-  - "c-faq"
-  - "c"
+  - "C"
 ---
 
 \_FILE **:It is a Predefined Macros : The name of the current source file.** FILE\_\_ expands to a string surrounded by double quotation marks.

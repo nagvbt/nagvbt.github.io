@@ -3,6 +3,8 @@ title: "Upgrade from  Windows Phone 8  to Windows Phone 8.1"
 date: "2014-05-20"
 categories: 
   - "windows-phone"
+tags: 
+  - "Windows Phone"
 ---
 
 If you have a Windows Phone 8 now and want to get the preview of Windows Phone 8.1:

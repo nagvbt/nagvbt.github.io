@@ -10,6 +10,7 @@ Minimal code required to start a React-Native component is
 a. An App Class which extends from React.Component
 
 b. styles that are created from `StyleSheet.Create({})`
+<!--truncate-->
 
 ```jsx
 import React from "react";

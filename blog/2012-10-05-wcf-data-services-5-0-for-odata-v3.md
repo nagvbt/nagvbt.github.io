@@ -4,7 +4,7 @@ date: "2012-10-05"
 categories: 
   - "wcf"
 tags: 
-  - "odata"
+  - "WCF"
 ---
 
 #### Microsoft released WCF Data Services 5.0 for Open Data Protocol (OData)

@@ -4,7 +4,7 @@ date: "2012-08-25"
 categories: 
   - "tools-technology-news"
 tags: 
-  - "technology"
+  - "Technology"
 ---
 
 An interactive tour from punchcards to multi-touch.

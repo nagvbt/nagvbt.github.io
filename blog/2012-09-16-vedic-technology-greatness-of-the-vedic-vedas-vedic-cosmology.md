@@ -3,8 +3,8 @@ title: "Vedic Technology - Greatness Of The Vedic Vedas: vedic cosmology"
 date: "2012-09-16"
 categories: 
   - "tools-technology-news"
-tags: 
-  - "vedic-tehnology"
+tags: [Technology]
+
 ---
 
 ## Vedic Technology - Greatness Of The Vedic Vedas Knowledge Perfect Science: vedic cosmology

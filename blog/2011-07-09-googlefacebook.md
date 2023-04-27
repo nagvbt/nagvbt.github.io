@@ -4,7 +4,7 @@ date: "2011-07-09"
 categories: 
   - "tools-technology-news"
 tags: 
-  - "tools"
+  - "Tools"
 ---
 
 [Add the Facebook Stream to your Google+](http://crossrider.com/install/519-google-facebook)

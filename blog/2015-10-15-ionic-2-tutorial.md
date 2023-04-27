@@ -2,9 +2,9 @@
 title: "Ionic 2 Tutorial"
 date: "2015-10-15"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "ionic"
+  - "Ionic"
 ---
 
 ## Introduction

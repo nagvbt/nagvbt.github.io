@@ -2,10 +2,9 @@
 title: "How to Add FontAwesome Icons in the SideMenu of ionic3+ Apps"
 date: "2018-05-12"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "ionic"
-  - "ionic3"
+  - "Ionic"
 authors: nagvbt
 ---
 

@@ -2,10 +2,9 @@
 title: "How to create a basic ionic3 + mobile application"
 date: "2018-02-03"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "ionic"
-  - "ionic3"
+  - "Ionic"
 authors: nagvbt
 ---
 

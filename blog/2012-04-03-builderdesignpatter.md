@@ -5,7 +5,7 @@ categories:
   - "c-cpp-mfc-vcpp"
 tags: 
   - "cpp"
-  - "design-patterns"
+  - "Design Patterns"
 ---
 
 **Definition:**

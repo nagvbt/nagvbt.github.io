@@ -2,10 +2,9 @@
 title: "How to Add Providers in Ionic3+ apps"
 date: "2018-06-02"
 categories: 
-  - "ionic"
+  - "Ionic"
 tags: 
-  - "ionic"
-  - "ionic3"
+  - "Ionic"
 authors: nagvbt
 ---
 

@@ -4,9 +4,6 @@ date: "2013-01-04"
 categories: 
   - "windows-apps"
 tags: 
-  - "cleanmgr"
-  - "disk-cleanup"
-  - "technology"
   - "windows-8"
 ---
 

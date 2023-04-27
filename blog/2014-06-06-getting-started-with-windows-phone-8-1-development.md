@@ -4,7 +4,7 @@ date: "2014-06-06"
 categories: 
   - "windows-phone"
 tags: 
-  - "wp8-1"
+  - "Windows Phone"
 ---
 
 # Software
