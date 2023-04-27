@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[27551],{30074:e=>{e.exports=JSON.parse('{"label":"vedic-tehnology","permalink":"/blog/tags/vedic-tehnology","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[40453],{27105:a=>{a.exports=JSON.parse('{"label":"advanced-c","permalink":"/blog/tags/advanced-c","allTagsPath":"/blog/tags","count":1}')}}]);

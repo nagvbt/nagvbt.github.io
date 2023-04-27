@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[80688],{95960:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/vc/page/3","page":3,"postsPerPage":10,"totalPages":3,"totalCount":22,"previousPage":"/blog/tags/vc/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

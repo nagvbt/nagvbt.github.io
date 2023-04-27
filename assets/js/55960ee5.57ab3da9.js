@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[74121],{88070:a=>{a.exports=JSON.parse('[{"label":"WPF","permalink":"/docs/tags/wpf","count":1},{"label":"Tutorial","permalink":"/docs/tags/tutorial","count":1}]')}}]);

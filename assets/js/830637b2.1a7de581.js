@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[95714],{10379:a=>{a.exports=JSON.parse('{"label":"hybrid-mobile-app","permalink":"/blog/tags/hybrid-mobile-app","allTagsPath":"/blog/tags","count":2}')}}]);

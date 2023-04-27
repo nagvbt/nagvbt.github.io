@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[84388],{22922:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/windows-phone","page":1,"postsPerPage":10,"totalPages":2,"totalCount":11,"nextPage":"/blog/tags/windows-phone/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

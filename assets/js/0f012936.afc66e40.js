@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[69022],{41010:a=>{a.exports=JSON.parse('{"label":"ionic3","permalink":"/blog/tags/ionic-3","allTagsPath":"/blog/tags","count":8}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[44913],{41190:a=>{a.exports=JSON.parse('{"label":"mfc-docview","permalink":"/blog/tags/mfc-docview","allTagsPath":"/blog/tags","count":1}')}}]);
