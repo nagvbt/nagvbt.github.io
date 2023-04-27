@@ -5,7 +5,7 @@ categories:
   - "c-cpp-mfc-vcpp"
 tags: 
   - "MFC"
-authors: nagvbt
+
 ---
 
 MFC Tip: To fill the Background of the client area with a desired color keeping the text in the client area unchanged

@@ -5,7 +5,7 @@ categories:
   - "Ionic"
 tags: 
   - "Ionic"
-authors: nagvbt
+
 ---
 
 # How to Add Constants and use across Ionic3+ Apps  

@@ -5,7 +5,7 @@ categories:
   - "c-cpp-mfc-vcpp"
 tags: 
   - "MFC"
-authors: nagvbt
+
 ---
 
 In MFC to fill the client area with a bitmap use the following code.

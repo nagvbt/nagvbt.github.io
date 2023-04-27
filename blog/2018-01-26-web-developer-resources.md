@@ -3,7 +3,7 @@ title: "Web developer resources"
 date: "2018-01-26"
 categories: 
   - "javascript-html"
-authors: nagvbt
+
 ---
 
   

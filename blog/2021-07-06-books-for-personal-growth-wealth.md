@@ -4,7 +4,6 @@ date: "2021-07-06"
 categories: 
   - "books"
 tags: ["Books"]
-authors: nagvbt
 ---
 
 Recently I had completed the set of four books which are worlds greatest books on personal Growth and Wealth.

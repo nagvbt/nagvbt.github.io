@@ -5,7 +5,7 @@ categories:
   - "Ionic"
 tags: 
   - "Ionic"
-authors: nagvbt
+
 ---
 
 AppStateProvider - is developed for Temporary Storage which persists only when the app is live once the app is closed the AppState data will be destroyed. For small data to save permanently use StorageProvider which is a local Storage.  

@@ -7,7 +7,7 @@ tags:
 
   - "Ionic"
 
-authors: nagvbt
+
 ---
 
 ## PS C:nagTabs> ng test

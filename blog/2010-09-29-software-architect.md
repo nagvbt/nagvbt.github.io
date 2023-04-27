@@ -5,7 +5,7 @@ categories:
   - "Design Patterns"
 tags: 
   - "Design Patterns"
-authors: nagvbt
+
 ---
 
 To become an Software Architect you can use following resources.

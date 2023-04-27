@@ -4,7 +4,7 @@ date: "2010-09-05"
 categories: 
   - "wpf"
 tags: ["WPF", "Tutorial"]
-authors: nagvbt
+
 ---
 
 Dynamic Switching of views in WPF using UserControl and Grid Layout.

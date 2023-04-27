@@ -6,7 +6,7 @@ categories:
   - "wpf"
 tags: 
   - "Tools"
-authors: nagvbt
+
 ---
 
 ***FEATURES***

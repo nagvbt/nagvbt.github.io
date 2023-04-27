@@ -5,7 +5,7 @@ categories:
   - "Ionic"
 tags: 
   - "Ionic"
-authors: nagvbt
+
 ---
 
 1\. Install Font-Awesome  

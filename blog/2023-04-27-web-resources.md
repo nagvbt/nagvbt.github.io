@@ -1,5 +1,4 @@
 ---
-authors: nagvbt
 tags: [Web]
 ---
 

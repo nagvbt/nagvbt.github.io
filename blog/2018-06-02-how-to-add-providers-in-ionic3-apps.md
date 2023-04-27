@@ -5,7 +5,7 @@ categories:
   - "Ionic"
 tags: 
   - "Ionic"
-authors: nagvbt
+
 ---
 
 Providers are special classes which decorated with @Injectable decorator. Providers are used to a specific work.  We can organize the code and code can be reused in multiple places e.g in pages, other providers too.  

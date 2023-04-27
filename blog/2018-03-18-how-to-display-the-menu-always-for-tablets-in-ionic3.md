@@ -5,7 +5,7 @@ categories:
   - "Ionic"
 tags: 
   - "Ionic"
-authors: nagvbt
+
 ---
 
 We can use ion-split-pane for showing the UI elements like Menu always in large viewports like Tablets which is common in iPads.  

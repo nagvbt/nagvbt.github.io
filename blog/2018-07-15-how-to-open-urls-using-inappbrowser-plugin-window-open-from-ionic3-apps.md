@@ -5,7 +5,7 @@ categories:
   - "Ionic"
 tags: 
   - "Ionic"
-authors: nagvbt
+
 ---
 
 How to open urls using InAppBrowser plugin & window.open from ionic3+ apps. We can InAppBrowser plugin & window.open for opening urls from ionic3+ app

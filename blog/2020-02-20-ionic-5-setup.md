@@ -5,7 +5,7 @@ categories:
   - "Ionic"
 tags: 
   - "Ionic"
-authors: nagvbt
+
 ---
 
 1\. Install Ionic - Open the command prompt and run _npm install -g @ionic/cli_

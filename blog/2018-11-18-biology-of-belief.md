@@ -1,6 +1,6 @@
 ---
 tags: [Books]
-authors: nagvbt
+
 ---
 
 # The Biology of Belief

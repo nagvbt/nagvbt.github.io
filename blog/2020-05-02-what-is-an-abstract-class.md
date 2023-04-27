@@ -6,7 +6,7 @@ categories:
   - "c-cpp-mfc-vcpp"
 tags: 
   - "C"
-authors: nagvbt
+
 ---
 
 Abstract classes are used for providing an abstraction to the code to make it reusable and extendable.

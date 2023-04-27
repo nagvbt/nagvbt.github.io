@@ -1,5 +1,5 @@
 ---
-authors: nagvbt
+
 tags: [React]
 ---
 

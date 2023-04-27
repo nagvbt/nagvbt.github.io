@@ -3,7 +3,7 @@ title: "WPF View Switcher"
 date: "2010-09-29"
 categories: 
   - "wpf"
-authors: nagvbt
+
 ---
 
 **[A Step by Step Tutorial](/docs/articles/WPF/ViewSwitcherTutorial)**
