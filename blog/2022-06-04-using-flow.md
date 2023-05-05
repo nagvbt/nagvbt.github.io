@@ -10,16 +10,14 @@ Flow is used for static type checking in javascript. Flow works best when instal
 
 Steps:
 
-*   ***Add a devDependency on the `flow-bin` npm package:***
-
+1.   ***Add a devDependency on the flow-bin npm package:***
 `yarn add –dev flow-bin`
 
-*   ***Run `yarn run flow init` before executing `yarn run flow`.***
-
+2.   ***Run below command***
 `yarn run flow init` 
 
-*   ***To run Flow***
 
+3.   ***To run Flow***
 `yarn run flow`
 
-*   Add ‘.flowconfig’ and add ./node\_modules/.\\\*  under \[ignore\]
+4.   Add ‘.flowconfig’ and add ./node\_modules/.\\\*  under \[ignore\]

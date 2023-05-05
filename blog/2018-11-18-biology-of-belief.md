@@ -1,6 +1,5 @@
 ---
 tags: [Books]
-
 ---
 
 # The Biology of Belief

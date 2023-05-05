@@ -1,12 +1,8 @@
 ---
-title: "MFC: Fill the Client area with a bitmap"
-date: "2010-10-03"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "MFC"
-
+tags: ["MFC"]
 ---
+
+# MFC: Fill the Client area with a bitmap
 
 In MFC to fill the client area with a bitmap use the following code.
 

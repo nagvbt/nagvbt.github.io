@@ -1,15 +1,11 @@
 ---
-title: "How to Add FontAwesome Icons in the SideMenu of ionic3+ Apps"
-date: "2018-05-12"
-categories: 
-  - "Ionic"
-tags: 
-  - "Ionic"
-
+tags: ["Ionic"]
 ---
 
+# Add FontAwesome Icons in the SideMenu of ionic3+ Apps
+
 First go through the below articles  
-1\. [How to create a basic ionic3 + mobile application](http://nagvbt.blogspot.com/2018/02/how-to-create-basic-ionic3-mobile.html)  
+1\. [How to create a basic ionic3 + mobile application](blog/2018/02/03/ionic-basic-mobile-app)  
 
 [2\. How to add FontAwesome to ionic3+ apps](http://nagvbt.blogspot.com/2018/04/how-to-add-fontawesome-to-ionic3-apps.html)
 

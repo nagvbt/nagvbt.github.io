@@ -1,17 +1,14 @@
 ---
-title: "Variable arguments handling in C/C++"
-date: "2011-09-18"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "cpp"
+tags: ["C++"]
 ---
 
-Use va\_list to accept a VARYING NUMBER OF ARGUMENTS for any function in C/C++. printf(const char\* \_Format, ...) is a real time function which uses va\_list.
+# Variable arguments handling in C/C++
 
-For using va\_list we need to know about the following macros
+Use va_list to accept a VARYING NUMBER OF ARGUMENTS for any function in C/C++. printf(const char\* _Format, ...) is a real time function which uses va_list.
 
-va\_start Initialize a variable argument list (macro) va\_arg Retrieve next argument (macro) va\_end End using variable argument list (macro)
+For using va_list we need to know about the following macros
+
+va_start Initialize a variable argument list (macro) va_arg Retrieve next argument (macro) va_end End using variable argument list (macro)
 
 The sample explains how to use VARYING NUMBER OF ARGUMENTS
 
@@ -19,18 +16,27 @@ The sample explains how to use VARYING NUMBER OF ARGUMENTS
 
 # include <stdarg.h>
 
-int Add(int args, ...) { int sum = 0; int temp = 0;
+int Add(int args, ...) 
+{ 
+  int sum = 0; 
+  int temp = 0;
 
-va\_list va; //1. Declare a va\_list
+  va_list va; //1. Declare a va_list
 
-va\_start(va, args); //2. Initialise
+  va_start(va, args); //2. Initialise
 
-for(int i = 0; i<=args; i++) { temp = va\_arg(va, int); //3. Retrieve sum = temp+sum; }
+  for(int i = 0; i<=args; i++) { 
+    temp = va_arg(va, int); //3. Retrieve 
+    sum = temp+sum; 
+  }
 
-va\_end(va); //4. END
+va_end(va); //4. END
 
-return sum; }
+return sum; 
+}
 
-void main() { printf("sum=%d n ", Add(2, 1, 2, 5)); //OutPut: 8 }
-
-\[/source\]
+void main() { 
+  printf("sum=%d n ", Add(2, 1, 2, 5)); 
+  //OutPut: 8 
+  }
+```

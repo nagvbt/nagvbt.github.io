@@ -1,19 +1,14 @@
 ---
-title: "How to Add Constants and use across Ionic3+ Apps"
-date: "2018-05-13"
-categories: 
-  - "Ionic"
-tags: 
-  - "Ionic"
-
+tags: ["Ionic"]
 ---
 
 # How to Add Constants and use across Ionic3+ Apps  
   
-Steps:  
-1\. Created a folder constants and create a file app.configs.ts  
+## Steps:  
+
+1. Created a folder constants and create a file app.configs.ts  
   
-2\. Add below code which needs to be used across app  
+2. Add below code which needs to be used across app  
 
 ```js
 export const AppConfigs = {  
@@ -25,7 +20,8 @@ export const AppConfigs = {
 }  
 ```
   
-3\. To use above AppConfigs values add the below code in the page  
+3. To use above AppConfigs values add the below code in the page  
+
 ```js
 import {AppConfigs} from '../../constants'  
   

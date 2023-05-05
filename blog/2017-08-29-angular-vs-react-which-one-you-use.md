@@ -1,13 +1,8 @@
 ---
-title: "Angular Vs React which one you use"
-date: "2017-08-29"
-categories: 
-  - "angular"
-  - "react"
-tags: 
-  - "angular"
-  - "react"
+tags: ["Technology Evaluation", "Angular", "React"]
 ---
+
+# Angular Vs React which one you use
 
 Technology evaluation is some times challenging when we have best technologies available. Let us see who wins Angular or React.  
 Features  

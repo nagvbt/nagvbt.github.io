@@ -1,9 +1,8 @@
 ---
-title: "AMAZING SCIENTIFIC REASONS BEHIND Indian TRADITIONS"
-date: "2015-06-20"
-categories: 
-  - "tools-technology-news"
+tags: ["Technology"]
 ---
+
+# Amaing Scientific Reasons Behind Indian Tradations
 
 1. Throwing Coins into a River:
 

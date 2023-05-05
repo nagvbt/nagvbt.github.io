@@ -1,25 +1,23 @@
 ---
-title: "Temporary Storage which persists only when the app is live for Ionic3+ Apps"
-date: "2018-06-16"
-categories: 
-  - "Ionic"
-tags: 
-  - "Ionic"
-
+tags: ["Ionic"]
 ---
+
+# Temporary Storage which persists only when the app is live for Ionic3+ Apps
 
 AppStateProvider - is developed for Temporary Storage which persists only when the app is live once the app is closed the AppState data will be destroyed. For small data to save permanently use StorageProvider which is a local Storage.  
 **app-state.ts**   
+
 ```js
 import { Injectable } from '@angular/core';  
 import { AppStateDTO } from './app-state-DTO'  
   
-/\*\*   
- \* Class representing a AppState - AppStateProvider - this state persists only when the app is live once the app is   
- \* closed the AppState data will be destroyed.  
- \* NOTE: For small data to save permanently use StorageProvider which is a local Storage  
- \* Author - Nag  
- \*/  
+\**   
+ * Class representing a AppState - AppStateProvider - 
+ * this state persists only when the app is live once the app is   
+ * closed the AppState data will be destroyed.  
+ * NOTE: For small data to save permanently use StorageProvider which is a local Storage  
+ * Author - Nag  
+ */  
 @Injectable()  
 export class AppStateProvider {  
  private stateData = {};  
@@ -28,15 +26,15 @@ export class AppStateProvider {
  constructor() {  
  }  
   
- /\*\*  
+ \*\*  
  \* Save the AppState  
  \* @param {AppStateDTO} data save the AppStateDTO   
- \*/  
+ \*  
  public setAppState(data: AppStateDTO) {  
  this.globalData = data;  
  }  
   
- /\*\*  
+ \*\*  
  \* Get the saved AppState  
  \* @return {AppStateDTO} the saved AppStateDTO data  
  \*/  
@@ -44,7 +42,7 @@ export class AppStateProvider {
  return this.globalData;  
  }  
   
- /\*\*  
+ \*\*  
  \* Get the clone of the current stateData  
  \* @return {state} state a clone of the current state  
  \*/  
@@ -52,7 +50,7 @@ export class AppStateProvider {
  return this.stateData = this.clone(this.stateData);  
  }  
   
- /\*\*  
+ \*\*  
  \* get the value based on key  
  \* @param {any} key   
  \* @return {any} value of key  
@@ -62,7 +60,7 @@ export class AppStateProvider {
  return state.hasOwnProperty(key) ? state\[key\] : state;  
  }  
   
- /\*\*  
+ \*\*  
  \* Set value don't allow mutation  
  \* @param {any} value state a clone of the current state  
  \*/  
@@ -70,12 +68,12 @@ export class AppStateProvider {
  throw new Error('do not mutate the `stateData` directly');  
  }  
   
- /\*\*  
+ \*\*  
  \* Set the key value pair  
  \* @param {string} key  
  \* @param {any} any value  
  \* @return {any} the state  
- \*/  
+ \*  
  set(key: string, value: any) {  
  return this.stateData\[key\] = value;  
  }  

@@ -1,11 +1,7 @@
 ---
-title: "How to Delete \"Windows.old\" in windows 8"
-date: "2013-01-04"
-categories: 
-  - "windows-apps"
-tags: 
-  - "windows-8"
+tags: ["Windows 8"]
 ---
+# How to Delete \"Windows.old\" in windows 8
 
 **1.** Press the **Windows+R** keys to open the Run dialog, type **cleanmgr**, and press Enter.
 

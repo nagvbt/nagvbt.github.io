@@ -1,17 +1,12 @@
 ---
-title: "Ionic blogs"
-date: "2017-06-07"
-categories: 
-  - "Ionic"
-tags: 
-  - "Ionic"
+tags: ["Ionic"]
 ---
 
-  
+# Ionic blogs  
 
 [http://gonehybrid.com/](http://gonehybrid.com/)
 
-[https://nagvbt.blogspot.in/](https://nagvbt.blogspot.in/)  
+[https://nagvbt.github.i0/](https://nagvbt.github.io)  
 
 [http://mcgivery.com/](http://mcgivery.com/)
 

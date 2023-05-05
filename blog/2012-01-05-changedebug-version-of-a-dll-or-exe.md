@@ -1,21 +1,16 @@
 ---
-title: "How to change the name of the Debug Version of a DLL or Exe"
-date: "2012-01-05"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "cpp"
-  - "MFC"
-  - "vc"
+tags: ["C++", "MFC"]
 ---
+
+# Change the name of the Debug Version of a DLL or Exe
 
 Its very useful to name the Debug version of the exe or DLL with letter "D" appended inoder to avoid confisuion between release and debug version of binaries
 
 **Steps:**
 
-1\. Create a console application with name "MyProject"
+1. Create a console application with name "MyProject"
 
-2\. To change the output file name in debug configuration
+2. To change the output file name in debug configuration
 
 place **D** as shown in below figure
 

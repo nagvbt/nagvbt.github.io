@@ -1,10 +1,7 @@
 ---
-title: "XAML Auto formatting in Visual Studio 2010"
-date: "2011-08-24"
-categories: 
-  - "wpf"
 tags: ["WPF"]
 ---
+# XAML Auto formatting in Visual Studio 2010
 
 To Auto format XAML code in a readable and organized way
 

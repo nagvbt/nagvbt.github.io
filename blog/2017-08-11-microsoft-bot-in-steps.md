@@ -1,13 +1,10 @@
 ---
-title: "Microsoft Bot in steps"
-date: "2017-08-11"
-categories: 
-  - "machine-learning"
-tags: 
-  - "Technology"
+tags: ["Technology Evaluation", "Machine Learning"]
 ---
 
-#### First thing first
+# Microsoft Bot in steps
+
+## First thing first
 
 **Steps**  
 1\. Install Visual Studio 2015 Update 2 or higher.  

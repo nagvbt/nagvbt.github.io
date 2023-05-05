@@ -1,14 +1,10 @@
 ---
-title: "Ionic5 Error:'You have to be inside an angular-cli project"
-date: "2020-02-16"
 categories: 
   - "Ionic"
-tags: 
-
-  - "Ionic"
-
-
+tags: ["Ionic"]
 ---
+
+# Ionic5 Error:'You have to be inside an angular-cli project
 
 ## PS C:nagTabs> ng test
 
@@ -18,4 +14,4 @@ As a forewarning, we are moving the CLI npm package to "@angular/cli" with the n
 
 **Install the latest angular version using the following command**
 
-npm install -g @angular/cli@latest
+`npm install -g @angular/cli@latest`

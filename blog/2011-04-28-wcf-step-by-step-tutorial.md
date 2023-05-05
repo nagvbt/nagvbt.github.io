@@ -1,11 +1,8 @@
 ---
-title: "WCF Step by Step Tutorial"
-date: "2011-04-28"
-categories: 
-  - "wcf"
-tags: 
-  - "WCF"
+tags: ["WCF"]
 ---
+
+# WCF Step by Step Tutorial
 
 Windows Communication Foundation (WCF) is a framework for building service-oriented applications. Using WCF we can build secure, reliable, transacted solutions that integrate across platforms.
 

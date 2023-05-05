@@ -1,12 +1,8 @@
 ---
-title: "MFC: Fill Client area with a desired color"
-date: "2010-10-03"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "MFC"
-
+tags:  ["MFC"]
 ---
+
+# MFC: Fill Client area with a desired color
 
 MFC Tip: To fill the Background of the client area with a desired color keeping the text in the client area unchanged
 

@@ -1,16 +1,14 @@
 ---
-title: "Design Patterns and there advantages"
-date: "2017-08-25"
-categories: 
-  - "Design Patterns"
-tags: 
-  - "Design Patterns"
+tags: ["Design Patterns"]
 ---
+
+# Design Patterns and there advantages
 
 ## What are Design Patterns:
 
 Design patterns are solutions/patterns to problems which occurs in many situations.  
   
+![](images/e9d95-designpatterns1.png)
 
 ## Advantages of Design Patterns:
 
@@ -31,6 +29,4 @@ Design Patterns are broadly classified into three  Types based on their purpose
 3. Behavioral design patterns 
 
 These three patterns are further divided into 23 design patters refer to below illustration.  
-  
 
-[![](images/e9d95-designpatterns1.png)](http://nagvbt.com/wp-content/uploads/2017/08/181c8-designpatterns1.png)

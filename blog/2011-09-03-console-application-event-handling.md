@@ -1,11 +1,8 @@
 ---
-title: "Console Application Event Handling"
-date: "2011-09-03"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "MFC"
+tags: ["MFC"]
 ---
+
+# Console Application Event Handling
 
 Using **SetConsoleCtrlHandler** we can Add an application-defined HandlerRoutine function say myConsoleHandler.
 
@@ -21,22 +18,22 @@ void myConsoleHandler(DWORD ctrlEvent)
 {
    switch(ctrlEvent)
    {
-        case CTRL\_CLOSE\_EVENT:
-            MessageBox(NULL,"Program being closed!","CTRL\_CLOSE\_EVENT",MB\_OK);
+        case CTRL_CLOSE_EVENT:
+            MessageBox(NULL,"Program being closed!","CTRL_CLOSE_EVENT",MB_OK);
         break;
 
-        case CTRL\_C\_EVENT:
-            MessageBox(NULL,"Copy Event!","CTRL\_C\_EVENT",MB\_OK);
+        case CTRL_C_EVENT:
+            MessageBox(NULL,"Copy Event!","CTRL_C_EVENT",MB_OK);
         break;
    }
 
 }
 
-int main(int argc, \_TCHAR\* argv\[\])
+int main(int argc, _TCHAR* argv[])
 {
     SetConsoleTitle("Console Event Handler Demo");
 
-    if(SetConsoleCtrlHandler((PHANDLER\_ROUTINE)myConsoleHandler, TRUE))
+    if(SetConsoleCtrlHandler((PHANDLER_ROUTINE)myConsoleHandler, TRUE))
     {
          printf( "nThe Control Handler is installed.n" );
          printf( "n -- Now try pressing Ctrl+C or closing the console..." );

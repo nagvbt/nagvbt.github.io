@@ -1,10 +1,8 @@
 ---
-title: "WPF View Switcher"
-date: "2010-09-29"
-categories: 
-  - "wpf"
-
+tags: ["WPF"]
 ---
+
+# WPF View Switcher
 
 **[A Step by Step Tutorial](/docs/articles/WPF/ViewSwitcherTutorial)**
 

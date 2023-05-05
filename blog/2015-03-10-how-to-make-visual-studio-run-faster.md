@@ -1,11 +1,8 @@
 ---
-title: "How to make Visual Studio Run Faster"
-date: "2015-03-10"
-categories: 
-  - "tools-technology-news"
-tags: 
-  - "visual-studio"
+tags: ["Tools"]
 ---
+
+# How to make Visual Studio Run Faster
 
 1. Make sure the latest service pack for Visual Studio is installed.
 2. Disable Navigation Bar – Go to Tools > Options > Text Editor > C# or All Languages and uncheck **_Navigation bar_**.
@@ -15,4 +12,7 @@ tags:
 6. Turn off HTML Validation – Go to Tools > Options > Text Editor > HTML > Validation and uncheck **_Show errors_**.
 7. Turn off Start Page – Go to Tools > Options > Environment > Startup and select **_Load last loaded solution_** from the _At **Startup**_ dropdown. This simply makes Visual Studio load faster when opening the application.
 
-NOTE: Above settings have been used for Visual Studio 2005 specifically but should still be of benefit for earlier and later versions of Visual Studio.
+
+***NOTE:***
+
+Above settings have been used for Visual Studio 2005 specifically but should still be of benefit for earlier and later versions of Visual Studio.

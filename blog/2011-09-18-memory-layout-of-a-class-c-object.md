@@ -1,11 +1,8 @@
 ---
-title: "Memory Layout of a class (C++) Object"
-date: "2011-09-18"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "Cpp"
+tags: ["C++"]
 ---
+
+# Memory Layout of a class (C++) Object
 
 Let us know how the members of a class are stored in the C++ class object.
 
@@ -39,7 +36,8 @@ private:
 
 void main()
 {
-        Sample obj;
-    cout&lt;}
+    Sample obj;
+    cout<<obj;
+}
 
-\[/source\]
+```

@@ -1,11 +1,9 @@
 ---
 title: "Ionic 2 Tutorial"
-date: "2015-10-15"
-categories: 
-  - "Ionic"
-tags: 
-  - "Ionic"
+tags: ["Ionic"]
 ---
+
+# Ionic 2 Tutorial
 
 ## Introduction
 
@@ -21,8 +19,8 @@ Ionic 2 apps can be developed with Angular 2 and preferably with  typescript.
 
 To install the development environment perform the below steps  
 
-1. 1. 1. Install Node.js 6 or greater  [Download the installer](https://nodejs.org/en/)
-        2. Open cmd and use the following commands to install the Ionic CLI and Cordova  
+1. Install Node.js 6 or greater  [Download the installer](https://nodejs.org/en/)
+2. Open cmd and use the following commands to install the Ionic CLI and Cordova  
             **_npm install -g ionic_**  
             **_npm install -g cordova_**
 
@@ -31,22 +29,18 @@ To install the development environment perform the below steps
 To create first sample app, Open the cmd window and use the below command  
 _**ionic start sampleApp --v2**_
 
-1\. To run your app, `cd` into the _**sampleApp**_ directory
+1. To run your app, `cd` into the _**sampleApp**_ directory
 
-2\. To run on browser  **`ionic serve`**
+2. To run on browser  **`ionic serve`**
 
-3\. To run on ios **`ionic run ios`**
+3. To run on ios **`ionic run ios`**
 
-4\. To run on Android **`ionic run android`**
+4. To run on Android **`ionic run android`**
 
-The sample app on Android mobile looks like below
-
-  
-
-5\. To know the environment details use **`ionic info`**  
+5. To know the environment details use **`ionic info`**  
 
 Your system information:  
-  
+```  
 Cordova CLI: 6.1.1  
 Gulp version: CLI version 3.9.1  
 Gulp local: Local version 3.9.1  
@@ -55,14 +49,16 @@ Ionic CLI Version: 2.1.0
 Ionic App Lib Version: 2.1.0-beta.1  
 OS: Windows 8.1  
 Node Version: v6.2.1
+````
 
 ## Generate new Page and Service
 
 1. To create a **page** in the sampleApp  use
 
-\# ionic g page [pageName]
-
-**ionic g page demoPage**
+```
+ionic g page [pageName]
+ionic g page demoPage
+```
 
 CLI creates the following three files under 'sampleApp/src/pages/demo-page'
 
@@ -70,14 +66,16 @@ CLI creates the following three files under 'sampleApp/src/pages/demo-page'
 - demo-page.ts -> component/class code similar to controller
 - demo-page.scss -> your style/sass code
 
-2\. To create a **service**, replace `page` with `provider`:  
+2. To create a **service**, replace `page` with `provider`:  
 
-\# ionic g provider [providerName]
-
-**ionic g provider demoData**
+```
+ionic g provider [providerName]
+ionic g provider demoData
+```
 
 CLI creates the demo-data.ts under 'sampleApp/src/providers/' folder this file serves likes service/factory.  
-3\. Add DemoPage module in 'sampleApp\\src\\app\\app.module.ts'  
+
+3. Add DemoPage module in 'sampleApp\\src\\app\\app.module.ts'  
 
 ```js
 import { NgModule } from '@angular/core';  
@@ -119,13 +117,14 @@ export class AppModule {}
 
 1. Add button on Home.html
     
-    Show DemoPage
+    `Show DemoPage`
     
 2. Add the code to navigate in the HomePage class
-    
+    ```js
      goToDemoPage(){  
      this.navCtrl.push(DemoPage);  
      }
+    ```
     
 3. Launch the app and click on the 'SHOW DEMOPAGE' Button you will be navigated to the DemoPage
 

@@ -1,11 +1,9 @@
 ---
-title: "MFC:Fill Background color of the Dialog"
-date: "2011-09-03"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "MFC"
+tags: ["MFC"]
 ---
+
+# MFC:Fill Background color of the Dialog
+
 MFC Tip: To fill the Background color of the Dialog and get the background of the controls to look correct
 
 1. Handle the ON_WM_ERASEBKGND Message and write the following code

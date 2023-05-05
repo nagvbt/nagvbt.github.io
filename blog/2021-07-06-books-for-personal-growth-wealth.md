@@ -1,22 +1,20 @@
 ---
-title: "Books For Personal Growth & Wealth"
-date: "2021-07-06"
-categories: 
-  - "books"
 tags: ["Books"]
 ---
+
+# Books For Personal Growth & Wealth
 
 Recently I had completed the set of four books which are worlds greatest books on personal Growth and Wealth.
 Lets have a look which books are contained in this set.
 
 <!--truncate-->
 
-**Personal Growth:**
+## Personal Growth
 
 1. [How to Win Friends and Influence People by Dale Carnegie](https://amzn.to/3hh4p0u)
 
 
-**Wealth Creation**
+## Wealth Creation
 
 1. [The Richest Man in Babylon by George S. Clason](https://amzn.to/3qOXWwM)
 

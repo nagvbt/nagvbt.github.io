@@ -1,17 +1,14 @@
 ---
-title: "What is an Abstract Class ?"
-date: "2020-05-02"
-categories: 
-  - "csharp"
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "C"
-
+tags: ["C++", "CSharp"]
 ---
+
+# Abstract Class 
 
 Abstract classes are used for providing an abstraction to the code to make it reusable and extendable.
 
-**Abstract class in C++:** It is a class that has at least one pure virtual function (i.e., a function that has no definition). The classes inheriting the abstract class must provide a definition for the pure virtual function.
+## Abstract class in C++:
+
+It is a class that has at least one pure virtual function (i.e., a function that has no definition). The classes inheriting the abstract class must provide a definition for the pure virtual function.
 <!--truncate-->
 
 ***Program***
@@ -51,7 +48,8 @@ int main()
 //2
 ```
 
-**Abstract class in C#:** The abstract modifier is used before the class or method/indexers/events and properties to declare them as abstract.
+## Abstract class in C#:
+The abstract modifier is used before the class or method/indexers/events and properties to declare them as abstract.
 
 Sample
 ```cpp

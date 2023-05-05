@@ -1,24 +1,20 @@
 ---
-title: "How to Create and Use a Local StorageProvider in Ionic3+ Apps"
-date: "2018-06-22"
-categories: 
-  - "Ionic"
-tags: 
-  - "Ionic"
-
+tags: ["Ionic"]
 ---
+
+# Create & Use a Local StorageProvider in Ionic Apps"
 
 Add a provider to the Ionic3 app refer and follow the below steps  
 [How to Add Providers in Ionic3+](http://nagvbt.blogspot.com/2018/06/how-to-add-providers-in-ionic3.html)   
 
 <!--truncate-->
-Steps:  
+## Steps:  
   
-1\. Inject the Storage to the StorageProvider  and that was created in the [How to Add Providers in Ionic3+](http://nagvbt.blogspot.com/2018/06/how-to-add-providers-in-ionic3.html)   
+1. Inject the Storage to the StorageProvider  and that was created in the [How to Add Providers in Ionic3+](http://nagvbt.blogspot.com/2018/06/how-to-add-providers-in-ionic3.html)   
   
   
 
-2\. Add IonicStorageModule to the imports list in your NgModule declaration in  src/app/app.module.ts  
+2. Add IonicStorageModule to the imports list in your NgModule declaration in  src/app/app.module.ts  
 
 ```js 
 import { IonicStorageModule } from '@ionic/storage';  
@@ -28,30 +24,31 @@ import { StorageProvider } from '../providers';
  // ...  
  ],  
  imports: [  
- BrowserModule,  
- IonicModule.forRoot(MyApp),  
- IonicStorageModule.forRoot()  
+    BrowserModule,  
+    IonicModule.forRoot(MyApp),  
+    IonicStorageModule.forRoot()  
  ],  
  bootstrap: [IonicApp],  
  entryComponents: [  
  // ...  
  ],  
  providers: [  
- // ...  
- StorageProvider,  
+    // ...  
+    StorageProvider,  
  ]  
 })  
 ```
   
-3\. To use StorageProvider in your Page/Component inject it and use it 
+3. To use StorageProvider in your Page/Component inject it and use it 
 ```js 
 import { Component } from '@angular/core';  
 import { IonicPage } from 'ionic-angular';  
-import { StorageProvider } from '../../providers'  
-/\*\*  
+import { StorageProvider } from '../../providers';
+
+ \*\*  
  \*  Class representing a StorageProvider Demo  
  \*  Author - Nag  
- \*/  
+ \*  
 @IonicPage()  
 @Component({  
  selector: 'page-storage',  

@@ -2,7 +2,7 @@
 
 ## Basic
 
-## [1. Create a basic ionic3+ application](http://nagvbt.wordpress.com/2018/02/how-to-create-basic-ionic3-mobile.html)
+## [1. Create a basic ionic3+ application](blog/2018/02/03/ionic-basic-mobile-app)
 
 ## 2. [Display SideMenu always for Tablets](http://nagvbt.wordpress.com/2018/07/how-to-display-menu-always-for-tablets.html)
 

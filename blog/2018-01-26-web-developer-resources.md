@@ -1,12 +1,9 @@
 ---
-title: "Web developer resources"
-date: "2018-01-26"
-categories: 
-  - "javascript-html"
-
+tag: ["Web"]
 ---
 
-  
+# Web developer resources
+
 **HTML/CSS/Javascript**  
 https://developer.mozilla.org/en-US/docs/Web/CSS  
 https://developer.mozilla.org/en-US/docs/Web/HTML  
