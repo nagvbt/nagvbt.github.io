@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[15395],{89099:a=>{a.exports=JSON.parse('{"label":"Technology Evaluation","permalink":"/blog/tags/technology-evaluation","allTagsPath":"/blog/tags","count":3}')}}]);

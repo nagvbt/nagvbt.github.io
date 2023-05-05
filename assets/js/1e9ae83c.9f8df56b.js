@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[54747],{83951:a=>{a.exports=JSON.parse('{"label":"Windows 8","permalink":"/blog/tags/windows-8","allTagsPath":"/blog/tags","count":2}')}}]);

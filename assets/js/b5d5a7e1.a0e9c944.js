@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[52832],{59843:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/cpp/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":13,"previousPage":"/blog/tags/cpp","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

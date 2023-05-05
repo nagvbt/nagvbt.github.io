@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[48566],{39695:a=>{a.exports=JSON.parse('{"label":"ASP.Net","permalink":"/blog/tags/asp-net","allTagsPath":"/blog/tags","count":3}')}}]);
