@@ -59,3 +59,11 @@
   width: 12rem;
   height: 12rem;
 }
+
+/* Blog Archive */
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}

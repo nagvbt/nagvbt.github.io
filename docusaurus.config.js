@@ -101,12 +101,20 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Disclaimer",
+            title: "Misc",
             items: [
               {
-                label:
-                  "Opinions expressed here are my personal & don't represent my employer’s view in any way.",
+                label: "Disclaimer",
+
                 to: "disclaimer",
+              },
+              {
+                label: "Blog Archive",
+                to: "BlogArchive",
+              },
+              {
+                label: "Blog tags / categories",
+                href: "/blog/tags",
               },
             ],
           },
