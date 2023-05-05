@@ -2,7 +2,7 @@
  How to Send SMS Register at http://enterprise.smsgupshup.com to get the username and password
 
  ```cpp
- using System;
+using System;
 using System.IO;
 using System.Net;
 using System.Text;
@@ -57,5 +57,4 @@ public class Sms
 Sms smsObj = new Sms();
 lblMessage.Text= smsObj.SendSms(txtToMobileNo.Text, txtMessage.Text);
 */
-
- ```
+```

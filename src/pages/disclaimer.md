@@ -1,6 +1,8 @@
 
 # Disclaimer
 
+Disclosure: The thoughts and opinions that I express on this blog are my own and not necessarily those of my employer.
+
 1. The Articles/comments/opinions expressed either in this blog or any community sites are my personal views and they are in no way related to my current employer or previous employer.
 
 2. I have full rights to edit/modify/delete any content of this blog without any prior notice to the public/subscribers/RSS readers of this blog.

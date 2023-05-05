@@ -1,11 +1,8 @@
 ---
-title: "Double Robotics - An iPad head Robot with videoconferencing"
-date: "2012-08-22"
-categories: 
-  - "tools-technology-news"
-tags: 
-  - "Technology"
+tags: ["Technology"]
 ---
+
+# iPad head Robot with videoconferencing
 
 Double Robotics is an low-cost telepresence robot which can be used in education, museums, health care, Offices, Retail stores, Families.
 

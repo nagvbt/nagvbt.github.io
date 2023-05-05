@@ -1,18 +1,14 @@
 ---
-title: "Converting from CString"
-date: "2012-03-13"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "MFC"
-  - "vc"
+tags: ["MFC"]
 ---
+
+# Converting from CString
 
 This post demonstrates how to convert from a **CString** to the other string types
 
 **CString to LPTSTR**
 
-```c
+```cpp
 CString origCString = "HelloWorld";
 
 // Get the internal buffer pointer of CString.
@@ -24,61 +20,61 @@ origCString.ReleaseBuffer();
 
 **LPTSTR to** CString 
 
-```c
+```cpp
 LPTSTR origLPTSTR = "HelloWorld";
 CString sCString = CString(origLPTSTR);
 ```
 
 **CString to char\***
 
-```c
+```cpp
 CString origCString = "HelloWorld";
 
 // Get the internal buffer pointer of CString.
-char\* pString = origCString.GetBuffer();
+char* pString = origCString.GetBuffer();
 
 //Release it.
 origCString.ReleaseBuffer();
 ```
 
-**char\* to** CString
+**char* to** CString
 
-```c
-char\* origchar = "HelloWorld";
+```cpp
+char* origchar = "HelloWorld";
 CString cstring = CString(origchar);
 ```
 
 **CString to CComBSTR**
 
-```c
+```cpp
 CString origCString = "HelloWorld";
 CComBSTR ccombstr = CComBSTR(origCString);
 ```
 
 **CComBSTR to** CString
 
-```c
+```cpp
 CComBSTR origCComBSTR = "HelloWorld";
 CString cstring = CString(origCComBSTR);
 ```
 
-**CString to** \_bstr\_t
+**CString to** _bstr_t
 
-```c
+```cpp
 CString origCString = "HelloWorld";
-\_bstr\_t bstrt = \_bstr\_t(origCString);
+_bstr_t bstrt = _bstr_t(origCString);
 ```
 
-**\_bstr\_t to** CString
+**_bstr_t to** CString
 
-```c
-\_bstr\_t origbstrt  = "HelloWorld";
+```cpp
+_bstr_t origbstrt  = "HelloWorld";
 CString cstring = CString((char\*)origbstrt);
 ```
 
 **CString to** BSTR
 
-```c
+```cpp
 CString origCString = "HelloWorld";
 BSTR bstr = origCString.AllocSysString();
 ::SysFreeString(bstr); //Free the string.
@@ -86,35 +82,35 @@ BSTR bstr = origCString.AllocSysString();
 
 **BSTR to** CString
 
-```c
+```cpp
 BSTR origbstr  = "HelloWorld";
 CString cstring = CString(origbstr);
 ```
 
 **CString to** CComVariant
 
-```c
+```cpp
 CString origCString = "HelloWorld";
 CComVariant comvariant =  CComVariant(origCString);
 ```
 
 **CComVariant to** CString
 
-```c
+```cpp
 CComVariant origcomvariant  = "HelloWorld";
 CString cstring = CString(origcomvariant);
 ```
 
 **CString to** COleVariant
 
-```c
+```cpp
 CString origCString = "HelloWorld";
 COleVariant olevariant =  CComVariant(origCString);
 ```
 
 **COleVariant to** CString
 
-```c
+```cpp
 COleVariant origolevariant  = "HelloWorld";
 CString cstring = CString(origolevariant);
 ```

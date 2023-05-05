@@ -1,11 +1,7 @@
 ---
-title: "Print 1 to 100 in C++ without using loops and recursion"
-date: "2012-12-07"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "C++"
+tags: ["C++"]
 ---
+# Print 1 to 100 in C++ without using loops and recursion
 
 ```cpp 
 class CPrintNum
@@ -25,5 +21,5 @@ int main()
 { 
   CPrintNum obj[100]; 
   return 0; 
-  } 
+} 
 ```

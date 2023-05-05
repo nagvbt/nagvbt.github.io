@@ -1,11 +1,8 @@
 ---
-title: "Ramaya.na - in google version using HTML 5"
-date: "2012-09-28"
-categories: 
-  - "tools-technology-news"
-tags: 
-  - "Technology"
+tags: ["Technology"]
 ---
+
+# Ramaya.na - in google version using HTML 5
 
 Ramayana which is an Indian epic story but shown as Indonesian way by www.ramaya.na website which was made by Google.
 

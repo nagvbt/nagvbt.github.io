@@ -1,12 +1,8 @@
 ---
-title: "C#: How to generate xsd and class for an XML document"
-date: "2012-09-02"
-categories: 
-  - "csharp"
-tags: 
-  - "csharp"
-  - "xml"
+tags: ["CSharp"]
 ---
+
+# C#: Generate xsd and class for an XML document
 
 Using xsd.exe which will be install with the Visual studio can be used.  
 Open Visual Studio Command Prompt and use the following commands

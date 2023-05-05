@@ -1,11 +1,8 @@
 ---
-title: "LEAP Hands-free motion control Technology"
-date: "2012-09-27"
-categories: 
-  - "tools-technology-news"
-tags: 
-  - "Technology"
+tags: ["Technology"]
 ---
+
+# LEAP Hands-free motion control Technology
 
 New way of interaction with the computers say good bye to Keyboard, Mouse even touch screen :)  ?
 

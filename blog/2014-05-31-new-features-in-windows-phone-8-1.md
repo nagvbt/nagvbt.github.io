@@ -1,15 +1,11 @@
 ---
-title: "New Features in Windows Phone 8.1"
-date: "2014-05-31"
-categories: 
-  - "windows-phone"
-tags: 
-  - "Windows Phone"
+tags: ["Windows Phone"]
 ---
 
-# **For Users**
+# New Features in Windows Phone 8.1
 
-* * *
+## **For Users**
+
 
 -  Customize Start screen: Customize your Start screen background with a favourite picture or one of the supplied options. Users can configure three column start screen which is available on all phones. Start screen backup and restore feature is also available.
 
@@ -25,9 +21,7 @@ tags:
 - New Skype app integrated with Phone dialer
 - New Calendar app with new Week view
 
-# For Developers
-
-* * *
+## For Developers
 
 - Converged developer platform
 - Converged app model

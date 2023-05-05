@@ -1,11 +1,8 @@
 ---
-title: "Approaches to develop Windows Phone 8.1 apps"
-date: "2014-06-05"
-categories: 
-  - "windows-phone"
-tags: 
-  - "Windows Phone"
+tags: ["Windows Phone"]
 ---
+
+# Approaches to develop Windows Phone 8.1 app
 
 There are three approaches to develop Windows Phone 8.1 apps XAML Apps. I like third 'Use Windows XAML platform' approach as most of the users upgrade WP8 to WP8.1.
 

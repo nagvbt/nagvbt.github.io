@@ -1,16 +1,11 @@
 ---
-title: "How to remove MAXIMIZE BOX and MINIMIZE BOX from an MFC Window"
-date: "2012-03-16"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "MFC"
-  - "vc"
+tags: ["MFC"]
 ---
 
+# Remove MAXIMIZE BOX and MINIMIZE BOX from an MFC Window
 In order to remove MAXIMIZE BOX and MINIMIZE BOX from an MFC Window see the below code snippet.
 
-```c
+```cpp
 BOOL CMainFrame::PreCreateWindow(CREATESTRUCT&amp; cs)
 {
     if( !CFrameWnd::PreCreateWindow(cs) )

@@ -1,12 +1,8 @@
 ---
-title: "How do remove 'Untitled' in main window caption"
-date: "2012-03-13"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "MFC"
-  - "vc"
+tags: ["MFC"]
 ---
+
+# How do remove 'Untitled' in main window caption
 
 To remove 'Untitled' in main window caption
 
@@ -31,4 +27,3 @@ return TRUE;
 }
 ```
 
-[Download Code](//skydrive.live.com/embed?cid=A4632B15B9474D67&resid=A4632B15B9474D67%21452&authkey=AC2PSOyg7ZABQaM"></iframe>)

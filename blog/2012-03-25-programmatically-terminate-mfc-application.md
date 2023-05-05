@@ -1,21 +1,21 @@
 ---
 title: "Programmatically terminate MFC application"
-date: "2012-03-25"
-categories: 
-  - "c-cpp-mfc-vcpp"
+
 tags: 
   - "MFC"
   - "vc"
 ---
 
-MFC does not provide a public function to exit an application. The following method shutdowns the Application. The method simply sends a WM\_CLOSE message to application's mainframe window.
+# Programmatically terminate MFC application
 
-```c
+MFC does not provide a public function to exit an application. The following method shutdowns the Application. The method simply sends a WM_CLOSE message to application's mainframe window.
+
+```cpp
 void CmfcApp::ExitApplication()
 {
-    if(AfxGetApp()-&gt;m\_pMainWnd != NULL))
+    if(AfxGetApp()->m_pMainWnd != NULL))
     {
-        AfxGetApp()-&gt;m\_pMainWnd-&gt;SendMessage(WM\_CLOSE);
+        AfxGetApp()->m_pMainWnd->SendMessage(WM_CLOSE);
     }
 }
 ```

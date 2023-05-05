@@ -1,26 +1,21 @@
 ---
-title: "How do I maximize my MDI child ?"
-date: "2012-03-28"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "MFC"
-  - "vc"
+tags: ["MFC"]
 ---
 
+# How do I maximize my MDI child ?
 In CMainFrame class ad the following code.
 
-```c
+```cpp
 void CMainFrame::ActivateFrame(int nCmdShow)
 {
-    if (!m\_bActivated)
+    if (!m_bActivated)
     {
-        m\_bActivated = TRUE;
-        nCmdShow = SW\_SHOWMAXIMIZED;
+        m_bActivated = TRUE;
+        nCmdShow = SW_SHOWMAXIMIZED;
     }
 
     CFrameWnd::ActivateFrame(nCmdShow);
 }
 ```
 
-where m\_bActivated is a member variable of your frame object.
+where m_bActivated is a member variable of your frame object.

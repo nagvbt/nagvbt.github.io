@@ -228,11 +228,13 @@ int main()
 ```
 
 ## 6. Write a program to display the output as
+```
 *****
 ****
 ***
 **
 *
+```
 
 ```c
 void main()

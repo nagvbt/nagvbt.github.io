@@ -1,35 +1,31 @@
 ---
-title: "How to change a Window's title of an SDI/MDI Application"
-date: "2012-03-13"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "MFC"
-  - "vc"
+tags: ["MFC"]
 ---
+
+# Change a Window's title of an SDI/MDI Application
 
 Call _**SetWindowText**_ method by passing required title as a string in the CWinApp::InitInstance() method after ProcessShellCommand() method. Please see the below code snippet
 
-**m\_pMainWnd->SetWindowText("My New Window Title");**
+`m_pMainWnd->SetWindowText("My New Window Title");`
 
-```c
+```cpp
 BOOL CWindowTitleApp::InitInstance()
 {
     INITCOMMONCONTROLSEX InitCtrls;
     InitCtrls.dwSize = sizeof(InitCtrls);
-    InitCtrls.dwICC = ICC\_WIN95\_CLASSES;
+    InitCtrls.dwICC = ICC_WIN95_CLASSES;
     InitCommonControlsEx(&amp;InitCtrls);
 
     CWinApp::InitInstance();
-    SetRegistryKey(\_T("Local AppWizard-Generated Applications"));
+    SetRegistryKey(_T("Local AppWizard-Generated Applications"));
     LoadStdProfileSettings(4);
 
     CSingleDocTemplate\* pDocTemplate;
     pDocTemplate = new CSingleDocTemplate(
-        IDR\_MAINFRAME,
-        RUNTIME\_CLASS(CWindowTitleDoc),
-        RUNTIME\_CLASS(CMainFrame),       // main SDI frame window
-        RUNTIME\_CLASS(CWindowTitleView));
+        IDR_MAINFRAME,
+        RUNTIME_CLASS(CWindowTitleDoc),
+        RUNTIME_CLASS(CMainFrame),       // main SDI frame window
+        RUNTIME_CLASS(CWindowTitleView));
     if (!pDocTemplate)
         return FALSE;
     AddDocTemplate(pDocTemplate);
@@ -45,12 +41,12 @@ BOOL CWindowTitleApp::InitInstance()
     ////////////////////////////////////////////////////////////////////////////
     //                       To Change Window Title                           //
     ////////////////////////////////////////////////////////////////////////////
-    m\_pMainWnd-&gt;SetWindowText("My New Window Title");
+    m_pMainWnd-&gt;SetWindowText("My New Window Title");
     ////////////////////////////////////////////////////////////////////////////
 
-    m\_pMainWnd-&gt;ShowWindow(SW\_SHOW);
-    m\_pMainWnd-&gt;UpdateWindow();
-    m\_pMainWnd-&gt;DragAcceptFiles();
+    m_pMainWnd-&gt;ShowWindow(SW_SHOW);
+    m_pMainWnd-&gt;UpdateWindow();
+    m_pMainWnd-&gt;DragAcceptFiles();
 
     return TRUE;
 }

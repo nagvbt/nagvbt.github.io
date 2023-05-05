@@ -1,12 +1,11 @@
 ---
 title: "Simple Windows Form in C#"
-date: "2012-01-18"
-categories: 
-  - "windows-apps"
+
 tags: 
   - "csharp"
   - "winforms"
 ---
+# Simple Windows Form in C#
 
 Minimal code to write a c# windows form:
 

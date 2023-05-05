@@ -1,11 +1,8 @@
 ---
-title: "Upgrade from  Windows Phone 8  to Windows Phone 8.1"
-date: "2014-05-20"
-categories: 
-  - "windows-phone"
-tags: 
-  - "Windows Phone"
+tags: ["Windows Phone"]
 ---
+
+# Upgrade from  Windows Phone 8  to Windows Phone 8.1
 
 If you have a Windows Phone 8 now and want to get the preview of Windows Phone 8.1:
 
@@ -19,4 +16,4 @@ If you have a Windows Phone 8 now and want to get the preview of Windows Phone 8
 
 - Warranty will break
 
-\- You CANNOT REVERT to a prior OS version once you have taken an update via this program
+- You CANNOT REVERT to a prior OS version once you have taken an update via this program

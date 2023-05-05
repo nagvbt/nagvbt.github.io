@@ -1,12 +1,10 @@
 ---
-title: "Unit Testing Native C++ Applications with out “/clr” flag or fall back to 3rd party frameworks"
-date: "2012-06-18"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "cpp"
-  - "vc"
+tags: ["C++", "MFC"]
 ---
+
+#  Unit Testing Native C++ App with out clr
+
+Unit Testing Native C++ Applications with out “/clr” flag or fall back to 3rd party frameworks
 
 Visual Studio 11 provides the ability to do Unit Testing Native C++ Applications with a new C++ unit testing framework shipping with VS 11.
 

@@ -1,14 +1,25 @@
 ---
-title: "Find the length of the string in C"
-date: "2012-07-08"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "C"
+tags: ["C"]
 ---
 
-```c //str\_len returns the length of str int str\_len(char\* str) { int len; len = 0; for (int i = 0; str\[i\] != '\\0'; i++) { len ++; } return len; }
+# Find the length of the string in C
 
-void main() { char\* website = "www.nagvbt.blogspot.com"; int len = str\_len(website); printf("length = %d n", len); }
+```c 
+//str_len returns the length of str 
+int str_len(char* str) { 
+  int len; len = 0;
+   for (int i = 0; str[i] != '\\0'; i++) 
+   { 
+    len ++; 
+   } 
+   return len;
+}
 
-OUTPUT length = 17 ```
+void main() { 
+  char* website = "www.blogspot.com"; 
+  int len = str_len(website); 
+  printf("length = %d n", len); 
+}
+
+OUTPUT length = 17 
+```

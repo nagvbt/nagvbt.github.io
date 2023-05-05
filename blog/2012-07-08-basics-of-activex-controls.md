@@ -1,11 +1,8 @@
 ---
-title: "Basics of ActiveX Controls"
-date: "2012-07-08"
-categories: 
-  - "com-dcom-atl"
-tags: 
-  - "atl"
+tags: ["ATL"]
 ---
+
+# Basics of ActiveX Controls
 
 **Definition:** ActiveX controls are COM components which are self-registering and Implements standard interfaces that deal specifically with GUI-based tasks such as rendering, sizing, activation, and property persistence.
 

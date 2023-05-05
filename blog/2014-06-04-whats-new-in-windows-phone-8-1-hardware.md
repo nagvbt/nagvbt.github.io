@@ -1,11 +1,8 @@
 ---
-title: "What's new in Windows Phone 8.1 Hardware"
-date: "2014-06-04"
-categories: 
-  - "windows-phone"
-tags: 
-  - "Windows Phone"
+tags: ["Windows Phone"]
 ---
+
+# What's new in Windows Phone 8.1 Hardware
 
 - Dual-SIM works in Windows Phone 8.1 by splitting out the phone dialer and messaging into two separate Live Tiles.
 - Decrease HW cost floor (support 8x26, Qualcomm Reference Design)

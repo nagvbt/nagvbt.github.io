@@ -1,11 +1,8 @@
 ---
-title: "COM Containment and Aggregation"
-date: "2012-06-17"
-categories: 
-  - "com-dcom-atl"
-tags: 
-  - "com"
+tags: ["COM"]
 ---
+
+# COM Containment and Aggregation
 
 Containment and aggregation are techniques in which one component uses another component. Those two components are outer component, inner component. Outer component contains the inner component.
 

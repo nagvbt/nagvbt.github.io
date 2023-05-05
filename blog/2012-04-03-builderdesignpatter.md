@@ -1,12 +1,8 @@
 ---
-title: "'Builder' Design Pattern using simple program"
-date: "2012-04-03"
-categories: 
-  - "c-cpp-mfc-vcpp"
-tags: 
-  - "cpp"
-  - "Design Patterns"
+tags: ["C++", "Design Patterns"]
 ---
+
+# 'Builder' Design Pattern using simple program
 
 **Definition:**
 
@@ -14,7 +10,7 @@ Separate the construction of a complex object from its representation so that th
 
 **Program:**
 
-```c
+```cpp
 #include "iostream"
 using namespace std;
 
@@ -22,7 +18,7 @@ using namespace std;
 class Product
 {
 private:
-    char\* \_parts\[10\];
+    char* _parts[10];
     int i;
 
 public:
@@ -31,62 +27,62 @@ public:
       i = 0;
     }
 
-    void Add(char\* part)
+    void Add(char* part)
     {
-      \_parts\[i\] = part;
+      _parts[i] = part;
       i++;
     }
 
     void Show()
     {
-        cout&lt;
+        cout<
       for(int j = 0; j    {
-         cout&lt;&lt;\_parts\[j\]&lt;BuildPartA();
-      builder-&gt;BuildPartB();
+         cout<<_parts[j]<BuildPartA();
+      builder->BuildPartB();
     }
 };
 
 class ConcreteBuilder1 : public Builder
 {
     private:
-      Product \_product;
+      Product _product;
 
     public:
     virtual void BuildPartA()
     {
-      \_product.Add("PartA");
+      _product.Add("PartA");
     }
 
     virtual void BuildPartB()
     {
-      \_product.Add("PartB");
+      _product.Add("PartB");
     }
 
     virtual Product GetResult()
     {
-      return \_product;
+      return _product;
     }
 };
 
 class ConcreteBuilder2 : public Builder
 {
     private:
-      Product \_product;
+      Product _product;
 
     public:
     virtual void BuildPartA()
     {
-      \_product.Add("PartX");
+      _product.Add("PartX");
     }
 
     virtual void BuildPartB()
     {
-      \_product.Add("PartY");
+      _product.Add("PartY");
     }
 
     virtual Product GetResult()
     {
-      return \_product;
+      return _product;
     }
 };
 
@@ -114,7 +110,7 @@ void main()
   getchar();
 }
 
-/\*
+/*
 OUT PUT
 
 Product Parts:
@@ -124,5 +120,5 @@ PartB
 Product Parts:
 PartX
 PartY
-\*/
+*/
 ```

@@ -1,9 +1,8 @@
 ---
-title: "WPF - Simple App"
-date: "2012-07-26"
-categories: 
-  - "wpf"
+tags: ["wpf"]
 ---
+
+# WPF - Simple App
 
 **Step by Step tutorial for creating Simple WPF Application**
 

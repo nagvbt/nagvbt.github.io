@@ -1,11 +1,10 @@
 ---
-title: "'Microsoft Remote Desktop Preview' now available for Windows Phone 8.1"
-date: "2014-04-24"
-categories: 
-  - "tools-technology-news"
-tags: 
-  - "Windows Phone"
+tags: ["Windows Phone"]
 ---
+
+# Microsoft Remote Desktop Preview for Windows Phone 8.1
+
+Microsoft Remote Desktop Preview now available for Windows Phone 8.1
 
 [![](http://cdn.marketplaceimages.windowsphone.com/v8/images/949b1b9f-7047-4921-bda8-cf873f30fb7f?imageType=ws_icon_large)](http://www.windowsphone.com/s?appid=299b09ab-207e-441c-9e8e-c8d66c20b76b)
 

@@ -1,15 +1,12 @@
 ---
-title: "Restore a Database Backup in MS SQL Server 2008"
-date: "2012-01-18"
-categories: 
-  - "sqlsever"
-tags: 
-  - "ms-sql-server"
+tags: ["SQL Server"]
 ---
+
+# Restore a Database Backup in MS SQL Server 2008
 
 How to Restore a Database Backup Using .bak file in MS SQL Server 2008
 
-.bak files are database backups we can restore the Database backup using SQL Server Management Studio.
+\.bak files are database backups we can restore the Database backup using SQL Server Management Studio.
 
 A. Open SQL Server Management Studio in Object Explorer Right Click on 'Databases' Node and select 'Restore Database'
 
