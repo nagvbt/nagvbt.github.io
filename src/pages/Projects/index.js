@@ -10,7 +10,7 @@ import Layout from "@theme/Layout";
 import LinkIcon from "@mui/icons-material/Link";
 
 import styles from "./styles.module.css";
-import projects from "../../data/_Projects";
+import projects from "./data";
 
 export function ProjectListings() {
   return (
