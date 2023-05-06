@@ -1,9 +1,5 @@
 ---
-title: "Programmatically terminate MFC application"
-
-tags: 
-  - "MFC"
-  - "vc"
+tags: ["MFC"]
 ---
 
 # Programmatically terminate MFC application

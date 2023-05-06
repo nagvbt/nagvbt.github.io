@@ -1,5 +1,5 @@
 ---
-tags: [Web, Sources]
+tags: ["Web"]
 ---
 
 # Web Frontend Developer in 2023

@@ -1,5 +1,5 @@
 ---
-tags: ["Ionc", "Angular"]
+tags: ["Ionic", "Angular"]
 ---
 
 # Ionic – AngularJS templates

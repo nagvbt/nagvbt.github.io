@@ -1,5 +1,5 @@
 ---
-tags: ["Csharp", "Design Patterns"]
+tags: ["CSharp", "Design Patterns"]
 ---
 
 # Design Pattern: C# Singleton

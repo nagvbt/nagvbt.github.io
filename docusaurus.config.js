@@ -88,6 +88,7 @@ const config = {
           //  To open a page from '/src/pages' folder
           { to: "about", label: "About", position: "right" },
           { to: "terms", label: "Terms", position: "right" },
+          // { to: "projects", label: "Projects", position: "right" },
 
           // To open ouside link
           {

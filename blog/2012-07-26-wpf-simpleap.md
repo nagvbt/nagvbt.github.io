@@ -1,5 +1,5 @@
 ---
-tags: ["wpf"]
+tags: ["WPF"]
 ---
 
 # WPF - Simple App

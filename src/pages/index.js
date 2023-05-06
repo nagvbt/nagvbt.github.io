@@ -16,10 +16,13 @@ function HomepageHeader() {
           <div className="row">
             <div className="col col--6">
               <h1>Nag VBT</h1>
-              <p>M.Tech, M.B.A, B.Tech, L.L.B</p>
+              <p>M.Tech, M.B.A, B.Tech, L.L.B, S.D.B.M.E</p>
               <p className="hero__subtitle">
                 <Typed
-                  strings={["Architect . Innovator . Mentor"]}
+                  strings={[
+                    "Full Stack Developer",
+                    "Architect . Innovator . Mentor",
+                  ]}
                   typeSpeed={75}
                 />
               </p>

@@ -1,11 +1,8 @@
 ---
-title: "WPF View Switcher Tutorial"
-date: "2010-09-05"
-categories: 
-  - "wpf"
 tags: ["WPF", "Tutorial"]
-
 ---
+
+# WPF View Switcher Tutorial
 
 Dynamic Switching of views in WPF using UserControl and Grid Layout.
 

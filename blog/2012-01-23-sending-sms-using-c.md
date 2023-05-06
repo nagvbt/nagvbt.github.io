@@ -1,6 +1,8 @@
 ---
-tags: ["Csharp"]
+tags: ["CSharp"]
 ---
+
+# Sending SMS using C#
 
 **Step 1:** Create a new project in Microsoft Visual Studio 2008 (File -> New -> Project -> Visual C# -> Console Application). Give SMS_Sender name and also specify the location where to store the project.
 
