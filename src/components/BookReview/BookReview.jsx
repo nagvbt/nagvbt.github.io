@@ -4,7 +4,7 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
-import * as data from "./book-review.json";
+import data from "./book-review.json";
 
 const Item = styled(Box)(({ theme }) => ({
   ...theme.typography.body2,
@@ -16,7 +16,7 @@ const Item = styled(Box)(({ theme }) => ({
 export default function BookReview() {
   return (
     <Grid container spacing={2}>
-      {data.review.map((book) => (
+      {data.data.map((book) => (
         <Grid item xs={2}>
           <Item>
             <a href={book.url}>
