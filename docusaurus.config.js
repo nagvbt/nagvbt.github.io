@@ -84,47 +84,79 @@ const config = {
             position: "right",
             label: "Articles",
           },
-          { to: "books", label: "Books", position: "right" },
+          // { to: "books", label: "Books", position: "right" },
           //  To open a page from '/src/pages' folder
           { to: "about", label: "About", position: "right" },
           { to: "terms", label: "Terms", position: "right" },
           // { to: "projects", label: "Projects", position: "right" },
 
           // To open ouside link
-          {
-            href: "https://github.com/nagvbt",
-            label: "GitHub",
-            position: "right",
-          },
+          // {
+          //   href: "https://github.com/nagvbt",
+          //   label: "GitHub",
+          //   position: "right",
+          // },
         ],
       },
       footer: {
         style: "dark",
         links: [
           {
-            title: "Misc",
+            title: "DOCS",
             items: [
+              {
+                label: "Articles",
+                to: "/docs/category/articles",
+              },
+              {
+                label: "Blog",
+                to: "/blog",
+              },
+            ],
+          },
+
+          {
+            title: "MISC",
+            items: [
+              {
+                label: "Blog Archive",
+                to: "BlogArchive",
+              },
+              {
+                label: "Blog tags / Categories",
+                href: "/blog/tags",
+              },
+            ],
+          },
+
+          {
+            title: "EXPLORE MORE",
+            items: [
+              {
+                label: "Books",
+                to: "books",
+              },
               {
                 label: "Disclaimer",
 
                 to: "disclaimer",
               },
               {
-                label: "Blog Archive",
-                to: "BlogArchive",
-              },
-              {
-                label: "Blog tags / categories",
-                href: "/blog/tags",
+                label: "Terms of use",
+                to: "terms",
               },
             ],
           },
           {
-            title: "Community",
+            title: "FIND ME",
             items: [
               {
                 label: "Linkedin",
                 href: "https://www.linkedin.com/in/nagvbt/",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/nagvbt",
               },
               {
                 label: "Facebook",
@@ -136,25 +168,8 @@ const config = {
               },
             ],
           },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "Terms of use",
-                to: "terms",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/nagvbt",
-              },
-            ],
-          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Nagvbt, Inc`,
+        copyright: `© 2010 - ${new Date().getFullYear()} Nag VBT`,
       },
       prism: {
         theme: lightCodeTheme,
