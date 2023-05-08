@@ -69,6 +69,37 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
+
+      algolia: {
+        // The application ID provided by Algolia
+        appId: "W4PBBCRQ97",
+
+        // Public API key: it is safe to commit it
+        apiKey: "e7b2813f18e55caef1b2e48d636a4fb4",
+
+        indexName: "nagvbt",
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        //b externalUrlRegex: "external\\.com|domain\\.com",
+
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: "/docs/", // or as RegExp: /\/docs\//
+          to: "/",
+        },
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: "search",
+
+        //... other Algolia params
+      },
+
       navbar: {
         title: "Nag VBT",
         logo: {
