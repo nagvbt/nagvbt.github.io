@@ -4,10 +4,10 @@ tags: [React]
 
 # Building A Component Library With React
 
-![Docusaurus Plushie](./img/nag-rlib.png)
+![](../static/img/nag-rlib.png)
 
 
-1\. Summary
+1. Summary
 -----------
 
 A component library is a collection of logically group components so that one can explore, select components and helps in maintaining consistent design across projects. nag-rlib built usng following components.
@@ -18,7 +18,7 @@ A component library is a collection of logically group components so that one ca
 2.  Storybook
 3.  react-testing-library
 
-2\. How to Create a React Library
+2. How to Create a React Library
 ---------------------------------
 
 You can create a React Library using the create-react-library ([](https://github.com/transitive-bullshit/create-react-library)[https://github.com/transitive-bullshit/create-react-library](https://github.com/transitive-bullshit/create-react-library)) CLI which uses Rollup.js and create-react-app.
@@ -54,7 +54,7 @@ Fire up the command prompt and use the below commandcd
     ? Template default
     
 
-**3\. Install RollupJs and configure**
+**3. Install RollupJs and configure**
 
 **a. Install Babel Preset**
 
@@ -134,7 +134,7 @@ Add below commands in scripts section of package.json
     "build:dev": "rollup -c -w",
     
 
-3\. Build and Launch the example site
+3. Build and Launch the example site
 -------------------------------------
 
 To get started, in one tab, run:
@@ -146,7 +146,7 @@ And in another command window, run the create-react-app dev server:
 `$ cd nag-rlib\example && yarn start`
 
 
-4\. Create Github Repo and push the code
+4. Create Github Repo and push the code
 ----------------------------------------
 
 Steps: Refer Code changes [here](https://github.com/nagvbt/nag-rlib/commit/03e8a144f5afa4edf43b8e47f3dd1facf8d63a6b)
@@ -179,14 +179,14 @@ Create a new repository
     git push -u origin main
     
 
-5\. Upgrade Packages
+5. Upgrade Packages
 --------------------
 
 To upgrade the Packages to latest by using the command `yarn upgrade --latest`
 
 Steps: Refer Code changes [here](https://github.com/nagvbt/nag-rlib/commit/0243b0a59267e9798502abf72705f6d1b02f7768)
 
-6\. Export Multiple Components
+6. Export Multiple Components
 ------------------------------
 
 Steps: Refer Code changes [here](https://github.com/nagvbt/nag-rlib/commit/021a6cefe46e436333b0d7fdadb9b30573addf95)
@@ -225,7 +225,7 @@ Steps: Refer Code changes [here](https://github.com/nagvbt/nag-rlib/commit/021a6
     export { ExampleComponent1, ExampleComponent2 };
     
 
-7\. Install Storybook
+7. Install Storybook
 ---------------------
 
 Storybook makes development faster and easier by isolating components with business logic. Install Storybook using below command.
@@ -247,7 +247,7 @@ b. addon-links
 |1 | [a11y](https://github.com/storybookjs/storybook/tree/next/addons/a11y)| yarn add @storybook/addon-a11y –dev | Test components for user accessibility in Storybook|
 | 2 | [storysource](https://github.com/storybookjs/storybook/tree/next/addons/storysource)| yarn add @storybook/addon-storysource –dev | View the code of your stories within the Storybook UI |
 
-8\. Unit Testing and Code Coverage
+8. Unit Testing and Code Coverage
 ----------------------------------
 
 [Refer Code](https://github.com/nagvbt/nag-rlib/commit/5e2778980b9da0a02e43b5e3b69e753f4d35e238)
@@ -286,7 +286,7 @@ Utility to make jest tests fail when console.error() or console.warn() are used.
 
 `yarn add --dev jest-fail-on-console`
 
-9\. Eslint
+9. Eslint
 ----------
 
 [Refer Code](https://github.com/nagvbt/nag-rlib/commit/d3c74d49b9f346a6d15e7d5bfaf1379dee724959)
@@ -355,7 +355,7 @@ Then extend the recommended eslint config:
     }
     
 
-10\. Publish the Library to npm
+10. Publish the Library to npm
 -------------------------------
 
 The command used to publish the lib as a public library you need to have a login in [](https://www.npmjs.com/)[https://www.npmjs.com/](https://www.npmjs.com/)

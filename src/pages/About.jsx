@@ -81,7 +81,7 @@ export default function Help() {
           <h3>OVERVIEW</h3>
           <ul>
             <li>
-              Had 15+ years of experience in Design, Development and Maintenance
+              Had 18+ years of experience in Design, Development and Maintenance
               of Web, Mobile and Desktop applications.
             </li>
             <li>Mentor and Lead the development and QA Teams</li>

@@ -9,7 +9,7 @@ Disclosure: The thoughts and opinions that I express on this blog are my own and
 
 3. If you are holding the copyright for any of the images used in this blog without reference,  please let me know. I will remove them immediately.
 
-4. I encouraged the use of this blog information for only non-commercial, community, educational purposes with proper credit to https://nagvbt.github.io. For all other publishing-related query Contact Me
+4. I encouraged the use of this blog information for only non-commercial, community, educational purposes with proper credit to http://nagvbt.com For all other publishing-related query Contact Me
 
 5. I do not bear any responsibility for the consequences of usage of the contents in this blog
 

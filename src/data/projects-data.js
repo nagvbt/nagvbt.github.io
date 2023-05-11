@@ -3,9 +3,9 @@ import React from "react";
 const projects = [
   {
     category: "Project",
-    title: "nodejs-mysql",
-    slug: "#nodejs-mysql",
-    imageUrl: "img/nagcode.png",
+    title: "nag-rlib",
+    slug: "#nag-rlib",
+    imageUrl: "img/nag-rlib.png",
     subtitle:
       "An example for deploying a NodeJS app to Beanstalk using AWS CloudFormation.",
     period: "November 2020",
