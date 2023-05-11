@@ -4,8 +4,8 @@
   <ShortName>Nag VBT</ShortName>
   <Description>Search Nag VBT</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://nagvbt.github.io/img/logo.png</Image>
-  <Url type="text/html" method="get" template="https://nagvbt.github.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://nagvbt.github.io/opensearch.xml" />
-  <moz:SearchForm>https://nagvbt.github.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">http://nagvbt.com/img/logo.png</Image>
+  <Url type="text/html" method="get" template="http://nagvbt.com/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="http://nagvbt.com/opensearch.xml" />
+  <moz:SearchForm>http://nagvbt.com/</moz:SearchForm>
 </OpenSearchDescription>
