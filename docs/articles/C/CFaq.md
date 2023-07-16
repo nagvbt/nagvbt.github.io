@@ -1,6 +1,6 @@
 # C FAQ
 
-Following are the importanat C frequently asked questions in interviews.
+Following are the important C frequently asked questions in interviews.
 
 ## 1. How to write a code to count number of characters/Spaces/numbers/special characters present in a sentence.  sentence =”1. GOD IS GREAT !!!”
 
