@@ -115,7 +115,7 @@ export default function Help() {
           </section>
         )}
       </div>
-      <BooksRead></BooksRead>
+      {/* <BooksRead></BooksRead> */}
     </Layout>
   );
 }
