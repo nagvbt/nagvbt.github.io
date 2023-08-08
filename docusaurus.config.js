@@ -108,18 +108,25 @@ const config = {
         },
         items: [
           // To  open  a folder from ./blog
-          { to: "/blog", label: "Blog", position: "right" },
           {
-            type: "doc",
-            docId: "intro",
-            position: "right",
-            label: "Articles",
+            to: "/blog",
+            label: "Blog",
+            position: "left",
+            items: [
+              { to: "BlogArchive", label: "Blog Archive" },
+              { href: "/blog/tags", label: "Blog tags / Categories" },
+            ],
           },
-          // { to: "books", label: "Books", position: "right" },
+          { type: "doc", docId: "intro", position: "left", label: "Articles" },
+
           //  To open a page from '/src/pages' folder
           { to: "about", label: "About", position: "right" },
-          { to: "terms", label: "Terms", position: "right" },
-          // { to: "projects", label: "Projects", position: "right" },
+          {
+            to: "terms",
+            label: "Terms",
+            position: "right",
+            items: [{ to: "disclaimer", label: "Disclaimer" }],
+          },
           // { to: "projects", label: "Projects", position: "right" },
 
           // To open ouside link
