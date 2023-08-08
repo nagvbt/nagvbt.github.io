@@ -57,10 +57,12 @@ export function ProjectListing(props) {
         <img src={useBaseUrl(projectItem.imageUrl)} alt={projectItem.title} />
       )}
       <div>
-        <ul>
+        {/* <ul>
           <li>{projectItem.category}</li>
           <li>{projectItem.tech}</li>
-        </ul>
+        </ul> */}
+        <b>Tech Stack</b>
+        <div>{projectItem.tech}</div>
         <b>Description</b>
         <div>{projectItem.description}</div>
         {projectItem.links && (
@@ -69,9 +71,7 @@ export function ProjectListing(props) {
             <ul>
               {projectItem.links.map((link, i) => (
                 <li key={i}>
-                  <a href={link.link}>
-                    <LinkIcon></LinkIcon> {link.name}
-                  </a>
+                  <a href={link.link}>{link.name}</a>
                 </li>
               ))}
             </ul>

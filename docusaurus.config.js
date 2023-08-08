@@ -120,6 +120,7 @@ const config = {
           { to: "about", label: "About", position: "right" },
           { to: "terms", label: "Terms", position: "right" },
           // { to: "projects", label: "Projects", position: "right" },
+          // { to: "projects", label: "Projects", position: "right" },
 
           // To open ouside link
           // {

@@ -3,6 +3,7 @@ import clsx from "clsx";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import styles from "./index.module.css";
+import PageHeader from "../components/PageHeader";
 
 /**
  * @typedef {Object} BlogPost - creates a new type named 'BlogPost'
@@ -68,12 +69,7 @@ function Year(
 function BlogArchive() {
   return (
     <Layout title="Blog Archive">
-      <header className={clsx("hero hero--primary", styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">Blog Archive</h1>
-          <p className="hero__subtitle">Historic posts</p>
-        </div>
-      </header>
+      <PageHeader title="Blog Archive" subTitle="historic posts" />
       <main>
         {yearsOfPosts && yearsOfPosts.length > 0 && (
           <section className={styles.features}>

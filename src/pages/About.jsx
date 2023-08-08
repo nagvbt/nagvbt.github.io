@@ -2,8 +2,9 @@ import React from "react";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import BooksRead from "../components/BooksRead/BooksRead";
+import PageHeader from "../components/PageHeader/PageHeader";
 
-export default function Help() {
+export default function About() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
 
@@ -67,6 +68,7 @@ export default function Help() {
 
   return (
     <Layout title={`${siteConfig.title}`}>
+      <PageHeader title="Hi! I'm Nag - welcome! ❤️🌻" />
       <div className="docMainWrapper wrapper">
         <div className="container margin-vert--xl">
           <header className="postHeader">
