@@ -95,10 +95,10 @@ export default function About() {
           </ul>
           <h3>EDUCATION</h3>
           <ul>
+            <li>B.Tech in Electronics and Communication</li>
             <li>M.Tech in Machine Learning and Deep Learning</li>
             <li>M.B.A in Entrepreneurship</li>
             <li>L.L.B Bachalor of Law </li>
-            <li>B.Tech in Electronics and Communication</li>
             <li>S.D.B.M.E - Special diploma in Bio-Medical Engineering</li>
           </ul>
         </div>
