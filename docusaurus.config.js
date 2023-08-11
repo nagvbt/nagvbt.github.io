@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const createFeedItems = require("./createFeedItems");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -56,6 +57,15 @@ const config = {
           // Remove this to remove the "edit this page" links.
           // editUrl:
           //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+
+          feedOptions: {
+            type: ["rss", "atom"],
+            title: "I CAN MAKE THIS WORK",
+            description: "The blog of Nag VBT ❤️🌻",
+            language: "en",
+            copyright: `Copyright © 2023 - ${new Date().getFullYear()} Nag VBT.`,
+            createFeedItems,
+          },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -109,25 +119,40 @@ const config = {
         items: [
           // To  open  a folder from ./blog
           {
-            to: "/blog",
             label: "Blog",
+            to: "/blog",
             position: "left",
-            items: [
-              { to: "BlogArchive", label: "Blog Archive" },
-              { href: "/blog/tags", label: "Blog tags / Categories" },
-            ],
           },
-          { type: "doc", docId: "intro", position: "left", label: "Articles" },
+          { label: "Articles", type: "doc", docId: "intro", position: "left" },
 
           //  To open a page from '/src/pages' folder
-          { to: "about", label: "About", position: "right" },
+          { label: "About", to: "about", position: "right" },
           {
-            to: "terms",
             label: "Terms",
             position: "right",
-            items: [{ to: "disclaimer", label: "Disclaimer" }],
+            items: [
+              { label: "Terms of Use >", to: "terms" },
+              { label: "Disclaimer >", to: "disclaimer" },
+            ],
           },
           // { to: "projects", label: "Projects", position: "right" },
+          {
+            label: "Other",
+            position: "right",
+            items: [
+              { label: "Blog Archive", to: "BlogArchive" },
+              { label: "Tags / Categories", href: "/blog/tags" },
+              { label: "Books", to: "books" },
+              {
+                label: "RSS feed",
+                href: "https://nagvbt.github.io/blog/rss.xml",
+              },
+              {
+                label: "Atom feed",
+                href: "https://nagvbt.github.io/blog/atom.xml",
+              },
+            ],
+          },
 
           // To open ouside link
           // {
@@ -143,14 +168,8 @@ const config = {
           {
             title: "DOCS",
             items: [
-              {
-                label: "Articles",
-                to: "/docs/category/articles",
-              },
-              {
-                label: "Blog",
-                to: "/blog",
-              },
+              { label: "Articles", to: "/docs/category/articles" },
+              { label: "Blog", to: "/blog" },
             ],
           },
 
@@ -164,6 +183,14 @@ const config = {
               {
                 label: "Blog tags / Categories",
                 href: "/blog/tags",
+              },
+              {
+                label: "RSS feed",
+                href: "https://nagvbt.github.io/blog/rss.xml",
+              },
+              {
+                label: "Atom feed",
+                href: "https://nagvbt.github.io/blog/atom.xml",
               },
             ],
           },

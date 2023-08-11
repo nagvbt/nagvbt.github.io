@@ -1,23 +1,22 @@
----
-tags: ["ATL", "Tutorial"]
----
+# ATL Tutorial
 
-# ATL Tutorial (DLL or Inproc Server)
+If you are new to ATL ( Active Template Library ) please refer the below items.
+
+[1. Basics of ATL](/blog/2012/07/08/basics-of-atl)
 
 In this tutorial we will be creating
 
 1. MathComp which is a DLL or Inproc server and exposes the Add and Sub functions.
 
 2. An MFC Dialog Based Application which acts like a Client for MathComp
-    
+
 **Steps for creating MathComp**
-    
+
 1. Open VS 2008
 2. File->NewProject Click OK -> Click Next **Select Server type:** as DLL **Select Addition options:** as 'Allow merging of proxy/stub code' and click Finish
-    
 3. Add Component Class
-    
-  Select `ATL simple Object`
+
+Select `ATL simple Object`
 
 Enter Short name: "CMath" to add the component class -> Click 'Finish'
 

@@ -1,8 +1,8 @@
 {
-  "label": "Languages",
-  "position": 2,
+  "label": "Languages Comparison",
+  "position": 0,
   "link": {
     "type": "generated-index",
-    "description": "Comparision of languages"
+    "description": "Comparison of languages"
   }
 }

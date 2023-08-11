@@ -3,14 +3,16 @@ import GoodreadsBookshelf from "react-goodreads-shelf";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import BookReview from "../components/BookReview/BookReview";
+import PageHeader from "../components/PageHeader/PageHeader";
 
 export default function Books() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
     <Layout title={`${siteConfig.title}`}>
+      <PageHeader title="Book Reviews" />
       <div className="container">
-        <h1>Book Reviews</h1>
+        <br></br>
         <BookReview></BookReview>
         {/*     <h1>Read below books</h1>
        <GoodreadsBookshelf

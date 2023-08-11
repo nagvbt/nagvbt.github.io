@@ -1,8 +1,8 @@
 {
-  "label": "C#",
+  "label": "Tutorials",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Best Parts of C#"
+    "description": "My Tutorials"
   }
 }

@@ -53,7 +53,7 @@ const features = [
       <>
         <ul style={{ flex: "1" }}>
           <li>
-            <a href="docs/category/languages">Language Comparision</a>
+            <a href="docs/category/languages-comparison">Language Comparison</a>
           </li>
           <li>
             <a href="docs/category/c-1">Master C++</a>

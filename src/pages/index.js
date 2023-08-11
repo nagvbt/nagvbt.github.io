@@ -7,10 +7,11 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./index.module.css";
 import Socials from "../components/Socials/Socials";
 import Typed from "../components/Typed";
+import clsx from "clsx";
 
 function HomepageHeader() {
   return (
-    <header className={styles.hero}>
+    <header className={clsx("hero", styles.hero)}>
       <div className="container">
         <section>
           <div className="row">
