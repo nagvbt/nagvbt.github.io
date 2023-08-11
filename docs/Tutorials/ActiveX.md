@@ -10,14 +10,14 @@ Here we will create MFC ActiveX Control which can be used in HTML Pages
 
 An ActiveX control is anything you might see in the Toolbox of Visual studio (i.e. EditBox, combobox e.t.c) we can even use the Activex controls in web pages using and handling events with Javascript.
 
-**Steps**
+## Steps
 
 1. Open VS 2008
 2. File->NewProject give the project name as "MathOCX" 3.Click OK and Click Finish
 3. To add a method
    - Go to class View, Expand "MathOCXLib"
    - RightClick on the "\_DMathOCX" and click 'Add >' Add Method...
-4. 'Add Method Wizard' Dialog will be displayed as shown in below fig Add the function returntype, parameter and function names as Add and Sub
+4. 'Add Method Wizard' Dialog will be displayed as shown in below fig Add the function return type, parameter and function names as Add and Sub
 
    ```cpp
    DOUBLE Add(DOUBLE i, DOUBLE j)
@@ -26,6 +26,7 @@ An ActiveX control is anything you might see in the Toolbox of Visual studio (i.
    ```
 
 5. Three Major classes are created
+
    ```cpp
    class CMathOCXApp : public COleControlModule
    class CMathOCXCtrl : public COleControl
@@ -34,7 +35,7 @@ An ActiveX control is anything you might see in the Toolbox of Visual studio (i.
 
 ## Descriptions of the Generated classes & Notes
 
-    **class CMathOCXApp : public COleControlModule -> CWinApp**
+`class CMathOCXApp : public COleControlModule -> CWinApp``
 
     **COleControlModule provides** member functions for initializing control module it is an application object for running the ActivexControl. Only one global object is present.
 
@@ -43,15 +44,15 @@ An ActiveX control is anything you might see in the Toolbox of Visual studio (i.
 1. COleControl Derived from CWnd, this class inherits all the functionality of a Windows window object plus additional functionality specific to OLE, such as event firing and the ability to support methods and properties.
 2. COleControl has a dispatch map, which is used to expose a set of functions (called methods) and attributes (called properties) to the control user.
 
-**Dispatch Maps**
+### Dispatch Maps
 
 1. OLE Automation provides ways to call methods and to access properties across applications.
 
 2. The mechanism supplied by the MFC for dispatching these requests is the "dispatch map," which designates the internal and external names of object functions and properties, as well as the data types of the properties themselves and of function arguments.
 
-**DISP_FUNCTION(theClass, pszName, pfnMember, vtRetVal, vtsParams )**
+`DISP_FUNCTION(theClass, pszName, pfnMember, vtRetVal, vtsParams )`
 
-**Parameters**
+#### Parameters
 
 - theClass - Name of the class.
 - pszName - External name of the function.
@@ -67,7 +68,7 @@ class CMathOCXPropPage : public COlePropertyPage
 
 Used to display the properties of a custom control in a graphical interface, similar to a dialog box.
 
-**Using MathOCX.ocx control in the HTML Page**
+#### Using MathOCX.ocx control in the HTML Page
 
 ```html
 <HTML>

@@ -28,7 +28,7 @@ export class MyApp {
 }
 ```
 
-2. Add _tag in the app.html_
+2.Add _tag in the app.html_
 
 \_FILES
 

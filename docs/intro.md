@@ -8,7 +8,7 @@ Updated on Aug 08, 2023
 
 Let's discover the written articles of the 18+ Years experienced Senior Software Architect.
 
-### Articles
+## Articles
 
 Here, you will find a collection of concise notes on full-stack software engineering and Architecture. These notes are filed under their respective topic, with related topics are categorized under the same chapter.
 
@@ -32,7 +32,7 @@ Here, you will find a collection of concise notes on full-stack software enginee
 
 </div>
 
-### Tutorials
+## Tutorials
 
 <div class="contentTableContainer">
 
@@ -47,11 +47,11 @@ Here, you will find a collection of concise notes on full-stack software enginee
 
 </div>
 
-### MAANG
+## MAANG
 
 Notes MAANG patterns will be presented here [MAANG](docs/category/maang)
 
-### Book Summaries
+## Book Summaries
 
 <div class="contentTableContainer">
 
