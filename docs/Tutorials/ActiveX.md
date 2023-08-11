@@ -37,9 +37,9 @@ An ActiveX control is anything you might see in the Toolbox of Visual studio (i.
 
 `class CMathOCXApp : public COleControlModule -> CWinApp``
 
-    **COleControlModule provides** member functions for initializing control module it is an application object for running the ActivexControl. Only one global object is present.
+COleControlModule provides member functions for initializing control module it is an application object for running the ActivexControl. Only one global object is present.
 
-    class CMathOCXCtrl : public COleControl
+`class CMathOCXCtrl : public COleControl`
 
 1. COleControl Derived from CWnd, this class inherits all the functionality of a Windows window object plus additional functionality specific to OLE, such as event firing and the ability to support methods and properties.
 2. COleControl has a dispatch map, which is used to expose a set of functions (called methods) and attributes (called properties) to the control user.
