@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[10896],{21652:e=>{e.exports=JSON.parse('{"title":"SQL","description":"SQL Basics","slug":"/category/sql","permalink":"/docs/category/sql","navigation":{"previous":{"title":"Notes","permalink":"/docs/articles/CSS/Notes"},"next":{"title":"Random FAQ (SQL)","permalink":"/docs/articles/SQL/RandomFaq"}}}')}}]);
