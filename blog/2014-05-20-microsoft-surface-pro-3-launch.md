@@ -6,13 +6,13 @@ tools: ["Events"]
 
 Microsoft Surface Pro 3 is a thin tablet which replaces your laptop, more productive, Beautiful screen, Faster than Surface Pro 2
 
-Live webcast @ [](http://www.microsoft.com/en-us/news/press/2014/may14/05-20webcast.aspx)[http://www.microsoft.com/en-us/news/press/2014/may14/05-20webcast.aspx](http://www.microsoft.com/en-us/news/press/2014/may14/05-20webcast.aspx) [Microsoft Surface](http://www.nagvbt.blogspot.com/wp-content/uploads/2014/05/microsoft-surface.png)
+Live webcast @ [](http://www.microsoft.com/en-us/news/press/2014/may14/05-20webcast.aspx)[http://www.microsoft.com/en-us/news/press/2014/may14/05-20webcast.aspx](http://www.microsoft.com/en-us/news/press/2014/may14/05-20webcast.aspx)
 
-Thicknesses : 9.1 mm 
+Thicknesses : 9.1 mm
 
 Screen : 12.0"
 
-Weight : 800g 
+Weight : 800g
 
 Processor : Core i7 Fan less
 

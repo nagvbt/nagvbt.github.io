@@ -26,9 +26,9 @@ import React from "react";
 import NamesList from "./NamesList";
 
 const names = {
-  'id1' : 'Balaji',
-  'id2' : 'Satish',
-  'id3' : 'Durga'
+  'id1' : 'Ram',
+  'id2' : 'Sita',
+  'id3' : 'Lakshman'
 }
 
 function App() {

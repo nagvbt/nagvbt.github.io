@@ -6,11 +6,11 @@ tags: ["MFC"]
 
 This article gives the ability to make MFC dialogs expand or contract. The CExpandContractHelper simplifies the process to  expand or contract MFC Dialog.
 
-**Steps to use CExpandContractHelper :** 
+**Steps to use CExpandContractHelper :**
 
-1. Create Dialog Based application 
-2. Place the controls as shown below 
-3. Add the CExpandContractHelper.cpp & CExpandContractHelper.h files to the project 
+1. Create Dialog Based application
+2. Place the controls as shown below
+3. Add the CExpandContractHelper.cpp & CExpandContractHelper.h files to the project
 4. Create the in the Dialog class CExpandContractHelper\* m_pECH;
 
 ```cpp
@@ -52,7 +52,6 @@ CExpandContractHelper class
 ```cpp
 //////////////////////////////////////////////////
 // Purpose: To exapand or contract a dialog control
-// Author : nagvbt.blogspot.com
 //////////////////////////////////////////////////
 class CExpandContractHelper
 {

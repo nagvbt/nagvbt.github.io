@@ -13,7 +13,7 @@ Page wise
 
 Debugging
 ---------
-<!--Balaji: debug-for entire website--> 
+<!--Author: debug-for entire website-->
     < compilation debug ="true " targetFramework ="4.0 ">
       < assemblies>
 ....
@@ -24,8 +24,8 @@ Page wise
 
 
 Custom Error Page
-  
-<!-- Balaji: Custom error page-->
+
+<!-- o: Custom error page-->
       < customErrors defaultRedirect = "SiteErrorPage.aspx " mode = "On " >
         < error statusCode = "404 " redirect = "FileNotFound.aspx " />
 ```

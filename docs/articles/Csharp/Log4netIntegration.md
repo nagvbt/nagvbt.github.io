@@ -24,15 +24,17 @@ Step 4: In web.config, add a new section `<log4net>`. This section will contain 
 Step 5: In web.config, under "log4net" section, add the required appenders (output target) configuration sections in the following way:
 
 File appender configuration, used for log statements in a text file
+
 ```
 <appender name="LogFileAppender" type="log4net.Appender.FileAppender">
 <param name="File" value="Logs\\Log4Net.log"/>
 <layout type="log4net.Layout.PatternLayout">
 <param name="ConversionPattern" value="%d [%t] %-5p %c %m%n"/>
 </layout></appender>
-````
+```
 
 SMTP appender configuration, used for log statements by sending email
+
 ```
 <appender name="SmtpAppender" type="log4net.Appender.SmtpAppender">
 <to value="" /><from value="" />
@@ -48,6 +50,7 @@ SMTP appender configuration, used for log statements by sending email
 ```
 
 Step 6: In the web.config file, under "log4net" section, for each appender, add loggers in the following way:
+
 ```
 <logger name="File"><level value="All" />
 <appender-ref ref="LogFileAppender" />
@@ -57,7 +60,9 @@ Step 6: In the web.config file, under "log4net" section, for each appender, add 
 <appender-ref ref="SmtpAppender" />
 </logger>
 ```
+
 Step 7: Now, whenever we want to log any information/error/warning, call the appropriate method in the following manner:
+
 ```
 //for logging to file
 log4net.ILog logger = log4net.LogManager.GetLogger("File");
@@ -67,7 +72,9 @@ logger.Info("Starting page load");
 ```
 
 ## Code Files
+
 ### Web.config
+
 ```xml
 <?xml version="1.0"?>
 <configuration>
@@ -76,17 +83,17 @@ logger.Info("Starting page load");
          </ sectionGroup>
                   </ sectionGroup>
             </ sectionGroup>
-    <!-- Balaji: log-->
+    <!-- Author: log-->
     < section name ="log4net " type=" log4net.Config.Log4NetConfigurationSectionHandler, log4net "/>
   </configSections>
-  <!--Balaji: File-->
+  <!--Author: File-->
   <log4net debug=" true">
     < appender name ="LogFileAppender " type=" log4net.Appender.FileAppender">
       <!-- <param name="File" value="Logs\\Log4Net.log"/> -->
-      < param name ="File " value ="C:\\Logs\\TestLog.log "/>     
+      < param name ="File " value ="C:\\Logs\\TestLog.log "/>
       < layout type ="log4net.Layout.PatternLayout ">
         < param name ="ConversionPattern " value ="%d [%t] %-5p %c %m%n "/>
-      </ layout>     
+      </ layout>
     </ appender>
     <!-- email-->
     < appender name ="SmtpAppender " type ="log4net.Appender.SmtpAppender ">
@@ -102,9 +109,9 @@ logger.Info("Starting page load");
       < layout type ="log4net.Layout.PatternLayout ">
         < conversionPattern value ="%newline%date [%thread] %-5level
           %logger [%property] - %message%newline%newline%newline " />
-      </ layout>    
+      </ layout>
     </ appender>
-   
+
     <!-- Event Viewer-->
     < appender name ="EventLogAppender " type=" log4net.Appender.EventLogAppender">
       < param name ="LogName " value ="MyLog " />
@@ -163,8 +170,8 @@ logger.Info("Starting page load");
         < layout type ="log4net.Layout.ExceptionLayout " />
       </ parameter>
     </ appender>
- 
-<!-- Logger--> 
+
+<!-- Logger-->
     < logger name ="EmailLog ">
       < level value ="All " />
       < appender-ref ref ="SmtpAppender " />
@@ -180,17 +187,18 @@ logger.Info("Starting page load");
     < logger name ="SQLServer ">
       < level value ="All " />
       < appender-ref ref ="AdoNetAppender " />
-    </ logger>   
+    </ logger>
   </log4net>
- 
+
   <appSettings></appSettings>
- 
+
  ..........
-...............      
+...............
 </configuration>
 ```
 
 ## Class
+
 ```cpp
 public partial class HierarchicalMenuDemo : System.Web.UI.Page
 {
@@ -198,7 +206,7 @@ public partial class HierarchicalMenuDemo : System.Web.UI.Page
     private static readonly ILog log = log4net.LogManager.GetLogger("File" );
     private static readonly ILog evlog = log4net.LogManager.GetLogger("EventViewer" );
     private static readonly ILog sqllog = log4net.LogManager.GetLogger("SQLServer" );
-   
+
     protected void Page_Load(object sender, EventArgs e)
     {
          if (!IsPostBack)
@@ -217,6 +225,7 @@ public partial class HierarchicalMenuDemo : System.Web.UI.Page
 ```
 
 ### DB script
+
 ```sql
 CREATE TABLE [dbo].[Log] (
 [Id] [int] IDENTITY (1, 1) NOT NULL,
@@ -230,183 +239,185 @@ CREATE TABLE [dbo].[Log] (
 ```
 
 ## MultiLogger
- How to use log4net - MultiLogger
 
- ```cpp
- using System.Configuration;
+How to use log4net - MultiLogger
+
+```cpp
+using System.Configuration;
 using log4net;
 /// <summary>
 /// Summary description for MultiLogger
 /// </summary>
 public class MultiLogger
 {
-    private enum LOGTYPE
-    {
-        FILE,
-        EVENTVIEWER,
-        SQLSERVER,
-        ALL
-    }
-    private enum MSGTYPE
-    {
-        INFO,
-        DEBUG,
-        ERROR
-    }
-    //for logging to file
-    private static readonly ILog log = log4net.LogManager.GetLogger("File");
-    private static readonly ILog evlog = log4net.LogManager.GetLogger("EventViewer");
-    private static readonly ILog sqllog = log4net.LogManager.GetLogger("SQLServer");
-    private static bool all = bool.Parse((string)ConfigurationManager.AppSettings["LOGTYPE.ALL"]);
-    private static bool file = bool.Parse((string)ConfigurationManager.AppSettings["LOGTYPE.FILE"]);
-    private static bool ev = bool.Parse((string)ConfigurationManager.AppSettings["LOGTYPE.EVENTVIEWER"]);
-    private static bool sql = bool.Parse((string)ConfigurationManager.AppSettings["LOGTYPE.SQLSERVER"]);
-    public static void Info(string msg)
-    {
-      
-        if (all)
-        {
-            Writer(msg, LOGTYPE.ALL, MSGTYPE.INFO);
-        }
-        else
-        {
-            if (sql)
-            {
-                Writer(msg, LOGTYPE.SQLSERVER, MSGTYPE.INFO);
-            }
-            if (file)
-            {
-                Writer(msg, LOGTYPE.FILE, MSGTYPE.INFO);
-            }
-            if (ev)
-            {
-                Writer(msg, LOGTYPE.EVENTVIEWER, MSGTYPE.INFO);
-            }
-        }
-    }
-    public static void Debug(string msg)
-    {
-        if (all)
-        {
-            Writer(msg, LOGTYPE.ALL, MSGTYPE.DEBUG);
-        }
-        else
-        {
-            if (sql)
-            {
-                Writer(msg, LOGTYPE.SQLSERVER, MSGTYPE.DEBUG);
-            }
-            if (file)
-            {
-                Writer(msg, LOGTYPE.FILE, MSGTYPE.DEBUG);
-            }
-            if (ev)
-            {
-                Writer(msg, LOGTYPE.EVENTVIEWER, MSGTYPE.DEBUG);
-            }
-        }
-    }
-    public static void Error(string msg)
-    {
-        if (all)
-        {
-            Writer(msg, LOGTYPE.ALL, MSGTYPE.ERROR);
-        }
-        else
-        {
-            if (sql)
-            {
-                Writer(msg, LOGTYPE.SQLSERVER, MSGTYPE.ERROR);
-            }
-            if (file)
-            {
-                Writer(msg, LOGTYPE.FILE, MSGTYPE.ERROR);
-            }
-            if (ev)
-            {
-                Writer(msg, LOGTYPE.EVENTVIEWER, MSGTYPE.ERROR);
-            }
-        }
-    }
-    private static void Writer(string msg, LOGTYPE logtype, MSGTYPE msgtype )
-    {
-        switch (logtype)
-        {
-            case LOGTYPE.FILE:
-                 LogInFile(msg, msgtype);
-                break;
-            case LOGTYPE.EVENTVIEWER:
-                 LogInEvw(msg, msgtype);
-                break;
-            case LOGTYPE.SQLSERVER:
-                 LogInSql(msg, msgtype);               
-                break;
-            case LOGTYPE.ALL:
-                {
-                    LogInFile(msg, msgtype);
-                    LogInEvw(msg, msgtype);
-                    LogInSql(msg, msgtype); 
-                }
-                break;
-            default:
-                break;
-        }
-    }
-    private static void LogInFile(string msg, MSGTYPE msgtype)
-    {
-        switch (msgtype)
-        {
-            case MSGTYPE.INFO:
-                log.Info(msg);
-                break;
-            case MSGTYPE.DEBUG:
-                log.Debug(msg);
-                break;
-            case MSGTYPE.ERROR:
-                log.Error(msg);
-                break;
-        }
-    }
-    private static void LogInSql(string msg, MSGTYPE msgtype)
-    {
-        switch (msgtype)
-        {
-            case MSGTYPE.INFO:
-                sqllog.Info(msg);
-                break;
-            case MSGTYPE.DEBUG:
-                sqllog.Debug(msg);
-                break;
-            case MSGTYPE.ERROR:
-                sqllog.Error(msg);
-                break;
-        }
-    }
-    private static void LogInEvw(string msg, MSGTYPE msgtype)
-    {
-        switch (msgtype)
-        {
-            case MSGTYPE.INFO:
-                evlog.Info(msg);
-                break;
-            case MSGTYPE.DEBUG:
-                evlog.Debug(msg);
-                break;
-            case MSGTYPE.ERROR:
-                evlog.Error(msg);
-                break;
-        }
-    }
+   private enum LOGTYPE
+   {
+       FILE,
+       EVENTVIEWER,
+       SQLSERVER,
+       ALL
+   }
+   private enum MSGTYPE
+   {
+       INFO,
+       DEBUG,
+       ERROR
+   }
+   //for logging to file
+   private static readonly ILog log = log4net.LogManager.GetLogger("File");
+   private static readonly ILog evlog = log4net.LogManager.GetLogger("EventViewer");
+   private static readonly ILog sqllog = log4net.LogManager.GetLogger("SQLServer");
+   private static bool all = bool.Parse((string)ConfigurationManager.AppSettings["LOGTYPE.ALL"]);
+   private static bool file = bool.Parse((string)ConfigurationManager.AppSettings["LOGTYPE.FILE"]);
+   private static bool ev = bool.Parse((string)ConfigurationManager.AppSettings["LOGTYPE.EVENTVIEWER"]);
+   private static bool sql = bool.Parse((string)ConfigurationManager.AppSettings["LOGTYPE.SQLSERVER"]);
+   public static void Info(string msg)
+   {
+
+       if (all)
+       {
+           Writer(msg, LOGTYPE.ALL, MSGTYPE.INFO);
+       }
+       else
+       {
+           if (sql)
+           {
+               Writer(msg, LOGTYPE.SQLSERVER, MSGTYPE.INFO);
+           }
+           if (file)
+           {
+               Writer(msg, LOGTYPE.FILE, MSGTYPE.INFO);
+           }
+           if (ev)
+           {
+               Writer(msg, LOGTYPE.EVENTVIEWER, MSGTYPE.INFO);
+           }
+       }
+   }
+   public static void Debug(string msg)
+   {
+       if (all)
+       {
+           Writer(msg, LOGTYPE.ALL, MSGTYPE.DEBUG);
+       }
+       else
+       {
+           if (sql)
+           {
+               Writer(msg, LOGTYPE.SQLSERVER, MSGTYPE.DEBUG);
+           }
+           if (file)
+           {
+               Writer(msg, LOGTYPE.FILE, MSGTYPE.DEBUG);
+           }
+           if (ev)
+           {
+               Writer(msg, LOGTYPE.EVENTVIEWER, MSGTYPE.DEBUG);
+           }
+       }
+   }
+   public static void Error(string msg)
+   {
+       if (all)
+       {
+           Writer(msg, LOGTYPE.ALL, MSGTYPE.ERROR);
+       }
+       else
+       {
+           if (sql)
+           {
+               Writer(msg, LOGTYPE.SQLSERVER, MSGTYPE.ERROR);
+           }
+           if (file)
+           {
+               Writer(msg, LOGTYPE.FILE, MSGTYPE.ERROR);
+           }
+           if (ev)
+           {
+               Writer(msg, LOGTYPE.EVENTVIEWER, MSGTYPE.ERROR);
+           }
+       }
+   }
+   private static void Writer(string msg, LOGTYPE logtype, MSGTYPE msgtype )
+   {
+       switch (logtype)
+       {
+           case LOGTYPE.FILE:
+                LogInFile(msg, msgtype);
+               break;
+           case LOGTYPE.EVENTVIEWER:
+                LogInEvw(msg, msgtype);
+               break;
+           case LOGTYPE.SQLSERVER:
+                LogInSql(msg, msgtype);
+               break;
+           case LOGTYPE.ALL:
+               {
+                   LogInFile(msg, msgtype);
+                   LogInEvw(msg, msgtype);
+                   LogInSql(msg, msgtype);
+               }
+               break;
+           default:
+               break;
+       }
+   }
+   private static void LogInFile(string msg, MSGTYPE msgtype)
+   {
+       switch (msgtype)
+       {
+           case MSGTYPE.INFO:
+               log.Info(msg);
+               break;
+           case MSGTYPE.DEBUG:
+               log.Debug(msg);
+               break;
+           case MSGTYPE.ERROR:
+               log.Error(msg);
+               break;
+       }
+   }
+   private static void LogInSql(string msg, MSGTYPE msgtype)
+   {
+       switch (msgtype)
+       {
+           case MSGTYPE.INFO:
+               sqllog.Info(msg);
+               break;
+           case MSGTYPE.DEBUG:
+               sqllog.Debug(msg);
+               break;
+           case MSGTYPE.ERROR:
+               sqllog.Error(msg);
+               break;
+       }
+   }
+   private static void LogInEvw(string msg, MSGTYPE msgtype)
+   {
+       switch (msgtype)
+       {
+           case MSGTYPE.INFO:
+               evlog.Info(msg);
+               break;
+           case MSGTYPE.DEBUG:
+               evlog.Debug(msg);
+               break;
+           case MSGTYPE.ERROR:
+               evlog.Error(msg);
+               break;
+       }
+   }
 }
 /*
 //HOW TO USE
- MultiLogger.Info("info msg");
- MultiLogger.Debug("Debug msg");
- MultiLogger.Error("Error m");sg
+MultiLogger.Info("info msg");
+MultiLogger.Debug("Debug msg");
+MultiLogger.Error("Error m");sg
 */
- ```
+```
 
 ### References
+
 How to use log4net for ASP
 
 http://www.codeproject.com/KB/aspnet/log4net.aspx

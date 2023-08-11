@@ -1,12 +1,13 @@
 # Email Sender
+
 How to an Send Email
 
 ```cpp
  using System;
-    using System.Net.Mail;    
+    using System.Net.Mail;
     public class EmailSender
     {
-        private SmtpClient Client = new SmtpClient();      
+        private SmtpClient Client = new SmtpClient();
         private System.Net.NetworkCredential smtpcreds = null;
         public EmailSender(string fromEmail, string passoword)
         {
@@ -15,7 +16,7 @@ How to an Send Email
         public void SendEmail(string sendTo, string sendFrom, string Subject, string body)
         {
             try
-            { 
+            {
                 //change Host& Port names Based on SMTP server
                 Client.Host = "Smtp.gmail.com";//1
                 Client.Port = 587;//2
@@ -44,8 +45,8 @@ How to an Send Email
     }
 /*
 //HOW TO USE
-//take  email &  password 
-string fromEmail = "tnvbalaji@gmail.com";
+//take  email &  password
+string fromEmail = "example@gmail.com";
 EmailSender obj = new EmailSender(fromEmail, "fromemailPassword");
 obj.SendEmail(TxtTo.Text, Txtfrom.Text, TxtSubject.Text, TxtMessage.Text);
 */

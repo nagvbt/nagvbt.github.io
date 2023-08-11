@@ -1,27 +1,30 @@
 # LINQ
+
 ## LINQ Statement Format
+
 ```
 Format:
 
 
-from <variable of type held in collection> in <the collection> 
-where <criteria> 
-orderby <criteria>     
+from <variable of type held in collection> in <the collection>
+where <criteria>
+orderby <criteria>
 select <property from selected item>
 ```
 
 ### Example
+
 ```cpp
         void Refresh()
         {
             PubsDatabaseModelClassesDataContext pubs = new PubsDatabaseModelClassesDataContext ();
-            //Balaji: Show authors
+            // Show authors
             var authorQuery = from auth in pubs.authors
                               where auth.state == "CA"
                               orderby auth.au_lname
                               select auth;
             GridView1.DataSource = authorQuery;
-            GridView1.DataBind();   
+            GridView1.DataBind();
         }
         protected void btnInsert_Click(object sender, EventArgs e)
         {
@@ -36,11 +39,11 @@ select <property from selected item>
             auth.contract = false;
             auth.phone = "555-1212";
             auth.zip = "12345";
-           
-            pubs.authors.InsertOnSubmit(auth);                   
+
+            pubs.authors.InsertOnSubmit(auth);
             pubs.SubmitChanges();
             Refresh();
-             
+
         }
         protected void btndelete_Click(object sender, EventArgs e)
         {
@@ -61,14 +64,14 @@ select <property from selected item>
             var authorQuery = from auth in pubs.authors
                               where auth.au_id == "000-00-0005"
                               select auth;
-           
+
             foreach (var auth in authorQuery)
             {
-                auth.au_lname = "Balaji";
+                auth.au_lname = "Rama";
             }
             pubs.SubmitChanges();
             Refresh();
-        }                      
+        }
 ```
 
 ## Linq to Entity
@@ -129,12 +132,12 @@ select <property from selected item>
                 author auth = (from a in pubs.authors
                                   where a.au_id == "000-00-0010"
                                   select a).Single();
-               
-                auth.au_lname = "Balaji";               
+
+                auth.au_lname = "Rama";
                 pubs.SaveChanges();
                 Refresh();
           }
-       
+
         }
 
 ```

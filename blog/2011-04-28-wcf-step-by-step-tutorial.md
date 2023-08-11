@@ -8,10 +8,9 @@ Windows Communication Foundation (WCF) is a framework for building service-orien
 
 WCF is a unified framework which provides :
 
-1. NET Remoting 
-2. Distributed Transactions 
-3. Message Queues and 
+1. NET Remoting
+2. Distributed Transactions
+3. Message Queues and
 4. Web Services into a single service-oriented programming model for distributed computing.
 
-[Read more](/docs/articles/WCF/Tutorial)
-
+[Read more](/docs/Tutorials/WCF)

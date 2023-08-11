@@ -3,7 +3,7 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-const createFeedItems = require("./createFeedItems");
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -64,7 +64,14 @@ const config = {
             description: "The blog of Nag VBT ❤️🌻",
             language: "en",
             copyright: `Copyright © 2023 - ${new Date().getFullYear()} Nag VBT.`,
-            createFeedItems,
+             createFeedItems: async (params) => {
+              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
           },
         },
         theme: {

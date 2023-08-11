@@ -7,7 +7,7 @@ tags: ["Ionic"]
 First go through the below articles  
 [1. How to create a basic ionic3 + mobile application](blog/2018/02/03/ionic-basic-mobile-app)
 
-[2. How to add FontAwesome to ionic3+ apps](http://nagvbt.blogspot.com/2018/04/how-to-add-fontawesome-to-ionic3-apps.html)
+[2. How to add FontAwesome to ionic3+ apps](blog/2018/04/29/ionic-fontawesomes/)
 
 Steps:
 
