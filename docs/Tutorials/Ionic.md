@@ -4,7 +4,7 @@
 
 [1. Create a basic ionic3+ application](blog/2018/02/03/ionic-basic-mobile-app)
 
-[2. Display SideMenu always for Tablets](blog/2018/03/18/ionic-display-the-menu-always-for-tablets)
+[2. Display SideMenu always for Tablets](/blog/2018/03/18/ionic-display-the-menu-always-for-tablets.)
 
 [3. Providers](blog/2018/06/02/how-to-add-providers-in-ionic3-apps/)
 

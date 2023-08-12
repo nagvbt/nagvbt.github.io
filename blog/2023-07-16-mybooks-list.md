@@ -13,6 +13,8 @@ So I got any thought to know how many books I had and how many books I had compl
 
 Most of the columns are self explanatory other are explained below:
 
+<!--truncate-->
+
 ## Shelves
 
 The Shelves has the following to indicate the status of the books.
