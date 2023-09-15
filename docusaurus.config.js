@@ -4,10 +4,9 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Nag VBT",
+  title: "NBT",
   tagline: "Tech Enthusiast",
   favicon: "img/logo.png",
 
@@ -61,11 +60,11 @@ const config = {
           feedOptions: {
             type: ["rss", "atom"],
             title: "I CAN MAKE THIS WORK",
-            description: "The blog of Nag VBT ❤️🌻",
+            description: "The blog of NBT ❤️🌻",
             language: "en",
-            copyright: `Copyright © 2023 - ${new Date().getFullYear()} Nag VBT.`,
-             createFeedItems: async (params) => {
-              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+            copyright: `Copyright © 2023 - ${new Date().getFullYear()} NBT.`,
+            createFeedItems: async (params) => {
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
               return defaultCreateFeedItems({
                 // keep only the 10 most recent blog posts in the feed
                 blogPosts: blogPosts.filter((item, index) => index < 10),
@@ -118,7 +117,7 @@ const config = {
       },
 
       navbar: {
-        title: "Nag VBT",
+        title: "NBT.",
         logo: {
           alt: "Nagvbt Logo",
           src: "img/logo.png",
@@ -242,7 +241,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© 2010 - ${new Date().getFullYear()} Nag VBT`,
+        copyright: `© 2010 - ${new Date().getFullYear()} NBT`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -16,8 +16,9 @@ function HomepageHeader() {
         <section>
           <div className="row">
             <div className="col col--6">
-              <h1>Nag VBT</h1>
-              <p>B.Tech, M.Tech, M.B.A, LL.B</p>
+              <h1>NBT.</h1>
+              <p>M.Tech (ML&DL), M.Tech(Embedded) B.Tech (ECE),</p>
+              <p>M.B.A(Entrepreneurship), LL.B, S.D.B.M.E</p>
               <p className="hero__subtitle">
                 <Typed
                   strings={[
@@ -46,7 +47,7 @@ function HomepageHeader() {
               </div>
               <p className="padding-top--md">
                 Explore <strong>Web</strong>, <strong>Mobile</strong>,{" "}
-                <strong>Microservices</strong>, <strong>Destop</strong>, and{" "}
+                <strong>Microservices</strong>, <strong>Desktop</strong>, and{" "}
                 <strong>AI</strong> architectures
               </p>
             </div>
