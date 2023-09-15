@@ -3,12 +3,12 @@
     <channel>
         <title>I CAN MAKE THIS WORK</title>
         <link>http://nagvbt.com/blog</link>
-        <description>The blog of Nag VBT ❤️🌻</description>
+        <description>The blog of NBT ❤️🌻</description>
         <lastBuildDate>Sun, 16 Jul 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <copyright>Copyright © 2023 - 2023 Nag VBT.</copyright>
+        <copyright>Copyright © 2023 - 2023 NBT.</copyright>
         <item>
             <title><![CDATA[My Books]]></title>
             <link>http://nagvbt.com/blog/2023/07/16/mybooks-list</link>
