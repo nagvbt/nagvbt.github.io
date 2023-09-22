@@ -21,9 +21,11 @@ Code: MR22
 
 **Year - II**
 
-| #   | Semester III | #   | Semester IV |
-| --- | ------------ | --- | ----------- |
-| 1   |              | 1   |             |
+| #   | Semester III                | #   | Semester IV                  |
+| --- | --------------------------- | --- | ---------------------------- |
+| 1   | PROFESSIONAL CORE           | 1   | Startup Internship           |
+| 2   | PROFESSIONAL ELECTIVE       | 2   | Project Development phase- 2 |
+| 3   | Project Development Phase-1 |
 
 ## Semester I
 

@@ -6,7 +6,7 @@
 
 set GIT_USER=nagvbt
 
-:: echo %GIT_USER%
+ echo %GIT_USER%
 
 set USE_SSH=false
 
