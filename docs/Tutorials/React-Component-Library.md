@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # React Component Library Tutorial
 
 ![](../../static/img/nag-rlib.png)

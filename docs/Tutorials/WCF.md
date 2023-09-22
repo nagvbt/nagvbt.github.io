@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # WCF Step by Step Tutorial
 
 ## Basics of WCF

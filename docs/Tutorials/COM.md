@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # COM Step by Step Tutorial
 
 If you are new to WPF ( Component Object model ) please refer the below items.

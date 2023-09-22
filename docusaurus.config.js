@@ -129,7 +129,17 @@ const config = {
             to: "/blog",
             position: "left",
           },
-          { label: "Articles", type: "doc", docId: "intro", position: "left" },
+          { label: "Docs", type: "doc", docId: "intro", position: "left" },
+          {
+            label: "Articles",
+            to: "/docs/category/articles",
+            position: "left",
+          },
+          {
+            label: "Tutorials",
+            to: "/docs/category/tutorials",
+            position: "left",
+          },
 
           //  To open a page from '/src/pages' folder
           { label: "About", to: "about", position: "right" },

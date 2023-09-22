@@ -62,10 +62,11 @@
     transform: rotate(180deg) scale(0.9);
   }
 
-  p a {
+  p a,
+ #at {
     background-color:var(--link-background-color);
-      border-bottom: 1px solid var(--ifm-color-primary-lightest);
-    
-      display: initial;
-      line-height: calc(var(--ifm-font-size-base) + 4px);
+    border-bottom: 1px solid var(--ifm-color-primary-lightest);
+    display: initial;
+    line-height: calc(var(--ifm-font-size-base) + 4px);
   }
+  

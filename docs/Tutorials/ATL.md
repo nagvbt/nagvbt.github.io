@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # ATL Tutorial
 
 If you are new to ATL ( Active Template Library ) please refer the below items.

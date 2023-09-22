@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # ActiveX Control Tutorial
 
 If you are new to ActiveX Control please refer the below items.
