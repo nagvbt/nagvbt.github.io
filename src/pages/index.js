@@ -17,7 +17,7 @@ function HomepageHeader() {
           <div className="row">
             <div className="col col--6">
               <h1>NBT.</h1>
-              <p>M.Tech, B.Tech, MBA, LL.B, SDBME </p>
+              <p>M.Tech, B.Tech, SDBME, MBA, LL.B</p>
               <p className="hero__subtitle">
                 <Typed
                   strings={[
