@@ -9,6 +9,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import { PageHeader } from '@site/src/components/PageHeader';
 import { ReactTyped } from '../../components/ReactTyped';
+import { SocialFollow } from '../../components/SocialFollow';
 
 export default function UI(): JSX.Element {
   return (
@@ -35,6 +36,11 @@ export default function UI(): JSX.Element {
             />
           </h2>
         </div>
+        <div id="SocialFollow">
+          <h1>3. Social Follow</h1>
+          <SocialFollow></SocialFollow>
+        </div>
+        <br />
       </main>
     </Layout>
   );
