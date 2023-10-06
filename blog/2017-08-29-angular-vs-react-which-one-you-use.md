@@ -1,8 +1,10 @@
 ---
 tags: ["Technology Evaluation", "Angular", "React"]
 ---
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
 # Angular Vs React which one you use
+
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 
 Technology evaluation is some times challenging when we have best technologies available. Let us see who wins Angular or React.  
 Features  

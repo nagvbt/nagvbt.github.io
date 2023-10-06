@@ -1,8 +1,11 @@
 ---
 tags: ["Web"]
 ---
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
+
 # Web Frontend Developer in 2023
+
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 
 To become an Web Frontend Developer in 2023 you need to know the following skiils.
 

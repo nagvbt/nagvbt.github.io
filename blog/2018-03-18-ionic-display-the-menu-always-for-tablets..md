@@ -1,8 +1,10 @@
 ---
 tags: ["Ionic"]
 ---
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
 # Display the Menu always for Tablets in Ionic3+
+
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 
 We can use ion-split-pane for showing the UI elements like Menu always in large viewports like Tablets which is common in iPads.  
   

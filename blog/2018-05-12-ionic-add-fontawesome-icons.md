@@ -1,8 +1,10 @@
 ---
 tags: ["Ionic"]
 ---
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
 # Add FontAwesome Icons in the SideMenu of ionic3+ Apps
+
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 
 First go through the below articles  
 [1. How to create a basic ionic3 + mobile application](blog/2018/02/03/ionic-basic-mobile-app)

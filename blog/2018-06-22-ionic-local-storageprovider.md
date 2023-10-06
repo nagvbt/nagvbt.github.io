@@ -1,8 +1,9 @@
 ---
 tags: ["Ionic"]
 ---
+
+# Create & Use a Local StorageProvider in Ionic Apps
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
-# Create & Use a Local StorageProvider in Ionic Apps"
 
 Add a provider to the Ionic3 app refer and follow the below steps  
 [How to Add Providers in Ionic3+](blog/2018/06/02/how-to-add-providers-in-ionic3-apps/)
