@@ -38,21 +38,22 @@ So I got any thought to know how many books I had and how many books I had compl
             <category>Markdown</category>
         </item>
         <item>
-            <title><![CDATA[rn-ts-app]]></title>
+            <title><![CDATA[Creating React Native app with Typescript and expo]]></title>
             <link>http://nagvbt.com/blog/2023/05/06/rn-ts-app</link>
             <guid>http://nagvbt.com/blog/2023/05/06/rn-ts-app</guid>
             <pubDate>Sat, 06 May 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Refer this article for Creating React Native app with Typescript and expo]]></description>
-            <content:encoded><![CDATA[<h1>Creating React Native app with Typescript and expo</h1><p>Refer this <a href="/docs/articles/ReactNative/AppWithTypescript"><strong>article</strong></a> for Creating React Native app with Typescript and expo</p>]]></content:encoded>
+            <description><![CDATA[Refer this article]]></description>
+            <content:encoded><![CDATA[<p>Refer this <a href="/docs/articles/ReactNative/AppWithTypescript"><strong>article</strong></a>
+for Creating React Native app with Typescript and expo</p>]]></content:encoded>
             <category>React Native</category>
         </item>
         <item>
-            <title><![CDATA[web-resources]]></title>
+            <title><![CDATA[Web Frontend Developer in 2023]]></title>
             <link>http://nagvbt.com/blog/2023/04/27/web-resources</link>
             <guid>http://nagvbt.com/blog/2023/04/27/web-resources</guid>
             <pubDate>Thu, 27 Apr 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[To become an Web Frontend Developer in 2023 you need to know the following skiils.]]></description>
-            <content:encoded><![CDATA[<h1>Web Frontend Developer in 2023</h1><p>To become an Web Frontend Developer in 2023 you need to know the following skiils.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="basic-skills">Basic Skills<a href="#basic-skills" class="hash-link" aria-label="Direct link to Basic Skills" title="Direct link to Basic Skills">​</a></h3><p>If you decide to become an web developer. Then you should have understanding of the following technologies.</p><ol><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">HTML: HyperText Markup Language | MDN</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">CSS: Cascading Style Sheets | MDN</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript | MDN</a></li></ol><h3 class="anchor anchorWithStickyNavbar_LWe7" id="advanced-skills">Advanced Skills<a href="#advanced-skills" class="hash-link" aria-label="Direct link to Advanced Skills" title="Direct link to Advanced Skills">​</a></h3><p>Specilaize any one of the UI Frameworks</p><ol><li><a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a></li><li><a href="https://angular.io/" target="_blank" rel="noopener noreferrer">Angular</a></li><li><a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue</a></li></ol><p>I prefer to go with React.</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>To become an Web Frontend Developer in 2023 you need to know the following skiils.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="basic-skills">Basic Skills<a href="#basic-skills" class="hash-link" aria-label="Direct link to Basic Skills" title="Direct link to Basic Skills">​</a></h3><p>If you decide to become an web developer. Then you should have understanding of the following technologies.</p><ol><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">HTML: HyperText Markup Language | MDN</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">CSS: Cascading Style Sheets | MDN</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript | MDN</a></li></ol><h3 class="anchor anchorWithStickyNavbar_LWe7" id="advanced-skills">Advanced Skills<a href="#advanced-skills" class="hash-link" aria-label="Direct link to Advanced Skills" title="Direct link to Advanced Skills">​</a></h3><p>Specilaize any one of the UI Frameworks</p><ol><li><a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a></li><li><a href="https://angular.io/" target="_blank" rel="noopener noreferrer">Angular</a></li><li><a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue</a></li></ol><p>I prefer to go with React.</p>]]></content:encoded>
             <category>Web</category>
         </item>
         <item>
