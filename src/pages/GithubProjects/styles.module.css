@@ -1,0 +1,33 @@
+.github_container {
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.github_container h2 {
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 3rem;
+}
+
+.github_container h3 {
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.github_container section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.github_container section>div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    max-width: 70%;
+}
+

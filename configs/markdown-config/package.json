@@ -1,0 +1,11 @@
+{
+  "name": "@nag/markdown-config",
+  "version": "0.0.1",
+  "main": "index.js",
+  "peerDependencies": {
+     "markdownlint": "^0.29.0"
+  },
+  "author": "nagvbt",
+  "license": "ISC",
+  "devDependencies": {}
+}

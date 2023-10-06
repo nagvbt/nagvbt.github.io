@@ -1,41 +1,87 @@
-# Website
+# nag-website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<!--markdownlint-disable MD029-->
 
-### Installation
+1. Initial template created by docusaurus with below command by docusaurus
+   with below command
 
-```
-$ yarn
-```
+   ```js
+   npx create-docusaurus@latest my-website classic --typescript
+   ```
 
-### Local Development
+2. Add eslint, prettier and husky
 
-```
-$ yarn start
-```
+3. Added markdownlint
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+4. Added Fontawesome icons support
+   [Refer](https://docusaurus.community/knowledge/design/icons/fontawesome/)
 
-### Build
+   - Usage in markdown
 
-```
-$ yarn build
-```
+   ```md
+   <icon icon="fa-brands fa-github" size="lg" /> This is a GitHub icon.
+   ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+   - Usage in React
 
-### Deployment
+   ```tsx
+   // fontawesome icons import
+   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+   import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+   <FontAwesomeIcon icon={faEnvelope} />;
+   ```
 
-Using SSH:
+5. Added PageHeader component
 
-```
-$ USE_SSH=true yarn deploy
-```
+   - Usage in Page
 
-Not using SSH:
+   ```tsx
+   import { PageHeader } from '../../components/PageHeader';
+   <PageHeader title="Disclaimer" subTitle="Iam Not resposible" />;
+   ```
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+6. Blog Sidebar Customization
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+   - To show all blog posts ( default is only resent ones )
+   - Note: don't use `slug` in blog posts.
+
+7. BlogArchive
+
+   - with List of blog posts archived by Year
+
+8. Feed options (RSS, Atom)
+
+   - changes values in docusaurus.config.js
+
+   ```js
+   feedOptions: {
+            type: ['rss', 'atom'],
+            // highlight-next-line
+            title: 'I CAN MAKE THIS WORK',
+            description: 'The blog of Nag',
+   }
+   ```
+
+   - change url in footer
+
+   ```js
+      {
+         label: 'RSS feed',
+         href: 'https://nagvbt.github.io/blog/rss.xml'
+      },
+      {
+         label: 'Atom feed',
+         href: 'https://nagvbt.github.io/blog/atom.xml'
+      }
+
+   ```
+
+9. Youtube Talks Page
+
+- Modify `talks-data.ts` to add more talks
+
+10. Github open source projects showcase
+
+11. Projects Page to show case any project
+
+12. Typed - Integration refer UI page

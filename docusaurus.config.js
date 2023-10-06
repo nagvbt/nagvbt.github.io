@@ -1,56 +1,56 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "NBT",
-  tagline: "Tech Enthusiast",
-  favicon: "img/logo.png",
+  title: 'NBT',
+  tagline: 'Tech Enthusiast',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: "http://nagvbt.com/",
+  url: 'http://nagvbt.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "nagvbt", // Usually your GitHub org/user name.
-  projectName: "nagvbt.github.io", // Usually your repo name.
-  deploymentBranch: "deployment",
+  organizationName: 'nagvbt', // Usually your GitHub org/user name.
+  projectName: 'nagvbt.github.io', // Usually your repo name.
+  deploymentBranch: 'deployment',
 
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
   markdown: {
-    mermaid: true,
+    mermaid: true
   },
-  themes: ["@docusaurus/theme-mermaid"],
+  themes: ['@docusaurus/theme-mermaid'],
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: 'en',
+    locales: ['en']
   },
   presets: [
     [
-      "classic",
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: require.resolve('./sidebars.js')
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
           //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
-          blogSidebarCount: "ALL",
-          blogSidebarTitle: "All Blog Posts",
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All Blog Posts',
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -58,42 +58,42 @@ const config = {
           //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
 
           feedOptions: {
-            type: ["rss", "atom"],
-            title: "I CAN MAKE THIS WORK",
-            description: "The blog of NBT ❤️🌻",
-            language: "en",
+            type: ['rss', 'atom'],
+            title: 'I CAN MAKE THIS WORK',
+            description: 'The blog of NBT ❤️🌻',
+            language: 'en',
             copyright: `Copyright © 2023 - ${new Date().getFullYear()} NBT.`,
             createFeedItems: async (params) => {
               const { blogPosts, defaultCreateFeedItems, ...rest } = params;
               return defaultCreateFeedItems({
                 // keep only the 10 most recent blog posts in the feed
                 blogPosts: blogPosts.filter((item, index) => index < 10),
-                ...rest,
+                ...rest
               });
-            },
-          },
+            }
+          }
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
-      }),
-    ],
+          customCss: require.resolve('./src/css/custom.css')
+        }
+      })
+    ]
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: 'img/docusaurus-social-card.jpg',
 
       algolia: {
         // The application ID provided by Algolia
-        appId: "W4PBBCRQ97",
+        appId: 'W4PBBCRQ97',
 
         // Public API key: it is safe to commit it
-        apiKey: "e7b2813f18e55caef1b2e48d636a4fb4",
+        apiKey: 'e7b2813f18e55caef1b2e48d636a4fb4',
 
-        indexName: "nagvbt",
+        indexName: 'nagvbt',
 
         // Optional: see doc section below
         contextualSearch: true,
@@ -103,72 +103,73 @@ const config = {
 
         // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
         replaceSearchResultPathname: {
-          from: "/docs/", // or as RegExp: /\/docs\//
-          to: "/",
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/'
         },
 
         // Optional: Algolia search parameters
         searchParameters: {},
 
         // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: "search",
+        searchPagePath: 'search'
 
         //... other Algolia params
       },
 
       navbar: {
-        title: "NBT.",
+        title: 'NBT.',
         logo: {
-          alt: "Nagvbt Logo",
-          src: "img/logo.png",
+          alt: 'Nagvbt Logo',
+          src: 'img/logo.png'
         },
         items: [
           // To  open  a folder from ./blog
           {
-            label: "Blog",
-            to: "/blog",
-            position: "left",
+            label: 'Blog',
+            to: '/blog',
+            position: 'left'
           },
-          { label: "Docs", type: "doc", docId: "intro", position: "left" },
+          { label: 'Docs', type: 'doc', docId: 'intro', position: 'left' },
           {
-            label: "Articles",
-            to: "/docs/category/articles",
-            position: "left",
+            label: 'Articles',
+            to: '/docs/category/articles',
+            position: 'left'
           },
           {
-            label: "Tutorials",
-            to: "/docs/category/tutorials",
-            position: "left",
+            label: 'Tutorials',
+            to: '/docs/category/tutorials',
+            position: 'left'
           },
 
           //  To open a page from '/src/pages' folder
-          { label: "About", to: "about", position: "right" },
+          { label: 'About', to: 'about', position: 'right' },
+          { label: 'Projects', to: 'githubprojects', position: 'right' },
           {
-            label: "Terms",
-            position: "right",
+            label: 'Terms',
+            position: 'right',
             items: [
-              { label: "Terms of Use >", to: "terms" },
-              { label: "Disclaimer >", to: "disclaimer" },
-            ],
+              { label: 'Terms of Use >', to: 'terms' },
+              { label: 'Disclaimer >', to: 'disclaimer' }
+            ]
           },
           // { to: "projects", label: "Projects", position: "right" },
           {
-            label: "Other",
-            position: "right",
+            label: 'Other',
+            position: 'right',
             items: [
-              { label: "Blog Archive", to: "BlogArchive" },
-              { label: "Tags / Categories", href: "/blog/tags" },
-              { label: "Books", to: "books" },
+              { label: 'Blog Archive', to: 'BlogArchive' },
+              { label: 'Tags / Categories', href: '/blog/tags' },
+              // { label: "Books", to: "books" },
               {
-                label: "RSS feed",
-                href: "https://nagvbt.github.io/blog/rss.xml",
+                label: 'RSS feed',
+                href: 'https://nagvbt.github.io/blog/rss.xml'
               },
               {
-                label: "Atom feed",
-                href: "https://nagvbt.github.io/blog/atom.xml",
-              },
-            ],
-          },
+                label: 'Atom feed',
+                href: 'https://nagvbt.github.io/blog/atom.xml'
+              }
+            ]
+          }
 
           // To open ouside link
           // {
@@ -176,91 +177,91 @@ const config = {
           //   label: "GitHub",
           //   position: "right",
           // },
-        ],
+        ]
       },
       footer: {
-        style: "dark",
+        style: 'dark',
         links: [
           {
-            title: "DOCS",
+            title: 'DOCS',
             items: [
-              { label: "Articles", to: "/docs/category/articles" },
-              { label: "Blog", to: "/blog" },
-            ],
+              { label: 'Articles', to: '/docs/category/articles' },
+              { label: 'Blog', to: '/blog' }
+            ]
           },
 
           {
-            title: "MISC",
+            title: 'MISC',
             items: [
               {
-                label: "Blog Archive",
-                to: "BlogArchive",
+                label: 'Blog Archive',
+                to: 'BlogArchive'
               },
               {
-                label: "Blog tags / Categories",
-                href: "/blog/tags",
+                label: 'Blog tags / Categories',
+                href: '/blog/tags'
               },
               {
-                label: "RSS feed",
-                href: "https://nagvbt.github.io/blog/rss.xml",
+                label: 'RSS feed',
+                href: 'https://nagvbt.github.io/blog/rss.xml'
               },
               {
-                label: "Atom feed",
-                href: "https://nagvbt.github.io/blog/atom.xml",
-              },
-            ],
+                label: 'Atom feed',
+                href: 'https://nagvbt.github.io/blog/atom.xml'
+              }
+            ]
           },
 
           {
-            title: "EXPLORE MORE",
+            title: 'EXPLORE MORE',
             items: [
               {
-                label: "Books",
-                to: "books",
+                label: 'Books',
+                to: 'books'
               },
               {
-                label: "Disclaimer",
+                label: 'Disclaimer',
 
-                to: "disclaimer",
+                to: 'disclaimer'
               },
               {
-                label: "Terms of use",
-                to: "terms",
-              },
-            ],
+                label: 'Terms of use',
+                to: 'terms'
+              }
+            ]
           },
           {
-            title: "FIND ME",
+            title: 'FIND ME',
             items: [
               {
-                label: "Linkedin",
-                href: "https://www.linkedin.com/in/nagvbt/",
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/nagvbt/'
               },
               {
-                label: "GitHub",
-                href: "https://github.com/nagvbt",
+                label: 'GitHub',
+                href: 'https://github.com/nagvbt'
               },
               {
-                label: "Facebook",
-                href: "https://www.facebook.com/people/Nag-Vbt/100023898528104/",
+                label: 'Facebook',
+                href: 'https://www.facebook.com/people/Nag-Vbt/100023898528104/'
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/NagVbt",
-              },
-            ],
-          },
+                label: 'Twitter',
+                href: 'https://twitter.com/NagVbt'
+              }
+            ]
+          }
         ],
-        copyright: `© 2010 - ${new Date().getFullYear()} NBT`,
+        copyright: `© 2010 - ${new Date().getFullYear()} NBT`
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        darkTheme: darkCodeTheme
       },
       mermaid: {
-        theme: { light: "neutral", dark: "forest" },
-      },
-    }),
+        theme: { light: 'neutral', dark: 'forest' }
+      }
+    })
 };
 
 module.exports = config;
