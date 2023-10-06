@@ -1,10 +1,12 @@
 ---
 tags: ["MFC"]
 ---
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
 # Centering an Application Frame Window to desktop
 
-To center Application's Frame Window call CenterWindow() in MainFrame's OnCreate() fucntion.
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
+To center Application's Frame Window call CenterWindow() in MainFrame's OnCreate() function.
 
 See the code snippet below
 

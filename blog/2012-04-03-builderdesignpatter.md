@@ -3,7 +3,9 @@ tags: ["C++", "Design Patterns"]
 ---
 
 # 'Builder' Design Pattern using simple program
+
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
 **Definition:**
 
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.

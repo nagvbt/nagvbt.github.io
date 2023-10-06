@@ -1,8 +1,10 @@
 ---
 tags: ["C"]
 ---
+
+# Write a code to Outputs its own code
+
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
-# Write a code to Outputs its own code"
 
 __FILE__ macro  is a Predefined Macros : The name of the current source file.
 FILE expands to a string surrounded by double quotation marks.

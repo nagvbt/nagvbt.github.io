@@ -1,8 +1,11 @@
 ---
 tags: ["MFC"]
 ---
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
+
 # Limiting the maximum and minimum sizing  of a Frame Window
+
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 
 To limit the maximum and minimum size of a Frame Window.
 

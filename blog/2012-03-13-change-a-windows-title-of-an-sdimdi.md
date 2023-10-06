@@ -1,8 +1,10 @@
 ---
 tags: ["MFC"]
 ---
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
 # Change a Window's title of an SDI/MDI Application
+
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 
 Call _**SetWindowText**_ method by passing required title as a string in the CWinApp::InitInstance() method after ProcessShellCommand() method. Please see the below code snippet
 

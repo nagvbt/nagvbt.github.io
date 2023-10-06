@@ -1,9 +1,9 @@
 
 # Quick Tips
 
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
-
 ## Creating an SDI/MDI application that is initially maximized
+
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 
  To Creating an SDI/MDI application that is initially maximized Pass `SW_SHOWMAXIMIZED` as paramater to `m_pMainWnd->ShowWindow()` in the  in the `CWinApp::InitInstance()`
 
