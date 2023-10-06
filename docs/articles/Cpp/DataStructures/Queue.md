@@ -10,66 +10,66 @@ using namespace std;
 class Queue
 {
 private:
-	int arr[MAX];
-	int front, rear;
+ int arr[MAX];
+ int front, rear;
 
 public:
-	Queue()
-	{
-		front = -1;
-		rear = -1;
+ Queue()
+ {
+  front = -1;
+  rear = -1;
 
-	}
+ }
 
-	void Add(int item)
-	{
-		if (rear == MAX - 1)
-		{
-			cout << endl << "Queue is full";
-			return;
-		}
+ void Add(int item)
+ {
+  if (rear == MAX - 1)
+  {
+   cout << endl << "Queue is full";
+   return;
+  }
 
-		rear++;
-		arr[rear] = item;
+  rear++;
+  arr[rear] = item;
 
-		if (front == -1)
-			front = 0;
-	}
+  if (front == -1)
+   front = 0;
+ }
 
-	int Delete()
-	{
-		if (front == -1)
-		{
-			cout << endl << "Queue is empty";
-			return NULL;
-		}
+ int Delete()
+ {
+  if (front == -1)
+  {
+   cout << endl << "Queue is empty";
+   return NULL;
+  }
 
-		int data = arr[front];
+  int data = arr[front];
 
-		if (front == rear)
-			front = rear = -1;
-		else
-			front++;
+  if (front == rear)
+   front = rear = -1;
+  else
+   front++;
 
-		return data;
-	}
+  return data;
+ }
 };
 
 int main()
 {
-	Queue q;
+ Queue q;
 
-	q.Add(1);
-	q.Add(2);
-	q.Add(3);
+ q.Add(1);
+ q.Add(2);
+ q.Add(3);
 
-	int i = q.Delete();
-	cout << endl << "Item deleted = " << i << endl;
+ int i = q.Delete();
+ cout << endl << "Item deleted = " << i << endl;
 
-	i = q.Delete();
-	cout << endl << "Item deleted = " << i << endl;
+ i = q.Delete();
+ cout << endl << "Item deleted = " << i << endl;
 
-	return 0;
+ return 0;
 }
 
 /*

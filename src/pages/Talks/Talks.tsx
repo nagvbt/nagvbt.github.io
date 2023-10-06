@@ -8,7 +8,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import styles from './styles.module.css';
-import talks from './talks-data';
+import data from './data.json';
 import { PageHeader } from '@site/src/components/PageHeader';
 import { Talk } from '@site/src/components/Talk';
 
@@ -20,7 +20,7 @@ export default function Talks(): JSX.Element {
         <section className={styles.features}>
           <div className="container">
             <div className="row">
-              {talks.map((project) => (
+              {data.talks.map((project) => (
                 <Talk
                   title={project.title}
                   id={project.id}

@@ -9,8 +9,20 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import styles from './styles.module.css';
 import { PageHeader } from '../../components/PageHeader';
-import { YearWithPosts } from './YearWithPosts';
-import { YearPostsProps, BlogPost } from './types';
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+
+type BlogPost = {
+  title: string;
+  permalink: string;
+  date: string;
+  formattedDate: string;
+};
+
+type YearPostsProps = {
+  year: string;
+  posts: BlogPost[];
+};
 
 export default function BlogArchive(): JSX.Element {
   return (
@@ -64,3 +76,20 @@ const yearsOfPosts: YearPostsProps[] = Array.from(postsByYear, ([year, posts]) =
   year,
   posts
 }));
+
+function YearWithPosts({ year, posts }: YearPostsProps): React.JSX.Element {
+  return (
+    <div className={clsx('col col--6', styles.feature)}>
+      <h3>{year}</h3>
+      <ul>
+        {posts.map((post) => (
+          <li key={post.date}>
+            <Link to={post.permalink}>
+              {post.title} [{post.formattedDate}]
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}

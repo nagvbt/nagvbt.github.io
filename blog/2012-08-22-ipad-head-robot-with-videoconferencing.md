@@ -3,7 +3,7 @@ tags: ["Technology"]
 ---
 
 # iPad head Robot with videoconferencing
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 Double Robotics is an low-cost telepresence robot which can be used in education, museums, health care, Offices, Retail stores, Families.
 
 "Double allows you to move around and join people in _any_ location, so you can participate in the conversations that happen in the lunch room or at the water fountain" Double Robotics said on its website [www.doublerobotics.com](http://www.doublerobotics.com/).

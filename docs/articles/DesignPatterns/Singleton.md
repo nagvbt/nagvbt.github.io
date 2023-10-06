@@ -1,5 +1,5 @@
 # Singleton [C#]
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 ```cpp
 using System;
 namespace CSharp

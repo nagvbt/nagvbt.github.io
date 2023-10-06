@@ -3,7 +3,7 @@ sidebar_position: 8
 ---
 
 # Arrays
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 ## 1. Define Array ?
 
 Definition: An Array is a collection of variables of the same data type that are referenced by a common name.
@@ -80,7 +80,7 @@ Example:
 int matrix[4][2];
 ```
 
-**Declaration Assigning Values Syntax: **
+**Declaration Assigning Values Syntax:**
 
 ```c
 dataType twoDimensional[rowSize][columnSize] = {comma separated values};

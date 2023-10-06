@@ -2,6 +2,7 @@
 tags: ["Tools"]
 ---
 
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 # Visual Studio 2013 Update 1 for download
 
 In a [blog](http://blogs.msdn.com/b/somasegar/archive/2014/01/20/visual-studio-2013-update-1.aspx) post, S. Somasegar, Corporate Vice President of Microsoft Developer Division clearly mentioned that: “This is a targeted update, addressing some key areas of customer feedback since the Visual Studio 2013 release. For example, we heard your feedback about running Visual Studio in environments without IE10+, and have made several improvements to this experience in Update 1.” **New features for developers include:**

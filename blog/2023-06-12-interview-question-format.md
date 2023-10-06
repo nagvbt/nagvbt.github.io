@@ -3,7 +3,7 @@ tags: ["Markdown"]
 ---
 
 # Interview Questions Markdown (format)
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 Today I had researched on writing the markdown file for the FAQ type of Data. You can find the example below with the source code.
 
 ## <!-- truncate -->

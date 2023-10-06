@@ -1,11 +1,12 @@
 ---
 tags: ["Win32"]
 ---
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 # Check whether a given file exists in the given path
+
 Using Win32 API FindFirstFile we can find whether a given file exists in the given path (szFilePath) or not. BOOL IsFileExists( LPCTSTR szFilePath) method shown below serves our purpose.
 
-```cpp 
+```cpp
 BOOL IsFileExists( LPCTSTR szFilePath) // szFilePath in | file path 
 { 
   BOOL bFileExists; 

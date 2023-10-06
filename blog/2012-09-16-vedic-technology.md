@@ -3,7 +3,8 @@ tags: [Technology]
 
 ---
 
-## Vedic Technology 
+# Vedic Technology
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052 MD041-->
 Greatness Of The Vedic Vedas Knowledge Perfect Science: vedic cosmology
 
 _6 parts totaling about 18minutes_

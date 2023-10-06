@@ -1,7 +1,7 @@
 ---
 tags: ["MFC"]
 ---
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 # Programmatically terminate MFC application
 
 MFC does not provide a public function to exit an application. The following method shutdowns the Application. The method simply sends a WM_CLOSE message to application's mainframe window.

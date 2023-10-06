@@ -1,5 +1,5 @@
 # VC 6.0 to VC 8.0 Conversion Guide
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 ## error C2152: '=' : pointers to functions with different attributes db
 
 ```cpp
@@ -60,7 +60,7 @@ As MFC throws Exceptions as pointers to exception as there was no such pointer t
 Catch(CEXception *e)
 ```
 
-## error C2440:
+## error C2440
 
 ##### Error 1 - 'static_cast' : cannot convert from 'BOOL (\_\_thiscall CSystemSetupDlg::\* )(void)' to 'AFX_PMSG'
 
@@ -137,11 +137,11 @@ MessageBox(NULL,"success","Job Transfer",MB_OK);
 
 MessageBox(NULL,\_T("success"),\_T("Job Transfer"),MB_OK);
 
-##### Error 7 - error C2664: 'void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t _,...)' : cannot convert parameter 1 from 'const char [4]' to 'const wchar_t _'
+##### Error 7 - error C2664: 'void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t_,...)' : cannot convert parameter 1 from 'const char [4]' to 'const wchar_t_'
 
 CString str ; str.Format("%ld",lngError) ;
 
-**Solution: **
+**Solution:**
 
 CString str ; str.Format(\_T("%ld"),lngError) ;
 
@@ -163,15 +163,15 @@ LPCSTR strval = W2A(bstrValue);
 class A
 {
 public:
-	int Test(void);
+ int Test(void);
 };
 
 void fun(int (A::*test) (void));
 
 int main()
 {
-	fun(A::Test);//C3867 error in VC
-	return 0;
+ fun(A::Test);//C3867 error in VC
+ return 0;
 }
 ```
 

@@ -3,6 +3,7 @@ tags: ["Tools"]
 ---
 
 # Visual Studio Code Theme customization
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052 MD045-->
 
 My favorite source code editor is Visual Studio Code. Every day I use it for my web application, PWA ( progressive web application) and Ionic Mobile apps development. It is a light weight open source code editor developed by Tech giant Microsoft.
 

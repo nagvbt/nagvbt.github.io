@@ -2,7 +2,7 @@
 tags: ["Tools"]
 ---
 
-#  Get back the Recent Documents Menu in Windows 7 
+# Get back the Recent Documents Menu in Windows 7
 
 Here is how I got it back:
 

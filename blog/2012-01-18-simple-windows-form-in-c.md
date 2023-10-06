@@ -2,11 +2,11 @@
 tags: [CSharp]
 ---
 
-# Simple Windows Form in C#
+# Simple Windows Form in C #
 
 Minimal code to write a c# windows form:
 
-```cpp 
+```cpp
 using System.Windows.Forms;
 
 namespace ConsoleFormApp { 

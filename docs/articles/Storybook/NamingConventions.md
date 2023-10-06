@@ -1,5 +1,5 @@
 # Naming Conventions
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040-->
 ## Naming Convention for the Components
 
 1. Use the "{Component name}Wrapper.JSX" for the Base Component. The Base components like ButtonWrapper will not be used directly in any of the component.

@@ -3,10 +3,10 @@ tags: ["C++"]
 ---
 
 # Why size of an empty C++ class not zero?
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 To ensure that the addresses of two different objects will be different C++ compiler will allocate one byte of memory. The below sample code explains clearly. Because of this behaviour the addresses of class X objects are not equal even though there is no data present in the class X.
 
-```cpp 
+```cpp
 class X {
 
 };

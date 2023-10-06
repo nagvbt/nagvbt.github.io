@@ -3,7 +3,7 @@ tags: ["MFC"]
 ---
 
 # How to Expand and Contract a MFC Dialog ?
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 This article gives the ability to make MFC dialogs expand or contract. The CExpandContractHelper simplifies the process to  expand or contract MFC Dialog.
 
 **Steps to use CExpandContractHelper :**

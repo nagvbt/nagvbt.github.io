@@ -8,54 +8,54 @@
 class CSalary
 {
 private:
-	float mfltbasic;
+ float mfltbasic;
  
 public:
-	void Display();
-	void SetBasic( );
-	float CalGSal(float *da, float *hra, float *con);
-	 
+ void Display();
+ void SetBasic( );
+ float CalGSal(float *da, float *hra, float *con);
+  
 };
  
 float CSalary::CalGSal(float *da, float *hra, float *con)
 {
-	float Gross;
-	if(mfltbasic>=5000)
-	{
-		*da=mfltbasic*1.1; //110%
-		*hra=mfltbasic*.2;
-		*con=500;
-	}
-	Gross=(mfltbasic+*da+*hra+*con);
+ float Gross;
+ if(mfltbasic>=5000)
+ {
+  *da=mfltbasic*1.1; //110%
+  *hra=mfltbasic*.2;
+  *con=500;
+ }
+ Gross=(mfltbasic+*da+*hra+*con);
  
-	return Gross;
+ return Gross;
 }
  
 void CSalary::Display()
 {
-	float da, hra, con, Gross;
-	cout<<"    Basic salary :"<<mfltbasic<<endl;
+ float da, hra, con, Gross;
+ cout<<"    Basic salary :"<<mfltbasic<<endl;
  
-	Gross =CalGSal(&da, &hra, &con);
+ Gross =CalGSal(&da, &hra, &con);
  
-	cout<<"    Hra :"<<hra<<endl;
-	cout<<"    Da :"<<da<<endl;
-	cout<<"    Conveyance :"<<hra<<endl;
-	cout<<"    --------------------"<<endl;
-	cout<<"    Gross Salary :"<<Gross<<endl;
+ cout<<"    Hra :"<<hra<<endl;
+ cout<<"    Da :"<<da<<endl;
+ cout<<"    Conveyance :"<<hra<<endl;
+ cout<<"    --------------------"<<endl;
+ cout<<"    Gross Salary :"<<Gross<<endl;
 }
  
 void CSalary::SetBasic()
 {
-	cout << "Enter Basic Salary :";
-	cin>>mfltbasic;
+ cout << "Enter Basic Salary :";
+ cin>>mfltbasic;
 }
  
 void main()
 {
-	CSalary sal;
-	sal.SetBasic();
-	sal.Display();
+ CSalary sal;
+ sal.SetBasic();
+ sal.Display();
 }
 
 /*

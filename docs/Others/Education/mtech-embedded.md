@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # M.Tech - Embedded Systems
 
+<!--markdownlint-disable MD013 MD029 MD036 MD024-->
+
 Master of Technology in Embedded Systems
 
 Code: R22
@@ -108,10 +110,10 @@ Building and Debugging: Bootloaders, Kernel, Root file system, Device Tree
 2. Karim Yaghmour, “Building Embedded Linux Systems”, O'Reilly & Associates
 3. P Raghvan, Amol Lad, Sriram Neelakandan, “Embedded Linux System Design and Development”, Auerbach Publications
 
-### Reference Books:
+### Reference Books
 
-4.  Christopher Hallinan, “Embedded Linux Primer: A Practical Real-World Approach”, Prentice Hall, 2nd Edition, 2010.
-5.  Derek Molloy, “Exploring Beagle Bone: Tools and Techniques for Building with Embedded Linux”, Wiley, 1st Edition, 2014
+4. Christopher Hallinan, “Embedded Linux Primer: A Practical Real-World Approach”, Prentice Hall, 2nd Edition, 2010.
+5. Derek Molloy, “Exploring Beagle Bone: Tools and Techniques for Building with Embedded Linux”, Wiley, 1st Edition, 2014
 
 ### WIRELESS SENSOR NETWORKS
 
@@ -141,7 +143,7 @@ constraints, Operating systems and execution environments, introduction to TinyO
 1. Ad-Hoc Wireless Sensor Networks- C. Siva Ram Murthy,B. S. Manoj, Pearson
 2. Principles of Wireless Networks – Kaveh Pah Laven and P. Krishna Murthy, 2002, PE
 
-### Reference Books:
+### Reference Books
 
 1. Wireless Digital Communications – Kamilo Feher, 1999, PHI.
 2. Wireless Communications-Andrea Goldsmith, 2005 Cambridge University Press.
@@ -186,7 +188,7 @@ Intel Architecture: Intel IA- 64 ILP in embedded and mobile markets Fallacies an
 1. John L. Hennessy, David A. Patterson, “Computer Architecture: A Quantitative Approach”, 3rd
    Edition, Elsevier.
 
-### Reference Books:
+### Reference Books
 
 1. John P. Shen and Miikko H. Lipasti, “Modern Processor Design: Fundamentals of Super Scalar
    Processors”, 2002, Beta Edition, McGraw-Hill
@@ -287,7 +289,7 @@ Case Studies, IPR and IITs.
 1. Stuart Melville and Wayne Goddard, “Research methodology: an introduction for science & engineering students’”
 2. Wayne Goddard and Stuart Melville, “Research Methodology: An Introduction”
 
-### Reference Books:
+### Reference Books
 
 1. Ranjit Kumar, 2nd Edition, “Research Methodology: A Step by Step Guide for beginners”
 2. Halbert, “Resisting Intellectual Property”, Taylor & Francis Ltd ,2007.
@@ -347,7 +349,7 @@ CortexM4-Biquad filter, Fast Fourier transform, FIR filter.
 1. Andrew N. SLOSS, Dominic SYMES, Chris WRIGHT- ARM System Developer’s Guide Designing and Optimizing System Software, Elsevier Publications, 2004.
 2. Joseph Yiu, The Definitive Guide to ARM Cortex-M3 and Cortex-M4 Processors by Elsevier Publications, 3rd Ed.,
 
-### Reference Books:
+### Reference Books
 
 1. Steve Furber - Arm System on Chip Architectures –Edison Wesley, 2000.
 2. David Seal - ARM Architecture Reference Manual, Edison Wesley, 2000.
@@ -388,7 +390,7 @@ LTI System: Design of full order and reduced observers, Design of observer-based
 2. M. Gopal, “Digital Control Engineering”, Wiley Eastern, 1988.
 3. V, I, George and C. P. Kurian, Digital Control Systems, CENGAGE Learning, 2012
 
-### Reference Books:
+### Reference Books
 
 1. G. F. Franklin, J. D. Powell and M. L. Workman, “Digital Control of Dynamic Systems”, Addison-Wesley, 1998.
 2. B.C. Kuo, “Digital Control System”, Holt, Rinehart and Winston, 1980.
@@ -425,7 +427,7 @@ IoT, Healthcare IoT, Smart cities, Transportation and logistics.
 2. David Hanes, Gonzalo salgueiro, Patrick Grossetete, Rob barton, Jerome henry “IoT
    Fundamentals Networking technologies, protocols, and use cases for IoT”, Cisco Press
 
-### Reference Books:
+### Reference Books
 
 1. Cuno pfister, “Getting started with the internet of things”, O Reilly Media, 2011
 2. Francis daCosta, “Rethinking the Internet of Things: A Scalable Approach to Connecting Everything”, 1 st Edition, Apress Publications.
@@ -470,7 +472,7 @@ co-simulation, the cosyma system and lycos system.
 
 1. Hardware / Software Co- Design Principles and Practice – Jorgen Staunstrup, Wayne Wolf – Springer, 2009.
 
-### Reference Books:
+### Reference Books
 
 1. Hardware / Software Co- Design - Giovanni De Micheli, Mariagiovanna Sami, Kluwer Academic Publishers, 2002.
 2. A Practical Introduction to Hardware/Software Co-design -Patrick R. Schaumont, Springer, 2010

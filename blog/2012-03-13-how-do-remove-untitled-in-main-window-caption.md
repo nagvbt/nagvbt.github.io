@@ -1,7 +1,7 @@
 ---
 tags: ["MFC"]
 ---
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 # How do remove 'Untitled' in main window caption
 
 To remove 'Untitled' in main window caption
@@ -26,4 +26,3 @@ cs.style &amp;= ~FWS\_ADDTOTITLE ;
 return TRUE;
 }
 ```
-

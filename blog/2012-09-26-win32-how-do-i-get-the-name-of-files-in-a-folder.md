@@ -1,17 +1,16 @@
 ---
 tags: ["Win32"]
 ---
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 # Win32: How do I get the name of files in a folder ?
 
 To get the name of files in a folder,
 
 1. call the **FindFirstFile** function to open a search handle and get information about the first file that the file system find in the folder.
-    
-2. call the **FindNextFile** function to continue listing files from a previous call to FindFirstFile.
-    
 
-```c 
+2. call the **FindNextFile** function to continue listing files from a previous call to FindFirstFile.
+
+```c
 WIN32_FIND_DATA FindFileData; 
 HANDLE hFind; 
 TCHAR *FilePathBuff = L"C:RequiredFolder"; 

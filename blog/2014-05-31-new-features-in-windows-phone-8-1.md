@@ -3,11 +3,10 @@ tags: ["Windows Phone"]
 ---
 
 # New Features in Windows Phone 8.1
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 ## **For Users**
 
-
--  Customize Start screen: Customize your Start screen background with a favourite picture or one of the supplied options. Users can configure three column start screen which is available on all phones. Start screen backup and restore feature is also available.
+- Customize Start screen: Customize your Start screen background with a favourite picture or one of the supplied options. Users can configure three column start screen which is available on all phones. Start screen backup and restore feature is also available.
 
 - PERSONAL Digital Assistant CORTANA: CORTANA learns about you and your interests Enables CORTANA to be proactive and helpful throughout the day
 - Action center to quick launch settings and view notifications

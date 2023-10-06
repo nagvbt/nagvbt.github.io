@@ -3,7 +3,7 @@ tags: ["Tools"]
 ---
 
 # How to make Visual Studio Run Faster
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 1. Make sure the latest service pack for Visual Studio is installed.
 2. Disable Navigation Bar – Go to Tools > Options > Text Editor > C# or All Languages and uncheck **_Navigation bar_**.
 3. Turn off animations – Go to Tools > Options > Environment and uncheck **_Animate environment tools_.**
@@ -11,7 +11,6 @@ tags: ["Tools"]
 5. Turn off Track Changes – Go to Tools > Options > Text Editor and uncheck **_Track changes_**. This will reduce overhead and speeds up IDE response.
 6. Turn off HTML Validation – Go to Tools > Options > Text Editor > HTML > Validation and uncheck **_Show errors_**.
 7. Turn off Start Page – Go to Tools > Options > Environment > Startup and select **_Load last loaded solution_** from the _At **Startup**_ dropdown. This simply makes Visual Studio load faster when opening the application.
-
 
 ***NOTE:***
 

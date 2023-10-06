@@ -3,6 +3,8 @@ title: "Ionic 2 Tutorial"
 tags: ["Ionic"]
 ---
 
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD025 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
 # Ionic 2 Tutorial
 
 ## Introduction
@@ -40,6 +42,7 @@ _**ionic start sampleApp --v2**_
 5. To know the environment details use **`ionic info`**  
 
 Your system information:  
+
 ```  
 Cordova CLI: 6.1.1  
 Gulp version: CLI version 3.9.1  
@@ -116,16 +119,17 @@ export class AppModule {}
 ## Navigate to DemoPage
 
 1. Add button on Home.html
-    
+
     `Show DemoPage`
-    
+
 2. Add the code to navigate in the HomePage class
+
     ```js
      goToDemoPage(){  
      this.navCtrl.push(DemoPage);  
      }
     ```
-    
+
 3. Launch the app and click on the 'SHOW DEMOPAGE' Button you will be navigated to the DemoPage
 
 Bingo !!! you created a new page and plugged in app and implemented the navigation.

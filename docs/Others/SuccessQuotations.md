@@ -1,5 +1,7 @@
 # Success Quotations
 
+<!--markdownlint-disable MD013-->
+
 1. Always bear in mind that your own resolution to succeed is more important than any other. - Abraham Lincoln (16th President of the United States)
 
 2. Coming together is a beginning; keeping together is progress; working together is success. - Henry Ford (Founder of the Ford Motor Company)
@@ -211,4 +213,4 @@
 
 108. Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved. - Helen Keller ( American author, political activist, and lecturer. She was the first deafblind person to earn a Bachelor of Arts degree.)
 
-http://www.brainyquote.com/quotes/topics/topic_success.html (PG No:1,2,3,4,10,15)
+<http://www.brainyquote.com/quotes/topics/topic_success.html> (PG No:1,2,3,4,10,15)

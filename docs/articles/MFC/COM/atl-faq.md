@@ -1,7 +1,7 @@
 # ATL, ActiveX FAQ
 
 ## ATL
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 1. What is ATL?
 2. Versions of ATL?
 3. Features of ATL?

@@ -5,15 +5,16 @@ categories:
   - "Design Patterns"
 tags: ["Design Patterns"]
 ---
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 
 # All About Design Patterns
 
-## Definition: 
+## Definition
 
 Design Patterns represent solutions to problems that arise when developing software within a particular context.
 Patterns help you learn from other's successes, instead of your own failures. Mark Johnson (cited by Bruce Eckel)
 
-## Types of Design Patterns 
+## Types of Design Patterns
 
 There are three types of design patterns
 

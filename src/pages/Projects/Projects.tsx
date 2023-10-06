@@ -29,7 +29,7 @@ import { faChrome } from '@fortawesome/free-brands-svg-icons';
 import { PageHeader } from '@site/src/components/PageHeader';
 
 import styles from './styles.module.css';
-import projects from './data';
+import projects from '../../data/project-data';
 
 function CategoryIcon({ category, size = '1x' }) {
   let faIcon;

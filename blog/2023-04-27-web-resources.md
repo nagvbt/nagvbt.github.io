@@ -1,19 +1,21 @@
 ---
 tags: ["Web"]
 ---
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 # Web Frontend Developer in 2023
 
 To become an Web Frontend Developer in 2023 you need to know the following skiils.
 
 ### Basic Skills
+
 If you decide to become an web developer. Then you should have understanding of the following technologies.
+
 1. [HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
 2. [CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
-3. [JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)   
+3. [JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 <!--truncate-->
-   
+
 ### Advanced Skills
 
 Specilaize any one of the UI Frameworks

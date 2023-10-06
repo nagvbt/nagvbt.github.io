@@ -3,9 +3,9 @@ tags: ["Ionic"]
 ---
 
 # Temporary Storage which persists only when the app is live for Ionic3+ Apps
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 AppStateProvider - is developed for Temporary Storage which persists only when the app is live once the app is closed the AppState data will be destroyed. For small data to save permanently use StorageProvider which is a local Storage.  
-**app-state.ts**   
+**app-state.ts**
 
 ```js
 import { Injectable } from '@angular/core';  
@@ -92,6 +92,7 @@ export class AppStateProvider {
 AppStateDTO - used to store the values that are required for the App  
   
 **app-state-dto.ts**  
+
 ```js
 /\*\*   
  \* Class representing a AppStateDTO  
@@ -110,5 +111,6 @@ export class AppStateDTO {
  IS_MOBILE: boolean;  
 }  
 ```
+
 **FILES:**  
 Refer the code files in [Github](https://github.com/nagvbt/IonicTemplate/commit/9ce7e8458cb06328eb4673e1d79f3d293d75c2ea)

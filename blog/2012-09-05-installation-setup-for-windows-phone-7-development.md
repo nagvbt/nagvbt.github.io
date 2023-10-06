@@ -3,7 +3,7 @@ tags: ["Windows Phone"]
 ---
 
 # Installation Setup for Windows Phone 7  Development
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 1. Install Visual Studio 2010 Professional or  Visual Studio 2010 Ultimate
 
 2. Install Microsoft VisualStudio 2010 ServicePack1 [](http://http//www.microsoft.com/en-in/download/details.aspx?id=23691 "SP1 Download Link")[http://www.microsoft.com/en-in/download/details.aspx?id=23691](http://www.microsoft.com/en-in/download/details.aspx?id=23691)

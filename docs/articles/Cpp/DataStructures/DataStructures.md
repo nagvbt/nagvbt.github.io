@@ -3,15 +3,15 @@ sidebar_position: 5
 ---
 
 # Data Structures
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 ### 1.What is a Data Structures ?
 
 Data structure is a particular way of storing and organizing data in a computer so that it can be used efficiently.
 
 ### 2.What are the types of Data Structures ?
 
-1.Fixed-Size Data structures: such as one-dimensional arrays, two-dimensional arrays and structs. 
-                   
+1.Fixed-Size Data structures: such as one-dimensional arrays, two-dimensional arrays and structs.
+
 2.Dynamic data structures: grow and shrink during execution.
 
 ### 3.What are the types of Dynamic Data Structures ?
@@ -20,9 +20,10 @@ Linear data structures and Nonlinear data structures
 
 ### 4.Define Linear data structures ?
 
-The data items are arranged in a sequential structure. Example 
- 1. Linked lists 
- 2. Stacks 
+The data items are arranged in a sequential structure. Example
+
+ 1. Linked lists
+ 2. Stacks
  3. Queues
 
 ### 5.What is a Linked  List ?

@@ -1,5 +1,5 @@
 # Splitter Window
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 Definition: A splitter window resides within the frame window. It is divided into several panes, each pane canhave a different size. Splitter window provides the user with several different views for monitoring
 data contained in the document at the same time.
 
@@ -36,24 +36,24 @@ following is the format of this function:
 2.2 CSplitterWnd::CreateView(…).
 
 ```cpp
-	BOOL CSplitter.CreateView
-	(
-	int row, int col,
-	CRuntimeClass *pViewClass, SIZE sizeInit, CCreateContext *pContext
-	);
+ BOOL CSplitter.CreateView
+ (
+ int row, int col,
+ CRuntimeClass *pViewClass, SIZE sizeInit, CCreateContext *pContext
+ );
 ```
 
-### ExampleCode for MDI :
+### ExampleCode for MDI
 
 Step -1
 
 ```cpp
 class CChildFrame : public CMDIChildWnd
 {
-	DECLARE_DYNCREATE(CChildFrame)
+ DECLARE_DYNCREATE(CChildFrame)
 public:
   //Author: s_1 Create Splitter
-	CSplitterWnd m_wndSpMain;
+ CSplitterWnd m_wndSpMain;
 :
 }
 ```
@@ -64,13 +64,13 @@ Step – 2.1 & 2.2
 BOOL CChildFrame::OnCreateClient(LPCREATESTRUCT lpcs, CCreateContext* pContext)
 {
   //Author: s_2.1 Create Splitter
-	m_wndSpMain.CreateStatic(this, 1, 2, WS_CHILD|WS_VISIBLE, AFX_IDW_PANE_FIRST);
-	//Author: s_2.2 Create View
-	m_wndSpMain.CreateView(0, 0, RUNTIME_CLASS(CMDISampleView), CSize(100, 100), pContext);
-	m_wndSpMain.CreateView(0, 1, RUNTIME_CLASS(CColorView), CSize(100, 100), pContext);
+ m_wndSpMain.CreateStatic(this, 1, 2, WS_CHILD|WS_VISIBLE, AFX_IDW_PANE_FIRST);
+ //Author: s_2.2 Create View
+ m_wndSpMain.CreateView(0, 0, RUNTIME_CLASS(CMDISampleView), CSize(100, 100), pContext);
+ m_wndSpMain.CreateView(0, 1, RUNTIME_CLASS(CColorView), CSize(100, 100), pContext);
 
-	//return CMDIChildWnd::OnCreateClient(lpcs, pContext);
-	return TRUE;
+ //return CMDIChildWnd::OnCreateClient(lpcs, pContext);
+ return TRUE;
 }
 ```
 

@@ -131,9 +131,9 @@ void DoublyLinkedList::Create_list(int value)
     {
         s = pHead;
         while (s->next != NULL)
-		{
+  {
             s = s->next;
-		}
+  }
         s->next = temp;
         temp->prev = s;
     }
@@ -150,7 +150,7 @@ void DoublyLinkedList::Add_atBegin(int value)
         return;
     }
     Node *temp = new Node;
-	temp->prev = NULL;
+ temp->prev = NULL;
     temp->data = value;
     temp->next = pHead;
     pHead->prev = temp;
@@ -232,7 +232,7 @@ void DoublyLinkedList::Delete(int value)
     }
      /*last element deleted*/
     if (q->next->data == value)    
-    { 	
+    {  
         tmp = q->next;
         free(tmp);
         q->next = NULL;
@@ -267,7 +267,7 @@ void DoublyLinkedList::Print()
  * Number of elements in Doubly next List
  */
 void DoublyLinkedList::Count()
-{ 	
+{  
     struct Node *q = pHead;
     int cnt = 0;
     while (q != NULL)

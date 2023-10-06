@@ -3,7 +3,7 @@ tags: [Books]
 ---
 
 # Steve Jobs by Walter Isaacson
-
+<!--markdownlint-disable MD013 MD045 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 Bought [Steve Jobs by Walter Isaacson](http://en.wikipedia.org/wiki/Steve_Jobs_(book)) Biography on Feburary 14, 2012 to present it to my self through flipkart.com.
 
 Today March 10, 2012 12.20 PM I had completed reading the book it contains 42 chapters spread over 571 pages
@@ -38,9 +38,11 @@ Jobs read and re-read many times during his life. Jobs had first read as a teena
 11. Chogyam Trungpa's "Cutting Through Spiritual Materialism"
 
 ## Articles
+
 1. "Secrets of the Little Blue Box,"
 
 ## The Music That Inspired Steve Jobs
+
 1. Bob Dylan - bootlegs
 2. Beatles
 3. Stones
@@ -50,6 +52,7 @@ Jobs read and re-read many times during his life. Jobs had first read as a teena
 7. Glenn Gould
 
 ## Quotes From His Biography
+
 "If you don't cannibalize yourself, someone else will."
 
 "People don’t know what they want until you show it to them."

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 # STRINGS
 
 ## Title
@@ -26,7 +26,7 @@ print(name2.lower()) #output >>> sam prabu
 
 ## Concatenating Strings
 
-Concatenating strings means combining strings. 
+Concatenating strings means combining strings.
 
 Example: To store a surname name and a name in separate variables, and then to combine them.
 
@@ -39,6 +39,7 @@ print(full_name) #output >>> Thota Ramudu
 ```
 
 ## Tabs or Newlines
+
 For easy reading of the output we can use Tabs(\t) or newlines (\n)
 
 ```python
@@ -51,7 +52,7 @@ print(surname+'\n'+name + '\n\t' + full_name)
 #output
 Thota
 Ramudu
-	Thota Ramudu
+ Thota Ramudu
 ```
 
 ## Stripping Whitespace
@@ -61,6 +62,7 @@ Ramudu
 3. strip(): strip whitespace from both sides
 
 Example:
+
 ```python
 country = ' India '
 # strip whitespace from the right side
@@ -77,9 +79,11 @@ India
 ```
 
 ## str conversion
+
 str(): str() function tells Python to represent non-string values as strings.
 
 Example
+
 ```python
 age = 43
 message = "Happy " + str(age) + "rd Birthday!"
@@ -112,5 +116,3 @@ Happy 43rd Birthday!
 >>> 2 * 0.1
 0.2
 ```
-
-

@@ -3,6 +3,7 @@ sidebar_position: 5
 ---
 
 # B.Tech - ECE
+<!--markdownlint-disable MD013 MD029 MD036 MD024-->
 
 Bachelor of Technology in Electronics and Communication Engineering
 

@@ -1,12 +1,14 @@
-## React-Native
+# Tutorial
 
+## React-Native
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD041 MD042 MD001 MD051 MD025-->
 Create native apps for Android and iOS using React
 
 React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces.
 
 [Refer](https://reactnative.dev/)
 
-## Expo:
+## Expo
 
  Expo is a platform built around React Native and native platforms which enable you to develop, build, deploy, and quickly iterate on iOS, Android, and web apps from the same JavaScript/TypeScript codebase.
 

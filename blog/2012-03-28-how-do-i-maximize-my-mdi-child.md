@@ -3,6 +3,7 @@ tags: ["MFC"]
 ---
 
 # How do I maximize my MDI child ?
+
 In CMainFrame class ad the following code.
 
 ```cpp

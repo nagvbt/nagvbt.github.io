@@ -1,5 +1,5 @@
 # Win32 Interview Questions
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 Follow me [@nagvbt](https://twitter.com/NagVbt) for technical updates.
 
 ### Table of Contents

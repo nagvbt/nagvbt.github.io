@@ -215,10 +215,10 @@ const config = {
           {
             title: 'EXPLORE MORE',
             items: [
-              {
-                label: 'Books',
-                to: 'books'
-              },
+              // {
+              //   label: 'Books',
+              //   to: 'books'
+              // },
               {
                 label: 'Disclaimer',
 

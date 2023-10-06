@@ -3,7 +3,7 @@ tags: ["Technology"]
 ---
 
 # The more you know
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 As the Software Industry changes rapidly one needs to update their skills. Whoever involves in the software development needs to write down there skills and analyze are the skills up to date. There are many ways to add or update your skills.
 
 ## Operating Systems

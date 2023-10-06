@@ -1,7 +1,7 @@
 ---
 tags: ["Ionic"]
 ---
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 # Add FontAwesome Icons in the SideMenu of ionic3+ Apps
 
 First go through the below articles  

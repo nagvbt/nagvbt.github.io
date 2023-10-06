@@ -3,9 +3,9 @@
     box-shadow: none;
     height: 100%;
 
-    &Container {
+    /* &Container {
         margin-bottom: calc(var(--ifm-spacing-horizontal) * 2);
-    }
+    } */
 }
 
 .image {

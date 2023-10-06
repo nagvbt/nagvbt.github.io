@@ -3,7 +3,7 @@ tags: ["C++"]
 ---
 # Print 1 to 100 in C++ without using loops and recursion
 
-```cpp 
+```cpp
 class CPrintNum
 { 
   public: static int iNum;

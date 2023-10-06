@@ -3,6 +3,7 @@ tags: ["MFC", "C++"]
 ---
 
 # How to avoid Memory Leaks in C++, VC++"
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 **Contents**
 
 1. Introduction
@@ -30,7 +31,7 @@ Use third-party tools like DevPartner or use the following steps to find the mem
 
 **a. Wrong usage of new/delete.**
 
-```cpp 
+```cpp
 int* intArr; 
 intArr = new int[500]; 
 delete intArr; 
@@ -40,7 +41,7 @@ Use  `delete[]intArr;` instead of delete intArr as `delete intArr` is equal to
 
  **b. Improper deletion of Array of Pointers**
 
-```cpp 
+```cpp
 introwNo = 3; 
 intcolsNo = 3; 
 int *array = new int[rowNo];
@@ -54,7 +55,7 @@ delete[] array;
 
 The cause of memory leak is that the 'array' is an array of pointers, with each of it's elements pointing to a separate memory block, so it is necessary free these blocks before freeing the array that holds the pointers.
 
-```cpp 
+```cpp
 for(int i=0; i < rowNo; i++) 
 {
    delete[] array[i];
@@ -65,7 +66,7 @@ delete [] array;
 
 **c. Resource Handles: GDI Objects- CBrush, CPen, CFont, CBitmap, CPallete, CRgn and respective handles**
 
-```cpp 
+```cpp
 CBrush myBr, *pOldBr; 
 myBr.CreateSolidBrush(RGB(0, 255, 0)); 
 pOldBr = pDC->SelectObject(&myBr); 
@@ -79,7 +80,7 @@ The DeleteObject method deletes the GDI object by freeing all system storage ass
 
 **d. String conversions CString to LPTSTR**
 
-```cpp 
+```cpp
 CString sName; 
 sName= _T("Hello"); 
 int lenName = sName.GetLength();
@@ -105,7 +106,7 @@ CList<CMyData, CMyData> ptList;
 
 Proper deletion of pointer objects in a CList
 
-```cpp 
+```cpp
 CList<CMyData, CMyData> ptList;
 POSITION pos = ptList.GetHeadPosition();
 
@@ -126,7 +127,7 @@ ptArr.RemoveAll();
 
 **f. Opening and proper closing of file and databases**
 
-```cpp 
+```cpp
 CFile file; 
 file.Open(szFilePath, CFile::modeCreate | CFile::modeWrite, 0); 
 file.Write(chFile, chFileSize); 
@@ -135,7 +136,7 @@ file.Close();
 
 **e. Usage of Static Arrays**
 
-```cpp 
+```cpp
 int Sample[500]; 
 ```
 

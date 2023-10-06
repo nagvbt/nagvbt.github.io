@@ -3,7 +3,7 @@ tags: ["Books"]
 ---
 
 # My Books
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 I am bibliophile or bookworm and loves reading and/or collects books through purchase in online and offline books stores from various places.
 So I got any thought to know how many books I had and how many books I had completed reading, So I had used the google sheets (online Excel) to list books with following columns
 

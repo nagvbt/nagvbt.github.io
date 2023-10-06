@@ -1,7 +1,7 @@
 # COM Basics
 
 ## 1. Definition of COM
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 COM is a acronym for Microsoft COMPONENT OBJECT MODEL and it is a specification.  
 COM is a platform-independent, distributed, object-oriented system which provides a standard for binary components and clients to interact with each other
 

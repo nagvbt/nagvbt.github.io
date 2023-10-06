@@ -3,7 +3,7 @@ tags: ["win32"]
 ---
 
 # Hash Data using Win32 API through a CHashDataProvider class
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 Cryptography is the use of codes to convert data so that only a specific recipient will be able to read it. Microsoft provide win32 API to Hash Data/string. The class CHashDataProvider developed to provides simple function HashData(ALG_ID algorithmID, LPCTSTR plainText, LPTSTR hashedText); which takes algorithmID and inputText to convert plainText to hashedText
 
 ALG_ID algorithmID - Algorithm ID to be used LPCTSTR plainText - plainText that to be converted to hashedText LPTSTR hashedText - Hashed Test using the input algorithmID.

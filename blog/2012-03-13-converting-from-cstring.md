@@ -1,7 +1,7 @@
 ---
 tags: ["MFC"]
 ---
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 # Converting from CString
 
 This post demonstrates how to convert from a **CString** to the other string types
@@ -18,7 +18,7 @@ LPTSTR pString = origCString.GetBuffer(0);
 origCString.ReleaseBuffer();
 ```
 
-**LPTSTR to** CString 
+**LPTSTR to** CString
 
 ```cpp
 LPTSTR origLPTSTR = "HelloWorld";

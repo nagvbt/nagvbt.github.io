@@ -3,6 +3,8 @@ sidebar_position: 4
 tags: ["WPF", "Tutorial"]
 ---
 
+<!--markdownlint-disable MD013-->
+
 # WPF View Switcher Tutorial
 
 If you are new to WPF ( Windows Presentation Foundation ) please refer the below items.
@@ -26,15 +28,15 @@ ViewHolder – Grid
 
 ## 2. Step by Step approach for creating the project
 
-1.  Launch Visual Studio.
-2.  From the menu bar select File, New Project.
-3.  Select the WPF Project Template
-4.  Name your new application SwitchingViews, and then click OK.
-5.  Rename Window1.xaml to MainWindow.xaml find and replace all the occurrences of Window1.xaml to MainWindow.xaml.
-6.  Follow MainWindow Code Explanation section for modifying the code.
-7.  Add  User Control
-8.  Name User Control RedView, and then click OK.
-9.  Follow RedView Code Explanation section for modifying the code .
+1. Launch Visual Studio.
+2. From the menu bar select File, New Project.
+3. Select the WPF Project Template
+4. Name your new application SwitchingViews, and then click OK.
+5. Rename Window1.xaml to MainWindow.xaml find and replace all the occurrences of Window1.xaml to MainWindow.xaml.
+6. Follow MainWindow Code Explanation section for modifying the code.
+7. Add  User Control
+8. Name User Control RedView, and then click OK.
+9. Follow RedView Code Explanation section for modifying the code .
 10. 10 .For creating GreenView repeat step 8 and 9.
 
 ## 3. MainWindow Code Explanation

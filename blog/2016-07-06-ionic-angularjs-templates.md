@@ -3,9 +3,8 @@ tags: ["Ionic", "Angular"]
 ---
 
 # Ionic – AngularJS templates
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 The following code snippets demonstrates the format/template which can be used in Ionic or in Angularjs Applications
-
 
 ```js
 /**************************

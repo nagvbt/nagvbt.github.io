@@ -4,6 +4,8 @@ sidebar_position: 6
 
 # S.D.B.M.E - Bio-Medical
 
+<!--markdownlint-disable MD013 MD029 MD036-->
+
 Special Diploma in Electronics with Specialization in Bio-Medical Engineering
 
 Code: C-96

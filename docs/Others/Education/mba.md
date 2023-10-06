@@ -4,6 +4,7 @@ sidebar_position: 3
 
 # M.B.A - Entrepreneurship
 
+<!--markdownlint-disable MD013 MD029 MD036 MD024-->
 Master of Business Administration in Entrepreneurship\*
 
 Code-R19
@@ -372,7 +373,7 @@ Communication, Communication in Information Technology, e-Business related opera
 - Rajendra Pal, J S Korlahahi, Essentials of Business Communication, Sultan Chand & Sons,
   New Delhi,2013.
 - Sailesh Sen Gupta, Business and Managerial Communication, PHI,2011.
-- Elevate english , Mc Graw Hill, www.ellevateenglish.com
+- Elevate english , Mc Graw Hill, `<www.ellevateenglish.com>`
 
 ### Statistical Data Analysis (LAB)
 

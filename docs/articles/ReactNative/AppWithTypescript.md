@@ -1,5 +1,5 @@
 # Creating React Native app with Typescript and expo
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 ## Steps
 
 1. Using a Typescript expo Template to create an app

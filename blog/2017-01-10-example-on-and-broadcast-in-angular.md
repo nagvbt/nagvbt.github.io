@@ -2,10 +2,10 @@
 title: "Example: $on and $broadcast in angular"
 tags: ["Angular"]
 ---
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 # $on and $broadcast in angular
 
-## With out Arguments:
+## With out Arguments
 
 To $broadcast use the $rootScope:
 
@@ -19,7 +19,7 @@ To receive, use the $scope of your controller:
 $scope.$on('camera-started', function(event, args) { // do something });
 ```
 
-## With Arguments:
+## With Arguments
 
 To pass arguments when you $With out Arguments:
 

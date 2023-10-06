@@ -3,6 +3,7 @@ sidebar_position: 4
 ---
 
 # LL.B - Bachelor of Laws
+<!--markdownlint-disable MD013 MD029 MD036 MD024-->
 
 LL.B - Latin: Legum Baccalaureus
 

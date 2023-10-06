@@ -32,12 +32,12 @@ const features = [
     imageUrl: '',
     description: (
       <>
-        <p>
+        {/* <p>
           <b>
             <a href="books">Books</a>.
           </b>{' '}
           All about Book Reviews.
-        </p>
+        </p> */}
         <p>
           <b>
             <a href="docs/category/maang">MAANG</a>.

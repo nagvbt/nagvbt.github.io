@@ -3,7 +3,7 @@ tags: ["WPF"]
 ---
 
 # WPF Architecture
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 The major code portions of WPF are.
 
 PresentationFramework, PresentationCore, and milcore WPF. PresentationFramework, PresentationCore are managed components but only milcore is an unmanaged component Milcore is developed in unmanaged code in order to enable tight integration with DirectX. All display in WPF is done through the DirectX engine, allowing for efficient hardware and software rendering.

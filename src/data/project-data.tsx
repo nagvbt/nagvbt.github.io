@@ -9,7 +9,7 @@ const projects = [
     period: 'November 2020',
     tech: 'AWS CloudFormation',
     description: (
-      <>
+      <div>
         <p>
           An example of how you can perform Infrastructure-As-Code (IaC) using AWS CloudFormation
           and Continuous-Integration/Continuous-Deployment (CI/CD) using AWS CodePipeline.
@@ -20,7 +20,7 @@ const projects = [
           by using the CloudFormation IaC templates in this repository and setting up a simple AWS
           CodePipeline.
         </p>
-      </>
+      </div>
     ),
     links: [
       {
@@ -38,7 +38,7 @@ const projects = [
     period: 'October 2022 to Present',
     tech: 'Docusaurus v2, ReactJS',
     description: (
-      <>
+      <div>
         <p>
           I first started this portfolio template project back in October 2020. The template has
           gone through numerous iterations ever since, and is still updated presently.
@@ -60,7 +60,7 @@ const projects = [
           Check out the <a href="https://github.com/DigiPie/kaya-folio">GitHub repository</a> for
           how to do so.
         </p>
-      </>
+      </div>
     ),
     links: [
       {
@@ -82,7 +82,7 @@ const projects = [
     period: 'April 2020',
     tech: 'Mocha, Chai, NodeJS, ExpressJS, MongoDB',
     description: (
-      <>
+      <div>
         <p>
           An up-to-date 2020 example of how you can use Mocha and Chai to perform API testing for a
           Node-ExpressJS-Mongoose app. You will be able to test your code locally and also
@@ -101,7 +101,7 @@ const projects = [
           <a href="https://mochajs.org/">Mocha</a> and <a href="https://www.chaijs.com/">Chai</a>,
           and also to practice setting up a NodeJS-ExpressJS-Mongoose backend application.
         </p>
-      </>
+      </div>
     ),
     links: [
       {
@@ -118,7 +118,7 @@ const projects = [
     period: 'September 2019',
     tech: 'Herokuapp, PostgreSQL',
     description: (
-      <>
+      <div>
         <p>
           psql-heroku-buildpack is a buildpack which executes a PostgreSQL script file on deployment
           to Heroku.
@@ -128,7 +128,7 @@ const projects = [
           PostgreSQL. I wrote this build pack to automate the execution of a PostgreSQL setup script
           file in the Git repo on deployment to Heroku from Github.
         </p>
-      </>
+      </div>
     ),
     links: [
       {

@@ -3,7 +3,7 @@ tags: ["Tools"]
 ---
 
 # Visual Studio 2008, 2010 Auto Uninstall Tools
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052 MD045-->
 If you’ve any problems in **uninstalling Visual Studio 2008, 2010** from Add/ Remove programs in XP or from Programs and features in Windows  7 you can use **Microsoft Visual Studio 2008 Auto uninstall utility** to remove Visual Studio 2008 and **Visual Studio 2010 Auto uninstall utility** to remove Visual Studio 2010 editions from your Computer .
 
 ## 1\. Microsoft Visual Studio 2008 Auto Uninstall Tool

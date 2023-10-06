@@ -3,10 +3,10 @@ tags: ["C"]
 ---
 
 # C-Pointers What is the output
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 **FAQ-1**
 
-```c 
+```c
 void main() { 
   int _p = 91; //compilation error 
   printf("%d n",_ p); 
@@ -18,7 +18,7 @@ void main() {
 
 **FAQ-2**
 
-```c 
+```c
 void main() { 
   int i = 91; int *p = &i;
   printf("%d n", *p); printf("%d n", p);
@@ -29,7 +29,7 @@ OUTPUT: 91 1245024
 
 **FAQ-3**
 
-```c 
+```c
 void main() { 
   int i = 91; 
   int *p = &i;
@@ -46,7 +46,7 @@ OUTPUT: i = 91 &i = 1245024 p = 91 p = 1245024 &p = 1245012 (&p) = 1245024 ((&p)
 
 **FAQ-4**
 
-```c 
+```c
 void main() { 
   const int p; 
   int i; 

@@ -2,17 +2,18 @@
 sidebar_position: 1
 ---
 
+<!--markdownlint-disable MD013 MD029 MD036 MD045-->
 # React Component Library Tutorial
 
 ![](../../static/img/nag-rlib.png)
 
 A component library is a collection of logically group components so that one can explore, select components and helps in maintaining consistent design across projects. nag-rlib built usng following components.
 
-1.  create-react-library
-2.  Storybook
-3.  react-testing-library
+1. create-react-library
+2. Storybook
+3. react-testing-library
 
-4.  How to Create a React Library
+4. How to Create a React Library
 
 ---
 
@@ -182,7 +183,7 @@ Steps: Refer Code changes [here](https://github.com/nagvbt/nag-rlib/commit/0243b
 
 Steps: Refer Code changes [here](https://github.com/nagvbt/nag-rlib/commit/021a6cefe46e436333b0d7fdadb9b30573addf95)
 
-1.  Create Two componentsa. src\\ExampleComponent1\\ExampleComponent1.jsx
+1. Create Two componentsa. src\\ExampleComponent1\\ExampleComponent1.jsx
 
         import React from 'react';
         import styles from '../../styles.module.css';
@@ -204,16 +205,16 @@ Steps: Refer Code changes [here](https://github.com/nagvbt/nag-rlib/commit/021a6
 
         export default ExampleComponent2;
 
-2.  Rename src\\index.js to src\\index.jsx
-3.  Change the extension of index.js to index.jsx in package.json`"source": "src/index.jsx",`
-4.  Import the ExampleComponent1 and ExampleComponent2 in index.jsx and export them so that the example component can consume the two components
+2. Rename src\\index.js to src\\index.jsx
+3. Change the extension of index.js to index.jsx in package.json`"source": "src/index.jsx",`
+4. Import the ExampleComponent1 and ExampleComponent2 in index.jsx and export them so that the example component can consume the two components
 
     import ExampleComponent1 from './components/ExampleComponent1/ExampleComponent1';
     import ExampleComponent2 from './components/ExampleComponent2/ExampleComponent2';
 
     export { ExampleComponent1, ExampleComponent2 };
 
-5.  Install Storybook
+5. Install Storybook
 
 ---
 
@@ -229,7 +230,7 @@ By Default you will get two Addons
 a. Essential addons [Refer](https://storybook.js.org/docs/react/essentials/introduction)  
 b. addon-links
 
-1.  Add Aditional addons [Refer Code](https://github.com/nagvbt/nag-rlib/commit/076bb5062ef90720cf6741b2a257ad244865b883)
+1. Add Aditional addons [Refer Code](https://github.com/nagvbt/nag-rlib/commit/076bb5062ef90720cf6741b2a257ad244865b883)
 
 | S#  | Addon                                                                                | Command                                    | Description                                           |
 | --- | ------------------------------------------------------------------------------------ | ------------------------------------------ | ----------------------------------------------------- |

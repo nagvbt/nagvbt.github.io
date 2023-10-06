@@ -1,7 +1,7 @@
 ---
 tags: ["Ionic"]
 ---
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 # How to create a basic ionic3 + mobile application
 
 1. To start a new app, open your terminal/command prompt and run the following command

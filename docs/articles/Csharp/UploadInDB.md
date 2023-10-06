@@ -1,8 +1,9 @@
 # Upload in DB
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 ## Image Upload in DB
 
 ### Class
+
 ```cpp
 using System;
 using System.Configuration;
@@ -89,6 +90,7 @@ public partial class ImageUploader : System.Web.UI.Page
 ```
 
 ### DB script
+
 ```sql
 CREATE TABLE [dbo].[PatientImages](
      [PAT_ID] [varchar](30) NOT NULL,
@@ -107,9 +109,10 @@ CREATE TABLE [dbo].[PatientImages](
      [FileName] [varchar](20) NULL)
 ```
 
-##  File Upload in DB
+## File Upload in DB
 
 ### Class
+
 ```cpp
 using System;
 using System.IO;

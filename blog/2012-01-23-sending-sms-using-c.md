@@ -2,8 +2,8 @@
 tags: ["CSharp"]
 ---
 
-# Sending SMS using C#
-
+# Sending SMS using C #
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 **Step 1:** Create a new project in Microsoft Visual Studio 2008 (File -> New -> Project -> Visual C# -> Console Application). Give SMS_Sender name and also specify the location where to store the project.
 
 **Step 2:** Now add a new item to the project we just created (Project -> Add New Item -> Class). Specify a name to the class as ‘SMSHelper’. The code now looks like as follows. The namespace used is

@@ -1,21 +1,25 @@
 # Functions
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 A function is a block of code that performs a specific task.
 
 Dividing a complex problem into smaller functions makes our program easy to understand the program.
 
 ## Types of functions
+
 ```mermaid
 graph TD;
     FunctionTypes-->Built-in-library;
     FunctionTypes-->User-defined;
 ```
-1. Built-in library function: 
+
+1. Built-in library function:
 These are Standard functions that are available to use.
 
-2. User-defined function: 
+2. User-defined function:
 Our own functions based on our requirements.
 
 ## C++ Function
+
 ```c
 access returnType functionName(dataType param, dataType param2,...) {
  // function body
@@ -26,10 +30,12 @@ public int add(int i, int j, int k){
     return i+j+k; 
 }
 ```
-***NOTE:*** 
+
+***NOTE:***
 C# and Java functions are similar to C++
 
 ## Javascript Function
+
 ```js
 function functionName (param, param2,...) { 
   // function body 
@@ -75,8 +81,8 @@ A default argument is a parameter that assumes a default value if a value is not
 # Python program to demonstrate
 # default arguments
 def myFun(x, y=50):
-	print("x: ", x)
-	print("y: ", y)
+ print("x: ", x)
+ print("y: ", y)
 
 
 # Driver code (We call myFun() with only
@@ -98,7 +104,7 @@ So that the caller does not need to remember the order of parameters.
 ```python
 # Python program to demonstrate Keyword Arguments
 def Employee(firstname, lastname):
-	print(firstname, lastname)
+ print(firstname, lastname)
 
 
 # Keyword arguments
@@ -119,8 +125,8 @@ Order of values cannot be changed to avoid the unexpected output.
 
 ```python
 def Person(name, age):
-	print("Hi, I am", name)
-	print("My age is ", age)
+ print("Hi, I am", name)
+ print("My age is ", age)
 
 
 # You will get correct output because
@@ -147,8 +153,7 @@ My age is  Ram
 
 ***3. Arbitrary argument***
 
-In Python Arbitrary Keyword Arguments, *args, and **kwargs can pass a variable number of arguments to a function using special symbols. 
-
+In Python Arbitrary Keyword Arguments, *args, and **kwargs can pass a variable number of arguments to a function using special symbols.
 
 There are two special symbols:
 
@@ -157,12 +162,13 @@ There are two special symbols:
 - **kwargs in Python (Keyword Arguments)
 
 Example 1: Variable length non-keywords argument
+
 ```python
 # Python program to illustrate
 # *args for variable number of arguments
 def myFunc(*args):
-	for arg in args:
-		print(arg)
+ for arg in args:
+  print(arg)
 
 
 myFunc('Hello', 'Welcome', 'to', 'NagVBT')
@@ -178,14 +184,15 @@ NagVBT
 ````
 
 Example 2: Variable length keyword arguments
+
 ```python
 # Python program to illustrate
 # *kwargs for variable number of keyword arguments
 
 
 def myFunc(**kwargs):
-	for key, value in kwargs.items():
-		print("%s == %s" % (key, value))
+ for key, value in kwargs.items():
+  print("%s == %s" % (key, value))
 
 
 # Driver code
@@ -201,6 +208,7 @@ lastName == VB
 ````
 
 ## Python Function within Functions
+
 A function that is defined inside another function is known as the inner function or nested function. Nested functions are able to access variables of the enclosing scope. Inner functions are used so that they can be protected from everything happening outside the function.
 
 ```python
@@ -209,12 +217,12 @@ A function that is defined inside another function is known as the inner functio
 # variables of nested functions
 
 def f1():
-	s = 'I love Nagvbt'
-	
-	def f2():
-		print(s)
-		
-	f2()
+ s = 'I love Nagvbt'
+ 
+ def f2():
+  print(s)
+  
+ f2()
 
 # Driver's code
 f1()
@@ -226,4 +234,4 @@ I love Nagvbt
 """
 ````
 
-## Anonymous functions in Python 
+## Anonymous functions in Python

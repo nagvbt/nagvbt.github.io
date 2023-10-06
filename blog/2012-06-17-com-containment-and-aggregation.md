@@ -3,6 +3,7 @@ tags: ["COM"]
 ---
 
 # COM Containment and Aggregation
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033-->
 
 Containment and aggregation are techniques in which one component uses another component. Those two components are outer component, inner component. Outer component contains the inner component.
 

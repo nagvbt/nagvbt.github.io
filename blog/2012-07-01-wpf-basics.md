@@ -3,14 +3,14 @@ tags: ["WPF"]
 ---
 
 # WPF Basics
-
-## 1. WPF Definition:
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+## 1. WPF Definition
 
 **W**indows **P**resentation **F**oundation is the successor to Windows Forms for Microsoft Desktop Application development. WPF uses XAML to create visible User Interface (UI) elements like (buttons, listboxes, editboxes, etc).
 
 WPF applications allows take advantage of the best attributes of diverse systems, such as DirectX (3-D and hardware acceleration), Adobe Flash (animation support), and HTML (declarative markup and easy deployment), styles, templates, documents and typograph.
 
-## 2. Advantages of WPF Applications:
+## 2. Advantages of WPF Applications
 
 The advantages of WPF applications include:
 
@@ -28,7 +28,7 @@ The advantages of WPF applications include:
 
 7. **Culturally aware controls** – static text in controls and the return data for the String function are modified according to the culture and language specified by the end user's operating system.
 
-## 3. WPF vs WinForms:
+## 3. WPF vs WinForms
 
 WPF is also more suitable for applications with rich media content than Windows Forms applications. This includes applications using:
 
@@ -43,7 +43,7 @@ WPF stores its data more efficiently hence individual objects will be small, but
 
 CPU utilization will go up compared to WinForms   WPF objects onscreen takes more CPU as normal WinForms rendering (again depending on the requirement).
 
- ## 4. XAML - eXtensible Application Markup Language:
+## 4. XAML - eXtensible Application Markup Language
 
 **Definition:** XAML (zammel) is an XML-based declarative markup. We can create visible User Interface (UI) elements like (buttons, listboxes, editboxes, etc) using XAML.
 

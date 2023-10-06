@@ -3,7 +3,7 @@ tags: [React Native]
 ---
 
 # React Native App using Expo
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD003 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 React Native
 ------------
 
@@ -15,7 +15,7 @@ React Native combines the best parts of native development with React, a best-in
 
 <!--truncate-->
 
-Expo:
+Expo
 -----
 
 Expo is a platform built around React Native and native platforms which enable you to develop, build, deploy, and quickly iterate on iOS, Android, and web apps from the same JavaScript/TypeScript codebase.
@@ -41,7 +41,6 @@ Selection of Template
         ----- Bare workflow -----
         minimal               bare and minimal, just the essentials to get you started
         minimal (TypeScript)  same as minimal but with TypeScript configuration
-    
 
 Selected the Tabs Template
 
@@ -59,11 +58,9 @@ Selected the Tabs Template
     - yarn android
     - yarn ios # requires an iOS device or macOS for access to an iOS s
     - yarn web
-    
 
 Change the directory and Start the app.
 
-`cd nag-rn` 
+`cd nag-rn`
 
 `yarn start`
-

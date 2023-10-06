@@ -3,6 +3,7 @@ tags: ["Ionic"]
 ---
 
 # How to Add Providers in Ionic3+ apps
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 Providers are special classes which decorated with @Injectable decorator. Providers are used to a specific work.  We can organize the code and code can be reused in multiple places e.g in pages, other providers too.  
   
 We will added now simple Local StorageProvider by using the command  
@@ -21,7 +22,6 @@ export class StorageProvider {
 ```
   
 2. Adds the StorageProvider in the provider's array of app.module.ts  
-  
   
 ***FILES***  
 Refer the code files in [Github](https://github.com/nagvbt/IonicTemplate/commit/da1dba6fe3e42bcc383ea84d190a8dafebf1d108)

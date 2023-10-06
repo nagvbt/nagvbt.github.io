@@ -2,6 +2,8 @@
 sidebar_position: 6
 ---
 
+<!--markdownlint-disable MD013 MD029 MD036-->
+
 # ATL Tutorial
 
 If you are new to ATL ( Active Template Library ) please refer the below items.

@@ -3,7 +3,7 @@ tags: ["Technology Evaluation", "Machine Learning"]
 ---
 
 # Microsoft Bot in steps
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 ## First thing first
 
 **Steps**  
@@ -17,7 +17,7 @@ Save the file to %USERPROFILE%\\Documents\\Visual Studio 2015\\Templates\\Projec
   
 4\. Build the project and launch on the browser  
   
-5\. Open emulator and add the your url http://localhost:3978/api/messages  
+5\. Open emulator and add the your url <http://localhost:3978/api/messages>  
 port number 3978 may vary based on the the endpoint launch and leave the MicrosoftAppId field and MicrosoftAppPassword field empty  
   
 6\. To check the bot is working  

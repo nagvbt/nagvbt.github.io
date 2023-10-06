@@ -1,15 +1,14 @@
 ---
 tags: ["MFC"]
 ---
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 # Limiting the maximum and minimum sizing  of a Frame Window
 
 To limit the maximum and minimum size of a Frame Window.
 
 1. Define Min and Mix size in pixels
-    
+
 2. Handle the **WM_GETMINMAXINFO** message in a CFrameWnd derived class.  The MINMAXINFO struct sets limits on the entire window, we need to take into account scroll bars, toolbars,  etc
-    
 
 ```cpp
  // Min and Mix size in pixels

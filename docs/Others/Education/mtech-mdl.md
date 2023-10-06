@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # M.Tech - ML & DL
 
+<!--markdownlint-disable MD013 MD029 MD036 MD024-->
+
 Master of Technology in Machine Learning & Deep Learning
 
 Code: MR22
@@ -279,7 +281,7 @@ Case study:
 
 ### Books
 
-1. Deep Learning, An MIT Press book, Ian Goodfellow & Yoshua Bengio & Aaron Courville http://www.deeplearningbook.org
+1. Deep Learning, An MIT Press book, Ian Goodfellow & Yoshua Bengio & Aaron Courville <http://www.deeplearningbook.org>
 2. Neural Networks & Learning Machines, Simon Haykin, 3rd Edition, Pearson Prentice Hall.
 3. Hands-On Deep Learning Algorithms with Python: Master deep learning algorithms with extensive math by implementing them using Tensor Flow.
 

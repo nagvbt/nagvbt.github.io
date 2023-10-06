@@ -1,5 +1,5 @@
 # C FAQ
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 Following are the important C frequently asked questions in interviews.
 
 ## 1. How to write a code to count number of characters/Spaces/numbers/special characters present in a sentence.  sentence =”1. GOD IS GREAT !!!”
@@ -72,6 +72,7 @@ void main()
 ```
 
 ***OUTPUT***
+
 ```
 Enter the sentence:
 1. GOD IS GREAT !!!
@@ -131,6 +132,7 @@ void main()
 ```
 
 ***OUTPUT***
+
 ```
 Enter the sentence to be formated:
  GOOD MORNING
@@ -139,11 +141,10 @@ Enter the sentence to be formated:
 
 ```
 
-
 ## 3. How to write a code to Outputs its own code
 
-__FILE__ :It is a Predefined Macros : The name of the current source file.
-__FILE__ expands to a string surrounded by double quotation marks.
+**FILE** :It is a Predefined Macros : The name of the current source file.
+**FILE** expands to a string surrounded by double quotation marks.
 
 fgetc: Read a character from a stream. returns an integer
 putchar: Writes a character to a stream
@@ -171,6 +172,7 @@ int main ()
 ## 4. Swap of two numbers  with out temp
 
 ***Program***
+
 ```c
 #include "stdio.h"
 #include <stdlib.h>
@@ -228,6 +230,7 @@ int main()
 ```
 
 ## 6. Write a program to display the output as
+
 ```
 *****
 ****

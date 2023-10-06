@@ -3,7 +3,7 @@ tags: ["CSharp"]
 ---
 
 # C#: Generate xsd and class for an XML document
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 Using xsd.exe which will be install with the Visual studio can be used.  
 Open Visual Studio Command Prompt and use the following commands
 

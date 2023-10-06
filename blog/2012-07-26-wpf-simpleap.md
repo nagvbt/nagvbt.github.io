@@ -3,7 +3,7 @@ tags: ["WPF"]
 ---
 
 # WPF - Simple App
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 **Step by Step tutorial for creating Simple WPF Application**
 
 1. Open Visual Studio 2010
@@ -14,4 +14,3 @@ tags: ["WPF"]
 6. Drag and drop a Button from toolbox on to the Window and give names as ‘btnClickMe’ and Add an even to it by double click on the button.
 7. Open MainWindow.xaml.cs in btnClickMe\_Click event add MessageBox.Show("Hello World !!");
 8. Compile and Build the project.
-

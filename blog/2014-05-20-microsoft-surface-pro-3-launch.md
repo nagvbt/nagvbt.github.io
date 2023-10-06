@@ -3,7 +3,7 @@ tools: ["Events"]
 ---
 
 # Microsoft Surface Pro 3 Launch
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 Microsoft Surface Pro 3 is a thin tablet which replaces your laptop, more productive, Beautiful screen, Faster than Surface Pro 2
 
 Live webcast @ [](http://www.microsoft.com/en-us/news/press/2014/may14/05-20webcast.aspx)[http://www.microsoft.com/en-us/news/press/2014/may14/05-20webcast.aspx](http://www.microsoft.com/en-us/news/press/2014/may14/05-20webcast.aspx)

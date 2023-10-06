@@ -5,11 +5,11 @@ tags: ["Ionic"]
 ---
 
 # Ionic 5 setup
-
-1. Install Ionic - Open the command prompt and run 
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+1. Install Ionic - Open the command prompt and run
 `npm install -g @ionic/cli`
 
-2. Update the angular cli 
+2. Update the angular cli
 `npm install -g @angular/cli@latest`
 
 3. Create an app ionic start nagTabs tabs syntax: _ionic start_ app types are a. tabs: A tabs based layout b. sidemenu: A sidemenu based layout c. blank: An empty project with a single page
@@ -19,7 +19,7 @@ tags: ["Ionic"]
 
 _type_ of framework features:
 
-page 
+page
 componet
 service
 module

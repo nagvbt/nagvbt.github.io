@@ -3,6 +3,7 @@ tags: ["Technology"]
 ---
 
 # Amaing Scientific Reasons Behind Indian Tradations
+<!--markdownlint-disable MD013 MD029 MD036 MD024-->
 
 1. Throwing Coins into a River:
 

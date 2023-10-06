@@ -3,7 +3,7 @@ tags: ["ASP.Net"]
 ---
 
 # ASP.Net State Management: An overview
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 All the web applications uses HTTP protocol. By nature HTTP is a stateless protocol so after every web request, the client disconnects from server and the ASP.NET engine discards the objects that were created for the page. This will avoid running out of server memory.
 
 ### Levels of state management

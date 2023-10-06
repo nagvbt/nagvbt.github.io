@@ -1,5 +1,5 @@
 # Storybook Architecture
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033-->
 ## Storybook addons
 
 Following are the Storybook Addons used in the React Foundation
@@ -17,6 +17,7 @@ Inside your .storybook directory, create a new file called storybookTheme.js and
 The easiest way to customize Storybook is to generate a new theme using the create() function from storybook/theming.
 
 ### Use Storybook's light theme as a baseline
+
 Customize the font, toolbar, form colors using the following code:
 
 ```jsx
@@ -48,18 +49,18 @@ Customize the font, toolbar, form colors using the following code:
 
 ### Custom Branding
 
-#### Brand Title:
+#### Brand Title
 
 The brand title which was shown on left side of the storybook which will be rendered using the follow html element
 
 `<b style="font-size: 25px; color: darkslateblue; ">Sumtotal</b>`
 
-#### Version number:
+#### Version number
 
 Version number for the storybook was taken from the package.json using and it is part of `brandTitle` and presented as
 `React Foundation v.${version}`
 
-#### Brand url:
+#### Brand url
 
 Set the brand link to open in the new window using `brandUrl`.
 

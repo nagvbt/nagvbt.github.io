@@ -1,4 +1,5 @@
 # COM Basics
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD001-->
 
 ## 1. Definition of COM
 
@@ -17,7 +18,7 @@ COM is a platform-independent, distributed, object-oriented system which provide
 
 ## 3. Definitions of the COM Basic Elements
 
-### COM Component:
+### COM Component
 
 A component is a _language independent_ which can be shipped in _binary_ form and Expose their functionality through an _interface_ mechanism and can be _upgraded_ with out breaking old clients. COM Component can be developed using programming language like  C++, Visual Basic, Delphi etc.
 
@@ -29,9 +30,9 @@ A component is a _language independent_ which can be shipped in _binary_ form an
 
 **Remote:** Remote components are just like any other component but the only difference is that remote components run from a separate remote location via a network. They are implemented using DCOM (Distributed COM).
 
-### COM Interface:
+### COM Interface
 
-A COM object’s interface provides a memory lay out of functions that Clients access. An *interface* is a **contract** that consists of a group of function prototypes whose usage is defined but whose implementation is not.  An Interface is equivalent to a structure with pointers to functions.
+A COM object’s interface provides a memory lay out of functions that Clients access. An _interface_ is a **contract** that consists of a group of function prototypes whose usage is defined but whose implementation is not.  An Interface is equivalent to a structure with pointers to functions.
 
 • The Client calls the Server Functions through interface
 

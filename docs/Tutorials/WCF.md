@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+<!--markdownlint-disable MD013 MD029 MD036-->
+
 # WCF Step by Step Tutorial
 
 ## Basics of WCF
@@ -54,7 +56,7 @@ A WCF service is exposed to the outside world as a collection of endpoints.
 
 **3\. Contracts:** A contract is a agreement between two or more parties for common understanding and it is a is a platform-neutral and standard way of describing what the service does. In WCF, all services expose contracts.
 
-### Types of Contracts:
+### Types of Contracts
 
 1. Operation Contract: An operation contract defines the parameters and return type of an operation.
 

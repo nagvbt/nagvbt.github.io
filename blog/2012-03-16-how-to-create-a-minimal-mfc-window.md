@@ -3,7 +3,9 @@ tags: ["MFC"]
 ---
 
 # How to create a minimal MFC Window ?
+
 We need at least two classes derived to construct an window  
+
 1. Window class / Frame class (CMainFrame) which is derived from CFrameWnd  
 2. Application class (CMyApp) which is derived from CWinApp
 

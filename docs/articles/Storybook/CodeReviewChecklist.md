@@ -1,5 +1,5 @@
 # Code Review Checklist
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 -->
 ##### 1. Use only rem NOT pixel
 
 We use 1rem = 16 px
@@ -23,7 +23,6 @@ Story Title: title: 'Components/Atoms/MenuLists',
 
 ##### Naming convention
 
-
 Please the refer [Naming Conventions](?path=/docs/getting-started-development-naming-conventions--page) for more details.
 
 ##### 5. Component File Should have an Comment that need to be shown on the Storybook 'Docs' tab
@@ -34,4 +33,4 @@ Don'ts: Do not write @parms or @return in the comments section
 
 NOTE: This list will be updated as and when required.
 
-##### 5. Add reference (url) to the Material-UI component in the Documents section for a component which has subset of the variations demonstrated in story based on the need and have more variations which are not considered in the component development.
+##### 5. Add reference (url) to the Material-UI component in the Documents section for a component which has subset of the variations demonstrated in story based on the need and have more variations which are not considered in the component development

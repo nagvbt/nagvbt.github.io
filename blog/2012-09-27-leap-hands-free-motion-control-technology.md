@@ -3,14 +3,14 @@ tags: ["Technology"]
 ---
 
 # LEAP Hands-free motion control Technology
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 New way of interaction with the computers say good bye to Keyboard, Mouse even touch screen :)  ?
 
 Yes it can be possible !
 
-A San Francisco Company Leap Motion (www.leapmotion.com) developed Hands-free motion control Technology.
+A San Francisco Company Leap Motion (`www.leapmotion.com`) developed Hands-free motion control Technology.
 
-\[youtube [http://www.youtube.com/watch?v=\_d6KuiuteIA?feature=player\_detailpage](http://www.youtube.com/watch?v=_d6KuiuteIA?feature=player_detailpage)\]
+ [YouTube Vedio](http://www.youtube.com/watch?v=_d6KuiuteIA?feature=player_detailpage)
 
 The website says:
 

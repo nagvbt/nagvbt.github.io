@@ -1,6 +1,6 @@
 # State
-State of a component is an object that holds some information about the component.
 
+State of a component is an object that holds some information about the component.
 
 ## Functional Component
 

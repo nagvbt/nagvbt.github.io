@@ -3,8 +3,8 @@ tags: ["C++"]
 ---
 
 # Variable arguments handling in C/C++
-
-Use va_list to accept a VARYING NUMBER OF ARGUMENTS for any function in C/C++. printf(const char\* _Format, ...) is a real time function which uses va_list.
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+Use va_list to accept a VARYING NUMBER OF ARGUMENTS for any function in C/C++. printf(const char\*_Format, ...) is a real time function which uses va_list.
 
 For using va_list we need to know about the following macros
 

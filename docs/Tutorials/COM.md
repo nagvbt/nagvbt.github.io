@@ -2,6 +2,8 @@
 sidebar_position: 7
 ---
 
+<!--markdownlint-disable MD013 MD029 MD036-->
+
 # COM Step by Step Tutorial
 
 If you are new to WPF ( Component Object model ) please refer the below items.

@@ -3,11 +3,12 @@ tags: ["MFC"]
 ---
 
 # MFC:Fill Background color of the Dialog
-
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 MFC Tip: To fill the Background color of the Dialog and get the background of the controls to look correct
 
 1. Handle the ON_WM_ERASEBKGND Message and write the following code
-   ```cpp 
+
+   ```cpp
     BOOL CTNV_MFCDialogDemoDlg::OnEraseBkgnd(CDC\* pDC)
     {
     CRect r;
@@ -22,10 +23,10 @@ MFC Tip: To fill the Background color of the Dialog and get the background of th
     return TRUE;
     }
     ```
-    
-    
+
 2. To  get the background of the controls to look correct Handle the ON_WM_CTLCOLOR Message and write the following code - Make sure to return the Brush Handle which was created same as a color of Dialog Background.
-     ```cpp 
+
+     ```cpp
     HBRUSH CTNV_MFCDialogDemoDlg::OnCtlColor(CDC\* pDC, CWnd* pWnd, UINT nCtlColor)
     {
      //HBRUSH hbr = CDialogEx::OnCtlColor(pDC, pWnd, nCtlColor);
@@ -36,4 +37,5 @@ MFC Tip: To fill the Background color of the Dialog and get the background of th
      CBrush br(RGB(0,255,0));
      return (HBRUSH)br; 
     }
+
 ```

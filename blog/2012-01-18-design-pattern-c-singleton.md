@@ -4,7 +4,7 @@ tags: ["CSharp", "Design Patterns"]
 
 # Design Pattern: C# Singleton
 
-```cpp 
+```cpp
 using System;
 
 namespace CSharp { 

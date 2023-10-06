@@ -2,16 +2,17 @@
 tags: ["C++", "CSharp"]
 ---
 
-# Abstract Class 
-
+# Abstract Class
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052 MD003-->
 Abstract classes are used for providing an abstraction to the code to make it reusable and extendable.
 
-## Abstract class in C++:
+## Abstract class in C++
 
 It is a class that has at least one pure virtual function (i.e., a function that has no definition). The classes inheriting the abstract class must provide a definition for the pure virtual function.
 <!--truncate-->
 
 ***Program***
+
 ```cpp
 #include "iostream"
 using namespace std;
@@ -48,10 +49,12 @@ int main()
 //2
 ```
 
-## Abstract class in C#:
+## Abstract class in C #
+
 The abstract modifier is used before the class or method/indexers/events and properties to declare them as abstract.
 
 Sample
+
 ```cpp
 using System;
 
