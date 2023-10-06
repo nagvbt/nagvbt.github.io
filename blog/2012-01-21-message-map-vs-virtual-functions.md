@@ -1,8 +1,10 @@
 ---
 tags: ["MFC"]
 ---
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
 # Message Map vs Virtual Functions
+
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 
 Message Map is a logical table that maps the windows messages to the member functions of the class. Message map is preferred than virtual functions due  to avoid following drawbacks:
 

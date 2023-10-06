@@ -1,8 +1,10 @@
 ---
 tags: ["Windows Phone"]
 ---
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
 # Set a variable that can be accessed on all pages of a Windows Phone App
+
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 
 **App.xaml.cs**
 

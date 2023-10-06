@@ -1,8 +1,10 @@
 ---
 tags: ["C++", "Design Patterns"]
 ---
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
+
 # ‘AbstractFactory’ Design Pattern using simple program
+
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 
 **Definition:** Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
