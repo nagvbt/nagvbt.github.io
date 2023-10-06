@@ -10,7 +10,7 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { PageHeader } from '../../components/PageHeader';
 
-export default function About() {
+export default function About(): JSX.Element {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
 
@@ -40,31 +40,39 @@ export default function About() {
           <h3>SKILLS</h3>
           <ul>
             <li>
-              <b>Programming:</b> React.js, C#, Typescript, Javascript, CSS, HTML5, Less, Sass,
-              Visual C++, C++, C, SQL
+              <b>Programming:</b> C#, Typescript, Javascript, CSS, HTML5, Less, Sass, Visual C++,
+              C++, C, SQL
             </li>
             <li>
-              <b>Framework: </b> .NET, ASP.NET, MVC, React, Angular.js, Angular, Silverlight
+              <b>Web Development: </b> React.js, Angular, .NET, ASP.NET, MVC, Silverlight
             </li>
             <li>
-              <b>Databases: </b> MSSQL, Nhibernate, Entity Framework
-            </li>
-            <li>
-              <b>Desktop: </b> WPF, WinForms, MFC, COM/DCOM
-            </li>
-            <li>
-              <b>App Development: </b> SPA, Ionic (Hybrid/ Cross Platform ), React Native, Android,
-              Windows Phone, Universal Windows Platforms
-            </li>
-            <li>
-              <b>Patterns & Practices: </b> Design patterns, Ntier development, Separation of
+              <b>Patterns & Practices: </b> Design patterns, NTier development, Separation of
               Concerns, MVC, MVVM, TDD
             </li>
             <li>
-              <b>Source Control: </b> GIT, SVN, TFS, Gerrit
+              <b>Databases: </b> MS SQL Server, NHibernate, Entity Framework, MS Access
             </li>
             <li>
-              <b>Tools: </b> Enterprise Architect, Visio, SonarQube, Jenkins
+              <b>Desktop: </b> WPF, WinForms, MFC, COM, DCOM, ATL, Win32 API
+            </li>
+            <li>
+              <b>Mobile Development: </b> React Native, Ionic (Hybrid/ Cross Platform), Android,
+              Windows Phone, Universal Windows Platforms
+            </li>
+            <li>
+              <b>IDE: </b> Visual Studio, VS Code, Android Studio
+            </li>
+            <li>
+              <b>Unit Test Tools: </b> React Testing Library, Jasmine Karma, VS Tests, CPPUnit,
+              NUnit
+            </li>
+            <li>
+              <b>Tools: </b> Enterprise Architect, SonarQube, Jenkins, InstallShield, MS Project
+              Visio, VMWare WorkStation, Devpartner
+            </li>
+            <li>
+              <b>Source Control: </b> GIT, SVN, TFS, Gerrit
             </li>
           </ul>
 
