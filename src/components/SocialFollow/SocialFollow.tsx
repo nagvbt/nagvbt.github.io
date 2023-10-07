@@ -2,6 +2,7 @@ import React from 'react';
 import {
   faYoutube,
   faFacebook,
+  faXTwitter,
   faTwitter,
   faLinkedin,
   faGithub
@@ -15,7 +16,7 @@ export default function SocialFollow() {
     <div className="">
       <a
         href="https://www.linkedin.com/in/nagvbt/"
-        className={clsx(styles.instagram, styles.social)}
+        className={clsx(styles.linkedin, styles.social)}
       >
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
@@ -23,7 +24,7 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
       <a href="https://twitter.com/NagVbt" className={clsx(styles.twitter, styles.social)}>
-        <FontAwesomeIcon icon={faTwitter} size="2x" />
+        <FontAwesomeIcon icon={faXTwitter} size="2x" />
       </a>
       <a
         href="https://www.facebook.com/people/Nag-Vbt/100023898528104/"
