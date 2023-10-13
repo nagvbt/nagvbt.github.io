@@ -14,6 +14,6 @@ b. Genes and DNA do not control our biology
 <!--truncate-->
 c. EPigenetics
 
-![](/img/biology-of-belief.jpg)
+![](/img/books/biology-of-belief.jpg)
 
 To buy this book on Amazon: [https://amzn.to/36nLuKV](https://amzn.to/36nLuKV)
