@@ -1,0 +1,13 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.coloredSection {
+    background: var(--header-color);
+    padding: 2rem 7rem;
+}
+
+.section {
+  padding: 2rem 7rem;
+}

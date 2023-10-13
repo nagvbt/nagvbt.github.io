@@ -1,0 +1,59 @@
+{
+"data": [
+   {
+    "title": "Elon Musk by Walter Isaacson",
+    "url": "/blog/2023/10/05/elonmusk-book-review",
+    "imgSrc": "/img/books/elon-musk.png"
+  },
+  {
+    "title": "Steve Jobs by Walter Isaacson",
+    "url": "/blog/2012/03/10/steve-jobs-walter",
+    "imgSrc": "/img/books/steve-jobs-walter.JPG"
+  },  
+  {
+    "title": "Alibaba: The House that Jack Ma Built",
+    "url": "https://amzn.to/3RWmIuK",
+     "imgSrc": "/img/books/alibaba.png"
+  },
+  {
+    "title": "Hit Refresh: A Memoir",
+    "url": "https://amzn.to/3FfIFx3",
+     "imgSrc": "/img/books/hit-refresh.png"
+  },
+  { 
+    "title": "Leonardo Da Vinci by Walter Isaacson",
+    "url": "https://amzn.to/3PTjipF",
+     "imgSrc": "/img/books/davinci.png"
+  },
+  { 
+    "title": "My Experiments With Truth",
+    "url": "https://amzn.to/3LYcl5H",
+     "imgSrc": "/img/books/gandhi.png"
+  },
+    { 
+    "title": "Before Memory Fades : An Autobiography",
+    "url": "https://amzn.to/3QgUUQs",
+     "imgSrc": "/img/books/nariman.png"
+  },
+  {
+    "title": "When Breath Becomes Air",
+    "url": "/blog/2018/12/06/when-breath-becomes-air",
+    "imgSrc": "/img/books/when-breath-becomes-air.jpg"
+  },
+  {
+    "title": "The Biology of Belief",
+    "url": "/blog/2018/11/18/biology-of-belief",
+    "imgSrc": "/img/books/biology-of-belief.jpg"
+  },
+  {
+    "title": "The Lean Startup",
+    "url": "https://amzn.to/46r8Qgj",
+    "imgSrc": "/img/books/lean-startup.png"
+  },
+  {
+    "title": "Elon Musk: How the Billionaire CEO",
+    "url": "https://amzn.to/3rVUVj9",
+    "imgSrc": "/img/books/elon-ashlee.png"
+  }
+]
+}

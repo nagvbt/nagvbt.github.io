@@ -14,6 +14,8 @@ tags: ["Angular"]
     npm install -g @angular/cli
     ```
 
+    <!--truncate-->
+
 3. Install VS Code from <https://code.visualstudio.com/>
 
 ## Steps to create app

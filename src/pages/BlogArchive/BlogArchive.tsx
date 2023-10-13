@@ -80,7 +80,10 @@ const yearsOfPosts: YearPostsProps[] = Array.from(postsByYear, ([year, posts]) =
 function YearWithPosts({ year, posts }: YearPostsProps): React.JSX.Element {
   return (
     <div className={clsx('col col--6', styles.feature)}>
-      <h3>{year}</h3>
+      <h3>
+        {year} — {posts.length}
+        {posts.length > 1 ? ' posts' : ' post'}
+      </h3>
       <ul>
         {posts.map((post) => (
           <li key={post.date}>
