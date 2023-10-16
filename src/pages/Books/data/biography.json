@@ -1,5 +1,5 @@
 {
-"data": [
+"biography": [
    {
     "title": "Elon Musk by Walter Isaacson",
     "url": "/blog/2023/10/05/elonmusk-book-review",
@@ -38,17 +38,7 @@
   {
     "title": "When Breath Becomes Air",
     "url": "/blog/2018/12/06/when-breath-becomes-air",
-    "imgSrc": "/img/books/when-breath-becomes-air.jpg"
-  },
-  {
-    "title": "The Biology of Belief",
-    "url": "/blog/2018/11/18/biology-of-belief",
-    "imgSrc": "/img/books/biology-of-belief.jpg"
-  },
-  {
-    "title": "The Lean Startup",
-    "url": "https://amzn.to/46r8Qgj",
-    "imgSrc": "/img/books/lean-startup.png"
+    "imgSrc": "/img/books/breath-becomesair.jpg"
   },
   {
     "title": "Elon Musk: How the Billionaire CEO",

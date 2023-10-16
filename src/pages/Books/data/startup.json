@@ -1,0 +1,22 @@
+{
+"startup": [
+  {
+    "title": "The Lean Startup",
+    "url": "https://amzn.to/46r8Qgj",
+    "imgSrc": "/img/books/lean-startup.png"
+  },
+  {
+    "title": "The $100 Startup",
+    "url": "https://amzn.to/3QjcUte",
+    "imgSrc": "/img/books/100startup.png"
+  },
+
+  {
+    "title": "Launching New Ventures",
+    "url": "https://amzn.to/48VmDNB",
+    "imgSrc": "/img/books/launchingnv.png"
+  }
+  
+
+]
+}
