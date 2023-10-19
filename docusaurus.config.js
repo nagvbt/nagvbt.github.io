@@ -146,6 +146,14 @@ const config = {
           { label: 'Books', to: 'books', position: 'right' },
           { label: 'Projects', to: 'githubprojects', position: 'right' },
           {
+            label: 'Tools',
+            position: 'right',
+            items: [
+              { label: 'Case Converter', to: 'caseconverter' },
+              { label: 'My Tool Box', to: 'docs/Others/Tools' }
+            ]
+          },
+          {
             label: 'Terms',
             position: 'right',
             items: [

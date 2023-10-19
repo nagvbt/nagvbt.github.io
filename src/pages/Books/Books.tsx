@@ -21,7 +21,7 @@ export default function Books(): JSX.Element {
   return (
     <Layout title={`${siteConfig.title}`}>
       <PageHeader title="Book Reviews" subTitle="Books that I had completed reading recently." />
-      <div className="container">
+      <div className="container container--fluid margin-vert--lg">
         {/* biography */}
         <br />
         <h3>Biography</h3>

@@ -10,6 +10,7 @@ import Layout from '@theme/Layout';
 import { PageHeader } from '@site/src/components/PageHeader';
 import { ReactTyped } from '../../components/ReactTyped';
 import { SocialFollow } from '../../components/SocialFollow';
+import CaseConvert from '@site/src/components/CaseConvert/CaseConvert';
 
 export default function UI(): JSX.Element {
   return (
@@ -40,6 +41,8 @@ export default function UI(): JSX.Element {
           <h1>3. Social Follow</h1>
           <SocialFollow></SocialFollow>
         </div>
+        <br />
+        <CaseConvert></CaseConvert>
         <br />
       </main>
     </Layout>
