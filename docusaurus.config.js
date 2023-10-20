@@ -143,7 +143,7 @@ const config = {
 
           //  To open a page from '/src/pages' folder
           { label: 'About', to: 'about', position: 'right' },
-          { label: 'Book Shelf', to: 'books', position: 'right' },
+          { label: 'Bookshelf', to: 'books', position: 'right' },
           { label: 'Projects', to: 'githubprojects', position: 'right' },
           {
             label: 'Tools',

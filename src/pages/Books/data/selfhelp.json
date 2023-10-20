@@ -1,25 +1,44 @@
 {
-"selfhelp": [
-  {
-    "title": "Magic of Thinking Big",
-    "url": "https://amzn.to/46NYDKE",
-    "imgSrc": "/img/books/magicof-thinkingbig.png"
-  },
-  {
-    "title": "How to Win Friends and Influence People",
-    "url": "https://amzn.to/3ZZzUAN",
-    "imgSrc": "/img/books/winfriends.png"
-  },
+  "selfhelp": [
     {
-    "title": "The Power of your Subconscious Mind",
-    "url": "https://amzn.to/46yJtsS",
-    "imgSrc": "/img/books/powersm.png"
-  } , 
+      "title": "Magic of Thinking Big",
+      "url": "https://amzn.to/46NYDKE",
+      "imgSrc": "/img/books/magicof-thinkingbig.png"
+    },
     {
-    "title": "THINK AND GROW RICH",
-    "url": "https://amzn.to/3Qhc0h0",
-    "imgSrc": "/img/books/thinkgr.png"
-  }   
-  
-]
+      "title": "How to Win Friends and Influence People",
+      "url": "https://amzn.to/3ZZzUAN",
+      "imgSrc": "/img/books/winfriends.png"
+    },
+    {
+      "title": "The Power of your Subconscious Mind",
+      "url": "https://amzn.to/46yJtsS",
+      "imgSrc": "/img/books/powersm.png"
+    },
+    {
+      "title": "THINK AND GROW RICH",
+      "url": "https://amzn.to/3Qhc0h0",
+      "imgSrc": "/img/books/thinkgr.png"
+    },
+    {
+      "title": "Deep Work",
+      "url": "https://amzn.to/45CMhE7",
+      "imgSrc": "https://m.media-amazon.com/images/I/61TkOFwquPL._SY425_.jpg"
+    },
+    {
+      "title": "Bhagavad Gita As It Is",
+      "url": "https://amzn.to/3MakzHM",
+      "imgSrc": "https://m.media-amazon.com/images/I/81HR0LQ5ZmL._SY425_.jpg"
+    },
+    {
+      "title": "The Psychology Of Money",
+      "url": "https://amzn.to/3Fod3oX",
+      "imgSrc": "https://m.media-amazon.com/images/I/41r6F2LRf8L._SY445_SX342_.jpg"
+    },
+    {
+      "title": "How Successful People Think",
+      "imgSrc": "https://m.media-amazon.com/images/I/417G6sckSoL._SY445_SX342_.jpg",
+      "url": "https://amzn.to/3Q17fH3"
+    }
+  ]
 }

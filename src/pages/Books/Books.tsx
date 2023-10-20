@@ -14,6 +14,7 @@ import biography from './data/biography.json';
 import startup from './data/startup.json';
 import medicine from './data/medicine.json';
 import selfhelp from './data/selfhelp.json';
+import tech from './data/tech.json';
 
 export default function Books(): JSX.Element {
   const context = useDocusaurusContext();
@@ -21,8 +22,8 @@ export default function Books(): JSX.Element {
   return (
     <Layout title={`${siteConfig.title}`}>
       <PageHeader
-        title="Book Reviews"
-        subTitle=" my favorites on personal growth, technology, innovation, leadership and startups."
+        title="Bookshelf"
+        subTitle=" my favorites on personal growth, technology, innovation, leadership and startups"
       />
       <div className="container container--fluid margin-vert--lg">
         {/* biography */}
@@ -34,20 +35,29 @@ export default function Books(): JSX.Element {
           ))}
         </div>
 
-        {/* Startup */}
-        <br />
-        <h3>Startup</h3>
-        <div className="row">
-          {startup.startup.map((book) => (
-            <BookCard title={book.title} imgSrc={book.imgSrc} url={book.url} />
-          ))}
-        </div>
-
         {/* Self Help */}
         <br />
         <h3>Self Help </h3>
         <div className="row">
           {selfhelp.selfhelp.map((book) => (
+            <BookCard title={book.title} imgSrc={book.imgSrc} url={book.url} />
+          ))}
+        </div>
+
+        {/* AI */}
+        <br />
+        <h3>Tech</h3>
+        <div className="row">
+          {tech.tech.map((book) => (
+            <BookCard title={book.title} imgSrc={book.imgSrc} url={book.url} />
+          ))}
+        </div>
+
+        {/* Startup */}
+        <br />
+        <h3>Startup</h3>
+        <div className="row">
+          {startup.startup.map((book) => (
             <BookCard title={book.title} imgSrc={book.imgSrc} url={book.url} />
           ))}
         </div>

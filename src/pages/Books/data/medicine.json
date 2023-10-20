@@ -1,9 +1,14 @@
 {
 "medicine": [
    {
-    "title": "The Biology of Belief",
+   "title": "The Biology of Belief",
     "url": "/blog/2018/11/18/biology-of-belief",
     "imgSrc": "/img/books/biology-belief.jpg"
+  },
+  {
+    "title": "Ikagai",
+    "url": "https://amzn.to/45UbVod",
+    "imgSrc": "https://m.media-amazon.com/images/I/814L+vq01mL._SY425_.jpg"
   }
 ]
 }

@@ -6,6 +6,12 @@
     "imgSrc": "/img/books/lean-startup.png"
   },
   {
+    "title": "Entrepreneurial Finance",
+    "url": "https://amzn.to/471RLtj",
+    "imgSrc": "https://m.media-amazon.com/images/I/61hTKhWXHWL._SX342_SY445_.jpg"
+
+  },
+  {
     "title": "The $100 Startup",
     "url": "https://amzn.to/3QjcUte",
     "imgSrc": "/img/books/100startup.png"
@@ -15,8 +21,12 @@
     "title": "Launching New Ventures",
     "url": "https://amzn.to/48VmDNB",
     "imgSrc": "/img/books/launchingnv.png"
-  }
-  
+  },
+  {
+    "title": "Family Business",
+    "imgSrc": "https://m.media-amazon.com/images/I/71WfjvsSSGL._AC_UY327_FMwebp_QL65_.jpg",
+    "url": "https://amzn.to/3rY5mCU"
+  }  
 
 ]
 }

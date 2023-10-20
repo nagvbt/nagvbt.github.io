@@ -1,0 +1,40 @@
+{
+  "tech": [
+    {
+      "title": "Machine Learning with Python Cookbook",
+      "url": "https://amzn.to/3QoAVPL",
+      "imgSrc": "https://m.media-amazon.com/images/I/71LD3JIzk3L._SY425_.jpg"
+    },
+    {
+      "title": "Pro React 16",
+      "url": "https://amzn.to/3tG6HyM",
+      "imgSrc": "https://m.media-amazon.com/images/I/61aBIWNwauL._SY425_.jpg"
+    },
+    {
+      "title": "Fullstack React Native",
+      "url": "https://amzn.to/46Jp6JS",
+      "imgSrc": "https://m.media-amazon.com/images/I/7176S6Fyc7L._SY425_.jpg"
+    },
+    {
+      "title": "Head First Design Patterns",
+      "url": "https://amzn.to/3S8H7wG",
+      "imgSrc": "https://m.media-amazon.com/images/I/71SdDjMglAL._SY425_.jpg"
+    },
+    {
+      "title": "Let Us Python",
+      "url": "https://amzn.to/403HXMW",
+      "imgSrc": "https://m.media-amazon.com/images/I/61h1Mfz6iDL._SY425_.jpg"
+    },
+    {
+        "title": "Clean Code",
+        "imgSrc": "https://m.media-amazon.com/images/I/41SH-SvWPxL._SY445_SX342_.jpg",
+        "url": "https://amzn.to/3tLrjWe"
+    },
+    {
+        "title": "Pragmatic Programmer",
+        "imgSrc": "https://m.media-amazon.com/images/I/51yaxPX4BFL._SY425_.jpg",
+        "url": "https://amzn.to/3Frvd9E"
+
+    }
+  ]
+}
