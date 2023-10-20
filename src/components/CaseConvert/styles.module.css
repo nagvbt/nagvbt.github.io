@@ -10,15 +10,20 @@
 }
 
 .btn {
-  margin-right: 1rem;
+  margin: 0.5rem;
 }
 
 .num {
   color: red;
   font-weight: 800;
-  padding-left: 1.5rem;
+  text-align: center;
 }
 
 .margin {
   margin-top: 3rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
 }

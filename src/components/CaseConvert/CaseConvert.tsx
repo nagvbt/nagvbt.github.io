@@ -225,18 +225,18 @@ export default function CaseConvert(): JSX.Element {
   return (
     <div className={styles.margin}>
       <div className="container">
-        <div className="row">
-          <h4 className="col col--4">
+        <div className={styles.box}>
+          <h4>
             WORDS <div className={styles.num}> {state.wordCount}</div>
           </h4>
-          <h4 className="col col--4">
+          <h4>
             CHARACTERS <div className={styles.num}> {state.charCount}</div>
           </h4>
-          <h4 className="col col--4">
+          <h4>
             PARAGRAPHS <div className={styles.num}> {state.paraCount}</div>
           </h4>
         </div>
-        <div className={styles.text}>
+        <div className={clsx('row', styles.text)}>
           <textarea
             className={styles.text}
             rows={4}
@@ -247,9 +247,8 @@ export default function CaseConvert(): JSX.Element {
             placeholder="Type here"
           ></textarea>
         </div>
-        <br />
-        <br />
-        <div className={styles.buttons}>
+
+        <div className={clsx('row', styles.buttons)}>
           <button
             onClick={upperCase}
             className={clsx('button button--primary button--md', styles.btn)}
@@ -300,8 +299,8 @@ export default function CaseConvert(): JSX.Element {
             snake_case
           </button>
         </div>
-        <br />
-        <div className={styles.buttons}>
+
+        <div className={clsx('row', styles.buttons)}>
           <button
             onClick={pascalCase}
             className={clsx('button button--primary button--md', styles.btn)}
@@ -346,8 +345,8 @@ export default function CaseConvert(): JSX.Element {
             aLtErNaTiNg cAsE
           </button>
         </div>
-        <br />
-        <div className={styles.buttons}>
+
+        <div className={clsx('row', styles.buttons)}>
           <button
             onClick={adaCase}
             className={clsx('button button--primary button--md', styles.btn)}
