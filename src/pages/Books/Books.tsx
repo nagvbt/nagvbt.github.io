@@ -20,7 +20,10 @@ export default function Books(): JSX.Element {
   const { siteConfig = {} } = context;
   return (
     <Layout title={`${siteConfig.title}`}>
-      <PageHeader title="Book Reviews" subTitle="Books that I had completed reading recently." />
+      <PageHeader
+        title="Book Reviews"
+        subTitle=" my favorites on personal growth, technology, innovation, leadership and startups."
+      />
       <div className="container container--fluid margin-vert--lg">
         {/* biography */}
         <br />
