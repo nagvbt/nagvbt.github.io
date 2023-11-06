@@ -281,7 +281,7 @@ Case study:
 
 ### Books
 
-1. Deep Learning, An MIT Press book, Ian Goodfellow & Yoshua Bengio & Aaron Courville <http://www.deeplearningbook.org>
+1. Deep Learning, An MIT Press book, Ian Goodfellow & Yoshua Bengio & Aaron Courville [deeplearningbook](http://www.deeplearningbook.org)
 2. Neural Networks & Learning Machines, Simon Haykin, 3rd Edition, Pearson Prentice Hall.
 3. Hands-On Deep Learning Algorithms with Python: Master deep learning algorithms with extensive math by implementing them using Tensor Flow.
 

@@ -8,7 +8,7 @@ Ensure there are no eslint errors
 How to check lint errors
 
 - Use command `yarn lint`
-- Husky will check for lint errors during git commit and git pushnly on the modified files
+- Husky will check for lint errors during git commit and git push only on the modified files
 
 Following are the packages used for the Linting rules.
 
@@ -26,19 +26,19 @@ Following are the packages used for the Linting rules.
   'plugin:jest-dom/recommended';
 ```
 
-For more info refer - <https://eslint.org/>
+For more info refer - `https://eslint.org/`
 
 ### 2. Unit Testing & Code Covereage
 
-This Project uses react-testing-library for unit testing refer <https://testing-library.com/docs/react-testing-library/intro/>
+This Project uses react-testing-library for unit testing refer `https://testing-library.com/docs/react-testing-library/intro/`
 Ensure you had enough code coverage by writing the tests for the components
 
 - Use command `yarn test:dev` to know the test coverage
-- One can view the detailed test coverage report from the `<root>/coverage/lcov-report/index.html`
+- One can view the detailed test coverage report from the ``root`/coverage/lcov-report/index.html`
 
 ### 3. Style Guide
 
-This project uses Airbnb Style guide which is mostly reasonable approach to React and JSX. Instead of listing all the rules in this document we suggest to refer the original style gude here <https://airbnb.io/javascript/react/>
+This project uses Airbnb Style guide which is mostly reasonable approach to React and JSX. Instead of listing all the rules in this document we suggest to refer the original style gude here `https://airbnb.io/javascript/react/`
 
 ### 4. Code Formatting
 
@@ -49,13 +49,13 @@ Why use Prettier ?
 - No need to discuss style in code review
 - Saves you time and energy
 
-For more info refer - <https://prettier.io/>
+For more info refer - `https://prettier.io/`
 
 ### 5. Consistent coding styles
 
-EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. Ensure if you are using Visual Studio Guide install EditorConfig Plugin for Visual Studio Code @ <https://github.com/editorconfig/editorconfig-vscode>
+EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. Ensure if you are using Visual Studio Guide install EditorConfig Plugin for Visual Studio Code @ `https://github.com/editorconfig/editorconfig-vscode`
 
-For more info refer: <https://EditorConfig.org>
+For more info refer: `https://EditorConfig.org`
 
 ### Further Reading
 

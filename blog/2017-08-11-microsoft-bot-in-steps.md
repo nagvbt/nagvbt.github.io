@@ -17,7 +17,7 @@ Save the file to %USERPROFILE%\\Documents\\Visual Studio 2015\\Templates\\Projec
   
 4\. Build the project and launch on the browser  
   
-5\. Open emulator and add the your url <http://localhost:3978/api/messages>  
+5\. Open emulator and add the your url `http://localhost:3978/api/messages`
 port number 3978 may vary based on the the endpoint launch and leave the MicrosoftAppId field and MicrosoftAppPassword field empty  
   
 6\. To check the bot is working  

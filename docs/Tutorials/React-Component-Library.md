@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-<!--markdownlint-disable MD013 MD029 MD036 MD045-->
+<!--markdownlint-disable MD013 MD029 MD036 MD045 MD040 MD046-->
 # React Component Library Tutorial
 
 ![](../../static/img/nag-rlib.png)
@@ -59,9 +59,11 @@ Fire up the command prompt and use the below commandcd
 
 add `.babelrc` file with below contents
 
-    {
-      "presets": ["@babel/env", "@babel/preset-react"]
-    }
+  ```json
+  {
+    "presets": ["@babel/env", "@babel/preset-react"]
+  }
+  ```
 
 **b. Install Rollupjs**
 
@@ -85,6 +87,7 @@ add `.babelrc` file with below contents
 
 **c. Add rollup.config.js**
 
+```js
     import babel from '@rollup/plugin-babel';
     import external from 'rollup-plugin-peer-deps-external';
     import del from 'rollup-plugin-delete';
@@ -118,6 +121,7 @@ add `.babelrc` file with below contents
       ],
       external: Object.keys(pkg.peerDependencies || {})
     };
+  ```
 
 **d. Update the commands**
 
@@ -185,34 +189,41 @@ Steps: Refer Code changes [here](https://github.com/nagvbt/nag-rlib/commit/021a6
 
 1. Create Two componentsa. src\\ExampleComponent1\\ExampleComponent1.jsx
 
-        import React from 'react';
-        import styles from '../../styles.module.css';
+```js
+import React from 'react';
+import styles from '../../styles.module.css';
 
-        function ExampleComponent1({ text }) {
-          return <div className={styles.test}>Example Component 1: {text}</div>;
-        }
+function ExampleComponent1({ text }) {
+  return <div className={styles.test}>Example Component 1: {text}</div>;
+}
 
-        export default ExampleComponent1;
+export default ExampleComponent1;
+```
 
-    b. src\\ExampleComponent2\\ExampleComponent2.jsx
+b. src\\ExampleComponent2\\ExampleComponent2.jsx
 
-        import React from 'react';
-        import styles from '../../styles.module.css';
+```js
 
-        function ExampleComponent2({ text }) {
-          return <div className={styles.test}>Example Component 2: {text}</div>;
-        }
+import React from 'react';
+import styles from '../../styles.module.css';
 
-        export default ExampleComponent2;
+function ExampleComponent2({ text }) {
+  return <div className={styles.test}>Example Component 2: {text}</div>;
+}
+
+export default ExampleComponent2;
+```
 
 2. Rename src\\index.js to src\\index.jsx
 3. Change the extension of index.js to index.jsx in package.json`"source": "src/index.jsx",`
 4. Import the ExampleComponent1 and ExampleComponent2 in index.jsx and export them so that the example component can consume the two components
 
+```js
     import ExampleComponent1 from './components/ExampleComponent1/ExampleComponent1';
     import ExampleComponent2 from './components/ExampleComponent2/ExampleComponent2';
 
     export { ExampleComponent1, ExampleComponent2 };
+```
 
 5. Install Storybook
 
@@ -301,12 +312,14 @@ This ESLint plugin enforces the [Rules](https://reactjs.org/docs/hooks-rules.htm
 
 Then extend the recommended eslint config:
 
+```
     {
       "extends": [
         // ...
         "plugin:react-hooks/recommended"
       ]
     }
+```
 
 **d. Install eslint-plugin-testing-library**  
 ESLint plugin to follow best practices and anticipate common mistakes when writing tests with Testing Library  
@@ -323,12 +336,14 @@ ESLint plugin to follow best practices and anticipate common mistakes when writi
 
 Then extend the recommended eslint config:
 
+```
     {
       "extends": [
         // ...
         "plugin:jest-dom/recommended"
       ]
     }
+    ```
 
 **f. Install eslint-config-react-app**  
 This package includes the shareable ESLint configuration used by Create React App.
@@ -336,6 +351,7 @@ This package includes the shareable ESLint configuration used by Create React Ap
 `yarn add --dev eslint-config-react-app`
 
 Then extend the recommended eslint config:
+```
 
     {
       "extends": [
@@ -344,6 +360,7 @@ Then extend the recommended eslint config:
       ]
     }
 
+```
 10. Publish the Library to npm
 
 ---

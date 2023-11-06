@@ -39,11 +39,14 @@ OUTPUT: 0 1 2 3 4 5 6 7 8 9 10
 The do..while statement executes a statement or statements once, then repeats the execution as long as a given conditional expression evaluates to true.  The do..while statement is used to create post-test loops.
 
 ***Syntax:***
+
+```c
 do
 {
  //statements;
 
 } while ( condition );
+```
 
 ### 5. Explain about ‘for’ Loop?
 

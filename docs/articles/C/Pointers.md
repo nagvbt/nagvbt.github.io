@@ -56,6 +56,7 @@ Value of i = 3
 
 ### 3. Write a program to return more than one value from a function ?
 
+```c
 void Calc(int a,int b,int *add, int*sub);
 
 void main()
@@ -76,6 +77,7 @@ void Calc(int a,int b,int *add, int*sub)
 * OUTPUT: *
 4+3=7
 4-3=1
+```
 
 ### 4. What is the difference between *p++ and ++*p expressions ?
 

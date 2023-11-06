@@ -3,7 +3,9 @@ sidebar_position: 9
 ---
 
 # Structures Unions Enumerations
+
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
+
 ### 1. Define structure ?
 
 Definition:  A structure is a collection of variables of different data type that are referenced by a common name.
@@ -221,7 +223,10 @@ At a particular point of time we can access only one member of the union. In uni
 Definition: An enumeration is a set of named integer constants.
 
 ***Syntax:***
+
+```c
 enum  enumName  { enumeration list } ;
+```
 
 ***Example:***
 

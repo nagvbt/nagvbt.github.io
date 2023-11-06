@@ -6,7 +6,7 @@ tags: ["Angular"]
 
 ## Steps to install
 
-1. Install latest nodejs from <https://nodejs.org/en/download>
+1. Install latest nodejs from `https://nodejs.org/en/download`
 
 2. Install Angular  
 
@@ -16,12 +16,12 @@ tags: ["Angular"]
 
     <!--truncate-->
 
-3. Install VS Code from <https://code.visualstudio.com/>
+3. Install VS Code from `https://code.visualstudio.com/`
 
 ## Steps to create app
 
 1. Download the initial app from
-<https://angular.io/generated/zips/first-app-lesson-00/first-app-lesson-00.zip>
+`https://angular.io/generated/zips/first-app-lesson-00/first-app-lesson-00.zip`
 
 2. Unzip folder and rename the folder to your app name
 
@@ -37,7 +37,7 @@ tags: ["Angular"]
     ng serve
     ```
 
-5. open url <http://localhost:4200/> to see the output in the browser
+5. open url `http://localhost:4200/` to see the output in the browser
 
 ## Create the Component
 

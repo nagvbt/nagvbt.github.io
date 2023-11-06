@@ -197,7 +197,7 @@ component code
 #### Styled-Components
 
 styled-components allows you to describe your styles with CSS in our React components.
-Reference: <https://styled-components.com/>
+Reference: `https://styled-components.com/`
 
 All the style components should be placed in the `style.js` file. And import them in the component file.
 
@@ -334,7 +334,7 @@ Storybook Controls gives you a graphical UI to interact with a component's argum
 
 To use the Controls addon, you need to write your stories using args.
 
-Refer: <https://storybook.js.org/docs/react/essentials/controls>
+Refer: `https://storybook.js.org/docs/react/essentials/controls`
 
 By default all the Props will be shown under the controls tab. If you want to disable any any prop based on the sepec you can disable it.
 In the below example `children` prop was disabled.
@@ -357,7 +357,7 @@ export default {
 
 The actions addon is used to display data received by event handler (callback) arguments in your stories.
 You can use argTypes to tell Storybook that an arg to your story should be an action.
-Refer: <https://storybook.js.org/docs/react/essentials/actions>
+Refer: `https://storybook.js.org/docs/react/essentials/actions`
 
 ```jsx
 export default {
@@ -375,8 +375,8 @@ export default {
 
 ###### 3. Accessibility
 
-Test components for user accessibility in Storybook. This Adon runs on top of the Axe Accessibility Engine developed by Deque Systems (<https://www.deque.com/>).
-Refer: <https://github.com/storybookjs/storybook/tree/master/addons/a11y>
+Test components for user accessibility in Storybook. This Adon runs on top of the Axe Accessibility Engine developed by Deque Systems (`https://www.deque.com/`).
+Refer: `https://github.com/storybookjs/storybook/tree/master/addons/a11y`
 
 **How to use the a11y addon**
 This addon displays three tabs: violations, passes, and incompletions. Axe defines “incomplete” as a rule state that “occur(s) when Axe can tell that a rule does not definitely pass, but cannot quite tell whether it definitely fails — in this case, it will gather some information that can be presented to a human for a decision”. Next to each tab is the number of rules that will be shown if the option is chosen. The default option shown is the violations tab.
@@ -412,16 +412,12 @@ To find the accessibility issues use Axe tool for chrome and Firefox.
 
 To learn fundamentals of accessibility, refer URLs below: -
 
-<https://www.w3.org/WAI/fundamentals/>
-
-Internal accessibility guidance for components design.
-
-<http://ux.sumtotalsystems.com/overview>
+`https://www.w3.org/WAI/fundamentals/`
 
 ###### 4. Story
 
 Show stories source in the addon panel
-Refer: <https://github.com/storybookjs/storybook/tree/master/addons/storysource>
+Refer: `https://github.com/storybookjs/storybook/tree/master/addons/storysource`
 
 <img src='./images/story-addon.png' />
 

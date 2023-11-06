@@ -2,7 +2,7 @@
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040-->
 ## Naming Convention for the Components
 
-1. Use the "{Component name}Wrapper.JSX" for the Base Component. The Base components like ButtonWrapper will not be used directly in any of the component.
+1. Use the `{Component name}Wrapper.JSX` for the Base Component. The Base components like ButtonWrapper will not be used directly in any of the component.
    e.g: ButtonWrapper which will not be directly used instead Button with additional behavior or styles added
 
 ```mermaid
@@ -11,7 +11,7 @@ ButtonWrapper-->Button
 ButtonWrapper-->MenuButton
 ```
 
-2. Do NOT use "{Component name}Wrapper.JSX"
+2. Do NOT use `{Component name}Wrapper.JSX`
 
 - For the components that can be used directly in to the other Components
   e.g: ListItem, Checkbox e.t.c. Here the ListItem can be used in the CollapsibleListItem, SiteMapSearchResults.

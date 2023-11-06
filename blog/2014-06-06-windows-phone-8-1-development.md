@@ -6,7 +6,7 @@ tags: ["Windows Phone"]
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033-->
 ## Software
 
-- The Windows Developer Center is your base for all things Windows and Windows Phone related <http://dev.windows.com> <http://dev.windowsphone.com>
+- The Windows Developer Center is your base for all things Windows and Windows Phone related `http://dev.windows.com` `http://dev.windowsphone.com`
 - FREE Download: Visual Studio Express 2013 for Windows
 - Visual Studio Express 2013 allows to develop apps for Windows 8.1 and Windows Phone 8.1
 - Developers using Visual Studio 2013 Professional or higher has to install Visual Studio 2013 Update 2 to add in Windows Phone 8.1 dev tools

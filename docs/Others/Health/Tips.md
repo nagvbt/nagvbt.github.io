@@ -41,8 +41,8 @@ sufficient for adults.
 
 ## Reference
 
-1. <https://www.youtube.com/watch?v=tVcil5kopg4>
+1. `https://www.youtube.com/watch?v=tVcil5kopg4`
 
 2. [Aurvedha Quotes](http://www.bmhegde.com/AYURVEDA_mother.htm)
 
-3. <http://bmhegde.com/hegde/articles.php?article_id=20>
+3. `http://bmhegde.com/hegde/articles.php?article_id=20`
