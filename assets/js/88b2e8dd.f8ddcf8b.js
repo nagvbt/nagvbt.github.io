@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[2270],{99493:e=>{e.exports=JSON.parse('{"label":"SQL Server","permalink":"/blog/tags/sql-server","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);

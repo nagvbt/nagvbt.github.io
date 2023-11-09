@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[2612],{51060:a=>{a.exports=JSON.parse('{"label":"Events","permalink":"/blog/tags/events","allTagsPath":"/blog/tags","count":2}')}}]);
