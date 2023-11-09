@@ -4,6 +4,8 @@ import clsx from 'clsx';
 
 export default function CaseConvert(): JSX.Element {
   const [defaultText, setDefaultText] = useState('type text here');
+  const [enteredText, setEnteredText] = useState('type text here');
+
   const [state, setState] = useState({
     wordCount: 3,
     charCount: 14,
@@ -12,6 +14,7 @@ export default function CaseConvert(): JSX.Element {
 
   const handleKeyPress = (event) => {
     setDefaultText(event.target.value);
+    setEnteredText(event.target.value);
     const count = event.target.value;
     let paraCount = event.target.value;
     paraCount = paraCount.replace(/\n$/gm, '').split(/\n/).length;
@@ -243,6 +246,18 @@ export default function CaseConvert(): JSX.Element {
             cols={40}
             name="contentText"
             onChange={handleKeyPress}
+            value={enteredText}
+            placeholder="Type here"
+          ></textarea>
+        </div>
+        <br />
+
+        <div className={clsx('row', styles.text)}>
+          <textarea
+            className={styles.text}
+            rows={4}
+            cols={40}
+            name="contentText"
             value={defaultText}
             placeholder="Type here"
           ></textarea>
