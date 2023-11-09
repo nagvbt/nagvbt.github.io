@@ -13,6 +13,14 @@
   margin: 0.5rem;
 }
 
+.clearBtn {
+  margin: 1rem;
+}
+
+.clearBtnContainer {
+  text-align: center;
+}
+
 .num {
   color: red;
   font-weight: 800;

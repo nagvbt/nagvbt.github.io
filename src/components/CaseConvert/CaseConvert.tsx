@@ -225,6 +225,10 @@ export default function CaseConvert(): JSX.Element {
     setDefaultText(trainString);
   };
 
+  const clearOutput = () => {
+    setDefaultText(enteredText);
+  };
+
   return (
     <div className={styles.margin}>
       <div className="container">
@@ -250,8 +254,14 @@ export default function CaseConvert(): JSX.Element {
             placeholder="Type here"
           ></textarea>
         </div>
-        <br />
-
+        <div className={styles.clearBtnContainer}>
+          <button
+            onClick={clearOutput}
+            className={clsx('button button--primary  button--outline button--md', styles.clearBtn)}
+          >
+            C L E A R * O U T P U T * F O R M A T
+          </button>
+        </div>
         <div className={clsx('row', styles.text)}>
           <textarea
             className={styles.text}
