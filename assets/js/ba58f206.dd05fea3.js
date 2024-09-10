@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[72225],{80085:a=>{a.exports=JSON.parse('{"label":"travel","permalink":"/blog/tags/travel","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);
