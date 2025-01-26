@@ -2,49 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://nagvbt.com/blog</id>
     <title>I CAN MAKE THIS WORK</title>
-    <updated>2024-01-16T00:00:00.000Z</updated>
+    <updated>2023-11-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://nagvbt.com/blog"/>
     <subtitle>The blog of NBT ❤️🌻</subtitle>
     <icon>http://nagvbt.com/img/logo.png</icon>
-    <rights>Copyright © 2023 - 2024 NBT.</rights>
-    <entry>
-        <title type="html"><![CDATA[Create a Excel Workbook and add Data]]></title>
-        <id>http://nagvbt.com/blog/2024/01/16/excel-workbook</id>
-        <link href="http://nagvbt.com/blog/2024/01/16/excel-workbook"/>
-        <updated>2024-01-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[1. Open Terminal and Install openpyxl]]></summary>
-        <content type="html"><![CDATA[<ol>
-<li>
-<p>Open Terminal and Install openpyxl</p>
-<p><code>python -m pip install openpyxl</code></p>
-</li>
-<li>
-<p>Open VSCode and Create a file excel_practice.py and write the below code</p>
-</li>
-</ol>
-<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">import openpyxl  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">name_list = [</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&nbsp; &nbsp; "Ram",</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&nbsp; &nbsp; "Lakshman",&nbsp; &nbsp; </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&nbsp; &nbsp; "Sita",</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&nbsp; &nbsp; "Hanuman"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">]  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">roll_number_list = ["001", "002", "003", "004"]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Workbook initialize</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">wb = openpyxl.Workbook()</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Take the active sheet and name title and column headers</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">sheet = wb.active</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">sheet.title = "Students"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">sheet["A1"] = "Name"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">sheet["B1"] = "Roll Number"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Append the values to the sheet</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">for name, number in zip(name_list, roll_number_list):</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&nbsp; &nbsp; sheet.append([name, number])</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Save the Excel</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">wb.save("Students_Data.xlsx")</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<ol start="3">
-<li>
-<p>No run the code</p>
-</li>
-<li>
-<p>You can see the <strong>Students_Data.xlsx</strong> created.</p>
-</li>
-</ol>]]></content>
-        <category label="python" term="python"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[rajmundary]]></title>
-        <id>http://nagvbt.com/blog/2023/12/16/rajmundary</id>
-        <link href="http://nagvbt.com/blog/2023/12/16/rajmundary"/>
-        <updated>2023-12-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[|# |  Details|]]></summary>
-        <content type="html"><![CDATA[<table><thead><tr><th>#</th><th>Details</th></tr></thead><tbody><tr><td>Date</td><td>16-Dec-2023</td></tr><tr><td>Town</td><td>Rajmundary - AP</td></tr><tr><td>Transportation</td><td>Train</td></tr><tr><td>Visited</td><td>Godavari Pushkar Ghat, Temples nearby</td></tr><tr><td>Meet my Guru</td><td><a href="https://www.ramareddykarri.com/" target="_blank" rel="noopener noreferrer">Karri Rama Reddy</a></td></tr></tbody></table>]]></content>
-        <category label="travel" term="travel"/>
-        <category label="meet" term="meet"/>
-        <category label="spiritual" term="spiritual"/>
-    </entry>
+    <rights>Copyright © 2023 - 2025 NBT.</rights>
     <entry>
         <title type="html"><![CDATA[Trip to Sri Maddi Anjaneya Temple by Walk]]></title>
         <id>http://nagvbt.com/blog/2023/11/13/maddi-anjeneya-temple-by-walk</id>
@@ -363,5 +326,44 @@ for Creating React Native app with Typescript and expo</p>]]></content>
 </ol>
 <p>I prefer to go with React.</p>]]></content>
         <category label="Web" term="Web"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Native minimal app component]]></title>
+        <id>http://nagvbt.com/blog/2022/06/08/rn-minimal-app</id>
+        <link href="http://nagvbt.com/blog/2022/06/08/rn-minimal-app"/>
+        <updated>2022-06-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Minimal code required to start a React-Native component is]]></summary>
+        <content type="html"><![CDATA[<p>Minimal code required to start a React-Native component is</p>
+<p>a. An App Class which extends from React.Component</p>
+<p>b. styles that are created from StyleSheet.Create(<!-- -->)</p>
+<div class="language-jsx codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-jsx codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword module" style="color:#00009f">import</span><span class="token plain"> </span><span class="token imports maybe-class-name">React</span><span class="token plain"> </span><span class="token keyword module" style="color:#00009f">from</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"react"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword module" style="color:#00009f">import</span><span class="token plain"> </span><span class="token imports punctuation" style="color:#393A34">{</span><span class="token imports"> </span><span class="token imports maybe-class-name">StyleSheet</span><span class="token imports punctuation" style="color:#393A34">,</span><span class="token imports"> </span><span class="token imports maybe-class-name">Text</span><span class="token imports punctuation" style="color:#393A34">,</span><span class="token imports"> </span><span class="token imports maybe-class-name">View</span><span class="token imports"> </span><span class="token imports punctuation" style="color:#393A34">}</span><span class="token plain"> </span><span class="token keyword module" style="color:#00009f">from</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"react-native"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword module" style="color:#00009f">export</span><span class="token plain"> </span><span class="token keyword module" style="color:#00009f">default</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">class</span><span class="token plain"> </span><span class="token class-name">App</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">extends</span><span class="token plain"> </span><span class="token class-name">React</span><span class="token class-name punctuation" style="color:#393A34">.</span><span class="token class-name">Component</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">render</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag class-name" style="color:#00009f">View</span><span class="token tag" style="color:#00009f"> </span><span class="token tag attr-name" style="color:#00a4db">style</span><span class="token tag script language-javascript script-punctuation punctuation" style="color:#393A34">=</span><span class="token tag script language-javascript punctuation" style="color:#393A34">{</span><span class="token tag script language-javascript" style="color:#00009f">styles</span><span class="token tag script language-javascript punctuation" style="color:#393A34">.</span><span class="token tag script language-javascript property-access" style="color:#00009f">container</span><span class="token tag script language-javascript punctuation" style="color:#393A34">}</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain-text"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain-text">        </span><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag class-name" style="color:#00009f">Text</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain-text">Hello World</span><span class="token tag punctuation" style="color:#393A34">&lt;/</span><span class="token tag class-name" style="color:#00009f">Text</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain-text"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain-text">      </span><span class="token tag punctuation" style="color:#393A34">&lt;/</span><span class="token tag class-name" style="color:#00009f">View</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> styles </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token maybe-class-name">StyleSheet</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">create</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token literal-property property" style="color:#36acaa">container</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">flex</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">alignItems</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'center'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">justifyContent</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'center'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+        <category label="React Native" term="React Native"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Flow in React Native project]]></title>
+        <id>http://nagvbt.com/blog/2022/06/04/using-flow</id>
+        <link href="http://nagvbt.com/blog/2022/06/04/using-flow"/>
+        <updated>2022-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Flow is used for static type checking in javascript. Flow works best when installed per-project with explicit versioning rather than globally.]]></summary>
+        <content type="html"><![CDATA[<p>Flow is used for static type checking in javascript. Flow works best when installed per-project with explicit versioning rather than globally.</p>
+<p>Steps:</p>
+<ol>
+<li>
+<p><em><strong>Add a devDependency on the&nbsp;flow-bin&nbsp;npm package:</strong></em>
+<code>yarn add –dev flow-bin</code></p>
+</li>
+<li>
+<p><em><strong>Run&nbsp;below command</strong></em>
+<code>yarn run flow init</code></p>
+</li>
+<li>
+<p><em><strong>To run Flow</strong></em>
+<code>yarn run flow</code></p>
+</li>
+<li>
+<p>Add ‘.flowconfig’ and add ./node_modules/.\* &nbsp;under [ignore]</p>
+</li>
+</ol>]]></content>
+        <category label="React" term="React"/>
     </entry>
 </feed>

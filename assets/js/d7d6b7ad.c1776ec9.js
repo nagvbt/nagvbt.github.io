@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[71003],{28734:a=>{a.exports=JSON.parse('{"label":"spiritual","permalink":"/blog/tags/spiritual","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
