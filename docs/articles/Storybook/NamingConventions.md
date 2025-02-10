@@ -28,17 +28,17 @@ ButtonWrapper-->MenuButton
 
 {' '}
 
-<img src='./images/folder-names.png' width='450px' />
+<img src='./images/folder-names.png' width='450px' alt="No Image Loaded" />
 
 ## File Names
 
 1. Component Files should follow the Pascal case
 
-   <img src='./images/component-files.png' />
+   <img src='./images/component-files.png' alt="No Image Loaded"/>
 
 2. All the non component files like docs and .js files should go with Camel Case
    {' '}
-   <img src='./images/non-component-files.png' />
+   <img src='./images/non-component-files.png' alt="No Image"  />
 
 ## Storybook Component/Story naming
 

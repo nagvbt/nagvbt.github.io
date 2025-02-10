@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # M.Tech - ML & DL
 
-<!--markdownlint-disable MD013 MD029 MD036 MD024-->
+<!--markdownlint-disable MD056 MD013 MD029 MD036 MD024-->
 
 Master of Technology in Machine Learning & Deep Learning
 

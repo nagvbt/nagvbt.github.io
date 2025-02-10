@@ -12,6 +12,6 @@ tags: ["Tools"]
 6. Turn off HTML Validation – Go to Tools > Options > Text Editor > HTML > Validation and uncheck **_Show errors_**.
 7. Turn off Start Page – Go to Tools > Options > Environment > Startup and select **_Load last loaded solution_** from the _At **Startup**_ dropdown. This simply makes Visual Studio load faster when opening the application.
 
-***NOTE:***
+_**NOTE:**_
 
 Above settings have been used for Visual Studio 2005 specifically but should still be of benefit for earlier and later versions of Visual Studio.

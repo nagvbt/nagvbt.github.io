@@ -276,7 +276,7 @@ Don't include Story styles in the style.js instead write styles of the Story ins
 ```
 
 2. Storybook Docs automatically generated the args table that shows types and default values. Add comments in your proptypes to render them in the auto-generated args table.
-   <img src='./images/comp-dev-comments-argtable.png' width='700px' />
+   <img src='./images/comp-dev-comments-argtable.png' width='700px' alt="No Image Loaded" />
 
 ## Story
 
@@ -351,7 +351,7 @@ export default {
 };
 ```
 
-<img src='./images/controls-addon.png' />
+<img src='./images/controls-addon.png' alt="No Image Loaded" />
 
 ###### 2. Actions
 
@@ -371,7 +371,7 @@ export default {
 };
 ```
 
-<img src='./images/actions-addon.png' />
+<img src='./images/actions-addon.png' alt="No Image Loaded"/>
 
 ###### 3. Accessibility
 
@@ -381,16 +381,16 @@ Refer: `https://github.com/storybookjs/storybook/tree/master/addons/a11y`
 **How to use the a11y addon**
 This addon displays three tabs: violations, passes, and incompletions. Axe defines “incomplete” as a rule state that “occur(s) when Axe can tell that a rule does not definitely pass, but cannot quite tell whether it definitely fails — in this case, it will gather some information that can be presented to a human for a decision”. Next to each tab is the number of rules that will be shown if the option is chosen. The default option shown is the violations tab.
 
-<img src='./images/a11y-1.png' />
+<img src='./images/a11y-1.png' alt="No Image Loaded" />
 
 Within the tabs, an accordion-like design is used to display each of the rules that have met the criteria. Upon clicking one of these accordion bars, information is displayed about that rule along with a link that contains in-depth information on the rule.
 
-<img src='./images/a11y-2.png' />
+<img src='./images/a11y-2.png' alt="No Image Loaded" />
 
 **Visualizing accessibility rules**
 A checkbox is located to the right side of each rule that enables you to highlight flagged DOM elements in the Storybook canvas.
 
-<img src='./images/a11y-3.png' />
+<img src='./images/a11y-3.png' alt="No Image" />
 
 Once you’ve pinpointed accessibility violations and incompletions, you can modify your code and use hot reloading. This initiates another a11y test run.
 
@@ -419,7 +419,7 @@ To learn fundamentals of accessibility, refer URLs below: -
 Show stories source in the addon panel
 Refer: `https://github.com/storybookjs/storybook/tree/master/addons/storysource`
 
-<img src='./images/story-addon.png' />
+<img src='./images/story-addon.png' alt="No Image Loaded" />
 
 ###### 5. RTL support
 
@@ -427,7 +427,7 @@ We have support for RTL through 'jss-rtl' plugin for Material UI and 'stylis-plu
 We also have a toobar icon in storybook to check the RTL view of the components.
 For all the components that we build, we recommend you to test the RTL view using this toolbar button and make any changes required for your component styles accordingly.
 
-<img src='./images/RTL-addon.png' />
+<img src='./images/RTL-addon.png' alt="No Image Loaded" />
 
 ## Unit Testing
 
