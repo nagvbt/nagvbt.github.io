@@ -23,11 +23,13 @@
     "lint:mdfix": "markdownlint --fix _site/ --ignore node_modules/ --ignore docusaurus/node_modules/ \"**/*.md\"",
     "commit": "yarn ./beforeComitt.bat"
   },
+  "markdownlint": {
+  "executable": [ "markdownlint-cli2" ]
+  },
   "lint-staged": {
     "./src/**/*.{js,jsx,ts,tsx,json,htm,html}": "eslint --fix --max-warnings 0",
-    "./src/**/*.{js,jsx,ts,tsx}": "prettier --write",
-    "./docs/**/*.{md,mdx}": "markdownlint --fix",
-    "./blog/**/*.{md,mdx}": "markdownlint --fix"
+    "./src/**/*.{js,jsx,ts,tsx}": "prettier --write"
+
   },
   "husky": {
     "hooks": {
