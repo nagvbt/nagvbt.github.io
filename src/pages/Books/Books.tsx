@@ -8,8 +8,8 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import BookCard from '../../components/BookCard/BookCard';
-import PageHeader from '../../components/PageHeader/PageHeader';
+import BookCard from '@site/src/components//BookCard/BookCard';
+import PageHeader from '@site/src/components//PageHeader/PageHeader';
 import biography from './data/biography.json';
 import startup from './data/startup.json';
 import medicine from './data/medicine.json';
@@ -17,8 +17,7 @@ import selfhelp from './data/selfhelp.json';
 import tech from './data/tech.json';
 
 export default function Books(): JSX.Element {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout title={`${siteConfig.title}`}>
       <PageHeader

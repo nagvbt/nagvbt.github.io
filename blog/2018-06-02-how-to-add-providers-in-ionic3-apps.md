@@ -8,7 +8,7 @@ Providers are special classes which decorated with @Injectable decorator. Provid
   
 We will added now simple Local StorageProvider by using the command  
 ionic g provider Storage  
-  
+  <!-- truncate -->
 1. The command creates the StorageProvider in  
 providers/storage/storage.ts  
 

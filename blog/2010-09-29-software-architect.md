@@ -6,7 +6,7 @@ tags: ["Design Patterns"]
 
 To become an Software Architect you can use following resources.
 
-1. `<www.architecturejournal.net>`
+1. [www.architecturejournal.net](http://www.architecturejournal.net/)
 
 2. [wikipedia Software architect](http://en.wikipedia.org/wiki/Software_architect)
 

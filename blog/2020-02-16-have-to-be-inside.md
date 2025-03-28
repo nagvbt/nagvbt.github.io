@@ -11,6 +11,7 @@ tags: ["Ionic"]
 ## PS C:nagTabs> ng test
 
 As a forewarning, we are moving the CLI npm package to "@angular/cli" with the next release, which will only support Node 6.9 and greater. This package will be officially deprecated shortly after. To disable this warning use "ng set --global warnings.packageDeprecation=false". You have to be inside an angular-cli project in order to use the test command.
+<!-- truncate -->
 
 ### **Answer:**
 

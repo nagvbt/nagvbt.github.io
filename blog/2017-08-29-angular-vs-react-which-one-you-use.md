@@ -20,7 +20,7 @@ Angular 4 is an MVC Framework itself.
 React is only a view library one needs to choose the different libraries to make the Best Ecosystem. Refer my post for choosing the better parts to build a React Echosystem
 
 _**Summary:** It takes time to build Ecosystem in React. Once built developers need not worry about the Ecosystem._  
-
+<!-- truncate -->
 ### Technical Skills
 
 **Angular 4**

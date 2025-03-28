@@ -5,6 +5,9 @@ tags: ["Ionic"]
 # Temporary Storage which persists only when the app is live for Ionic3+ Apps
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 AppStateProvider - is developed for Temporary Storage which persists only when the app is live once the app is closed the AppState data will be destroyed. For small data to save permanently use StorageProvider which is a local Storage.  
+
+<!-- truncate -->
+
 **app-state.ts**
 
 ```js

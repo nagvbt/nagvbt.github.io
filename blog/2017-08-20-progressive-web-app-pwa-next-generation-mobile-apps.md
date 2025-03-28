@@ -8,6 +8,7 @@ tags: ["Technology Evaluation", "PWA", "Ionic"]
 A Progressive Web App (PWA) is an web application which gives an App like experience on mobile devices. PWA are developed with web technologies. These apps need not be installed and can be just access on the mobile browser by adding a short cut to the Home screen using ‘Add to Home Screen’ browser option. PWA fills the gap between mobile websites and mobile apps.  
   
 Currently PWA are developed by many Software companies you can find the references from PWA Rocks [website](https://pwa.rocks/)  
+<!-- truncate -->
 
 ## Advantages of PWA
 

@@ -40,17 +40,17 @@ Here, you will find a collection of concise notes on full-stack software enginee
 |     | Title                                                                 | Date Last Updated |
 | --- | --------------------------------------------------------------------- | ----------------- |
 | 1   | [ATL Tutorial](/docs/Tutorials/ATL)                                   |                   |
-| 2   | [ActiveX Control Tutorial](docs/Tutorials/ActiveX)                    |                   |
-| 3   | [COM Step by Step Tutorial](docs/Tutorials/COM)                       |                   |
+| 2   | [ActiveX Control Tutorial](/docs/Tutorials/ActiveX)                    |                   |
+| 3   | [COM Step by Step Tutorial](/docs/Tutorials/COM)                       |                   |
 | 4   | [Ionic 3+ Tutorials](/docs/Tutorials/Ionic)                           |                   |
-| 5   | [WCF Step by Step Tutorial](docs/Tutorials/WCF)                       |                   |
-| 6   | [WPF View Switcher Tutorial](docs/Tutorials/WPF-ViewSwitcherTutorial) |                   |
+| 5   | [WCF Step by Step Tutorial](/docs/Tutorials/WCF)                       |                   |
+| 6   | [WPF View Switcher Tutorial](/docs/Tutorials/WPF-ViewSwitcherTutorial) |                   |
 
 </div>
 
 ## MAANG
 
-Notes MAANG patterns will be presented here [MAANG](docs/category/maang)
+Notes MAANG patterns will be presented here [MAANG](/docs/category/maang)
 
 ## Book Summaries
 

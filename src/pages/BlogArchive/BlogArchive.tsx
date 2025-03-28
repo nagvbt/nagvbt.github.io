@@ -8,7 +8,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import styles from './styles.module.css';
-import { PageHeader } from '../../components/PageHeader';
+import { PageHeader } from '@site/src/components//PageHeader';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 
@@ -24,7 +24,7 @@ type YearPostsProps = {
   posts: BlogPost[];
 };
 
-export default function BlogArchive(): JSX.Element {
+export default function BlogArchive() {
   return (
     <Layout title="Blog Archive">
       <PageHeader title="Blog Archive" subTitle="All the posts I ever wrote!" />

@@ -36,7 +36,7 @@
    - Usage in Page
 
    ```tsx
-   import { PageHeader } from '../../components/PageHeader';
+   import { PageHeader } from '@site/src/components//PageHeader';
    <PageHeader title="Disclaimer" subTitle="Iam Not resposible" />;
    ```
 

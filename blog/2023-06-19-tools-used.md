@@ -7,5 +7,5 @@ tags: ["Others"]
 Every software engineers will use different tools across their career. I have
 
 been using the below software in my day to day work.
-
+<!-- truncate -->
 [**Read more**](/docs/Others/Tools)

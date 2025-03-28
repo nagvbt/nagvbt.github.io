@@ -11,7 +11,7 @@ B. Members Functions
 
 ## Data Members
 
-1. Static Data Member The size of a class object with only Static data members irrespective of Data Type (say float, long e.tc.) is equal to [one Byte (~ size of Empty class)](blog/2011/09/18/why-size-of-an-empty-c-class-not-zero)
+1. Static Data Member The size of a class object with only Static data members irrespective of Data Type (say float, long e.tc.) is equal to [one Byte (~ size of Empty class)](/blog/2011/09/18/why-size-of-an-empty-c-class-not-zero)
 
 ```cpp
     class CStaticDataMemberCls
@@ -50,7 +50,7 @@ void main() {
 1. Static Members Functions
 2. Non Static Members Functions
 
-As Static Members Functions and Non static Members Functions are hoisted outside the class object. The size of the class will also be equal to [one Byte (~ size of Empty class)](blog/2011/09/18/why-size-of-an-empty-c-class-not-zero)
+As Static Members Functions and Non static Members Functions are hoisted outside the class object. The size of the class will also be equal to [one Byte (~ size of Empty class)](/blog/2011/09/18/why-size-of-an-empty-c-class-not-zero)
 
 ```cpp
 class CMemberFunctionsCls

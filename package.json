@@ -3,13 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docusaurus": "docusaurus",
+    "---------Common": "",
     "start": "docusaurus start",
     "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "--------Advanced": "",
+    "docusaurus": "docusaurus",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
-    "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
@@ -24,12 +26,13 @@
     "commit": "yarn ./beforeComitt.bat"
   },
   "markdownlint": {
-  "executable": [ "markdownlint-cli2" ]
+    "executable": [
+      "markdownlint-cli2"
+    ]
   },
   "lint-staged": {
     "./src/**/*.{js,jsx,ts,tsx,json,htm,html}": "eslint --fix --max-warnings 0",
     "./src/**/*.{js,jsx,ts,tsx}": "prettier --write"
-
   },
   "husky": {
     "hooks": {
@@ -38,36 +41,36 @@
     }
   },
   "dependencies": {
-    "@babel/core": "^7.26.8",
+    "@babel/core": "^7.26.10",
     "@docusaurus/core": "^3.7.0",
     "@docusaurus/preset-classic": "^3.7.0",
     "@docusaurus/theme-mermaid": "^3.7.0",
-    "@fortawesome/fontawesome-svg-core": "^6.4.2",
-    "@fortawesome/free-brands-svg-icons": "^6.4.2",
-    "@fortawesome/free-regular-svg-icons": "^6.4.2",
-    "@fortawesome/free-solid-svg-icons": "^6.4.2",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "@mdx-js/react": "^3.0.0",
-    "clsx": "^1.2.1",
-    "octokit": "^3.1.1",
-    "prism-react-renderer": "^2.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typed.js": "^2.0.16"
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mdx-js/react": "^3.1.0",
+    "clsx": "^2.1.1",
+    "octokit": "^4.1.2",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typed.js": "^2.1.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.0.0",
-    "@docusaurus/tsconfig": "^3.0.0",
-    "@types/react": "^18.2.29",
-    "@typescript-eslint/eslint-plugin": "^5.59.10",
-    "@typescript-eslint/parser": "^5.59.10",
-    "eslint": "^8.42.0",
-    "eslint-plugin-import": "^2.27.5",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
-    "markdownlint": "^0.29.0",
-    "prettier": "2.8.8",
-    "typescript": "^5.2.2"
+    "@docusaurus/module-type-aliases": "^3.7.0",
+    "@docusaurus/tsconfig": "^3.7.0",
+    "@types/react": "^19.0.12",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "eslint-plugin-import": "^2.31.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "markdownlint": "^0.37.4",
+    "prettier": "3.5.3",
+    "typescript": "^5.8.2"
   },
   "browserslist": {
     "production": [
@@ -76,9 +79,9 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
     ]
   },
   "engines": {

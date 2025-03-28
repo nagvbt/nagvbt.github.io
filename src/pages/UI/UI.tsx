@@ -8,8 +8,8 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import { PageHeader } from '@site/src/components/PageHeader';
-import { ReactTyped } from '../../components/ReactTyped';
-import { SocialFollow } from '../../components/SocialFollow';
+import { ReactTyped } from '@site/src/components//ReactTyped';
+import { SocialFollow } from '@site/src/components//SocialFollow';
 import CaseConvert from '@site/src/components/CaseConvert/CaseConvert';
 
 export default function UI(): JSX.Element {

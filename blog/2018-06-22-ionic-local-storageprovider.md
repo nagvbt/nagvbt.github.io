@@ -6,13 +6,13 @@ tags: ["Ionic"]
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 
 Add a provider to the Ionic3 app refer and follow the below steps  
-[How to Add Providers in Ionic3+](blog/2018/06/02/how-to-add-providers-in-ionic3-apps/)
+[How to Add Providers in Ionic3+](/blog/2018/06/02/how-to-add-providers-in-ionic3-apps/)
 
 <!--truncate-->
 
 ## Steps
 
-1. Inject the Storage to the StorageProvider  and that was created in the [How to Add Providers in Ionic3+](blog/2018/06/02/how-to-add-providers-in-ionic3-apps/)
+1. Inject the Storage to the StorageProvider  and that was created in the [How to Add Providers in Ionic3+](/blog/2018/06/02/how-to-add-providers-in-ionic3-apps/)
 
 2. Add IonicStorageModule to the imports list in your NgModule declaration in  src/app/app.module.ts
 

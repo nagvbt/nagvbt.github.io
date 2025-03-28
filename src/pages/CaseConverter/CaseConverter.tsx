@@ -11,7 +11,7 @@ import styles from './styles.module.css';
 import { PageHeader } from '@site/src/components/PageHeader';
 import { CaseConvert } from '@site/src/components/CaseConvert';
 
-export default function CaseConverter(): JSX.Element {
+export default function CaseConverter() {
   return (
     <Layout title="CaseConverter">
       <PageHeader variant="lined" title="Case Converter"></PageHeader>

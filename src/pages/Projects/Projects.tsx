@@ -13,7 +13,7 @@ import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import { ProjectCard } from '../../components/ProjectCard';
+import { ProjectCard } from '@site/src/components//ProjectCard';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {

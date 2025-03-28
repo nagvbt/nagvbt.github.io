@@ -8,11 +8,10 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { PageHeader } from '../../components/PageHeader';
+import { PageHeader } from '@site/src/components/PageHeader';
 
-export default function About(): JSX.Element {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
+export default function About() {
+  const { siteConfig } = useDocusaurusContext();
 
   return (
     <Layout title={`${siteConfig.title}`}>

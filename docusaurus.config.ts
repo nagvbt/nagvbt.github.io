@@ -1,12 +1,10 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 
-// const lightCodeTheme = require('prism-react-renderer/themes/github');
-// const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 import { themes as prismThemes } from 'prism-react-renderer';
+import type {Config} from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
 
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+
+const config: Config = {
   title: 'NBT',
   tagline: 'Tech Enthusiast',
   favicon: 'img/logo.png',
@@ -40,10 +38,9 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js')
+          sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -52,6 +49,7 @@ const config = {
         blog: {
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'All Blog Posts',
+          onUntruncatedBlogPosts: 'ignore',
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -80,14 +78,13 @@ const config = {
         gtag: {
           trackingID: 'G-C9LXE3HHDQ',
           anonymizeIP: true
-        }
-      })
+        },
+      }satisfies Preset.Options,
     ]
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
 
@@ -147,14 +144,14 @@ const config = {
           },
 
           //  To open a page from '/src/pages' folder
-          { label: 'About', to: 'about', position: 'right' },
-          { label: 'Bookshelf', to: 'books', position: 'right' },
-          { label: 'Projects', to: 'githubprojects', position: 'right' },
+          { label: 'About', to: '/About', position: 'right' },
+          { label: 'Bookshelf', to: '/Books', position: 'right' },
+          { label: 'Projects', to: '/GithubProjects', position: 'right' },
           {
             label: 'Tools',
             position: 'right',
             items: [
-              { label: 'Case Converter', to: 'caseconverter' },
+              { label: 'Case Converter', to: '/CaseConverter' },
               { label: 'My Tool Box', to: 'docs/Others/Tools' }
             ]
           },
@@ -162,8 +159,8 @@ const config = {
             label: 'Terms',
             position: 'right',
             items: [
-              { label: 'Terms of Use >', to: 'terms' },
-              { label: 'Disclaimer >', to: 'disclaimer' }
+              { label: 'Terms of Use >', to: '/Terms' },
+              { label: 'Disclaimer >', to: '/Disclaimer' }
             ]
           },
           // { to: "projects", label: "Projects", position: "right" },
@@ -171,7 +168,7 @@ const config = {
             label: 'Other',
             position: 'right',
             items: [
-              { label: 'Blog Archive', to: 'BlogArchive' },
+              { label: 'Blog Archive', to: '/BlogArchive' },
               { label: 'Tags / Categories', href: '/blog/tags' },
               // { label: "Books", to: "books" },
               {
@@ -236,11 +233,11 @@ const config = {
               {
                 label: 'Disclaimer',
 
-                to: 'disclaimer'
+                to: '/Disclaimer'
               },
               {
                 label: 'Terms of use',
-                to: 'terms'
+                to: '/Terms'
               }
             ]
           },
@@ -275,7 +272,7 @@ const config = {
       mermaid: {
         theme: { light: 'neutral', dark: 'forest' }
       }
-    })
+    } satisfies Preset.ThemeConfig,
 };
 
-module.exports = config;
+export default config;

@@ -11,7 +11,7 @@ tags: ["Ionic"]
 1. Created a folder constants and create a file app.configs.ts  
   
 2. Add below code which needs to be used across app  
-
+<!-- truncate -->
 ```js
 export const AppConfigs = {  
  APP_NAME: "InoicTemplate",  

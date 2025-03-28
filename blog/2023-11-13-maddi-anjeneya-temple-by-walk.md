@@ -13,6 +13,8 @@ It was a nice experience my iPhone Fitness app shows I had walked for entrie tri
 as 50.55 km, 2nd Day 38.85 km and 3rd Day as 23.34 km Total 113 KM with pradakshanams
 and darshan etc.
 
+<!-- truncate -->
+
 |Day | Date | Distance walked (KM)|
 |---|---| ----------- |
 | 1 | 10-Nov | 50.55 |

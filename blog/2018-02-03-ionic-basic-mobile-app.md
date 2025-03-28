@@ -15,6 +15,7 @@ tags: ["Ionic"]
 `cd IonicMobileProject/`
 
 `ionic serve`  
+<!-- truncate -->
 
 **FILES**
 Refer the code files in [Github](https://github.com/nagvbt/IonicTemplate/commit/577c6433435af108dc27dec1e8267075c04e9d3d)

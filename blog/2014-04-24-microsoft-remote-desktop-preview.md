@@ -8,7 +8,7 @@ tags: ["Windows Phone"]
 
 Microsoft Remote Desktop Preview now available for Windows Phone 8.1
 
-If you install [Windows Phone 8.1 preview for developers on your phone.](blog/2014/05/20/upgrade-windows-phone-8-to-wp-8-1)
+If you install [Windows Phone 8.1 preview for developers on your phone.](/blog/2014/05/20/upgrade-windows-phone-8-to-wp-8-1)
 
 It's time to [download](http://www.windowsphone.com/s?appid=299b09ab-207e-441c-9e8e-c8d66c20b76b) and try 'Microsoft Remote Desktop Preview' app which is now available in WP Store
 

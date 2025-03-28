@@ -27,7 +27,7 @@ function HomepageHeader() {
               {/* <p className="hero__subtitle">Architect . Innovator . Mentor</p> */}
               <div className={styles.buttons}>
                 <div className={styles.link}>
-                  <Link className="button button--primary button--lg" to="/about">
+                  <Link className="button button--primary button--lg" to="/About">
                     About Me
                   </Link>
                 </div>

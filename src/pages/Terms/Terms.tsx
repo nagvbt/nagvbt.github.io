@@ -1,7 +1,7 @@
 import React from 'react';
 import MDXContent from '@theme/MDXContent';
 import Layout from '@theme/Layout';
-import { PageHeader } from '../../components/PageHeader';
+import { PageHeader } from '@site/src/components//PageHeader';
 
 import Terms from './_terms.mdx';
 

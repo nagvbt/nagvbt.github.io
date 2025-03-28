@@ -11,7 +11,7 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 import { HeaderProps } from './types';
 
-export default function PageHeader({ title, subTitle, variant }: HeaderProps): JSX.Element {
+export default function PageHeader({ title, subTitle, variant }: HeaderProps) {
   return (
     <>
       {variant == 'lined' ? (

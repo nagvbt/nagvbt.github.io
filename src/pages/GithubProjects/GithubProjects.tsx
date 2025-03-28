@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import { translate } from '@docusaurus/Translate';
-import { PageHeader } from '../../components/PageHeader';
+import { PageHeader } from '@site/src/components//PageHeader';
 import styles from './styles.module.css';
 import useGithubRepositories, { Repository } from '../../hooks/useGithubRepositories';
 import { GithubCard } from '@site/src/components/GithubCard';

@@ -14,7 +14,9 @@ tag: ["Web"]
 **Verifying HTML and CSS**  
 To verify HTML: `http://validator.w3.org/#validate\_by\_input`  
 To verify CSS: `http://jigsaw.w3.org/css-validator/#validate\_by\_input`  
-  
+
+<!-- truncate -->
+ 
 **Flex**  
 `https://developer.mozilla.org/en-US/docs/Web/CSS/flex`  
 `https://css-tricks.com/snippets/css/a-guide-to-flexbox/`  

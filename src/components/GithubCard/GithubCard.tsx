@@ -11,7 +11,7 @@ import * as colors from '../../utils/colors.json';
 import styles from './styles.module.css';
 import { GithubCardProps } from './types';
 
-export default function GithubCard({ repository }: GithubCardProps): JSX.Element {
+export default function GithubCard({ repository }: GithubCardProps) {
   const description =
     repository.description?.replace(/:\w+:/g, (match) => {
       const name = match.substring(1, match.length - 1);

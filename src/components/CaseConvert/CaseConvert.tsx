@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './styles.module.css';
 import clsx from 'clsx';
 
-export default function CaseConvert(): JSX.Element {
+export default function CaseConvert() {
   const [defaultText, setDefaultText] = useState('type text here');
   const [enteredText, setEnteredText] = useState('type text here');
 
