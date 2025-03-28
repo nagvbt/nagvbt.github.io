@@ -1,9 +1,0 @@
-package-lock.json
-.docusaurus
-.github
-node_modules
-blog
-docs
-static
-build
-coverage
