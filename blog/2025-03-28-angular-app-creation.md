@@ -2,7 +2,7 @@
 tags: ["Angular", "Front End"]
 ---
 
-# **Creating an Angular Application from Scratch**  
+# Creating an Angular Application from Scratch
 
 Setting up an Angular application from scratch may seem daunting at first, but with Angular CLI, the process is streamlined and efficient. This guide walks you through the essential steps, from installing dependencies to running your project.
 

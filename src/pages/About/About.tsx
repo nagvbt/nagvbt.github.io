@@ -28,22 +28,53 @@ export default function About() {
           <h3>OVERVIEW</h3>
           <ul>
             <li>
-              Had 17+ years of experience in Design, Development and Maintenance of Web, Mobile and
-              Desktop applications.
+              Over <b>18 years of experience</b> in architecture, analysis, design, development, and
+              reengineering of <b>Web, Mobile, Desktop, and PWA applications</b> across industries
+              including Learning, Talent, HCM, Industrial Automation, Instrumentation, Finance, and
+              Travel.
             </li>
-            <li>Mentor and Lead the development and QA Teams</li>
-            <li>Six Sigma Green Belt certified Engineer</li>
-            <li>Expertise in building the Technical Teams (Interviewed 200+ Engineers)</li>
+            <li>
+              Proven track record as an Architect, researching and recommending emerging
+              technologies to enhance product competitiveness.
+            </li>
+            <li>
+              Extensive experience in <b>building and leading technical teams,</b> having
+              interviewed <b>200+ engineers.</b>
+            </li>
+            <li>
+              Active participant in <b>The August Fest,</b> Asia's largest startup festival.
+            </li>
+            <li>
+              Experienced in <b>leading and mentoring Development and QA teams.</b>
+            </li>
+            <li>
+              Skilled in developing web applications using{' '}
+              <b>React.js, React Native, Angular, and ASP.NET/MVC.</b>
+            </li>
+            <li>
+              Strong expertise in <b>Mobile App and PWA design and development.</b>
+            </li>
+            <li>Comprehensive understanding of Software Development Life Cycle (SDLC).</li>
+            <li>Proficient in requirements gathering, functional analysis, and time estimation.</li>
+            <li>Adept at crafting innovative solutions to address complex client needs.</li>
+            <li>
+              Holds a B1 Visa and has <b>worked in the USA for six months.</b>
+            </li>
+            <li>
+              Passionate about <b>cutting-edge technologies</b>, always eager to explore
+              advancements in the software industry
+            </li>
           </ul>
 
           <h3>SKILLS</h3>
           <ul>
             <li>
-              <b>Programming:</b> C#, Typescript, Javascript, CSS, HTML5, Less, Sass, Visual C++,
-              C++, C, SQL
+              <b>Languages:</b> C#, Typescript, Javascript, CSS, HTML5, Less, Sass, Visual C++, C++,
+              C, SQL
             </li>
             <li>
-              <b>Web Development: </b> React.js, Angular, .NET, ASP.NET, MVC, Silverlight
+              <b>Web Development: </b> React.js, Angular, Express.js, ASP.Net Core, MVC,
+              Silverlight, SPA, Angular.js
             </li>
             <li>
               <b>Patterns & Practices: </b> Design patterns, NTier development, Separation of
@@ -71,7 +102,7 @@ export default function About() {
               Visio, VMWare WorkStation, Devpartner
             </li>
             <li>
-              <b>Source Control: </b> GIT, SVN, TFS, Gerrit
+              <b>Source Control: </b> Github, Bitbucket, GIT, SVN, TFS, Gerrit
             </li>
           </ul>
 
