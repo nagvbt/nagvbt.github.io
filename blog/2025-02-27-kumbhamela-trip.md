@@ -1,6 +1,5 @@
-
 ---
-tags: ["travel", "walk", "spiritual"]
+tags: ["travel", "bus", "spiritual"]
 ---
 
 

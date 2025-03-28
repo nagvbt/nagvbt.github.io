@@ -1,3 +1,7 @@
+---
+tags: ["travel", "train", "spiritual"]
+---
+
 # A Divine Journey to Tirupati and Tirumala
 
 Tirupati and Tirumala, the abode of Lord Venkateswara, are among the most revered pilgrimage destinations in India. My recent visit to these sacred places was a blend of spirituality, nostalgia, and cultural exploration. Here’s a glimpse into my enriching experience.
