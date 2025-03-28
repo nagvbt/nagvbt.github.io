@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[69991],{1835:a=>{a.exports=JSON.parse('{"label":"Win32","permalink":"/blog/tags/win-32","allTagsPath":"/blog/tags","count":4,"unlisted":false}')}}]);

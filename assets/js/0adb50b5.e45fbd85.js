@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[56240],{35186:a=>{a.exports=JSON.parse('{"label":"WCF","permalink":"/blog/tags/wcf","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);

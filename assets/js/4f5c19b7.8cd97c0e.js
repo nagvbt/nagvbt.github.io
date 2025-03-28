@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[53550],{40988:a=>{a.exports=JSON.parse('{"tag":{"label":"Books","permalink":"/blog/tags/books","allTagsPath":"/blog/tags","count":7,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/books","page":1,"postsPerPage":10,"totalPages":1,"totalCount":7,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
