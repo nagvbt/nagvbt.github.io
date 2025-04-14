@@ -48,6 +48,18 @@ Modify `.eslintrc.json`:
 }
 ```
 
+Create `.eslintignore`:
+```
+# Third party
+**/node_modules
+
+# Build products
+build/
+static/
+docs/
+```
+
+
 ### **Add ESLint Scripts to `package.json`**
 ```json
 "scripts": {
@@ -62,15 +74,31 @@ Modify `.eslintrc.json`:
 Create `.prettierrc`:
 ```json
 {
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "printWidth": 100,
+  "semi": true,
   "singleQuote": true,
-  "semi": false
+  "tabWidth": 2,
+  "trailingComma": "none"
 }
+```
+
+Create `.prettierignore`:
+```
+.git
+.github
+.yarn
+.husky
+build
+node_modules
+static
 ```
 
 ### **Add Prettier Scripts to `package.json`**
 ```json
 "scripts": {
-     "format": "prettier --write .",
+    "format": "prettier --write .",
     "format:diff": "prettier --list-different ."
 }
 ```
@@ -81,7 +109,11 @@ Create `.prettierrc`:
 Create `.stylelintrc`:
 ```json
 {
-  "extends": "stylelint-config-standard"
+    "extends": "stylelint-config-standard",
+  "rules": {
+    "selector-class-pattern": null,
+    "value-keyword-case": ["lower", { "camelCaseSvgKeywords": true }]
+  }
 }
 ```
 
@@ -94,31 +126,7 @@ Create `.stylelintrc`:
 ```
 
 ---
-## **Step 7: Configure Lint-Staged**
-
-Modify `package.json`:
-```json
-"lint-staged": {
-  "src/**/*.{js,jsx,ts,tsx}": ["eslint --fix", "prettier --write"],
-  "src/**/*.{css,scss}": ["stylelint --fix"]
-}
-```
-
----
-## **Step 8: Configure Husky for Pre-Commit Hooks**
-
-Initialize Husky:
-```sh
-npx husky init
-```
-
-Add pre-commit hook:
-```sh
-npx husky add .husky/pre-commit "npx lint-staged"
-```
-
----
-## **Step 9: Configure cspell (Spell Checker)**
+## **Step 7: Configure cspell (Spell Checker)**
 
 Initialize cspell:
 ```sh
@@ -156,8 +164,48 @@ Create a `project-words.txt` file to store custom words.
 ### **Add cspell Script to `package.json`**
 ```json
 "scripts": {
- "lint:spelling": "cspell \"docs/**/*.md\" \"blog/**/*.md\" \"src/**/*.js\" \"src/**/*.tsx\" \"docusaurus.config.js\" --no-progress --show-context --show-suggestions"
+ "lint:spelling": "cspell \"docs/**/*.md\" \"blog/**/*.md\" \"src/**/*.js\" \"src/**/*.tsx\" \"docusaurus.config.js\" --no-progress --show-context --show-suggestions",
+  "lint:spelling:fix": "yarn rimraf project-words.txt && echo \"# Project Words - DO NOT TOUCH - This is updated through CI\" >> project-words.txt && yarn -s lint:spelling --words-only --unique --no-exit-code --no-summary \"**\" | cross-env LC_ALL=en_US.UTF-8 sort --ignore-case >> project-words.txt"
 }
+```
+
+`lint:spelling:fix` does
+
+---
+## **Step 8: Configure Husky for Pre-Commit Hooks**
+
+Initialize Husky:
+```sh
+npx husky init
+```
+
+Add pre-commit hook:
+```sh
+npx husky add .husky/pre-commit "npx lint-staged"
+```
+
+Add pre-push hook:
+```sh
+npx husky add .husky/pre-push "npx lint-staged"
+```
+## **Step 9: Configure Lint-Staged**
+
+Modify `package.json`:
+```json
+"lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix --max-warnings=0",
+      "prettier --write",
+      "cspell --no-progress --show-context --show-suggestions"
+    ],
+    "src/**/*.{css,scss}": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
+    "{docs,blog}/**/*.{md,mdx}": [
+      "cspell --no-progress --show-context --show-suggestions"
+    ]
+  }
 ```
 
 ---
