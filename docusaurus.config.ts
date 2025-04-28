@@ -142,6 +142,19 @@ const config: Config = {
             to: '/docs/category/tutorials',
             position: 'left'
           },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'cpp',
+            label: 'C++',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'c',
+            label: 'C',
+          },
+
 
           //  To open a page from '/src/pages' folder
           { label: 'About', to: '/About', position: 'right' },

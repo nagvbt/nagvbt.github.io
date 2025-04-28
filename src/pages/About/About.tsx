@@ -120,7 +120,7 @@ export default function About() {
             </li>
             <li>
               <a id="at" href="/docs/others/education/btech">
-                B.Tech in Electronics and Communication, GMRIT Rajam.
+                B.Tech in Electronics and Communication, JNTU Hyderabad.
               </a>
             </li>
             <li>
@@ -130,12 +130,22 @@ export default function About() {
             </li>
             <li>
               <a id="at" href="/docs/others/education/llb">
+                L.L.M Master of Law, Osmania University.
+              </a>
+            </li>
+            <li>
+              <a id="at" href="/docs/others/education/llb">
                 L.L.B Bachelor of Law, Osmania University.
               </a>
             </li>
             <li>
               <a id="at" href="/docs/others/education/sdbme">
-                SDBME - Special diploma in Bio-Medical Engineering, SVGP Tirupathi.
+                SDBME - Special diploma in Bio-Medical Engineering, SBTET, A.P.
+              </a>
+            </li>
+            <li>
+              <a id="at" href="/docs/others/education/sdbme">
+                Intermediate in BiPC.
               </a>
             </li>
           </ul>

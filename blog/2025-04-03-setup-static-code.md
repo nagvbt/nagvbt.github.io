@@ -2,7 +2,7 @@
 tags: ["React", "Front End", "Project Setup"]
 ---
 
-# Setting Up a Modern React Project with Linting, Formatting, Styling and Spell Checking**
+# Setting Up a Modern React Project with Linting, Formatting, Styling and Spell Checking
 
 When working on a React project, maintaining clean and consistent code is essential. This guide will walk you through setting up a **React** project with **ESLint, Prettier, Stylelint, Husky, lint-staged, and cspell** to automate code formatting, linting, and spell checking.
 
@@ -181,12 +181,12 @@ npx husky init
 
 Add pre-commit hook:
 ```sh
-npx husky add .husky/pre-commit "npx lint-staged"
+echo "yarn run lint-staged" > .husky/pre-commit
 ```
 
 Add pre-push hook:
 ```sh
-npx husky add .husky/pre-push "npx lint-staged"
+echo "yarn run lint-staged" > .husky/pre-push
 ```
 ## **Step 9: Configure Lint-Staged**
 
