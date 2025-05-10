@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # M.Tech - ML & DL
 
-<!--markdownlint-disable MD056 MD013 MD029 MD036 MD024-->
+<!--markdownlint-disable MD013 MD029 MD036 MD024-->
 
 Master of Technology in Machine Learning & Deep Learning
 
@@ -23,15 +23,34 @@ Code: MR22
 
 **Year - II**
 
-| #   | Semester III                | #   | Semester IV                  |
-| --- | --------------------------- | --- | ---------------------------- |
-| 1   | PROFESSIONAL CORE           | 1   | Startup Internship           |
-| 2   | PROFESSIONAL ELECTIVE       | 2   | Project Development phase- 2 |
-| 3   | Project Development Phase-1 |
+| #   | Semester III                     | #   | Semester IV                  |
+| --- | -------------------------------- | --- | ---------------------------- |
+| 1   | Big Data Analytics (2CS0202)     | 1   | Startup Internship           |
+| 2   | Reinforcement Learning (2CS0215) | 2   | Project Development phase- 2 |
+| 3   | Project Development Phase-1      |     |                              |
 
 ## Semester I
 
 ### 1. Machine Learning
+
+**PREREQUISITES:** Mathematical Foundations for Machine Learning, Data Mining
+
+**COURSE OBJECTIVES:**
+- To Understand the formulation of well-specified machine learning problems
+- To introduce students to the basic concepts and techniques of Machine Learning.
+- To develop skills of using recent machine learning software for solving practical problems.
+- To gain experience of doing independent study and research.
+- Identify examples of the ethical responsibilities of an ML
+
+**COURSE OUTCOMES:**
+- To Implement and analyse existing learning algorithms, including well-studied methods
+for classification, regression, structured prediction, clustering, and representation learning.
+- ToIntegrate multiple facets of practical machine learning in a single system: data
+- Pre-processing, learning, regularization and model selection
+- ToEmploy probability, statistics, calculus, linear algebra, and optimization in order to
+Develop new predictive models or learning methods
+- To Design experiments to evaluate and compare different machine learning techniques on
+Real- World problems
 
 **UNIT I**
 
@@ -81,6 +100,29 @@ Bagging, Bootstrap Method, Bootstrap Aggregation (Bagging), Preparing Data For B
 
 ### 2. Statistical Machine Learning
 
+**COURSE OBJECTIVES:**
+- To understand the concepts of the probability and probability distributions associated with different types of random variables.
+- To fit a suitable probability distributions.
+- To understand the Concept of correlation for a bivariate distributions.
+- To understand and to formulate the various regression models of statistical data.
+- To understand the various sampling methods which are useful for computer science engineers
+
+**COURSE OUTCOMES:**
+After learning the contents of this course the students must be able to:
+- Understand and able to write down various probability distributions for different types of random variables
+- To identify various probability distributions (discrete and continuous) for given phenomena.
+- To determine the nature of association between the variables of a bivariate data
+- To construct various regression models and estimation of parameter of the model
+- Different types of sampling methods which are useful for computer science and engineers.
+
+**COURSE OUTCOMES:**
+- To tag a given text with basic Language features
+- To design an innovative application using NLP components
+- To implement a rule based system to tackle morphology/syntax of a language
+- To design a tag set to be used for statistical processing for real-time applications
+- To compare and contrast the use of different statistical approaches for different types of NLP applications.
+
+
 **UNIT – I**
 
 Review of probability theory – Conditional Probability – Bayes Rule – Random variables – Probability distributions – Joint, Marginal & conditional Probability distributions – Generating functions
@@ -113,6 +155,22 @@ Sampling Methods: Basic sampling algorithms, rejection sampling, adaptive reject
 
 ### 3. Natural Language Processing
 
+**PREREQUISITES:** Probability and statistics, Programming and data structures
+
+**COURSE OBJECTIVES:**
+- To learn the fundamentals of natural language processing.
+- To understand the use of CFG and PCFG in NLP.
+- To understand the role of semantics of sentences and pragmatics.
+- To apply the NLP techniques to IR applications.
+- To understand NLP Analysis and Lexical Analysis.
+
+**COURSE OUTCOMES:**
+- To tag a given text with basic Language features
+- To design an innovative application using NLP components
+- To implement a rule based system to tackle morphology/syntax of a language
+- To design a tag set to be used for statistical processing for real-time applications
+- To compare and contrast the use of different statistical approaches for different types of NLP applications.
+
 **UNIT - I**
 
 **INTRODUCTION:** Origins & challenges of NLP – Language Modelling: Grammar-based LM, Statistical LM Regular Expressions, Finite-State Automata – English Morphology, Transducers for lexicon & rules, Tokenization, Detecting & Correcting Spelling Errors, Minimum Edit Distance[BOOK-1] .
@@ -142,6 +200,23 @@ Requirements for representation, First-Order Logic, Description Logics – Synta
 5. Steven Bird, Ewan Klein, & Edward Loper- Natural Language Processing with Python – Analyzing Text with the Natural Language Toolkit Pearson Publications ,2015.
 
 ### 4. Business Intelligence & Analytics
+
+**PREREQUISITES:** Data Visualization, Data Mining.
+
+**COURSE OBJECTIVES:**
+- Be exposed with the basic rudiments of business intelligence system.
+- Understand the modeling aspects behind Business Intelligence.
+- Understand of the business intelligence life cycle and the techniques used in it.
+- Be exposed with different data analysis tools and techniques.
+- To learn about business intelligence applications.
+
+**COURSE OUTCOMES:**
+- After completion of the course, the students will be able to Explain the fundamentals of business intelligence.
+- Link data mining with business intelligence.
+- Apply various modeling techniques.
+- Explain the data analysis and knowledge delivery stages.
+- Apply business intelligence methods to various situations.
+
 
 **UNIT - I**
 
@@ -173,6 +248,22 @@ Requirements for representation, First-Order Logic, Description Logics – Synta
 
 ### 5. Advanced Algorithms
 
+**PREREQUISITES:** Data structures, Design and analysis of algorithms.
+
+**COURSE OBJECTIVES:**
+- To provide the foundations of the practical implementation and usage of Algorithms and Data Structures.
+- To ensure that the student evolves into a competent programmer capable of designing.
+- To analyze implementations of algorithms and data structures for different kinds of problems.
+- To expose the student to the algorithm analysis techniques, to the theory of reductions.
+- To know the classification of problems into complexity classes like NP.
+
+**COURSE OUTCOMES:**
+- Design and analyze programming problem statements.
+- Understand elementary data structures and graph algorithms.
+- Understand the necessary mathematical abstraction to solve problems.
+- Come up with analysis of efficiency and proofs of correctness.
+- Comprehend and select algorithm design approaches in a problem specific manner.
+
 **UNIT I**
 
 Introduction: Algorithms, Performance analysis- Space complexity, Time Complexity, Asymptotic notation- Big oh notation, omega notation, theta notation & little oh notation. Trees– Basics of trees & binary trees, Representation of trees & Binary trees. [BOOK-1]
@@ -202,6 +293,20 @@ NP-Hard & NP-Complete Problems: P-Class & NP-Class problems, Non deterministic a
 3. Design & Analysis of Algorithms by E. Horowitz, S. Sahani, 3rd Edition, Galgotia.
 
 ### 6. Full Stack Development
+
+**COURSE OBJECTIVES:**
+- Design static web page using Markup languages.
+- Design and implement web pages using style sheets.
+- Implement with java script web applications with dynamic web pages.
+- Understand working of application using Angular JS Framework, React JS, Node JS.
+- Understand databases MongoDB with NodeJS and services of MongoDB.
+
+**COURSE OUTCOMES:**
+- Design user interactions on web pages.
+- Develop back end website applications.
+- Create servers and databases for functionality.
+- Develop adaptive content for multiple devices (cell phone, tablets, etc.)Ensure cross-platform optimization for mobile phones.
+- Ensure responsiveness of applications.
 
 **UNIT I**
 
@@ -430,3 +535,107 @@ Software testing fundamentals - Testing Strategies: White box testing – contro
 1. R.S. Pressman, “Software Engineering - A Practitioner’s Approach”, Eighth Edition, McGraw Hill International Edition, 2015.
 2. Rajib Mall, ”Fundamentals of Software Engineering”, 5th Edition, PHI Learning Pvt. Ltd., 2018.
 3. Ian Sommerville, “Software Engineering”, Pearson Education
+
+
+## Semester III
+
+### 1. Big Data Analytics
+
+**PREREQUISITES:** DBMS, DWDM
+
+**COURSE OBJECTIVES:**
+- To optimize business decisions and create competitive advantage with Big Data Analytics
+- To explore the fundamental concepts of big data analytics.
+- To understand the various search methods and visualization techniques.
+- To learn to use various techniques for mining data stream and to understand the applications using Map Reduce Concepts.
+- To introduce programming tools PIG & HIVE in Hadoop echo system.
+
+**COURSE OUTCOMES:** Students will be able to:
+
+- Work with big data platform and explore the big data analytics techniques business applications.
+- Design efficient algorithms for mining the data from large volumes.
+- Analyze the HADOOP and Map Reduce technologies associated with big data analytics.
+- Explore on Big Data applications Using Pig and Hive.
+- Understand the fundamentals of various big data analytics techniques and build a complete business data analytics solution.
+
+
+**UNIT-I: INTRODUCTION TO BIG DATA AND ANALYTICS**
+
+Classification of Digital Data, Structured and Unstructured Data –Introduction to Big Data: Characteristics – Evolution – Definition - Challenges with Big Data- Other Characteristics of Data - Why Big Data - Traditional Business Intelligence versus Big Data - Data Warehouse and Hadoop Environment Big Data Analytics: Classification of Analytics – Challenges - Big Data Analytics important - Data Science - Data Scientist - Terminologies used in Big Data Environments - Basically Available Soft State Eventual Consistency - Top Analytics Tools
+
+**UNIT-II: INTRODUCTION TO TECHNOLOGY LANDSCAPE**
+
+NoSQL, Comparison of SQL and NoSQL, Hadoop -RDBMS Versus Hadoop – Distributed Computing Challenges – Hadoop Overview - Hadoop Distributed File System – Processing Data with Hadoop - Managing Resources and Applications with Hadoop YARN -Interacting with Hadoop Ecosystem
+
+**UNIT-III: INTRODUCTION TO MONGODB AND MAPREDUCE PROGRAMMING**
+
+MongoDB: Why Mongo DB - Terms used in RDBMS and Mongo DB - Data Types -MongoDB Query Language Map Reduce: Mapper – Reducer – Combiner – Partitioner – Searching – Sorting – Compression
+
+**UNIT-IV: INTRODUCTION TO HIVE AND PIG**
+
+Hive: Introduction – Architecture - Data Types - File Formats - Hive Query Language Statements – Partitions
+– Bucketing – Views - Sub- Query – Joins – Aggregations - Group by and Having - RCFile Implementation -
+Hive User Defined Function - Serialization and Deserialization.
+FRAMEWORKS:
+Applications on Big Data Using Pig and Hive – Data processing operators in Pig – Hive services – HiveQL – Querying Data in Hive - fundamentals of HBase and Zoo Keeper - IBM Info Sphere Big Insights and Streams.
+
+**UNIT -V: INTRODUCTION TO DATA ANALYTICS WITH R**
+
+Machine Learning: Introduction, Supervised Learning, Unsupervised Learning, Machine Learning Algorithms: Regression Model, Clustering, Collaborative Filtering, Associate Rule Making, Decision Tree, Big Data Analytics with BigR.
+PREDICTIVE ANALYTICS: Simple linear regression-Multiple linear regression- Interpretation of regression coefficients; Visualizations - Visual data analysis techniques- interaction techniques - Systems and applications.
+
+### Books
+
+1. Seema Acharya, Subhashini Chellappan, “Big Data and Analytics”, Wiley Publications, First Edition.
+2. Judith Huruwitz, Alan Nugent, Fern Halper, Marcia Kaufman, “Big data fordummies”, John Wiley & Sons, Inc.(2013)
+3. Tom White, “Hadoop The Definitive Guide”, O’Reilly Publications, FourthEdition,2015
+4. Dirk Deroos, Paul C.Zikopoulos, Roman B.Melnky, Bruce Brown, Rafael Coss,“Hadoop For Dummies”, Wiley Publications,2014
+5. Robert D.Schneider, “Hadoop For Dummies”, John Wiley & Sons, Inc.(2012)
+
+### 2. Reinforcement Learning
+
+**PREREQUISITES:** Machine Learning, Deep Learning
+
+**COURSE OBJECTIVES:**
+
+- Understand the fundamental concepts and principles of bandit algorithms, reinforcement learning (RL), and Markov Decision Processes (MDPs).
+- Explore and analyze different bandit algorithms, including Upper Confidence Bound (UCB), Probably Approximately Correct (PAC), Median Elimination, and Policy Gradient.
+- Gain knowledge of advanced RL techniques such as Dynamic Programming, Temporal Difference (TD) methods, and Bellman Optimality equation.
+- Develop an understanding of eligibility traces, function approximation, and least squares methods in RL.
+- Learn and apply advanced RL techniques including Fitted Q-learning, Deep Q-Network (DQN), and Policy Gradient algorithms for full RL.
+
+**COURSE OUTCOMES:** Students will be able to:
+- Ability to explain the key concepts and principles of bandit algorithms, RL, and MDPs.
+- Proficiency in implementing and utilizing various bandit algorithms, including UCB, PAC, Median Elimination, and Policy Gradient.
+- Competence in formulating RL problems as MDPs and applying dynamic programming and TD methods to solve them.
+- Skill in utilizing eligibility traces, function approximation, and least squares methods for RL tasks.
+- Proficient in applying advanced RL techniques such as Fitted Q-learning, DQN, and Policy Gradient algorithms to solve complex RL problems and make informed decisions.
+
+
+**UNIT-I: Introduction to Bandit Algorithms**
+
+Overview of bandit algorithms, Introduction to Upper Confidence Bound (UCB) algorithm, Introduction to Probably Approximately Correct (PAC) algorithm
+
+**UNIT-II: Advanced Bandit Algorithms**
+
+Median Elimination algorithm for bandit problems, Policy Gradient algorithm for bandit problems
+
+**UNIT-III: Full RL and MDPs**
+
+Introduction to full Reinforcement Learning (RL) framework, Markov Decision Processes (MDPs) in RL
+
+**UNIT-IV: Dynamic Programming, TD Methods, and Bellman Optimality:**
+
+Dynamic Programming methods for solving RL problems, Temporal Difference (TD) methods for RL, Bellman Optimality equation in RL
+
+**UNIT -V: Advanced RL Techniques**
+
+Eligibility Traces in RL, Function Approximation in RL, Least Squares Methods for RL, Fitted Q-learning,
+Deep Q-Network (DQN), and Policy Gradient algorithms for full RL
+
+### Books
+1. "Bandit Algorithms for Website Optimization" by John Myles White (Publisher: O'Reilly Media), 2020.
+2. "Reinforcement Learning: An Introduction" by Richard S. Sutton and Andrew G. Barto (Publisher: The MIT Press), 1998.
+3. "Deep Reinforcement Learning" by Sergey Levine, Pieter Abbeel, and Wojciech Zaremba (Publisher: Springer), 2021.
+4. "Reinforcement Learning: State-of-the-Art" edited by Marco Wiering and Martijn van Otterlo (Publisher: Springer), 2022.
+5. "Fundamentals of Reinforcement Learning" by Charles W. Anderson (Publisher: Morgan & Claypool Publishers), 2020.

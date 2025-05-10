@@ -46,4 +46,4 @@ int main()
 }
  ```
 
-[Read More](/docs/articles/C/CFaq)
+[Read More](/docs/C/CFaq)
