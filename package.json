@@ -1,8 +1,7 @@
 {
-  "name": "nagvbt",
+  "name": "NBT",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "---------Common": "",
     "start": "docusaurus start",
@@ -43,9 +42,10 @@
   },
   "dependencies": {
     "@babel/core": "^7.26.10",
-    "@docusaurus/core": "^3.7.0",
-    "@docusaurus/preset-classic": "^3.7.0",
-    "@docusaurus/theme-mermaid": "^3.7.0",
+    "@docusaurus/core": "^3.8.0",
+    "@docusaurus/faster": "^3.8.0",
+    "@docusaurus/preset-classic": "^3.8.0",
+    "@docusaurus/theme-mermaid": "^3.8.0",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
@@ -60,8 +60,8 @@
     "typed.js": "^2.1.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.7.0",
-    "@docusaurus/tsconfig": "^3.7.0",
+    "@docusaurus/module-type-aliases": "^3.8.0",
+    "@docusaurus/tsconfig": "^3.8.0",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.23.0",
     "@types/react": "^19.0.12",

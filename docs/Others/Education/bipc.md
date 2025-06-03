@@ -25,6 +25,7 @@ sidebar_position: 6
 5. Telugu
 
 **Labs**
+
 6. Biology - lab
 7. Physics - lab
 8. Chemistry - lab

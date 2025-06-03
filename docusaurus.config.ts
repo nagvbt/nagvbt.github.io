@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: 'http://nagvbt.com/',
+  url: 'http://mrnbt.in/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -24,6 +24,12 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+   future: {
+    v4: true, // Enable Docusaurus v4 future flags
+    experimental_faster: true,
+  },
+
+  // MERMAID
   markdown: {
     mermaid: true
   },
