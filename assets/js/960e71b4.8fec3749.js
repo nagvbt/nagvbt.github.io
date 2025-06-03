@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkNBT=self.webpackChunkNBT||[]).push([["8967"],{1116:function(a){a.exports=JSON.parse('{"tag":{"label":"WPF","permalink":"/blog/tags/wpf","allTagsPath":"/blog/tags","count":5,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/wpf","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

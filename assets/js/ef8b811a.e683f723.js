@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkNBT=self.webpackChunkNBT||[]).push([["92134"],{96007:function(t){t.exports=JSON.parse('{"authors":[{"name":"NBT","title":"Sr. Software Architect","url":"http://mrnbt.in","imageURL":"/img/logo.png","key":"nagvbt","page":null,"count":1}]}')}}]);

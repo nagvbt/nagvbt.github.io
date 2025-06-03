@@ -4,8 +4,8 @@
   <ShortName>NBT</ShortName>
   <Description>Search NBT</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">http://nagvbt.com/img/logo.png</Image>
-  <Url type="text/html" method="get" template="http://nagvbt.com/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="http://nagvbt.com/opensearch.xml" />
-  <moz:SearchForm>http://nagvbt.com/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">http://mrnbt.in/img/logo.png</Image>
+  <Url type="text/html" method="get" template="http://mrnbt.in/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="http://mrnbt.in/opensearch.xml" />
+  <moz:SearchForm>http://mrnbt.in/</moz:SearchForm>
 </OpenSearchDescription>

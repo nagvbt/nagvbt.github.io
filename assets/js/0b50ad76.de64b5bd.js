@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkNBT=self.webpackChunkNBT||[]).push([["44759"],{59484:function(a){a.exports=JSON.parse('{"tag":{"label":"PWA","permalink":"/blog/tags/pwa","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/pwa","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

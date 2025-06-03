@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknagvbt=self.webpackChunknagvbt||[]).push([[41456],{37422:a=>{a.exports=JSON.parse('{"tag":{"label":"train","permalink":"/blog/tags/train","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/train","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkNBT=self.webpackChunkNBT||[]).push([["90621"],{34195:function(a){a.exports=JSON.parse('{"tag":{"label":"bus","permalink":"/blog/tags/bus","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/bus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
