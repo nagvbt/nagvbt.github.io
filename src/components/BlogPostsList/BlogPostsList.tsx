@@ -14,6 +14,7 @@ type BlogPostsListProps = {
   numberOfPosts: number;
 };
 
+/* eslint @typescript-eslint/no-require-imports: "off" */
 const recentPosts = require('../../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json');
 
 export default function BlogPostsList({ title, numberOfPosts }: BlogPostsListProps): JSX.Element {
