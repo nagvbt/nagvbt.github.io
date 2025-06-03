@@ -1,22 +1,22 @@
 {
-"talks": [
-  {
-    "id": "r3Q3HRs5Nl8",
-    "title": "How to Become a Chief Technology Officer (CTO)",
-    "permalink": "https://www.youtube.com/watch?v=r3Q3HRs5Nl8",
-    "formattedDate": "October 23rd, 2020"
-  },
-  {
-    "id": "AABZMJcqVA4",
-    "title": "When Breath Becomes Air",
-    "permalink": "https://www.youtube.com/watch?v=AABZMJcqVA4",
-    "formattedDate": "December 05th, 2018"
-  },
-  {
-    "id": "GzdsUo1cYQY",
-    "title": "The Biology of Belief",
-    "permalink": "https://www.youtube.com/watch?v=GzdsUo1cYQY",
-    "formattedDate": "10 questions to ask Chief Technology Officer"
-  }
-]
+  "talks": [
+    {
+      "id": "r3Q3HRs5Nl8",
+      "title": "How to Become a Chief Technology Officer (CTO)",
+      "permalink": "https://www.youtube.com/watch?v=r3Q3HRs5Nl8",
+      "formattedDate": "October 23rd, 2020"
+    },
+    {
+      "id": "AABZMJcqVA4",
+      "title": "When Breath Becomes Air",
+      "permalink": "https://www.youtube.com/watch?v=AABZMJcqVA4",
+      "formattedDate": "December 05th, 2018"
+    },
+    {
+      "id": "GzdsUo1cYQY",
+      "title": "The Biology of Belief",
+      "permalink": "https://www.youtube.com/watch?v=GzdsUo1cYQY",
+      "formattedDate": "10 questions to ask Chief Technology Officer"
+    }
+  ]
 }

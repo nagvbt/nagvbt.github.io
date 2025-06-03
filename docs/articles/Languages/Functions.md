@@ -171,7 +171,7 @@ def myFunc(*args):
   print(arg)
 
 
-myFunc('Hello', 'Welcome', 'to', 'NagVBT')
+myFunc('Hello', 'Welcome', 'to', 'NBT')
 
 """
 Output
@@ -179,7 +179,7 @@ Output
 Hello
 Welcome
 to
-NagVBT
+NBT
 """
 ````
 

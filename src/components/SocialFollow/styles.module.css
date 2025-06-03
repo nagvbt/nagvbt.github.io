@@ -21,10 +21,30 @@ a.facebook {
     color: #4968ad;
 }
 
-a.twitter {
-    color: #49a1eb;
+a.x {
+    color: #000000;
 }
 
 a.linkedin {
     color: rgb(10, 102, 194);
+}
+
+a.instagram {
+    color: #E1306C;
+}
+
+a.github {
+    color: #181717;
+}
+
+a.stackOverflow {
+    color: #f48024;
+}
+
+a.dev {
+    color: #0a0a0a;
+}
+
+a.threads {
+    color: #000000;
 }

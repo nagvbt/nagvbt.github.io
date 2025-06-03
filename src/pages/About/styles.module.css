@@ -1,13 +1,505 @@
 /**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+     * CSS files with the .module.css suffix will be treated as CSS modules
+     * and scoped locally.
+     */
 
 .coloredSection {
-    background: var(--header-color);
-    padding: 2rem 7rem;
+        background: var(--header-color);
+        padding: 2rem 7rem;
 }
 
 .section {
-  padding: 2rem 7rem;
+      padding: 2rem 7rem;
+}
+
+/* Main layout */
+.aboutWrapper {
+    padding: 2rem 0;
+    background-color: var(--ifm-background-surface-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Section styling */
+.sectionTitle {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--ifm-color-primary-dark);
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.sectionTitle::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: var(--ifm-color-primary);
+    border-radius: 2px;
+}
+
+.sectionIcon {
+    margin-right: 0.8rem;
+    font-size: 1.8rem;
+}
+
+/* Introduction section */
+.introSection {
+    margin-bottom: 3rem;
+}
+
+.introParagraph {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    color: var(--ifm-color-emphasis-800);
+}
+
+/* Alert component */
+.alert {
+    display: flex;
+    padding: 1.25rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.alertInfo {
+    background-color: rgba(var(--ifm-color-info-rgb), 0.1);
+    border-left: 4px solid var(--ifm-color-info);
+}
+
+.alertSuccess {
+    background-color: rgba(var(--ifm-color-success-rgb), 0.1);
+    border-left: 4px solid var(--ifm-color-success);
+}
+
+.alertIcon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.alertContent {
+    flex: 1;
+}
+
+.alertTitle {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.alertMessage {
+    color: var(--ifm-color-emphasis-800);
+}
+
+.alertMessage p:last-child {
+    margin-bottom: 0;
+}
+
+/* Main content layout */
+.mainContent {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.overviewSection {
+    flex: 1;
+}
+
+.skillsSection {
+    flex: 1;
+}
+
+/* Card styling */
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: var(--ifm-card-background-color);
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.cardHeader {
+    padding: 1.5rem;
+    background: linear-gradient(135deg, var(--ifm-color-primary-lightest), var(--ifm-color-primary));
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cardIcon {
+    font-size: 1.8rem;
+    margin-right: 0.8rem;
+}
+
+.cardTitle {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.cardContent {
+    padding: 1.5rem;
+}
+
+/* Overview Card */
+.overviewCard {
+    background-color: var(--ifm-card-background-color);
+}
+
+.overviewList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.overviewItem {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.overviewItem:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.overviewBullet {
+    color: var(--ifm-color-primary);
+    font-size: 1.5rem;
+    margin-right: 0.8rem;
+    line-height: 1.2;
+}
+
+.overviewText {
+    flex: 1;
+    line-height: 1.6;
+}
+
+/* Skills List */
+.skillsList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    background-color: var(--ifm-card-background-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.skillsItem {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--ifm-color-emphasis-200);
+    transition: background-color 0.2s ease;
+}
+
+.skillsItem:last-child {
+    border-bottom: none;
+}
+
+.skillsItem:hover {
+    background-color: var(--ifm-color-emphasis-100);
+}
+
+.skillsName {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--ifm-color-primary-dark);
+    font-size: 1.1rem;
+}
+
+.skillsValue {
+    color: var(--ifm-color-emphasis-800);
+}
+
+/* Cards section */
+.cardsSection {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cardColumn {
+    flex: 1;
+}
+
+/* Education list */
+.educationList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.educationItem {
+    margin-bottom: 1rem;
+}
+
+.educationItem:last-child {
+    margin-bottom: 0;
+}
+
+.educationLink {
+    display: block;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--link-background-color);
+    border-bottom: 1px solid var(--ifm-color-primary-lightest);
+    color: var(--ifm-color-emphasis-800);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-left: 3px solid transparent;
+}
+
+.educationLink:hover {
+    background-color: var(--ifm-color-primary-lightest);
+    color: var(--ifm-color-primary-dark);
+    border-left-color: var(--ifm-color-primary);
+    text-decoration: none;
+    transform: translateX(5px);
+}
+
+/* Awards list */
+.awardsList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.awardItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: var(--ifm-color-emphasis-100);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    border-left: 3px solid transparent;
+}
+
+.awardItem:hover {
+    background-color: rgba(var(--ifm-color-warning-rgb), 0.1);
+    border-left-color: var(--ifm-color-warning);
+    transform: translateX(5px);
+}
+
+.awardBadge {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+/* Publications Slideshow */
+.slideshowContainer {
+    margin: 4rem 0;
+    padding: 2rem;
+    background-color: var(--ifm-color-emphasis-100);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.slideshowHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.slideshowTitle {
+    display: inline-flex;
+    align-items: center;
+    font-size: 2rem;
+    margin: 0;
+    color: var(--ifm-color-primary-dark);
+}
+
+.slideshowIcon {
+    margin-right: 0.8rem;
+}
+
+.slideshowWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.activeSlide {
+    z-index: 1;
+}
+
+.publicationCard {
+    height: 100%;
+    padding: 2rem;
+    background-color: var(--ifm-background-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.publicationNumber {
+    font-size: 0.9rem;
+    color: var(--ifm-color-emphasis-600);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.publicationText {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--ifm-color-emphasis-900);
+}
+
+.slideshowButton {
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--ifm-color-primary);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slideshowButton:hover {
+    background-color: var(--ifm-color-primary-dark);
+    transform: scale(1.1);
+}
+
+.prevButton {
+    left: -25px;
+}
+
+.nextButton {
+    right: -25px;
+}
+
+.slideshowIndicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--ifm-color-emphasis-300);
+    border: none;
+    margin: 0 6px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.indicator:hover {
+    background-color: var(--ifm-color-emphasis-500);
+}
+
+.activeIndicator {
+    background-color: var(--ifm-color-primary);
+    transform: scale(1.2);
+}
+
+/* CTA Section */
+.ctaSection {
+    margin: 3rem 0 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+    .mainContent, .cardsSection {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  
+    .skillsSection {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .slideshowButton {
+      width: 40px;
+      height: 40px;
+      font-size: 1.2rem;
+    }
+  
+    .prevButton {
+      left: -10px;
+    }
+  
+    .nextButton {
+      right: -10px;
+    }
+  
+    .slideshow {
+      height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slideshowContainer {
+      padding: 1.5rem;
+    }
+  
+    .slideshowTitle {
+      font-size: 1.6rem;
+    }
+  
+    .slideshowButton {
+      width: 35px;
+      height: 35px;
+      font-size: 1rem;
+    }
+  
+    .slideshow {
+      height: 350px;
+    }
 }

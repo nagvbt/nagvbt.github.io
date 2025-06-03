@@ -5,7 +5,7 @@ cat .git/config
 git config user.name "nagvbt"
 
 :: Set your email address:
-git config user.email "nagvbt@example.com"
+git config user.email "nagvbt@gmail.com"
 
 :: Verify your configuration by displaying your configuration file:
 cat .git/config

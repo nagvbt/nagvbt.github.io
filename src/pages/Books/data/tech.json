@@ -26,15 +26,14 @@
       "imgSrc": "https://m.media-amazon.com/images/I/61h1Mfz6iDL._SY425_.jpg"
     },
     {
-        "title": "Clean Code",
-        "imgSrc": "https://m.media-amazon.com/images/I/41SH-SvWPxL._SY445_SX342_.jpg",
-        "url": "https://amzn.to/3tLrjWe"
+      "title": "Clean Code",
+      "imgSrc": "https://m.media-amazon.com/images/I/41SH-SvWPxL._SY445_SX342_.jpg",
+      "url": "https://amzn.to/3tLrjWe"
     },
     {
-        "title": "Pragmatic Programmer",
-        "imgSrc": "https://m.media-amazon.com/images/I/51yaxPX4BFL._SY425_.jpg",
-        "url": "https://amzn.to/3Frvd9E"
-
+      "title": "Pragmatic Programmer",
+      "imgSrc": "https://m.media-amazon.com/images/I/51yaxPX4BFL._SY425_.jpg",
+      "url": "https://amzn.to/3Frvd9E"
     }
   ]
 }

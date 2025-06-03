@@ -17,10 +17,10 @@ function HomepageHeader() {
           <div className="row">
             <div className="col col--6">
               <h1>NBT.</h1>
-              <p>M.Tech, B.Tech, SDBME, MBA, LL.B</p>
+              <p>M.Tech (AI), LL.M (CS), M.Tech (ES), M.B.A (Entrep), B.Tech (ECE), LL.B</p>
               <p className="hero__subtitle">
                 <ReactTyped
-                  strings={['Full Stack Developer', 'Architect . Innovator . Mentor']}
+                  strings={['Architect . Innovator . Mentor', 'Tech Enthusiast']}
                   typeSpeed={75}
                 />
               </p>

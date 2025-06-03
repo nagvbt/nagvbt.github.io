@@ -1,0 +1,72 @@
+{
+  "header": "👋 Hi! I'm NBT — Welcome! ❤️🌻",
+  "intro": [
+    "💻 Technology Enthusiast, Full Stack Developer with experience across Web, Mobile, and Desktop applications. Specializes in software architecture, design, and development.",
+    "🚀 Passionate about cutting-edge technologies, with a relentless zeal to explore. Adept at navigating complex, ambiguous scenarios and delivering solutions with a 'Can Do' attitude."
+  ],
+  "sections": {
+    "overview": [
+      "🔧 20 years in architecture, design, and development of Web, Mobile, Desktop & PWA applications.",
+      "🌐 Proven track record in evaluating and recommending emerging technologies.",
+      "👥 Built and led technical teams, interviewing 200+ engineers.",
+      "🎤 Speaker at The August Fest — Asia’s largest startup festival.",
+      "🧑‍🏫 Mentored Dev & QA teams successfully across projects.",
+      "🛠️ Skilled in React.js, React Native, Angular, ASP.NET/MVC.",
+      "📱 Expertise in Mobile and PWA design & development.",
+      "🔄 Solid grasp of SDLC and agile practices.",
+      "📋 Experienced in requirements gathering, analysis, and estimations.",
+      "🧠 Problem-solver with a creative, solution-first mindset.",
+      "🌎 B1 Visa holder; 6 months U.S. on-site experience.",
+      "🔥 Passionate explorer of advanced software trends and tech evolution."
+    ],
+    "skills": {
+      "Languages": "C#, Typescript, Javascript, CSS, HTML5, Less, Sass, VC++, C++, C, SQL",
+      "Web": "React.js, Angular, Express.js, ASP.Net Core, MVC, SPA, Silverlight",
+      "Patterns": "Design Patterns, N-Tier, Separation of Concerns, MVC, MVVM, TDD",
+      "DB": "SQL Server, NHibernate, Entity Framework, MS Access",
+      "Desktop": "WPF, WinForms, MFC, COM, DCOM, ATL, Win32 API",
+      "Mobile": "React Native, Ionic, Android, UWP, Windows Phone, Universal Windows Platforms",
+      "IDEs": "Visual Studio, VS Code, Android Studio",
+      "Testing": "React Testing Library, Jasmine, Karma, NUnit, CPPUnit",
+      "Tools": "Enterprise Architect, SonarQube, Jenkins, InstallShield, MS Project, Visio, VMWare, Devpartner",
+      "Version Control": "GitHub, Bitbucket, Git, SVN, TFS, Gerrit"
+    },
+    "education": [
+      [
+        "M.Tech in Machine Learning & Deep Learning, Malla Reddy University",
+        "/docs/others/education/mtech-mdl"
+      ],
+      ["M.Tech in Embedded Systems, JNTU Hyderabad", "/docs/others/education/mtech-embedded"],
+      ["B.Tech in Electronics & Communication, JNTU Hyderabad", "/docs/others/education/btech"],
+      ["MBA in Entrepreneurship, JNTU Hyderabad", "/docs/others/education/mba"],
+      ["LL.M Master of Law, Osmania University", "/docs/others/education/llb"],
+      ["LL.B Bachelor of Law, Osmania University", "/docs/others/education/llb"],
+      ["SDBME – Bio-Medical Engineering, SBTET, A.P.", "/docs/others/education/sdbme"],
+      ["Intermediate in BiPC", "/docs/others/education/bipc"]
+    ],
+    "awards": [
+      "🏅 Microsoft Community Contributor Award",
+      "🏅 Employee Quarterly Recognition Awards",
+      "🏅 Above and Beyond Award",
+      "🏅 Certified Lean Six Sigma Green Belt",
+      "🏅 Certified SAFe Agilist",
+      "🥇 1st in Paper Presentation @ PYFEST ‘2k6",
+      "🥇 1st in Paper Presentation @ KNACK EVINCE ‘2k6"
+    ],
+    "publications": [
+      "Micro Finance at Swayam Krishi Sangham – IJMTE",
+      "Emotion Recognition System – PYFEST ‘2k6",
+      "Antenna Parameters using C – TECHNOCATALYSTS",
+      "Smart Sensor & Network Sensor Systems – SPIKES",
+      "Face Recognition System – STEPCONE '06",
+      "Nano Electronics – ELITE",
+      "Multi-Biometric Verification – KNACK EVINCE ‘2k6",
+      "Smart Optical Robot Sensor – SPIKES",
+      "Quantum Effect Electronics – NCARM ‘05"
+    ],
+    "activities": [
+      "🎤 Internal Tech Speaker",
+      "🎟️ Participant in Microsoft, Google & August Fest events"
+    ]
+  }
+}

@@ -19,7 +19,7 @@ import { AppStateDTO } from './app-state-DTO'
  * this state persists only when the app is live once the app is   
  * closed the AppState data will be destroyed.  
  * NOTE: For small data to save permanently use StorageProvider which is a local Storage  
- * Author - Nag  
+ * Author - NBT  
  */  
 @Injectable()  
 export class AppStateProvider {  

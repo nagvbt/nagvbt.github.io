@@ -121,7 +121,7 @@ const config: Config = {
       navbar: {
         title: 'NBT.',
         logo: {
-          alt: 'Nagvbt Logo',
+          alt: 'NBT Logo',
           src: 'img/logo.png'
         },
         items: [
@@ -132,27 +132,39 @@ const config: Config = {
             position: 'left'
           },
           { label: 'Docs', type: 'doc', docId: 'intro', position: 'left' },
-          {
-            label: 'Articles',
-            to: '/docs/category/articles',
-            position: 'left'
-          },
-          {
-            label: 'Tutorials',
-            to: '/docs/category/tutorials',
-            position: 'left'
-          },
+          // {
+          //   label: 'Articles',
+          //   to: '/docs/category/articles',
+          //   position: 'left'
+          // },
+          // {
+          //   label: 'Tutorials',
+          //   to: '/docs/category/tutorials',
+          //   position: 'left'
+          // },
           {
             type: 'docSidebar',
             position: 'left',
-            sidebarId: 'cpp',
+            sidebarId: 'Cpp',
             label: 'C++',
           },
           {
             type: 'docSidebar',
             position: 'left',
-            sidebarId: 'c',
+            sidebarId: 'C',
             label: 'C',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'Articles',
+            label: 'Articles',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'Tutorials',
+            label: 'Tutorials',
           },
 
 
@@ -255,24 +267,49 @@ const config: Config = {
             ]
           },
           {
-            title: 'FIND ME',
+            title: 'TECH',
             items: [
               {
                 label: 'Linkedin',
-                href: 'https://www.linkedin.com/in/nagvbt/'
+                href: 'https://www.linkedin.com/in/mrnbt/'
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/nagvbt'
+                href: 'https://github.com/mrnbt7'
+              },
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/users/30661039/nbt'
+              },
+              {
+                label: 'DEV',
+                href: 'https://dev.to/nbt'
+              }
+            ]
+          },
+          {
+            title: 'FIND ME',
+            items: [
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@mrnbt'
+              },
+              {
+                label: 'X',
+                href: 'https://x.com/mr_nbt7'
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/mr_nbt7/'
+              },
+              {
+                label: 'Threads',
+                href: 'https://www.threads.com/@mr_nbt7'
               },
               {
                 label: 'Facebook',
-                href: 'https://www.facebook.com/people/Nag-Vbt/100023898528104/'
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/NagVbt'
-              }
+                href: 'https://www.facebook.com/mrnbt.in'
+              }             
             ]
           }
         ],

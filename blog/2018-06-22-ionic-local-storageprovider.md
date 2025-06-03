@@ -48,7 +48,7 @@ import { StorageProvider } from '../../providers';
 
  \*\*
  \*  Class representing a StorageProvider Demo
- \*  Author - Nag
+ \*  Author - NBT
  \*
 @IonicPage()
 @Component({

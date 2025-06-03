@@ -2,32 +2,37 @@
 sidebar_position: 1
 ---
 
-# M.Tech - ML & DL
+# 🎓 M.Tech – 𝙈𝙖𝙘𝙝𝙞𝙣𝙚 𝙇𝙚𝙖𝙧𝙣𝙞𝙣𝙜 & 𝘿𝙚𝙚𝙥 𝙇𝙚𝙖𝙧𝙣𝙞𝙣𝙜
 
-<!--markdownlint-disable MD013 MD029 MD036 MD024-->
+<!--markdownlint-disable MD013 MD029 MD036-->
 
-Master of Technology in Machine Learning & Deep Learning
+> **Master of Technology in Machine Learning & Deep Learning**  
+> 🏫 *Malla Reddy University*  
+> 🏷️ **Code:** MR22
 
-Code: MR22
+---
 
-**Year - I**
+## 📘 Year - I
 
-| #   | Semester I                                  | #   | Semester II                            |
-| --- | ------------------------------------------- | --- | -------------------------------------- |
-| 1   | Machine Learning (2CS0205)                  | 1   | Deep Learning (2CS0206)                |
-| 2   | Statistical Machine Learning (2BS0103)      | 2   | Advanced Machine Learning (2CS0211)    |
-| 3   | Natural Language Processing (2CS0213)       | 3   | Quantum Computing (2BS0131)            |
-| 4   | Business Intelligence & Analytics (2CS0218) | 4   | Cloud Computing (2CS0207)              |
-| 5   | Advanced Algorithms (2CS0201)               | 5   | Data Warehouse & Data Mining (2CS0203) |
-| 6   | Full Stack Development (2CS0204)            | 6   | Software Engineering (2CS0214)         |
+| #   | 📖 Semester I                                    | #   | 📗 Semester II                            |
+| --- | ------------------------------------------------ | --- | ------------------------------------------ |
+| ①   | 🧠 Machine Learning *(2CS0205)*                  | ①   | 🧠 Deep Learning *(2CS0206)*              |
+| ②   | 📊 Statistical Machine Learning *(2BS0103)*      | ②   | 🤖 Advanced Machine Learning *(2CS0211)*  |
+| ③   | 🗣️ Natural Language Processing *(2CS0213)*       | ③   | ⚛️ Quantum Computing *(2BS0131)*          |
+| ④   | 📈 Business Intelligence & Analytics *(2CS0218)* | ④   | ☁️ Cloud Computing *(2CS0207)*            |
+| ⑤   | 🧮 Advanced Algorithms *(2CS0201)*               | ⑤   | 🗃️ Data Warehouse & Data Mining *(2CS0203)* |
+| ⑥   | 🌐 Full Stack Development *(2CS0204)*            | ⑥   | 🧑‍💻 Software Engineering *(2CS0214)*      |
 
-**Year - II**
+---
 
-| #   | Semester III                     | #   | Semester IV                  |
-| --- | -------------------------------- | --- | ---------------------------- |
-| 1   | Big Data Analytics (2CS0202)     | 1   | Startup Internship           |
-| 2   | Reinforcement Learning (2CS0215) | 2   | Project Development phase- 2 |
-| 3   | Project Development Phase-1      |     |                              |
+## 📙 Year - II
+
+| #   | 📘 Semester III                       | #   | 📗 Semester IV                  |
+| --- | ------------------------------------- | --- | -------------------------------- |
+| ①   | 🧵 Big Data Analytics *(2CS0202)*     | ①   | 🚀 Startup Internship            |
+| ②   | 🧭 Reinforcement Learning *(2CS0215)* | ②   | 🛠️ Project Development Phase-2   |
+| ③   | 🔬 Project Development Phase-1        |     |                                  |
+
 
 ## Semester I
 

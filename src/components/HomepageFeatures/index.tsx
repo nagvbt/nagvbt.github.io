@@ -10,6 +10,7 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+/* eslint @typescript-eslint/no-require-imports: "off" */
 const recentPosts = require('../../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json');
 const features = [
   {
