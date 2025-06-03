@@ -4,7 +4,7 @@ tags: ["Windows Phone"]
 
 # How to Learn Windows Phone 8.1 apps development
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
-## **Vedios**
+## **Videos**
 
 **Beginners** **Windows Phone 8.1 development** You need the [Absolute Beginner Series for Windows Phone 8.1](http://channel9.msdn.com/Series/Windows-Phone-8-1-Development-for-Absolute-Beginners) It is a complete course in getting started for Windows Phone 8.1. [source code for all the projects here](https://absolutebeginner.codeplex.com/).
 

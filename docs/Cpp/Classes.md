@@ -92,7 +92,6 @@ Hi, I'm Sarah and I'm 30 years old.
 John is now 26 years old.
 ```
 
-
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 ## Class Samples
 

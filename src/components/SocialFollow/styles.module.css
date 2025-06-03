@@ -1,50 +1,50 @@
 .socialContainer {
-    background: #eee;
-    padding: 25px 50px;
+  background: #eee;
+  padding: 25px 50px;
 }
 
 a.social {
-    margin: 0 0.7rem;
-    transition: transform 250ms;
-    display: inline-block;
+  margin: 0 0.7rem;
+  transition: transform 250ms;
+  display: inline-block;
 }
 
 a.social:hover {
-    transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 
 a.youtube {
-    color: #eb3223;
+  color: #eb3223;
 }
 
 a.facebook {
-    color: #4968ad;
+  color: #4968ad;
 }
 
 a.x {
-    color: #000000;
+  color: #000;
 }
 
 a.linkedin {
-    color: rgb(10, 102, 194);
+  color: rgb(10 102 194);
 }
 
 a.instagram {
-    color: #E1306C;
+  color: #e1306c;
 }
 
 a.github {
-    color: #181717;
+  color: #181717;
 }
 
 a.stackOverflow {
-    color: #f48024;
+  color: #f48024;
 }
 
 a.dev {
-    color: #0a0a0a;
+  color: #0a0a0a;
 }
 
 a.threads {
-    color: #000000;
+  color: #000;
 }

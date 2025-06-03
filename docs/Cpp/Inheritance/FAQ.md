@@ -1,9 +1,10 @@
 ---
 sidebar_position: 8
-title: FAQ
 ---
 
-# Inheritance FAQ
+# FAQ
+
+## Inheritance FAQ
 
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 ### 1.What is the base and derived classes ?

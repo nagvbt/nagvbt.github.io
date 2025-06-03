@@ -3,13 +3,15 @@ sidebar_position: 2
 ---
 # Conditional Statements
 
-**Conditional Statement:** Code structures that execute different blocks based on whether a condition is true or false.
-1. **if statement:** 
+**Conditional Statement:** Code structures that execute different blocks based on whether a condition
+is true or false.
 
-2. **else statement:** 
+1. **if statement:**
 
-3. **else if statement:** 
-4. **switch statement:** 
+2. **else statement:**
+
+3. **else if statement:**
+4. **switch statement:**
 
 ## If-Else Statement
 
@@ -124,8 +126,8 @@ flowchart TD
 ```
 
 **Example Output (for grade = 'B'):**
+
 ```cpp
 Enter your grade (A, B, C, D, or F): B
 Good job!
 ```
-

@@ -1,21 +1,20 @@
 .card {
-    border: 1px solid var(--ifm-color-emphasis-300);
-    box-shadow: none;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: none;
 }
 
 .image {
-    background: #f7f7f7;
-    width: 11rem;
-    height: 14rem
+  background: #f7f7f7;
+  width: 11rem;
+  height: 14rem;
 }
 
 .cardFooter {
-    padding: 0 0.5rem 0.5rem;
-   
-    text-align: center;
-    font-size: small
+  padding: 0 0.5rem 0.5rem;
+  text-align: center;
+  font-size: small;
 }
 
 .cardContainer {
-    text-align: center;
+  text-align: center;
 }

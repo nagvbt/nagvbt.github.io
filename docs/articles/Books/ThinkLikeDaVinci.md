@@ -107,6 +107,7 @@ mindmap
 ```
 
 ## 4. Sfumato
+
 ```mermaid
 mindmap
   root((Sfumato))
@@ -130,6 +131,7 @@ mindmap
 ```
 
 ## 5. Arte/Scienza
+
 ```mermaid
 mindmap
   root((Arte/Scienza))
@@ -153,6 +155,7 @@ mindmap
 ```
 
 ## 6. Corporalità
+
 ```mermaid
 mindmap
   root((Corporalità))
@@ -181,12 +184,14 @@ mindmap
       Practice self-care and respect for the body’s limits
     Practical Examples
       **Physical activity for cognitive function**: Regular exercise increases brain plasticity and performance
-      **Ergonomics**: Applying body awareness for better productivity and health in daily life (e.g., desk setup)
+      **Ergonomics**: Applying body awareness for better productivity and health in daily life (e.g.,
+       desk setup)
       **Mindful walking**: Using physical movement to improve mental clarity, creativity, and focus
       **Fitness programs**: Focused on integrating strength, flexibility, and endurance for overall health
 ```
 
 ## 7. Simultaneità
+
 ```mermaid
 mindmap
   root((Connessione))
@@ -205,7 +210,8 @@ mindmap
       Practice mindfulness to connect with the world around you
     Techniques & Tools
       **Mind mapping**: Visualizing relationships between ideas and concepts
-      **Network analysis**: Studying how components within a system are interlinked (e.g., social networks, ecological systems)
+      **Network analysis**: Studying how components within a system are interlinked (e.g., social 
+      networks, ecological systems)
       **Holistic problem solving**: Addressing issues by considering their impact on related systems
     Mindset
       Embrace the idea that everything is connected—nothing exists in isolation
@@ -215,5 +221,6 @@ mindmap
       **Environmental conservation**: Understanding how human actions impact ecosystems
       **Technology**: Systems thinking in engineering, where each part must work together to ensure functionality
       **Medicine**: Treating the whole patient, considering both physical and psychological factors
-      **Global Challenges**: Addressing issues like climate change by connecting economic, environmental, and social systems
+      **Global Challenges**: Addressing issues like climate change by connecting economic, 
+      environmental, and social systems
 ```

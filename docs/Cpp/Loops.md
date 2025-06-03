@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Loops
 
+<!--markdownlint-disable MD036-->
+
 Loop: A control structure that repeats a block of code multiple times.
 
 ## For Loop
@@ -20,7 +22,6 @@ int main() {
     return 0;
 }
 ```
-
 
 **For Loop Diagram:**
 
@@ -104,7 +105,6 @@ int main() {
 
 ```
 
-
 **Do-While Loop Diagram:**
 
 ```mermaid
@@ -117,7 +117,6 @@ flowchart TD
     E --> F[End]
 ```
 
-
 **Example Interaction:**
 
 ```bash
@@ -127,7 +126,7 @@ Enter a positive number: 10
 You entered: 10
 ```
 
-##  Arrays
+## Arrays
 
 Array: A collection of elements of the same type stored in contiguous memory locations.
 
@@ -178,7 +177,8 @@ int main() {
 ```
 
 **Output**
-```
+
+```text
 First element: 10
 Third element: 30
 Modified second element: 25

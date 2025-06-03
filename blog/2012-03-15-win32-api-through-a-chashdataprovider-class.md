@@ -60,7 +60,7 @@ CHashDataProvider::~CHashDataProvider(void)
 
 //\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 // des:    Hashes data based on the ALG_ID
-// return: Hashing of the text is sucessful or not
+// return: Hashing of the text is successful or not
 //\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 bool
 CHashDataProvider::HashData(ALG_ID  algorithmID, // in | Algorithm ID (Sha1 or MD5 )

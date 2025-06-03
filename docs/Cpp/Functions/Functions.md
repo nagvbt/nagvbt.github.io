@@ -3,7 +3,6 @@ sidebar_position: 1
 ---
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD046 MD033 MD040 MD042 MD001 MD051 MD025-->
 
-
 # Functions
 
 Function: A reusable block of code that performs a specific task.
@@ -49,6 +48,7 @@ double calculateAverage(int scores[], int size) {
 ```
 
 **Function Diagram:**
+
 ```cpp
 ┌───────────────────────────────────────────────────────────┐
 │                   Function Structure                      │

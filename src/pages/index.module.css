@@ -3,54 +3,54 @@
  * and scoped locally.
  */
 
- .buttons {
-   display: flex;
-   align-items: center;
-   justify-content: center;
- }
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
- .link {
-   padding-right: 1rem;
- }
+.link {
+  padding-right: 1rem;
+}
 
- .hero {
-   display: flex;
-   padding: 1rem 0;
-   text-align: center;
-   align-items: center;
-   vertical-align: center;
-   position: relative;
-   background: var(--header-color);
- }
+.hero {
+  display: flex;
+  padding: 1rem 0;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  background: var(--header-color);
+}
 
- .hero h1 {
-   font-size: 3rem;
- }
+.hero h1 {
+  font-size: 3rem;
+}
 
- .getStartedButton {
-   margin-right: 0.6rem;
- }
+.getStartedButton {
+  margin-right: 0.6rem;
+}
 
- .githubIcon {
-   vertical-align: middle;
- }
+.githubIcon {
+  vertical-align: middle;
+}
 
- .githubButtonText {
-   vertical-align: middle;
- }
+.githubButtonText {
+  vertical-align: middle;
+}
 
- .logo {
-   width: 12rem;
-   height: 12rem;
- }
+.logo {
+  width: 12rem;
+  height: 12rem;
+}
 
- /* Blog Archive */
- .features {
-   display: flex;
-   align-items: center;
-   padding: 2rem 0;
-   width: 100%;
- }
+/* Blog Archive */
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
 
 /* .heroBanner {
   padding: 4rem 0;

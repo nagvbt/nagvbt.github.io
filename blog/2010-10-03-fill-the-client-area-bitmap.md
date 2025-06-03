@@ -17,7 +17,7 @@ BOOL CMySDIView::OnEraseBkgnd(CDC\* pDC)
     bmp.LoadBitmap(IDB\_MYBITMAP);
     mymem.SelectObject(&amp;bmp);
 
-    //BitBlt Copyes bitbamp from source (mymem) to destination (pDC)
+    //BitBlt Copy bitbamp from source (mymem) to destination (pDC)
     pDC-&gt;BitBlt(0,0,740, 520, &amp;mymem,0,0, SRCCOPY);
 
     return TRUE; // CView::OnEraseBkgnd(pDC);

@@ -5,7 +5,8 @@ tags: [ "C++ Lang", "Languages" ]
 
 # C++ Basics
 
-C++ is a powerful, general-purpose programming language created as an extension of the C language. It adds object-oriented features to C, allowing for both procedural and object-oriented programming approaches.
+C++ is a powerful, general-purpose programming language created as an extension of the C language.
+It adds object-oriented features to C, allowing for both procedural and object-oriented programming approaches.
 
 ```mermaid
 graph TD
@@ -26,7 +27,7 @@ graph TD
 
 Program: A set of instructions that tells the computer what to do.
 
-#include: A preprocessor directive that tells the compiler to include a specific file.
+`#include:` A preprocessor directive that tells the compiler to include a specific file
 
 iostream: A header file that contains functions for input/output operations.
 
@@ -60,7 +61,8 @@ int main() {
 ```
 
 **Output:**
-```
+
+```text
 Hello, World!
 ```
 
@@ -69,7 +71,6 @@ Hello, World!
 Variable: A named storage location in memory that holds a value of a specific type.
 
 Data Type: Defines the kind of data a variable can store and how much memory it occupies.
-
 
 **Data Types Table:**
 
@@ -87,7 +88,6 @@ Data Type: Defines the kind of data a variable can store and how much memory it 
 │ std::string   │ "John", "Hello"   │ Variable          │
 └───────────────┴───────────────────┴───────────────────┘
 ```
-
 
 ```cpp
 #include <iostream>
@@ -177,6 +177,7 @@ int main() {
 ```
 
 **Example Interaction:**
+
 ```bash
 Enter your name: Alice
 Enter your age: 30
@@ -186,7 +187,6 @@ Hello, Alice! You are 30 years old.
 ### 4. Operators
 
 Operator: A symbol that tells the compiler to perform specific mathematical or logical operations.
-
 
 **Operators Table:**
 
@@ -233,8 +233,8 @@ int main() {
 
 ```
 
-
 ***Output:**
+
 ```bash
 a + b = 13
 a - b = 7
@@ -251,6 +251,7 @@ x || y: 1
 ```
 
 ## Arrays
+
 Array: A collection of elements of the same type stored in contiguous memory locations.
 
 ```cpp

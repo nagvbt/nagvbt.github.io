@@ -17,7 +17,7 @@ Angular 4 is an MVC Framework itself.
 
 **React**
 
-React is only a view library one needs to choose the different libraries to make the Best Ecosystem. Refer my post for choosing the better parts to build a React Echosystem
+React is only a view library one needs to choose the different libraries to make the Best Ecosystem. Refer my post for choosing the better parts to build a React Echo system
 
 _**Summary:** It takes time to build Ecosystem in React. Once built developers need not worry about the Ecosystem._  
 <!-- truncate -->
@@ -65,4 +65,4 @@ Currently there is no such kind of  Tool
 
 ### Conclusion
 
-Best way to conclude between Angular 4 and React is to develop an PoCs with the cross cutting key features of the project like Translation, Theming, Accessibility, Form factors. I am slightly biased on the Angular 4 first latter having hands on React it own my heart. But if you have a team already working with AngularJS and has experience with Java/C#/C++ sticking with Angular 4 makes more weightage.
+Best way to conclude between Angular 4 and React is to develop an PoCs with the cross cutting key features of the project like Translation, Theming, Accessibility, Form factors. I am slightly biased on the Angular 4 first latter having hands on React it own my heart. But if you have a team already working with AngularJS and has experience with Java/C#/C++ sticking with Angular 4 makes more weight age.

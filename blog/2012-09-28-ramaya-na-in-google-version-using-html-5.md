@@ -8,4 +8,4 @@ Ramayana which is an Indian epic story but shown as Indonesian way by `www.ramay
 
 It was developed as animation story using HTML5.
 
-[youtube vedio](http://www.youtube.com/watch?v=LIXDcQ7qbNo?feature=player_detailpage)
+[youtube Video](http://www.youtube.com/watch?v=LIXDcQ7qbNo?feature=player_detailpage)

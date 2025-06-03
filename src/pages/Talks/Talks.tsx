@@ -15,7 +15,7 @@ import { Talk } from '@site/src/components/Talk';
 export default function Talks(): JSX.Element {
   return (
     <Layout title="Youtube">
-      <PageHeader title="Talks" subTitle="Talks and Vedios"></PageHeader>
+      <PageHeader title="Talks" subTitle="Talks and Video"></PageHeader>
       <main>
         <section className={styles.features}>
           <div className="container">

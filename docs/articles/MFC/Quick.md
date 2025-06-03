@@ -52,7 +52,7 @@ void MyList::DrawItem(LPDRAWITEMSTRUCT lpDrawItem)
   bmp.LoadBitmap(IDB_MYBITMAP);
   mymem.SelectObject(&bmp);
   
-     //BitBlt Copyes bitbamp from source (mymem) to destination (pDC)
+     //BitBlt copy's bitbamp from source (mymem) to destination (pDC)
   pDC->BitBlt(0,0,740, 520, &mymem,0,0, SRCCOPY);
   return 1; // CView::OnEraseBkgnd(pDC);
  }
@@ -207,7 +207,7 @@ CMyApp theApp;
  To make first MDI child window start out maximized
 
 1. Add a `ActivateFrame()` which is a `CChildFrame` virtual function
-2. Modify the function with the below code snnipet
+2. Modify the function with the below code snippet
 
 ```cpp
 void CChildFrame::ActivateFrame(int nCmdShow)

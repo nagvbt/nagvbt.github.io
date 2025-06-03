@@ -53,7 +53,7 @@ CExpandContractHelper class
 
 ```cpp
 //////////////////////////////////////////////////
-// Purpose: To exapand or contract a dialog control
+// Purpose: To expand or contract a dialog control
 //////////////////////////////////////////////////
 class CExpandContractHelper
 {

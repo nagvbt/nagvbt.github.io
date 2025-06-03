@@ -62,8 +62,8 @@ Sample code given below can be used for creating manifest and index files
   
 **index.html**  
   
-## **Refrences**
+## **References**
 
 1. [Your First Progressive Web App](https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/)
 
-2. [Ionic Framwork](http://ionicframework.com/)
+2. [Ionic Framework](http://ionicframework.com/)

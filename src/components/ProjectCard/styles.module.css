@@ -1,35 +1,36 @@
 .card {
-    border: 1px solid var(--ifm-color-emphasis-300);
-    box-shadow: none;
-    height: 100%;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: none;
+  height: 100%;
 
-    /* &Container {
+  /* &Container {
         margin-bottom: calc(var(--ifm-spacing-horizontal) * 2);
     } */
 }
 
 .image {
-    background: #f7f7f7;
-    position: relative;
+  background: #f7f7f7;
+  position: relative;
 }
 
 .secondaryText {
-color:rgb(173 173 173)
+  color: rgb(173 173 173);
 }
 
 .cardContainer {
-    margin-bottom: calc(var(--ifm-spacing-horizontal) * 2);
+  margin-bottom: calc(var(--ifm-spacing-horizontal) * 2);
 }
 
-.bgDanger{
-    background-color: red;
-    height: 9rem;
-    padding: 2rem;
-    color: white;
+.bgDanger {
+  background-color: red;
+  height: 9rem;
+  padding: 2rem;
+  color: white;
 }
+
 .bgSuccess {
-    background-color: green;
-    height: 9rem;
-    padding: 2rem;
-    color: white;
+  background-color: green;
+  height: 9rem;
+  padding: 2rem;
+  color: white;
 }

@@ -23,6 +23,6 @@ Wanted to buy the set of 4 books use below Links:
 
 - Amazon Link for Paperback: [https://amzn.to/3AwekXB](https://amzn.to/3AwekXB)
 
-- Amazon Link for Harcover: [https://amzn.to/2TJpgAp](https://amzn.to/2TJpgAp)
+- Amazon Link for Hard cover: [https://amzn.to/2TJpgAp](https://amzn.to/2TJpgAp)
 
 - Amazon Link for Kindle version: [https://amzn.to/3hDwLAU](https://amzn.to/3hDwLAU)

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 🎓 M.Tech – 𝙈𝙖𝙘𝙝𝙞𝙣𝙚 𝙇𝙚𝙖𝙧𝙣𝙞𝙣𝙜 & 𝘿𝙚𝙚𝙥 𝙇𝙚𝙖𝙧𝙣𝙞𝙣𝙜
 
-<!--markdownlint-disable MD013 MD029 MD036-->
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 -->
 
 > **Master of Technology in Machine Learning & Deep Learning**  
 > 🏫 *Malla Reddy University*  
@@ -36,7 +36,6 @@ sidebar_position: 1
 | ②   | 🧭 Reinforcement Learning *(2CS0215)* | ②   | 🛠️ Project Development Phase-2   |
 | ③   | 🔬 Project Development Phase-1        |     |                                  |
 
-
 ## Semester I
 
 ### 1. Machine Learning
@@ -44,6 +43,7 @@ sidebar_position: 1
 **PREREQUISITES:** Mathematical Foundations for Machine Learning, Data Mining
 
 **COURSE OBJECTIVES:**
+
 - To Understand the formulation of well-specified machine learning problems
 - To introduce students to the basic concepts and techniques of Machine Learning.
 - To develop skills of using recent machine learning software for solving practical problems.
@@ -51,6 +51,7 @@ sidebar_position: 1
 - Identify examples of the ethical responsibilities of an ML
 
 **COURSE OUTCOMES:**
+
 - To Implement and analyse existing learning algorithms, including well-studied methods
 for classification, regression, structured prediction, clustering, and representation learning.
 - ToIntegrate multiple facets of practical machine learning in a single system: data
@@ -109,6 +110,7 @@ Bagging, Bootstrap Method, Bootstrap Aggregation (Bagging), Preparing Data For B
 ### 2. Statistical Machine Learning
 
 **COURSE OBJECTIVES:**
+
 - To understand the concepts of the probability and probability distributions associated with different types of random variables.
 - To fit a suitable probability distributions.
 - To understand the Concept of correlation for a bivariate distributions.
@@ -117,6 +119,7 @@ Bagging, Bootstrap Method, Bootstrap Aggregation (Bagging), Preparing Data For B
 
 **COURSE OUTCOMES:**
 After learning the contents of this course the students must be able to:
+
 - Understand and able to write down various probability distributions for different types of random variables
 - To identify various probability distributions (discrete and continuous) for given phenomena.
 - To determine the nature of association between the variables of a bivariate data
@@ -124,12 +127,12 @@ After learning the contents of this course the students must be able to:
 - Different types of sampling methods which are useful for computer science and engineers.
 
 **COURSE OUTCOMES:**
+
 - To tag a given text with basic Language features
 - To design an innovative application using NLP components
 - To implement a rule based system to tackle morphology/syntax of a language
 - To design a tag set to be used for statistical processing for real-time applications
 - To compare and contrast the use of different statistical approaches for different types of NLP applications.
-
 
 **UNIT – I**
 
@@ -166,6 +169,7 @@ Sampling Methods: Basic sampling algorithms, rejection sampling, adaptive reject
 **PREREQUISITES:** Probability and statistics, Programming and data structures
 
 **COURSE OBJECTIVES:**
+
 - To learn the fundamentals of natural language processing.
 - To understand the use of CFG and PCFG in NLP.
 - To understand the role of semantics of sentences and pragmatics.
@@ -173,6 +177,7 @@ Sampling Methods: Basic sampling algorithms, rejection sampling, adaptive reject
 - To understand NLP Analysis and Lexical Analysis.
 
 **COURSE OUTCOMES:**
+
 - To tag a given text with basic Language features
 - To design an innovative application using NLP components
 - To implement a rule based system to tackle morphology/syntax of a language
@@ -212,6 +217,7 @@ Requirements for representation, First-Order Logic, Description Logics – Synta
 **PREREQUISITES:** Data Visualization, Data Mining.
 
 **COURSE OBJECTIVES:**
+
 - Be exposed with the basic rudiments of business intelligence system.
 - Understand the modeling aspects behind Business Intelligence.
 - Understand of the business intelligence life cycle and the techniques used in it.
@@ -219,12 +225,12 @@ Requirements for representation, First-Order Logic, Description Logics – Synta
 - To learn about business intelligence applications.
 
 **COURSE OUTCOMES:**
+
 - After completion of the course, the students will be able to Explain the fundamentals of business intelligence.
 - Link data mining with business intelligence.
 - Apply various modeling techniques.
 - Explain the data analysis and knowledge delivery stages.
 - Apply business intelligence methods to various situations.
-
 
 **UNIT - I**
 
@@ -259,6 +265,7 @@ Requirements for representation, First-Order Logic, Description Logics – Synta
 **PREREQUISITES:** Data structures, Design and analysis of algorithms.
 
 **COURSE OBJECTIVES:**
+
 - To provide the foundations of the practical implementation and usage of Algorithms and Data Structures.
 - To ensure that the student evolves into a competent programmer capable of designing.
 - To analyze implementations of algorithms and data structures for different kinds of problems.
@@ -266,6 +273,7 @@ Requirements for representation, First-Order Logic, Description Logics – Synta
 - To know the classification of problems into complexity classes like NP.
 
 **COURSE OUTCOMES:**
+
 - Design and analyze programming problem statements.
 - Understand elementary data structures and graph algorithms.
 - Understand the necessary mathematical abstraction to solve problems.
@@ -303,6 +311,7 @@ NP-Hard & NP-Complete Problems: P-Class & NP-Class problems, Non deterministic a
 ### 6. Full Stack Development
 
 **COURSE OBJECTIVES:**
+
 - Design static web page using Markup languages.
 - Design and implement web pages using style sheets.
 - Implement with java script web applications with dynamic web pages.
@@ -310,6 +319,7 @@ NP-Hard & NP-Complete Problems: P-Class & NP-Class problems, Non deterministic a
 - Understand databases MongoDB with NodeJS and services of MongoDB.
 
 **COURSE OUTCOMES:**
+
 - Design user interactions on web pages.
 - Develop back end website applications.
 - Create servers and databases for functionality.
@@ -544,7 +554,6 @@ Software testing fundamentals - Testing Strategies: White box testing – contro
 2. Rajib Mall, ”Fundamentals of Software Engineering”, 5th Edition, PHI Learning Pvt. Ltd., 2018.
 3. Ian Sommerville, “Software Engineering”, Pearson Education
 
-
 ## Semester III
 
 ### 1. Big Data Analytics
@@ -552,6 +561,7 @@ Software testing fundamentals - Testing Strategies: White box testing – contro
 **PREREQUISITES:** DBMS, DWDM
 
 **COURSE OBJECTIVES:**
+
 - To optimize business decisions and create competitive advantage with Big Data Analytics
 - To explore the fundamental concepts of big data analytics.
 - To understand the various search methods and visualization techniques.
@@ -565,7 +575,6 @@ Software testing fundamentals - Testing Strategies: White box testing – contro
 - Analyze the HADOOP and Map Reduce technologies associated with big data analytics.
 - Explore on Big Data applications Using Pig and Hive.
 - Understand the fundamentals of various big data analytics techniques and build a complete business data analytics solution.
-
 
 **UNIT-I: INTRODUCTION TO BIG DATA AND ANALYTICS**
 
@@ -613,12 +622,12 @@ PREDICTIVE ANALYTICS: Simple linear regression-Multiple linear regression- Inter
 - Learn and apply advanced RL techniques including Fitted Q-learning, Deep Q-Network (DQN), and Policy Gradient algorithms for full RL.
 
 **COURSE OUTCOMES:** Students will be able to:
+
 - Ability to explain the key concepts and principles of bandit algorithms, RL, and MDPs.
 - Proficiency in implementing and utilizing various bandit algorithms, including UCB, PAC, Median Elimination, and Policy Gradient.
 - Competence in formulating RL problems as MDPs and applying dynamic programming and TD methods to solve them.
 - Skill in utilizing eligibility traces, function approximation, and least squares methods for RL tasks.
 - Proficient in applying advanced RL techniques such as Fitted Q-learning, DQN, and Policy Gradient algorithms to solve complex RL problems and make informed decisions.
-
 
 **UNIT-I: Introduction to Bandit Algorithms**
 
@@ -642,6 +651,7 @@ Eligibility Traces in RL, Function Approximation in RL, Least Squares Methods fo
 Deep Q-Network (DQN), and Policy Gradient algorithms for full RL
 
 ### Books
+
 1. "Bandit Algorithms for Website Optimization" by John Myles White (Publisher: O'Reilly Media), 2020.
 2. "Reinforcement Learning: An Introduction" by Richard S. Sutton and Andrew G. Barto (Publisher: The MIT Press), 1998.
 3. "Deep Reinforcement Learning" by Sergey Levine, Pieter Abbeel, and Wojciech Zaremba (Publisher: Springer), 2021.

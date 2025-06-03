@@ -1,5 +1,7 @@
 .repo_card {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji';
   border: 1px solid #e1e4e8;
   border-radius: 6px;
   background: white;
@@ -7,15 +9,14 @@
   font-size: 14px;
   line-height: 1.5;
   color: #24292e;
-
   margin: auto;
   width: 300px;
 }
 
 [data-theme='dark'] .repo_card {
-  background: rgb(13, 17, 23);
-  border: 1px solid rgb(48, 54, 61);
-  color: rgb(139, 148, 158);
+  background: rgb(13 17 23);
+  border: 1px solid rgb(48 54 61);
+  color: rgb(139 148 158);
 }
 
 .repo_card__header {
@@ -23,25 +24,38 @@
   align-items: center;
 }
 
-.repo_card__header>svg {
+.repo_card__header > svg {
   fill: #586069;
   margin-right: 8px;
 }
 
-[data-theme='dark'] .repo_card__.header>svg {
-  fill: rgb(139, 148, 158)
+.repo_card__metadata svg {
+  fill: #24292e;
 }
 
-.repo_card__header>span {
+[data-theme='dark'] .repo_card__metadata svg {
+  fill: rgb(139 148 158);
+}
+
+[data-theme='dark'] .repo_card__.header > svg {
+  fill: rgb(139 148 158);
+}
+
+.repo_card__header > span {
   font-weight: 600;
   color: #0366d6;
 }
 
-[data-theme='dark'] .repo_card__header>span {
-  color: rgb(88, 166, 255);
+[data-theme='dark'] .repo_card__header > span {
+  color: rgb(88 166 255);
 }
 
-.repo_card__header>span>a {
+.repo_card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.repo_card__header > span > a {
   color: var(--ifm-link-color);
   text-decoration: none;
 }
@@ -54,7 +68,7 @@
 }
 
 [data-theme='dark'] .repo_card__description {
-  color: rgb(139, 148, 158);
+  color: rgb(139 148 158);
 }
 
 .repo_card__metadata {
@@ -64,10 +78,10 @@
 }
 
 [data-theme='dark'] .repo_card__metadata {
-  color: rgb(139, 148, 158);
+  color: rgb(139 148 158);
 }
 
-.repo_card__metadata>div {
+.repo_card__metadata > div {
   display: flex;
   margin-right: 16px;
   align-items: center;
@@ -77,16 +91,11 @@
   display: block !important;
 }
 
-.repo_card a {
-  color: inherit;
-  text-decoration: none;
-}
-
 .repo_card a:hover {
   text-decoration: none;
 }
 
-.repo_card__metadata__language>a>span:first-child {
+.repo_card__metadata__language > a > span:first-child {
   margin-right: 5px;
   width: 12px;
   height: 12px;
@@ -94,14 +103,6 @@
   display: inline-block;
   top: 1px;
   position: relative;
-}
-
-.repo_card__metadata svg {
-  fill: #24292e
-}
-
-[data-theme='dark'] .repo_card__metadata svg {
-  fill: rgb(139, 148, 158)
 }
 
 .emoji {

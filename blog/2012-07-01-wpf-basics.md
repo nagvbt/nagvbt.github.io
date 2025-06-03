@@ -6,7 +6,7 @@ tags: ["WPF"]
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
 ## 1. WPF Definition
 
-**W**indows **P**resentation **F**oundation is the successor to Windows Forms for Microsoft Desktop Application development. WPF uses XAML to create visible User Interface (UI) elements like (buttons, listboxes, editboxes, etc).
+Windows Presentation Foundation is the successor to Windows Forms for Microsoft Desktop Application development. WPF uses XAML to create visible User Interface (UI) elements like (buttons, listboxes, editboxes, etc).
 
 WPF applications allows take advantage of the best attributes of diverse systems, such as DirectX (3-D and hardware acceleration), Adobe Flash (animation support), and HTML (declarative markup and easy deployment), styles, templates, documents and typograph.
 

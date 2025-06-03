@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # M.Tech - Embedded Systems
 
-<!--markdownlint-disable MD013 MD029 MD036 MD024-->
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 -->
 
 > **Master of Technology in Embedded Systems**  
 > 🏫 *Jawaharlal Nehru Technological University - Hyderabad*  
@@ -521,86 +521,78 @@ List of Experiments:
 7. Control of AC motor using UFD.
 8. Control of DC motor using DC drive.
 
-
 ## Semester III
 
-### EMBEDDED NETWORKS 
+### EMBEDDED NETWORKS
 
 **Unit-I:**
-I Embedded Communication Protocols: 
-Embedded Networking: Introduction – Serial/Parallel Communication – Serial communication protocols -RS232 standard – RS485 – Synchronous Serial Protocols -Serial Peripheral Interface (SPI) – Inter Integrated Circuits (I2C) – PC Parallel port programming - ISA/PCI Bus protocols – Firewire. 
+I Embedded Communication Protocols:
+Embedded Networking: Introduction – Serial/Parallel Communication – Serial communication protocols -RS232 standard – RS485 – Synchronous Serial Protocols -Serial Peripheral Interface (SPI) – Inter Integrated Circuits (I2C) – PC Parallel port programming - ISA/PCI Bus protocols – Firewire.
 
 **Unit-II:**
 USB and CAN Bus: USB bus:
- Introduction – Speed Identification on the bus – USB States – USB bus communication Packets –Data flow types –Enumeration –Descriptors –PIC 18 Microcontroller USB Interface – C Programs –CAN Bus – Introduction - Frames –Bit stuffing –Types of errors –Nominal Bit Timing – PIC microcontroller CAN Interface –A simple application with CAN. 
+ Introduction – Speed Identification on the bus – USB States – USB bus communication Packets –Data flow types –Enumeration –Descriptors –PIC 18 Microcontroller USB Interface – C Programs –CAN Bus – Introduction - Frames –Bit stuffing –Types of errors –Nominal Bit Timing – PIC microcontroller CAN Interface –A simple application with CAN.
 
 **Unit-III:**
-Ethernet Basics: 
-Elements of a network – Inside Ethernet – Building a Network: Hardware options – Cables, Connections and network speed – Design choices: Selecting components –Ethernet Controllers –Using the internet in local and internet communications – Inside the Internet protocol. 
+Ethernet Basics:
+Elements of a network – Inside Ethernet – Building a Network: Hardware options – Cables, Connections and network speed – Design choices: Selecting components –Ethernet Controllers –Using the internet in local and internet communications – Inside the Internet protocol.
 
 **Unit-IV:**
-Embedded Ethernet: 
-Exchanging messages using UDP and TCP – Serving web pages with Dynamic Data – Serving web pages that respond to user Input – Email for Embedded Systems – Using FTP – Keeping Devices and Network secure. 
+Embedded Ethernet:
+Exchanging messages using UDP and TCP – Serving web pages with Dynamic Data – Serving web pages that respond to user Input – Email for Embedded Systems – Using FTP – Keeping Devices and Network secure.
 
 **Unit-V:**
-Wireless Embedded Networking: 
+Wireless Embedded Networking:
 Wireless sensor networks – Introduction – Applications – Network Topology – Localization –Time Synchronization - Energy efficient MAC protocols –SMAC – Energy efficient and robust routing – Data Centric routing. TEXT BOOKS 1. Embedded Systems Design: A Unified Hardware/Software Introduction - Frank Vahid, Tony Givargis, John & Wiley Publications, 2002 2. Parallel Port Complete: Programming, interfacing and using the PCs parallel printer port - Jan Axelson, Penram Publications, 1996.
-
 
 ### Text Books
 
-1. Embedded Systems Design: A Unified Hardware/Software Introduction - Frank Vahid, Tony 1.Givargis, John & Wiley Publications, 2002 
+1. Embedded Systems Design: A Unified Hardware/Software Introduction - Frank Vahid, Tony 1.Givargis, John & Wiley Publications, 2002
 
 2. Parallel Port Complete: Programming, interfacing and using the PCs parallel printer port - Jan Axelson, Penram Publications, 1996
 
-
 ### Reference Books
 
-1. Advanced PIC microcontroller projects in C: from USB to RTOS with the PIC18F series -Dogan Ibrahim, Elsevier 2008. 
+1. Advanced PIC microcontroller projects in C: from USB to RTOS with the PIC18F series -Dogan Ibrahim, Elsevier 2008.
 
-2. Embedded Ethernet and Internet Complete - Jan Axelson, Penram publications, 2003. 
+2. Embedded Ethernet and Internet Complete - Jan Axelson, Penram publications, 2003.
 
 3. Networking Wireless Sensors - Bhaskar Krishnamachari, Cambridge press 2005
 
-
-
-### ENVIRONMENTAL POLLUTION AND CONTROL 
+### ENVIRONMENTAL POLLUTION AND CONTROL
 
 **Unit-I:**
 Air Pollution:
-Air pollution Control Methods – Particulate control devices – Methods of Controlling Gaseous Emissions – Air quality standards. Noise Pollution: Noise standards, Measurement and control methods – Reducing residential and industrial noise – ISO:14000. 
+Air pollution Control Methods – Particulate control devices – Methods of Controlling Gaseous Emissions – Air quality standards. Noise Pollution: Noise standards, Measurement and control methods – Reducing residential and industrial noise – ISO:14000.
 
 **Unit-II:**
 Industrial waste water Management:
-Strategies for pollution control – Volume and Strength reduction – Neutralization – Equalization – Proportioning – Common Effluent Treatment Plants – Recirculation of industrial wastes – Effluent standards. 
+Strategies for pollution control – Volume and Strength reduction – Neutralization – Equalization – Proportioning – Common Effluent Treatment Plants – Recirculation of industrial wastes – Effluent standards.
 
 **Unit-III:**
 Solid Waste Management:
-solid waste characteristics – basics of on-site handling and collection – separation and processing – Incineration- Composting-Solid waste disposal methods – fundamentals of Land filling. Hazardous Waste: Characterization – Nuclear waste – Biomedical wastes – Electronic wastes – Chemical wastes – Treatment and management of hazardous waste-Disposal and Control methods. 
+solid waste characteristics – basics of on-site handling and collection – separation and processing – Incineration- Composting-Solid waste disposal methods – fundamentals of Land filling. Hazardous Waste: Characterization – Nuclear waste – Biomedical wastes – Electronic wastes – Chemical wastes – Treatment and management of hazardous waste-Disposal and Control methods.
 
 **Unit-IV:**
 Environmental Sanitation:
-Environmental Sanitation Methods for Hostels and Hotels, Hospitals, Swimming pools and public bathing places, social gatherings (melas and fares), Schools and Institutions, Rural Sanitation-low cost waste disposal methods. 
+Environmental Sanitation Methods for Hostels and Hotels, Hospitals, Swimming pools and public bathing places, social gatherings (melas and fares), Schools and Institutions, Rural Sanitation-low cost waste disposal methods.
 
 **Unit-V:**
 Sustainable Development:
-Definition- elements of sustainable developments-Indicators of sustainable development- Sustainability Strategies- Barriers to Sustainability–Industrialization and sustainable development – Cleaner production in achieving sustainability- sustainable development. 
-
+Definition- elements of sustainable developments-Indicators of sustainable development- Sustainability Strategies- Barriers to Sustainability–Industrialization and sustainable development – Cleaner production in achieving sustainability- sustainable development.
 
 ### Text Books
-1. Peavy, H. S., Rowe, D.R, Tchobanoglous, “Environmental Engineering”, Mc-Graw Hill International Editions, New York 1985. 
 
-2. J. G. Henry and G.W. Heinke, “Environmental Science and Engineering”, Pearson Education. 
+1. Peavy, H. S., Rowe, D.R, Tchobanoglous, “Environmental Engineering”, Mc-Graw Hill International Editions, New York 1985.
 
+2. J. G. Henry and G.W. Heinke, “Environmental Science and Engineering”, Pearson Education.
 
 ### Reference Books
-1. G. L. Karia and R.A. Christian, “Waste water treatment- concepts and design approach”, Prentice Hall of India 
 
-2. M. N. Rao and H. V. N. Rao, “Air pollution”, Tata McGraw Hill Company. 
+1. G. L. Karia and R.A. Christian, “Waste water treatment- concepts and design approach”, Prentice Hall of India
 
-3. Ruth F. “Weiner and Robin Matthews Environmental Engineering”, 4th Edition Elsevier, 2003. 
+2. M. N. Rao and H. V. N. Rao, “Air pollution”, Tata McGraw Hill Company.
+
+3. Ruth F. “Weiner and Robin Matthews Environmental Engineering”, 4th Edition Elsevier, 2003.
 
 4. K. V. S. G. Murali Krishna, “Air Pollution and Control” by, Kousal & Co. Publications, New Delhi.
-
-
-

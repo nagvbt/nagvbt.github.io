@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 
 # LL.M - Master of Laws in Corporate & Securities
-<!--markdownlint-disable MD013 MD029 MD036 MD024-->
+<!--markdownlint-disable MD033-->
 
 LL.M - Latin: Legum Magister
 

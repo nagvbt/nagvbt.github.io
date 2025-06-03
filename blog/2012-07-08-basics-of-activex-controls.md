@@ -24,7 +24,7 @@ _Sink_: A client that implements the outgoing interface of a component is called
 
 **ActiveX Control Methods** There are two types of methods 1.Stock methods 2.Custom methods
 
-1.Stock methods The COleControl provides the stock methods implementation. there are only two stock properties DoClick() - fires an event from the control Refresh() - updates the control appearence
+1.Stock methods The COleControl provides the stock methods implementation. there are only two stock properties DoClick() - fires an event from the control Refresh() - updates the control appearance
 
 2.Custom methods Custom methods are the methods which are specific to the control.
 

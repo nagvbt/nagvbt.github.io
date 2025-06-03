@@ -10,7 +10,7 @@ namespace CSharp
   {
     //Member Variable
     private static Singleton instance = null;
-    //Memeber Functions
+    //Member Functions
     private Singleton()
     {
     }

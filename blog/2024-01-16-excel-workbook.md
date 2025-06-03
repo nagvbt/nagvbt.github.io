@@ -4,11 +4,14 @@ tags: ["python"]
 
 # Create a Excel Workbook and add Data
 
+<!--markdownlint-disable MD029-->
+
 1. Open Terminal and Install openpyxl
 
     `python -m pip install openpyxl`
 
 2. Open VSCode and Create a file excel_practice.py and write the below code
+
 ```python
 import openpyxl  
 

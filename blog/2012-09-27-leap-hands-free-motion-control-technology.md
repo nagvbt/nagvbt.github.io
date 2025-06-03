@@ -10,7 +10,7 @@ Yes it can be possible !
 
 A San Francisco Company Leap Motion (`www.leapmotion.com`) developed Hands-free motion control Technology.
 
- [YouTube Vedio](http://www.youtube.com/watch?v=_d6KuiuteIA?feature=player_detailpage)
+ [YouTube Video](http://www.youtube.com/watch?v=_d6KuiuteIA?feature=player_detailpage)
 
 The website says:
 

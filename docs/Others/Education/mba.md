@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # M.B.A - Entrepreneurship
 
-<!--markdownlint-disable MD013 MD029 MD036 MD024-->
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 -->
 
 > **Master of Business Administration in Entrepreneurship**  
 > 🏫 *Jawaharlal Nehru Technological University - Hyderabad*  
@@ -14,7 +14,6 @@ sidebar_position: 3
     <a href="/About" className="button button--primary button--lg">About</a>
 </div>
 ---
-
 
 | TITLE      | Count  |
 | ---------- | ------ |

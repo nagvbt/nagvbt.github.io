@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 
 # B.Tech - ECE
-<!--markdownlint-disable MD013 MD029 MD036 MD024-->
+<!--markdownlint-disable MD013 MD029 MD036 MD024, MD033-->
 
 > **Bachelor of Technology in Electronics and Communication Engineering**  
 > 🏫 *Jawaharlal Nehru Technological University - Hyderabad*  
@@ -13,7 +13,6 @@ sidebar_position: 5
     <a href="/About" className="button button--primary button--lg">About</a>
 </div>
 ---
-
 
 | TITLE     | Count  |
 | --------- | ------ |

@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Object-Oriented Programming 
+# Object-Oriented Programming
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 
 ### 1.Define OOPS?

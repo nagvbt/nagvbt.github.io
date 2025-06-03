@@ -44,7 +44,7 @@ Steps for creating  **comMathServLib** Project:
 
 A. Open Visual Studio 2008  
 B. Go to File -> New Project : In the new project dialog under 'Visual C++' select Win32 - Right side select the Win32 Project Template and give the project name as 'comMathServLib'  
-C. Win32 Application Wizard Dilog pops up  
+C. Win32 Application Wizard Dialog pops up  
 -> Click Next  
 ->In Application Setting -> Application type: Select DLL and click Finish
 
@@ -58,7 +58,7 @@ File can be added by Right click on the Project in 'Solution Explorer' -> Add ->
 
 ```cpp
 
-# include "Unknwn.h"
+# include "Unknown.h"
 
 interface IMath : IUnknown
 {

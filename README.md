@@ -37,7 +37,7 @@
 
    ```tsx
    import { PageHeader } from '@site/src/components//PageHeader';
-   <PageHeader title="Disclaimer" subTitle="Iam Not resposible" />;
+   <PageHeader title="Disclaimer" subTitle="Iam Not responsible" />;
    ```
 
 6. Blog Sidebar Customization

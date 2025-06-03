@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # S.D.B.M.E - Bio-Medical
 
-<!--markdownlint-disable MD013 MD029 MD036-->
+<!--markdownlint-disable MD013 MD029 MD036 MD033-->
 
 > **Special Diploma in Electronics with Specialization in Bio-Medical Engineering**  
 > 🏫 *SBTET, A.P*  

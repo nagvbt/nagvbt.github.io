@@ -2,7 +2,7 @@
 tags: ["C"]
 ---
 
-# C FAQ 4 to 7: Simple Programms
+# C FAQ 4 to 7: Simple Programs
 
 ## 4. Swap of two numbers  with out temp
 

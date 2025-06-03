@@ -13,7 +13,7 @@ tags: ["Ionic"]
   
 2. Create a config folder at root and create a file custom.copy.config.js  
   `config/custom.copy.config.js`  
- <!-- truncate --> 
+ <!-- truncate -->
 add below code 3. Add config section at the end of package.json  
   `"config": {`  
   `"ionic\_copy": "./config/custom.copy.config.js"`  

@@ -4,7 +4,12 @@ tags: ["Angular", "Front End"]
 
 # Basics of Angular: Understanding Components
 
-Angular is a powerful front-end framework that allows developers to build dynamic, modern web applications. One of the fundamental building blocks of an Angular application is the **Component**. In this blog post, we will explore what an Angular component is, how it works, and different ways to define and style it.
+<!--markdownlint-disable MD024-->
+
+Angular is a powerful front-end framework that allows developers to build dynamic, modern web
+applications. One of the fundamental building blocks of an Angular application is the **Component**.
+In this blog post, we will explore what an Angular component is, how it works, and different ways to
+define and style it.
 
 ## What is a Component?
 
@@ -31,7 +36,7 @@ export class AppComponent {
 }
 ```
 
-### Explanation:
+### Explanation
 
 - **selector:** Defines the custom HTML tag to use this component. For example, `<app-root />`.
 - **template:** Contains the HTML structure, where `{{ title }}` binds data dynamically.
@@ -39,13 +44,14 @@ export class AppComponent {
 
 #### **Output:**
 
-```
+```text
 Hello, NBT 3
 ```
 
 ## Using External Template and CSS Files
 
-Instead of defining the template and styles directly within the component file, we can separate them into external files.
+Instead of defining the template and styles directly within the component file, we can separate them
+into external files.
 
 ### **app.component.ts** (Component Definition)
 
@@ -87,7 +93,7 @@ export class AppComponent {
 
 #### **Output:**
 
-```
+```text
 Hello, NBT
 ```
 
@@ -99,5 +105,5 @@ In this blog post, we learned:
 - How to create a basic component.
 - How to use external HTML and CSS files to organize code better.
 
-Components are a crucial part of Angular applications. By using them effectively, we can create modular, reusable, and maintainable applications. Stay tuned for more Angular tips and best practices!
-
+Components are a crucial part of Angular applications. By using them effectively, we can create modular,
+reusable, and maintainable applications. Stay tuned for more Angular tips and best practices!

@@ -39,7 +39,7 @@ public partial class ImageUploader : System.Web.UI.Page
                     var imgage = reader["Photo"];
                     if (imgage != null)
                     {
-                      //satish  imgPatient.Value = imgage;
+                      //Satish  imgPatient.Value = imgage;
                     }
                 }
             }
@@ -69,10 +69,10 @@ public partial class ImageUploader : System.Web.UI.Page
         catch (Exception ex)
         {
             //Message.Text = ex.Message;
-            Message.Text = "Image alredy uploaded for patient";
+            Message.Text = "Image already uploaded for patient";
             return rowsAffected;
         }
-        Message.Text = "Image saved Sucessfully";
+        Message.Text = "Image saved successfully";
         return rowsAffected;
     }
     protected void btnUpload_Click(object sender, EventArgs e)
@@ -152,10 +152,10 @@ public partial class Document : System.Web.UI.Page
         catch (Exception ex)
         {
             //Message.Text = ex.Message;
-            Message.Text = "Doc alredy uploaded for patient";
+            Message.Text = "Doc already uploaded for patient";
             return rowsAffected;
         }
-        Message.Text = "Doc saved Sucessfully";
+        Message.Text = "Doc saved successfully";
         return rowsAffected;
     }
     protected void btnUpload_Click(object sender, EventArgs e)

@@ -1,6 +1,5 @@
 ---
 sidebar_position: 8
-title: Samples
 ---
 
 # Inheritance Samples
@@ -42,7 +41,8 @@ graph TD
 
 **Explanation:**
 
-- Without virtual inheritance, class C would inherit two copies of B (one through D1 and one through D2)
+- Without virtual inheritance, class C would inherit two copies of B (one through D1 and one through
+D2)
 - This would make obj.i ambiguous - which copy of B's i should it refer to?
 - Using virtual inheritance ensures only one copy of B exists in C
 - This resolves the ambiguity, allowing direct access to i through C objects
@@ -52,7 +52,8 @@ graph TD
 
 ## 2. Virtual Destructors
 
-Virtual Destructors: Ensures proper calling order for destructors in class hierarchies.  Essential when deleting derived objects through base class pointers to ensure proper cleanup.
+Virtual Destructors: Ensures proper calling order for destructors in class hierarchies.  Essential
+when deleting derived objects through base class pointers to ensure proper cleanup.
 
 ```cpp
 class B {
@@ -82,6 +83,7 @@ void main() {
     cin >> z;
 }
 ```
+
 **Virtual Destructor Diagram:**
 
 ```mermaid
@@ -100,22 +102,23 @@ sequenceDiagram
 
 **Explanation:**
 
-- When a derived class object is deleted through a base class pointer, the base class destructor must be virtual
-- Without virtual, only the base class destructor would be called, causing a memory leak (p would not be deleted)
+- When a derived class object is deleted through a base class pointer, the base class destructor
+must be virtual
+- Without virtual, only the base class destructor would be called, causing a memory leak (p would
+not be deleted)
 - With virtual, the correct derived class destructor is called first, then the base class destructor
 - This ensures proper cleanup of resources allocated by the derived class
 
 **Output:**
-```
+
+```text
 destructor D
 destructor B
 ```
 
-
 ## 3. Base-class Access Control
 
 Access Control: Public, private, and protected members have different visibility in derived classes.
-
 
 ```cpp
 class Base {
@@ -222,7 +225,8 @@ Constructors are called from base to derived (B → D1 → D2)
 Destructors are called in reverse order, from derived to base (D2 → D1 → B)
 
 **Output:**
-```
+
+```text
 constructor B
 constructor D1
 constructor D2
@@ -341,18 +345,16 @@ sequenceDiagram
 
 **Explanation:**
 
-The derived class constructor uses an initializer list (D(int x, int y): B(y)) to pass parameters to the base class constructor
-The parameter y is passed to the base class constructor, while x is used in the derived class
-In the show() method, i (from base) is 2 and j (from derived) is 1
+The derived class constructor uses an initializer list (D(int x, int y): B(y)) to pass parameters to
+the base class constructor The parameter y is passed to the base class constructor, while x is used
+in the derived class In the show() method, i (from base) is 2 and j (from derived) is 1
 
 **Output:**
-```
+
+```text
 Constructing base : B
 Constructing derived : D
 2 1
 Destructing derived : D
 Destructing base : B
 ```
-
-
-

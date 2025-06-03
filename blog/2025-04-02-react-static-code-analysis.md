@@ -5,7 +5,10 @@ tags: ["React", "Front End"]
 # Static Code Analysis in a React App
 
 ## **Introduction**
-Code quality is crucial in modern web development, ensuring that projects remain maintainable, readable, and free from potential issues. In this guide, we will set up **static code analysis** in a **React** project using **Yarn**, integrating the following tools:
+
+Code quality is crucial in modern web development, ensuring that projects remain maintainable,
+readable, and free from potential issues. In this guide, we will set up **static code analysis**
+in a **React** project using **Yarn**, integrating the following tools:
 
 - **Husky** → Manages Git hooks to enforce linting before commits.
 - **Lint-staged** → Runs linters only on staged files for efficiency.
@@ -18,14 +21,18 @@ Let's dive into the step-by-step setup.
 ---
 
 ## **1️⃣ Installing Required Packages**
+
 Run the following command to install all necessary dependencies as dev dependencies:
 
 ```sh
-yarn add -D husky lint-staged eslint prettier stylelint eslint-config-prettier eslint-plugin-prettier eslint-plugin-react stylelint-config-standard
+yarn add -D husky lint-staged eslint prettier stylelint eslint-config-prettier eslint-plugin-prettier
+eslint-plugin-react stylelint-config-standard
 ```
 
 ### **Why these tools?**
-- **ESLint**: Ensures consistent JavaScript/TypeScript code by enforcing best practices and detecting potential issues.
+
+- **ESLint**: Ensures consistent JavaScript/TypeScript code by enforcing best practices and detecting
+ potential issues.
 - **Prettier**: Automatically formats code to maintain a uniform style.
 - **Stylelint**: Lints and fixes CSS/SCSS styles.
 - **Husky**: Hooks into Git workflows to run linters before committing changes.
@@ -34,7 +41,9 @@ yarn add -D husky lint-staged eslint prettier stylelint eslint-config-prettier e
 ---
 
 ## **2️⃣ Configuring ESLint**
-To configure **ESLint**, create a file named `.eslintrc.json` in the root directory and add the following content:
+
+To configure **ESLint**, create a file named `.eslintrc.json` in the root directory and add the following
+content:
 
 ```json
 {
@@ -47,6 +56,7 @@ To configure **ESLint**, create a file named `.eslintrc.json` in the root direct
 ```
 
 ### **Why ESLint?**
+
 ✅ Catches syntax errors early.  
 ✅ Helps maintain a consistent coding style.  
 ✅ Enforces best practices in JavaScript and React development.
@@ -54,6 +64,7 @@ To configure **ESLint**, create a file named `.eslintrc.json` in the root direct
 ---
 
 ## **3️⃣ Configuring Prettier**
+
 To ensure consistent code formatting, create a `.prettierrc.json` file:
 
 ```json
@@ -66,6 +77,7 @@ To ensure consistent code formatting, create a `.prettierrc.json` file:
 ```
 
 ### **Why Prettier?**
+
 ✅ Automatically formats code on save.  
 ✅ Eliminates debates over code style.  
 ✅ Works seamlessly with ESLint.
@@ -73,6 +85,7 @@ To ensure consistent code formatting, create a `.prettierrc.json` file:
 ---
 
 ## **4️⃣ Configuring Stylelint**
+
 To enforce CSS/SCSS best practices, create a `.stylelintrc.json` file:
 
 ```json
@@ -86,6 +99,7 @@ To enforce CSS/SCSS best practices, create a `.stylelintrc.json` file:
 ```
 
 ### **Why Stylelint?**
+
 ✅ Ensures consistent styling rules.  
 ✅ Detects and fixes errors in CSS/SCSS.  
 ✅ Avoids potential styling issues in projects.
@@ -95,6 +109,7 @@ To enforce CSS/SCSS best practices, create a `.stylelintrc.json` file:
 ## **5️⃣ Setting Up Husky & Lint-Staged**
 
 ### **Installing Husky**
+
 Initialize Husky:
 
 ```sh
@@ -122,6 +137,7 @@ Modify your `package.json` to include Husky and lint-staged:
 ```
 
 ### **Enable Pre-Commit Hook**
+
 Run the following command to enable Husky’s pre-commit hook:
 
 ```sh
@@ -129,6 +145,7 @@ yarn husky add .husky/pre-commit "yarn lint-staged"
 ```
 
 ### **Why Husky & Lint-Staged?**
+
 ✅ Prevents committing bad code.  
 ✅ Runs linters only on changed files (performance-friendly).  
 ✅ Ensures consistent formatting and linting before every commit.
@@ -136,6 +153,7 @@ yarn husky add .husky/pre-commit "yarn lint-staged"
 ---
 
 ## **6️⃣ Running Linters Manually**
+
 To check code quality manually, run:
 
 ```sh
@@ -147,12 +165,14 @@ yarn stylelint  # Runs Stylelint
 ---
 
 ## **Conclusion**
-By following these steps, we have successfully set up **Husky, lint-staged, ESLint, Prettier, and Stylelint** in a **React project** using **Yarn**. This setup ensures:
+
+By following these steps, we have successfully set up **Husky, lint-staged, ESLint, Prettier, and Stylelint**
+in a **React project** using **Yarn**. This setup ensures:
 
 ✔ **Better code quality**  
 ✔ **Automatic formatting**  
 ✔ **Enforced best practices**  
 ✔ **Prevention of bad code commits**  
 
-With this configuration in place, your React project will maintain high coding standards, making it more maintainable and scalable! 🚀
-
+With this configuration in place, your React project will maintain high coding standards, making it
+ more maintainable and scalable! 🚀

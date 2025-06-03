@@ -4,7 +4,7 @@ tags: [Books]
 
 # Steve Jobs by Walter Isaacson
 <!--markdownlint-disable MD013 MD045 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025 MD052-->
-Bought [Steve Jobs by Walter Isaacson](http://en.wikipedia.org/wiki/Steve_Jobs_(book)) Biography on Feburary 14, 2012 to present it to my self through flipkart.com.
+Bought [Steve Jobs by Walter Isaacson](http://en.wikipedia.org/wiki/Steve_Jobs_(book)) Biography on February 14, 2012 to present it to my self through flipkart.com.
 
 Today March 10, 2012 12.20 PM I had completed reading the book it contains 42 chapters spread over 571 pages
 

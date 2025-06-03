@@ -3,27 +3,47 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "---------Common": "",
+     "****** MAIN COMMANDS ******": "",
+    "---------------------------": "",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "serve": "docusaurus serve",
-    "--------Advanced": "",
-    "docusaurus": "docusaurus",
-    "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
+      "-": "",
+    "****** 1.FORMATTING ******": "",
+    "--------------------------": "",
+    "format": "prettier --list-different \"./src/**/*.{js,jsx,ts,tsx,json,htm,html}\"",
+    "format:fix": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,htm,html}\"",
+   
+    "****** 2.LINTING ******": "",
+    "-----------------------": "",
+    "--------Eslint (ts,tsx)-----------": "",  
+    "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
+    "lint:fix": "eslint src --ext .ts,.tsx,.js,.jsx --fix",
+    "--------Stylelint (css)-----------": "",
+    "lint:style": "stylelint \"**/*.css\"",
+    "lint:style:fix": "yarn lint:style --fix",
+    "--------Markdownlint (md)-----------": "",
+    "lint:md": "markdownlint --ignore _site/ --ignore node_modules/ --ignore docusaurus/node_modules/ \"**/*.md\"",
+    "lint:md:fix": "markdownlint --fix _site/ --ignore node_modules/ --ignore docusaurus/node_modules/ \"**/*.md\"",
+     "****** 3.SPELLING ******": "",
+    "-------------------------": "",
+    "lint:spelling": "cspell \"**/*.{md,js,ts,tsx}\" \"docusaurus.config.js\" --no-progress --show-context --show-suggestions",
+    "lint:spelling:fix": "rimraf project-words.txt && echo # Project Words - DO NOT TOUCH - This is updated through CI > project-words.txt && yarn -s lint:spelling --words-only --unique --no-exit-code --no-summary \"**\" >> project-words.txt",
+    "----": "",
+    "****** 4. ALL ******": "",
+    "--------------------": "",
+    "lint:all:fix": "yarn format && yarn lint:fix && yarn lint:style:fix && yarn lint:md:fix && yarn lint:spelling",
+    "quality": "npm run lint:all:fix && yarn build",
+     "-----": "",
+    "****** OTHER COMMANDS ******": "",
+    "commit": "yarn ./beforeComitt.bat",
+     "docusaurus": "docusaurus",
+    "swizzle": "docusaurus swizzle",
     "clear": "docusaurus clear",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc",
-    "-----------------linting": "",
-    "format": "prettier --list-different \"./src/**/*.{js,jsx,ts,tsx,json,htm,html}\"",
-    "format:fix": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,htm,html}\"",
-    "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
-    "lint:fix": "eslint src --ext .ts,.tsx,.js,.jsx --fix",
-    "prepare": "husky install",
-    "lint:md": "markdownlint --ignore _site/ --ignore node_modules/ --ignore docusaurus/node_modules/ \"**/*.md\"",
-    "lint:mdfix": "markdownlint --fix _site/ --ignore node_modules/ --ignore docusaurus/node_modules/ \"**/*.md\"",
-    "commit": "yarn ./beforeComitt.bat"
+    "typecheck": "tsc"
   },
   "markdownlint": {
     "executable": [
@@ -31,8 +51,19 @@
     ]
   },
   "lint-staged": {
-    "./src/**/*.{js,jsx,ts,tsx,json,htm,html}": "eslint --fix --max-warnings 0",
-    "./src/**/*.{js,jsx,ts,tsx}": "prettier --write"
+      "src/**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix --max-warnings=0",
+      "prettier --write",
+      "cspell --no-progress --show-context --show-suggestions"
+    ],
+    "src/**/*.{css,scss}": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
+    "{docs,blog}/**/*.{md,mdx}": [
+      "cspell --no-progress --show-context --show-suggestions",
+      "markdownlint --fix"
+    ]
   },
   "husky": {
     "hooks": {
@@ -67,12 +98,15 @@
     "@types/react": "^19.0.12",
     "@typescript-eslint/eslint-plugin": "^8.28.0",
     "@typescript-eslint/parser": "^8.28.0",
+    "cspell": "^9.0.2",
     "eslint": "^9.23.0",
     "eslint-plugin-import": "^2.31.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.0",
     "markdownlint": "^0.37.4",
     "prettier": "3.5.3",
+    "stylelint": "^16.20.0",
+    "stylelint-config-standard": "^38.0.0",
     "typescript": "^5.8.2"
   },
   "browserslist": {
