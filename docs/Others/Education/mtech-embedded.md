@@ -6,9 +6,14 @@ sidebar_position: 2
 
 <!--markdownlint-disable MD013 MD029 MD036 MD024-->
 
-Master of Technology in Embedded Systems
+> **Master of Technology in Embedded Systems**  
+> 🏫 *Jawaharlal Nehru Technological University - Hyderabad*  
+> 🏷️ **Code:** R22
 
-Code: R22
+<div id="about-navigation">
+    <a href="/About" className="button button--primary button--lg">About</a>
+</div>
+---
 
 **Year - I**
 

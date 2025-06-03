@@ -9,6 +9,14 @@ LL.M - Latin: Legum Magister
 
 Master of Laws
 
+> **LL.M - Latin: Legum Magister (Master of Laws)**  
+> 🏫 *Osmanial University - Hyderabad*  
+
+<div id="about-navigation">
+    <a href="/About" className="button button--primary button--lg">About</a>
+</div>
+---
+
 | TITLE      | Count  |
 | ---------- | ------ |
 | Courses    | 16     |

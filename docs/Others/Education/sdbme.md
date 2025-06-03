@@ -6,9 +6,14 @@ sidebar_position: 6
 
 <!--markdownlint-disable MD013 MD029 MD036-->
 
-Special Diploma in Electronics with Specialization in Bio-Medical Engineering
+> **Special Diploma in Electronics with Specialization in Bio-Medical Engineering**  
+> 🏫 *SBTET, A.P*  
+> 🏷️ **Code:** C96
 
-Code: C-96
+<div id="about-navigation">
+    <a href="/About" className="button button--primary button--lg">About</a>
+</div>
+---
 
 | TITLE     | Count  |
 | --------- | ------ |

@@ -12,6 +12,7 @@ import { PageHeader } from '@site/src/components/PageHeader';
 import aboutData from '@site/src/data/aboutContent.json';
 import styles from './styles.module.css';
 import SlideShow from '../../components/SlideShow/SlideShow';
+import { SocialFollow } from '../../components/SocialFollow';
 
 // Card component for consistent styling
 const Card = ({ title, icon, children, className = '' }) => (
@@ -128,6 +129,10 @@ export default function About() {
           </div>
 
           <p>🌟 Thank you for visiting my profile.</p>
+          <div className={styles.socialMediaSection}>
+            <h3>Social Media</h3>
+            <SocialFollow />
+          </div>
         </div>
       </div>
     </Layout>

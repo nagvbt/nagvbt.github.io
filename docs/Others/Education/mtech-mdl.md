@@ -10,6 +10,9 @@ sidebar_position: 1
 > 🏫 *Malla Reddy University*  
 > 🏷️ **Code:** MR22
 
+<div id="about-navigation">
+    <a href="/About" className="button button--primary button--lg">About</a>
+</div>
 ---
 
 ## 📘 Year - I

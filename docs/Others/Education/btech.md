@@ -5,11 +5,15 @@ sidebar_position: 5
 # B.Tech - ECE
 <!--markdownlint-disable MD013 MD029 MD036 MD024-->
 
-Bachelor of Technology in Electronics and Communication Engineering
+> **Bachelor of Technology in Electronics and Communication Engineering**  
+> 🏫 *Jawaharlal Nehru Technological University - Hyderabad*  
+> 🏷️ **Code:** R99
 
-Jawaharlal Nehru Technological University - Hyderabad
+<div id="about-navigation">
+    <a href="/About" className="button button--primary button--lg">About</a>
+</div>
+---
 
-Code: R99
 
 | TITLE     | Count  |
 | --------- | ------ |

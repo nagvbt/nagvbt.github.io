@@ -5,9 +5,13 @@ sidebar_position: 4
 # LL.B - Bachelor of Laws
 <!--markdownlint-disable MD013 MD029 MD036 MD024-->
 
-LL.B - Latin: Legum Baccalaureus
+> **LL.B - Latin: Legum Baccalaureus (Bachelor of Laws)**  
+> 🏫 *Osmanial University - Hyderabad*  
 
-Bachelor of Laws
+<div id="about-navigation">
+    <a href="/About" className="button button--primary button--lg">About</a>
+</div>
+---
 
 | TITLE      | Count  |
 | ---------- | ------ |

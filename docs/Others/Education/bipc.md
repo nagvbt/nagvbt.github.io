@@ -1,13 +1,18 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # Intermediate - BiPC
 
-<!--markdownlint-disable MD013 MD029 MD036-->
+<!--markdownlint-disable MD013 MD029 MD036 MD033-->
 
 > **Intermediate in Biology, Physics, and Chemistry (BiPC)**  
-> 🏫 *Andhra Pradesh Board*  
+> 🏫 *Andhra Pradesh Board*
+
+<div id="about-navigation">
+    <a href="/About" className="button button--primary button--lg">About</a>
+</div>
+
 ---
 
 | TITLE      | Count  |
@@ -29,4 +34,3 @@ sidebar_position: 6
 6. Biology - lab
 7. Physics - lab
 8. Chemistry - lab
-

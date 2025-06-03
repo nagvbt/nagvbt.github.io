@@ -5,9 +5,16 @@ sidebar_position: 3
 # M.B.A - Entrepreneurship
 
 <!--markdownlint-disable MD013 MD029 MD036 MD024-->
-Master of Business Administration in Entrepreneurship\*
 
-Code-R19
+> **Master of Business Administration in Entrepreneurship**  
+> 🏫 *Jawaharlal Nehru Technological University - Hyderabad*  
+> 🏷️ **Code:** R19
+
+<div id="about-navigation">
+    <a href="/About" className="button button--primary button--lg">About</a>
+</div>
+---
+
 
 | TITLE      | Count  |
 | ---------- | ------ |
