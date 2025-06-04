@@ -11,6 +11,8 @@ applications. One of the fundamental building blocks of an Angular application i
 In this blog post, we will explore what an Angular component is, how it works, and different ways to
 define and style it.
 
+<!--truncate-->
+
 ## What is a Component?
 
 A **Component** in Angular is a reusable UI element that consists of three main parts:

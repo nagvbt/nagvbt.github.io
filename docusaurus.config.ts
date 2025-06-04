@@ -138,6 +138,7 @@ const config: Config = {
             position: 'left'
           },
           { label: 'Docs', type: 'doc', docId: 'intro', position: 'left' },
+          
           // {
           //   label: 'Articles',
           //   to: '/docs/category/articles',
@@ -148,30 +149,36 @@ const config: Config = {
           //   to: '/docs/category/tutorials',
           //   position: 'left'
           // },
-          {
-            type: 'docSidebar',
-            position: 'left',
-            sidebarId: 'Cpp',
-            label: 'C++',
-          },
-          {
-            type: 'docSidebar',
-            position: 'left',
-            sidebarId: 'C',
-            label: 'C',
-          },
-          {
-            type: 'docSidebar',
-            position: 'left',
-            sidebarId: 'Articles',
-            label: 'Articles',
-          },
-          {
-            type: 'docSidebar',
-            position: 'left',
-            sidebarId: 'Tutorials',
-            label: 'Tutorials',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   position: 'left',
+          //   sidebarId: 'React',
+          //   label: 'React',
+          // },
+          // {
+          //   type: 'docSidebar',
+          //   position: 'left',
+          //   sidebarId: 'Cpp',
+          //   label: 'C++',
+          // },
+          // {
+          //   type: 'docSidebar',
+          //   position: 'left',
+          //   sidebarId: 'C',
+          //   label: 'C',
+          // },
+          // {
+          //   type: 'docSidebar',
+          //   position: 'left',
+          //   sidebarId: 'Articles',
+          //   label: 'Articles',
+          // },
+          // {
+          //   type: 'docSidebar',
+          //   position: 'left',
+          //   sidebarId: 'Tutorials',
+          //   label: 'Tutorials',
+          // },
 
 
           //  To open a page from '/src/pages' folder

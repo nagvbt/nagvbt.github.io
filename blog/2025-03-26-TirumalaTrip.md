@@ -10,6 +10,8 @@ Tirupati and Tirumala, the abode of Lord Venkateswara, are among the most revere
 destinations in India. My recent visit to these sacred places was a blend of spirituality, nostalgia,
 and cultural exploration. Here's a glimpse into my enriching experience.
 
+<!--truncate-->
+
 ## Day 1: Beginning the Journey (21-Mar-2025)
 
 The journey to Tirupati commenced with great enthusiasm. As we embarked on this spiritual quest,

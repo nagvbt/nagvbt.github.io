@@ -17,11 +17,14 @@ import clsx from 'clsx';
 export default function SocialFollow() {
   return (
     <div className="">
-      <a href="https://github.com/mrnbt7" className={clsx(styles.youtube, styles.social)}>
-        <FontAwesomeIcon icon={faGithub} size="2x" />
+      <a href="https://www.youtube.com/@mrnbt" className={clsx(styles.youtube, styles.social)}>
+        <FontAwesomeIcon icon={faYoutube} size="2x" />
       </a>
       <a href="https://www.linkedin.com/in/nbt7/" className={clsx(styles.linkedin, styles.social)}>
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
+      </a>
+      <a href="https://github.com/mrnbt7" className={clsx(styles.youtube, styles.social)}>
+        <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
       <a href="https://x.com/mr_nbt7" className={clsx(styles.x, styles.social)}>
         <FontAwesomeIcon icon={faXTwitter} size="2x" />
@@ -32,9 +35,7 @@ export default function SocialFollow() {
       >
         <FontAwesomeIcon icon={faStackOverflow} size="2x" />
       </a>
-      <a href="https://www.youtube.com/@mrnbt" className={clsx(styles.youtube, styles.social)}>
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
-      </a>
+
       <a href="https://www.facebook.com/mrnbt.in" className={clsx(styles.facebook, styles.social)}>
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>

@@ -8,6 +8,7 @@ import { SocialFollow } from '../components/SocialFollow';
 import { ReactTyped } from '../components/ReactTyped';
 import clsx from 'clsx';
 import { BlogPostsList } from '../components/BlogPostsList';
+import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
   return (
@@ -64,8 +65,8 @@ export default function Home() {
     >
       <main>
         <HomepageHeader />
-        {/* <HomepageFeatures /> */}
-        {<BlogPostsList title="Blog Posts" numberOfPosts={16} />}
+        <HomepageFeatures />
+        {<BlogPostsList title="Blog Posts" numberOfPosts={7} />}
       </main>
     </Layout>
   );

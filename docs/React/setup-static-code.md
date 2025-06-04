@@ -1,14 +1,13 @@
 ---
-tags: ["React", "Front End", "Project Setup"]
+sidebar_position: 6
 ---
 
-# Setting Up a Modern React Project with Linting, Formatting, Styling and Spell Checking
+
+# Code Quality in React
 
 When working on a React project, maintaining clean and consistent code is essential. This guide will
 walk you through setting up a **React** project with **ESLint, Prettier, Stylelint, Husky,
 lint-staged, and cspell** to automate code formatting, linting, and spell checking.
-
-<!--truncate-->
 
 ## **Step 1: Create a New React App**
 

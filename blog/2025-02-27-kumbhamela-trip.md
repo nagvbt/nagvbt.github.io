@@ -9,6 +9,8 @@ Embark on a transformative 7-day spiritual journey exploring some of India’s m
 This pilgrimage, starting from Gudivada, takes you through the heart of spiritual India, immersing
 you in devotion, history, and divine energy.
 
+<!--truncate-->
+
 ## Day 1: The Journey Begins (20-Feb-2025)
 
 Our sacred expedition commenced with a bus journey from Gudivada. To ensure a fulfilling and

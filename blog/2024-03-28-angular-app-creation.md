@@ -8,6 +8,8 @@ Setting up an Angular application from scratch may seem daunting at first, but w
 the process is streamlined and efficient. This guide walks you through the essential steps, from
 installing dependencies to running your project.
 
+<!--truncate-->
+
 ## **1. Install the Latest Node.js**  
 
 Before setting up Angular, ensure that you have the latest version of **Node.js** installed. Angular

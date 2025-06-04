@@ -10,6 +10,8 @@ tags: ["python"]
 
     `python -m pip install openpyxl`
 
+<!--truncate-->
+
 2. Open VSCode and Create a file excel_practice.py and write the below code
 
 ```python

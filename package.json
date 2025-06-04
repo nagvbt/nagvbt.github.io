@@ -3,21 +3,20 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-     "****** MAIN COMMANDS ******": "",
+    "****** MAIN COMMANDS ******": "",
     "---------------------------": "",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "serve": "docusaurus serve",
     "deploy": "docusaurus deploy",
-      "-": "",
+    "-": "",
     "****** 1.FORMATTING ******": "",
     "--------------------------": "",
     "format": "prettier --list-different \"./src/**/*.{js,jsx,ts,tsx,json,htm,html}\"",
     "format:fix": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,htm,html}\"",
-   
     "****** 2.LINTING ******": "",
     "-----------------------": "",
-    "--------Eslint (ts,tsx)-----------": "",  
+    "--------Eslint (ts,tsx)-----------": "",
     "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
     "lint:fix": "eslint src --ext .ts,.tsx,.js,.jsx --fix",
     "--------Stylelint (css)-----------": "",
@@ -26,7 +25,7 @@
     "--------Markdownlint (md)-----------": "",
     "lint:md": "markdownlint --ignore _site/ --ignore node_modules/ --ignore docusaurus/node_modules/ \"**/*.md\"",
     "lint:md:fix": "markdownlint --fix _site/ --ignore node_modules/ --ignore docusaurus/node_modules/ \"**/*.md\"",
-     "****** 3.SPELLING ******": "",
+    "****** 3.SPELLING ******": "",
     "-------------------------": "",
     "lint:spelling": "cspell \"**/*.{md,js,ts,tsx}\" \"docusaurus.config.js\" --no-progress --show-context --show-suggestions",
     "lint:spelling:fix": "rimraf project-words.txt && echo # Project Words - DO NOT TOUCH - This is updated through CI > project-words.txt && yarn -s lint:spelling --words-only --unique --no-exit-code --no-summary \"**\" >> project-words.txt",
@@ -35,10 +34,10 @@
     "--------------------": "",
     "lint:all:fix": "yarn format && yarn lint:fix && yarn lint:style:fix && yarn lint:md:fix && yarn lint:spelling",
     "quality": "npm run lint:all:fix && yarn build",
-     "-----": "",
+    "-----": "",
     "****** OTHER COMMANDS ******": "",
     "commit": "yarn ./beforeComitt.bat",
-     "docusaurus": "docusaurus",
+    "docusaurus": "docusaurus",
     "swizzle": "docusaurus swizzle",
     "clear": "docusaurus clear",
     "write-translations": "docusaurus write-translations",
@@ -51,7 +50,7 @@
     ]
   },
   "lint-staged": {
-      "src/**/*.{js,jsx,ts,tsx}": [
+    "src/**/*.{js,jsx,ts,tsx}": [
       "eslint --fix --max-warnings=0",
       "prettier --write",
       "cspell --no-progress --show-context --show-suggestions"

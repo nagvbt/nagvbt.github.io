@@ -14,4 +14,4 @@ A component library is a collection of logically group components so that one ca
 
 <!--truncate-->
 
-For complete tutorial refer [React Component Library Tutorial](/docs/Tutorials/React-Component-Library)
+For complete tutorial refer [React Component Library Tutorial](/docs/React/React-Component-Library)

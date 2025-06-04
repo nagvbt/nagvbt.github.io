@@ -1,6 +1,7 @@
 ---
-tags: ["React", "Front End"]
+sidebar_position: 7
 ---
+
 
 # Static Code Analysis in a React App
 
@@ -17,7 +18,7 @@ in a **React** project using **Yarn**, integrating the following tools:
 - **Stylelint** → Lints and fixes CSS/SCSS code.
 
 Let's dive into the step-by-step setup.
-<!--truncate-->
+
 ---
 
 ## **1️⃣ Installing Required Packages**
