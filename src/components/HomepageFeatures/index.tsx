@@ -12,98 +12,146 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 /* eslint @typescript-eslint/no-require-imports: "off" */
 const recentPosts = require('../../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json');
+
 const features = [
   {
-    title: <>Recent Blog Posts</>,
-    imageUrl: '',
-    description: (
-      <>
-        <ul>
-          {recentPosts.items.slice(0, 5).map((item, index) => (
-            <li key={index}>
-              <a href={`${item.permalink}`}>{item.title}</a>{' '}
-            </li>
-          ))}
-        </ul>
-      </>
-    )
+    title: 'Programming Languages',
+    imageUrl: 'img/icons/programming.svg',
+    links: [
+      {
+        title: '🐍 Python',
+        url: 'docs/python/intro'
+      },
+      {
+        title: '🔷 C#',
+        url: 'docs/csharp/intro'
+      },
+      {
+        title: '💻 C++',
+        url: 'docs/cpp/intro'
+      },
+      {
+        title: '💻 C',
+        url: 'docs/c/intro'
+      }
+    ]
   },
   {
-    title: <>Document Structure</>,
-    imageUrl: '',
-    description: (
-      <>
-        {/* <p>
-          <b>
-            <a href="books">Books</a>.
-          </b>{' '}
-          All about Book Reviews.
-        </p> */}
-        <p>
-          <b>
-            <a href="docs/category/maang">MAANG</a>.
-          </b>{' '}
-          MAANG Interview Preparation.
-        </p>
-        <p>
-          <b>
-            <a href="docs/category/c-2">C#</a>.
-          </b>{' '}
-          Articles on C#.
-        </p>
-      </>
-    )
+    title: 'Frameworks',
+    imageUrl: 'img/icons/frameworks.svg',
+    links: [
+      {
+        title: '⚛️ React',
+        url: 'docs/react/intro'
+      },
+      {
+        title: '🅰️ Angular',
+        url: 'blog/tags/angular'
+      },
+      {
+        title: '🧡 Svelte',
+        url: 'docs/Svelte/intro'
+      },
+      {
+        title: '📱 Ionic',
+        url: 'blog/tags/ionic'
+      }
+    ]
   },
   {
-    title: <>Popular Topics</>,
-    imageUrl: '',
-    description: (
-      <>
-        <ul style={{ flex: '1' }}>
-          <li>
-            <a href="docs/category/languages-comparison">Language Comparison</a>
-          </li>
-          <li>
-            <a href="docs/category/c-1">Master C++</a>
-          </li>
-          <li>
-            <a href="docs/category/c">Master C</a>
-          </li>
-        </ul>
-      </>
-    )
+    title: 'Popular Topics',
+    imageUrl: 'img/icons/popular-topics.svg',
+    links: [
+      {
+        title: '🧠 Language Comparison',
+        url: 'docs/category/languages-comparison'
+      },
+      {
+        title: '🌍 Travel',
+        url: 'blog/tags/travel'
+      },
+      {
+        title: '📝 Articles',
+        url: 'docs/articles/ReactNative/Tutorial'
+      },
+      {
+        title: '🎓 Tutorials',
+        url: 'docs/Tutorials/WCF'
+      }
+    ]
+  },
+  {
+    title: 'Resources',
+    imageUrl: 'img/icons/resources.svg',
+    links: [
+      {
+        title: 'Books',
+        url: 'books'
+      },
+      {
+        title: 'Projects',
+        url: 'GithubProjects'
+      }
+    ]
+  },
+  {
+    title: 'Tools',
+    imageUrl: 'img/icons/document-structure.svg',
+    links: [
+      {
+        title: 'Case Converter',
+        url: 'CaseConverter'
+      },
+      {
+        title: 'My Tool Box',
+        url: 'docs/Others/Tools'
+      }
+    ]
   }
+
+  // {
+  //   title: 'Recent Blog Posts',
+  //   imageUrl: 'img/icons/blog-posts.svg',
+  //   isFullWidth: true,
+  //   links: recentPosts.items.slice(0, 8).map(item => ({
+  //     title: item.title,
+  //     url: item.permalink
+  //   }))
+  // },
 ];
 
-function Feature({ imageUrl, title, description }) {
+function Feature({ imageUrl, title, links, isFullWidth }) {
   const imgUrl = useBaseUrl(imageUrl);
+
   return (
-    <div className={clsx('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+    <article className={clsx(styles.featureCard, isFullWidth && styles.fullWidthCard)}>
+      <div className={styles.featureCardContent}>
+        <div className={styles.featureHeader}>
+          {imgUrl && <img src={imgUrl} alt={`${title} icon`} className={styles.featureIcon} />}
+          <h2>{title}</h2>
         </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
+        <div className={styles.featureLinks}>
+          <ul className={isFullWidth ? styles.multiColumnList : ''}>
+            {links.map((link, idx) => (
+              <li key={idx}>
+                <a href={link.url}>{link.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </article>
   );
 }
 
 export default function HomepageFeatures() {
   return (
-    <>
-      {features && features.length && (
-        <section className={styles.features}>
-          <div className="container">
-            <div className="row">
-              {features.map((props, idx) => (
-                <Feature key={idx} {...props} />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-    </>
+    <section className={styles.features}>
+      <div className={styles.featureGrid}>
+        {features.map((props, idx) => (
+          <Feature key={idx} {...props} />
+        ))}
+      </div>
+    </section>
   );
 }
