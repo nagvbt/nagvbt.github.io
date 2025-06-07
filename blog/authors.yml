@@ -1,5 +1,11 @@
-nagvbt:
+mrnbt:
   name: NBT
   title: Sr. Software Architect
   url: http://mrnbt.in
   image_url: "/img/logo.png"
+  page: true
+  socials:
+    x: https://x.com/mr_nbt7
+    linkedin: https://www.linkedin.com/in/nbt7/
+    github: https://github.com/mrnbt7
+  

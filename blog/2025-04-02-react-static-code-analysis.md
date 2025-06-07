@@ -1,5 +1,6 @@
 ---
 tags: ["React", "Front End"]
+authors: [mrnbt]
 ---
 
 # Static Code Analysis in a React App

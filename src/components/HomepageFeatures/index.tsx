@@ -15,6 +15,29 @@ const recentPosts = require('../../../.docusaurus/docusaurus-plugin-content-blog
 
 const features = [
   {
+    title: 'Popular Topics',
+    imageUrl: 'img/icons/popular-topics.svg',
+    links: [
+      {
+        title: '📝 Articles',
+        url: 'docs/popular/developer-docs'
+      },
+      {
+        title: '🧠 Language Comparison',
+        url: 'docs/category/languages-comparison'
+      },
+      {
+        title: '🌍 Travel',
+        url: 'blog/tags/travel'
+      },
+
+      {
+        title: '🎓 Tutorials',
+        url: 'docs/Tutorials/WCF'
+      }
+    ]
+  },
+  {
     title: 'Programming Languages',
     imageUrl: 'img/icons/programming.svg',
     links: [
@@ -58,28 +81,7 @@ const features = [
       }
     ]
   },
-  {
-    title: 'Popular Topics',
-    imageUrl: 'img/icons/popular-topics.svg',
-    links: [
-      {
-        title: '🧠 Language Comparison',
-        url: 'docs/category/languages-comparison'
-      },
-      {
-        title: '🌍 Travel',
-        url: 'blog/tags/travel'
-      },
-      {
-        title: '📝 Articles',
-        url: 'docs/articles/ReactNative/Tutorial'
-      },
-      {
-        title: '🎓 Tutorials',
-        url: 'docs/Tutorials/WCF'
-      }
-    ]
-  },
+
   {
     title: 'Resources',
     imageUrl: 'img/icons/resources.svg',

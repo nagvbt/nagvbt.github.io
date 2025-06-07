@@ -1,5 +1,6 @@
 ---
 tags: ["React", "Front End", "Project Setup"]
+authors: [mrnbt]
 ---
 
 # Setting Up a Modern React Project with Linting, Formatting, Styling and Spell Checking

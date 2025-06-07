@@ -22,11 +22,11 @@
 
 2. Thirtyparty Pakages list generation
    `https://github.com/mrmartineau/depdoc`
+   `npm install --global depdoc`
 
-`npm install --global depdoc`
+   Create markdown file of result
+   `depdoc package.json -g`
 
-Create markdown file of result
-`depdoc package.json -g`
+   all third party libs in the package.json were listed in the Default filename  
 
-all third party libs in the package.json were listed in the Default filename  
-`depdoc.md``
+   `depdoc.md`

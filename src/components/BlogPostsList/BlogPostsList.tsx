@@ -17,7 +17,7 @@ type BlogPostsListProps = {
 /* eslint @typescript-eslint/no-require-imports: "off" */
 const recentPosts = require('../../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json');
 
-export default function BlogPostsList({ title, numberOfPosts }: BlogPostsListProps): JSX.Element {
+export default function BlogPostsList({ title, numberOfPosts }: BlogPostsListProps) {
   return (
     <div className="container margin-bottom--lg">
       <div className="row">

@@ -11,4 +11,4 @@ Log4net is an Open Source utility used for log/report statements to various kind
 - SQL Server
 - Email
 
- [Read More](/docs/articles/CSharp/Log4netIntegration)
+ [Read More](/docs/CSharp/Log4netIntegration)
