@@ -20,7 +20,7 @@ export default function SocialFollow() {
       <a href="https://www.youtube.com/@mrnbt" className={clsx(styles.youtube, styles.social)}>
         <FontAwesomeIcon icon={faYoutube} size="2x" />
       </a>
-      <a href="https://www.linkedin.com/in/nbt7/" className={clsx(styles.linkedin, styles.social)}>
+      <a href="https://www.linkedin.com/in/mrnbt/" className={clsx(styles.linkedin, styles.social)}>
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
       <a href="https://github.com/mrnbt7" className={clsx(styles.youtube, styles.social)}>

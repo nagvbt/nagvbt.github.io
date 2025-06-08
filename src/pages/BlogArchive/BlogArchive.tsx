@@ -87,9 +87,7 @@ function YearWithPosts({ year, posts }: YearPostsProps): React.JSX.Element {
       <ul>
         {posts.map((post) => (
           <li key={post.date}>
-            <Link to={post.permalink}>
-              {post.title} [{post.formattedDate}]
-            </Link>
+            <Link to={post.permalink}>{post.title}</Link>
           </li>
         ))}
       </ul>
