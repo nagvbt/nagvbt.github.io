@@ -4,11 +4,30 @@
         <title>I CAN MAKE THIS WORK</title>
         <link>http://mrnbt.in/blog</link>
         <description>The blog of NBT ❤️🌻</description>
-        <lastBuildDate>Thu, 03 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2023 - 2025 NBT.</copyright>
+        <item>
+            <title><![CDATA[Architecting Documentation for Development Teams]]></title>
+            <link>http://mrnbt.in/blog/2025/06/07/architecting-developer-docs</link>
+            <guid>http://mrnbt.in/blog/2025/06/07/architecting-developer-docs</guid>
+            <pubDate>Sat, 07 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Good documentation bridges the gap between code and its users. Whether you are working solo or in a]]></description>
+            <content:encoded><![CDATA[<p>Good documentation bridges the gap between code and its users. Whether you are working solo or in a
+team, comprehensive developer documentation makes your project scalable, maintainable, and user-friendly.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-what-is-developer-documentation">🧠 What Is Developer Documentation?<a href="http://mrnbt.in/blog/2025/06/07/architecting-developer-docs#-what-is-developer-documentation" class="hash-link" aria-label="Direct link to 🧠 What Is Developer Documentation?" title="Direct link to 🧠 What Is Developer Documentation?">​</a></h2>
+<p>Developer documentation is the written guide that explains how a software project works, how to use
+it, and how to contribute to it. It includes setup instructions, architectural overviews, code
+explanations, and API references.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-why-documentation-is-essential">🌟 Why Documentation Is Essential<a href="http://mrnbt.in/blog/2025/06/07/architecting-developer-docs#-why-documentation-is-essential" class="hash-link" aria-label="Direct link to 🌟 Why Documentation Is Essential" title="Direct link to 🌟 Why Documentation Is Essential">​</a></h2>
+<p>Documentation helps in multiple areas throughout the development lifecycle.</p>
+<p><a href="http://mrnbt.in/docs/Popular/developer-docs">Read More</a></p>]]></content:encoded>
+            <category>Documentation</category>
+        </item>
         <item>
             <title><![CDATA[Setting Up a Modern React Project with Linting, Formatting, Styling and Spell Checking]]></title>
             <link>http://mrnbt.in/blog/2025/04/03/setup-static-code</link>
@@ -549,77 +568,6 @@ Google Map coordinates: 17.088157853456323, 81.27335789574464</p>
             <category>travel</category>
             <category>walk</category>
             <category>spiritual</category>
-        </item>
-        <item>
-            <title><![CDATA[Tutorial to create an Angular app]]></title>
-            <link>http://mrnbt.in/blog/2023/10/07/angular-app</link>
-            <guid>http://mrnbt.in/blog/2023/10/07/angular-app</guid>
-            <pubDate>Sat, 07 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Steps to install]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="steps-to-install">Steps to install<a href="http://mrnbt.in/blog/2023/10/07/angular-app#steps-to-install" class="hash-link" aria-label="Direct link to Steps to install" title="Direct link to Steps to install">​</a></h2>
-<ol>
-<li>
-<p>Install latest nodejs from <code>https://nodejs.org/en/download</code></p>
-</li>
-<li>
-<p>Install Angular</p>
-<div class="language-ts codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-ts codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install </span><span class="token operator" style="color:#393A34">-</span><span class="token plain">g </span><span class="token decorator at operator" style="color:#393A34">@</span><span class="token decorator function" style="color:#d73a49">angular</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">cli</span><br></span></code></pre></div></div>
-</li>
-<li>
-<p>Install VS Code from <code>https://code.visualstudio.com/</code></p>
-</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="steps-to-create-app">Steps to create app<a href="http://mrnbt.in/blog/2023/10/07/angular-app#steps-to-create-app" class="hash-link" aria-label="Direct link to Steps to create app" title="Direct link to Steps to create app">​</a></h2>
-<ol>
-<li>
-<p>Download the initial app from
-<code>https://angular.io/generated/zips/first-app-lesson-00/first-app-lesson-00.zip</code></p>
-</li>
-<li>
-<p>Unzip folder and rename the folder to your app name</p>
-</li>
-<li>
-<p>Open the folder in VSCode and in terminal run</p>
-<div class="language-ts codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-ts codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">yarn install</span><br></span></code></pre></div></div>
-</li>
-<li>
-<p>To start the app</p>
-<div class="language-ts codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-ts codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ng serve</span><br></span></code></pre></div></div>
-</li>
-<li>
-<p>open url <code>http://localhost:4200/</code> to see the output in the browser</p>
-</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="create-the-component">Create the Component<a href="http://mrnbt.in/blog/2023/10/07/angular-app#create-the-component" class="hash-link" aria-label="Direct link to Create the Component" title="Direct link to Create the Component">​</a></h2>
-<ol>
-<li>
-<p>Open Terminal and run</p>
-<div class="language-ts codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-ts codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ng generate component home </span><span class="token operator" style="color:#393A34">--</span><span class="token plain">standalone </span><span class="token operator" style="color:#393A34">--</span><span class="token plain">inline</span><span class="token operator" style="color:#393A34">-</span><span class="token plain">template </span><span class="token operator" style="color:#393A34">--</span><span class="token plain">skip</span><span class="token operator" style="color:#393A34">-</span><span class="token plain">tests</span><br></span></code></pre></div></div>
-</li>
-<li>
-<p>Add HomeComponent to your app's layout</p>
-</li>
-</ol>
-<ul>
-<li>
-<p>Open app.component.ts in the editor.</p>
-</li>
-<li>
-<p>In app.component.ts, import HomeComponent by adding this line to the file
-level imports.</p>
-<div class="language-ts codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-ts codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> HomeComponent </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">from</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'./home/home.component'</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
-</li>
-<li>
-<p>In app.component.ts, in @Component, update the imports array property and add HomeComponent.</p>
-<div class="language-ts codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-ts codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">imports</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  HomeComponent</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><br></span></code></pre></div></div>
-</li>
-<li>
-<p>In app.component.ts, in @Component, update the template property to include the
-following HTML code.</p>
-</li>
-</ul>
-<div class="language-ts codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-ts codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">main</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">header </span><span class="token keyword" style="color:#00009f">class</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">"brand-name"</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">img </span><span class="token keyword" style="color:#00009f">class</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">"brand-logo"</span><span class="token plain"> src</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">"/assets/logo.svg"</span><span class="token plain"> alt</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">"logo"</span><span class="token plain"> aria</span><span class="token operator" style="color:#393A34">-</span><span class="token plain">hidden</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">"true"</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">header</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">section </span><span class="token keyword" style="color:#00009f">class</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">"content"</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">app</span><span class="token operator" style="color:#393A34">-</span><span class="token plain">home</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">app</span><span class="token operator" style="color:#393A34">-</span><span class="token plain">home</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">section</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">main</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre></div></div>]]></content:encoded>
-            <category>Angular</category>
         </item>
     </channel>
 </rss>
