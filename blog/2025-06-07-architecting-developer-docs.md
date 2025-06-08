@@ -4,7 +4,7 @@ authors: [mrnbt]
 ---
 
 
-# 📘 Architecting Documentation for Development Teams
+# Architecting Documentation for Development Teams
 
 Good documentation bridges the gap between code and its users. Whether you are working solo or in a
 team, comprehensive developer documentation makes your project scalable, maintainable, and user-friendly.
@@ -23,4 +23,4 @@ explanations, and API references.
 
 Documentation helps in multiple areas throughout the development lifecycle.
 
-[Read More](docs/popular/developer-docs)
+[Read More](/docs/Popular/developer-docs)
