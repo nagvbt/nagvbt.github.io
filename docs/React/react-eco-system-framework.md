@@ -36,9 +36,9 @@ Github: `https://github.com/redux-saga/redux-saga`
 Promise based HTTP client for the browser and node.js  
 `https://github.com/mzabriskie/axios`  
   
-## REACT-BOOTSTRAP  
+## Material-UI
 
-Docs: `https://react-bootstrap.github.io/components.html`  
+Docs: `https://mui.com/material-ui/`  
 Github: `https://github.com/react-bootstrap/react-bootstrap`  
   
 ## classNames  

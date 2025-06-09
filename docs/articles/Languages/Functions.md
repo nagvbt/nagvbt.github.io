@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # Functions
 <!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
 A function is a block of code that performs a specific task.
