@@ -1,16 +1,18 @@
 ---
-sidebar_position: 7
+sidebar_position: 2
 ---
 
 <!--markdownlint-disable MD013 MD029 MD036-->
 
 # COM Step by Step Tutorial
 
-If you are new to WPF ( Component Object model ) please refer the below items.
+If you are new to COM ( Component Object model ) please refer the below items.
 
-[1. COM Basics](/docs/articles/MFC/COM/COM-Basics)
+[1. COM Basics](/docs/COM-ATL/COM-Basics)
 
-Creating **comMathServLib** which is a COM In-Process DLL for implementing an Simple Addition (Add) and Subtraction (Sub) functions by writing IMath interface . Finally a console application '**comClient**' will consumes the comMathServLib.
+Creating **comMathServLib** which is a COM In-Process DLL for implementing an Simple
+Addition (Add) and Subtraction (Sub) functions by writing IMath interface . Finally a
+console application '**comClient**' will consumes the comMathServLib.
 
 **_Conventions:_**
 

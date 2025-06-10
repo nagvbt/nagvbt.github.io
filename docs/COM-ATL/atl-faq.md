@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # ATL, ActiveX FAQ
 
 ## ATL

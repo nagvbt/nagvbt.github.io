@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+tags: ["Ionic", "Angular"]
 ---
 
 # Ionic 3+ Tutorials

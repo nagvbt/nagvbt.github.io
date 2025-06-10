@@ -145,86 +145,44 @@ const config: Config = {
           },
           { label: 'Docs', type: 'doc', docId: 'intro', position: 'left' },
           
-          // {
-          //   label: 'Articles',
-          //   to: '/docs/category/articles',
-          //   position: 'left'
-          // },
-          // {
-          //   label: 'Tutorials',
-          //   to: '/docs/category/tutorials',
-          //   position: 'left'
-          // },
-          // {
-          //   type: 'docSidebar',
-          //   position: 'left',
-          //   sidebarId: 'React',
-          //   label: 'React',
-          // },
-          // {
-          //   type: 'docSidebar',
-          //   position: 'left',
-          //   sidebarId: 'Cpp',
-          //   label: 'C++',
-          // },
-          // {
-          //   type: 'docSidebar',
-          //   position: 'left',
-          //   sidebarId: 'C',
-          //   label: 'C',
-          // },
-          // {
-          //   type: 'docSidebar',
-          //   position: 'left',
-          //   sidebarId: 'Articles',
-          //   label: 'Articles',
-          // },
-          // {
-          //   type: 'docSidebar',
-          //   position: 'left',
-          //   sidebarId: 'Tutorials',
-          //   label: 'Tutorials',
-          // },
-
-
           //  To open a page from '/src/pages' folder
           { label: 'About', to: '/About', position: 'right' },
           { label: 'Bookshelf', to: '/Books', position: 'right' },
-          { label: 'Projects', to: '/GithubProjects', position: 'right' },
-          {
-            label: 'Tools',
-            position: 'right',
-            items: [
-              { label: 'Case Converter', to: '/CaseConverter' },
-              { label: 'My Tool Box', to: 'docs/Others/Tools' }
-            ]
-          },
-          {
-            label: 'Terms',
-            position: 'right',
-            items: [
-              { label: 'Terms of Use >', to: '/Terms' },
-              { label: 'Disclaimer >', to: '/Disclaimer' }
-            ]
-          },
+          // { label: 'Projects', to: '/GithubProjects', position: 'right' },
+          // {
+          //   label: 'Tools',
+          //   position: 'right',
+          //   items: [
+          //     { label: 'Case Converter', to: '/CaseConverter' },
+          //     { label: 'My Tool Box', to: 'docs/Others/Tools' }
+          //   ]
+          // },
+          // {
+          //   label: 'Terms',
+          //   position: 'right',
+          //   items: [
+          //     { label: 'Terms of Use >', to: '/Terms' },
+          //     { label: 'Disclaimer >', to: '/Disclaimer' }
+          //   ]
+          // },
           // { to: "projects", label: "Projects", position: "right" },
-          {
-            label: 'Other',
-            position: 'right',
-            items: [
-              { label: 'Blog Archive', to: '/BlogArchive' },
-              { label: 'Tags / Categories', href: '/blog/tags' },
-              // { label: "Books", to: "books" },
-              {
-                label: 'RSS feed',
-                href: 'https://nagvbt.github.io/blog/rss.xml'
-              },
-              {
-                label: 'Atom feed',
-                href: 'https://nagvbt.github.io/blog/atom.xml'
-              }
-            ]
-          }
+          // {
+          //   label: 'Other',
+          //   position: 'right',
+          //   items: [
+          //     { label: 'Blog Archive', to: '/BlogArchive' },
+          //     { label: 'Tags / Categories', href: '/blog/tags' },
+          //     // { label: "Books", to: "books" },
+          //     {
+          //       label: 'RSS feed',
+          //       href: 'https://nagvbt.github.io/blog/rss.xml'
+          //     },
+          //     {
+          //       label: 'Atom feed',
+          //       href: 'https://nagvbt.github.io/blog/atom.xml'
+          //     }
+          //   ]
+          // }
 
           // To open ouside link
           // {
@@ -238,16 +196,20 @@ const config: Config = {
         style: 'dark',
         links: [
           {
-            title: 'DOCS',
+            title: 'SHOW CASE',
             items: [
-              { label: 'Articles', to: '/docs/category/articles' },
-              { label: 'Blog', to: '/blog' }
+              { label: 'Projects', to: '/GithubProjects'},
+              { label: 'Docs', to: '/docs/intro' },
+               { label: 'Case Converter', to: '/CaseConverter' },
+              { label: 'My Tool Box', to: 'docs/Others/Tools' }
+              
             ]
           },
 
           {
-            title: 'MISC',
+            title: 'BLOG',
             items: [
+              { label: 'Blog', to: '/blog' },
               {
                 label: 'Blog Archive',
                 to: 'BlogArchive'
@@ -268,7 +230,7 @@ const config: Config = {
           },
 
           {
-            title: 'EXPLORE MORE',
+            title: 'LEGAL',
             items: [
               // {
               //   label: 'Books',

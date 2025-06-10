@@ -13,4 +13,4 @@ WCF is a unified framework which provides :
 3. Message Queues and
 4. Web Services into a single service-oriented programming model for distributed computing.
 
-[Read more](/docs/Tutorials/WCF)
+[Read more](/docs/CSharp/WCF)

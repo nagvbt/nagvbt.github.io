@@ -6,7 +6,7 @@ tags: ["Ionic"]
 
 [http://gonehybrid.com/](http://gonehybrid.com/)
 
-[https://nagvbt.github.i0/](http://nagvbt.com)  
+[https://nagvbt.github.i0/](http://mrnbt.in)  
 
 [http://mcgivery.com/](http://mcgivery.com/)
 

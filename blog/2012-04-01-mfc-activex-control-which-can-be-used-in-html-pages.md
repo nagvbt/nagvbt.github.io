@@ -10,4 +10,4 @@ tags: ["ATL", "MFC", "Tutorial"]
 
 An ActiveX control is anything you might see in the Toolbox of Visual studio (i.e. EditBox, combobox e.t.c) we can even use the Activex controls in web pages using and handling events with Javascript.
 
-For complete tutorial Refer [ActiveX Control Tutorial](/docs/Tutorials/ActiveX)
+For complete tutorial Refer [ActiveX Control Tutorial](/docs/COM-ATL/ActiveX)
