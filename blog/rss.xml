@@ -390,6 +390,25 @@ reusable, and maintainable applications. Stay tuned for more Angular tips and be
             <category>Front End</category>
         </item>
         <item>
+            <title><![CDATA[Ionic 3+ Tutorials]]></title>
+            <link>http://mrnbt.in/blog/2024/07/06/Ionic-tutorial</link>
+            <guid>http://mrnbt.in/blog/2024/07/06/Ionic-tutorial</guid>
+            <pubDate>Sat, 06 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Basic]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="basic">Basic<a href="http://mrnbt.in/blog/2024/07/06/Ionic-tutorial#basic" class="hash-link" aria-label="Direct link to Basic" title="Direct link to Basic">​</a></h2>
+<p><a href="http://mrnbt.in/blog/2018/02/03/ionic-basic-mobile-app">1. Create a basic ionic3+ application</a></p>
+<p><a href="http://mrnbt.in/blog/2018/03/18/ionic-display-the-menu-always-for-tablets.">2. Display SideMenu always for Tablets</a></p>
+<p><a href="http://mrnbt.in/blog/2018/06/02/how-to-add-providers-in-ionic3-apps/">3. Providers</a></p>
+<p><a href="http://mrnbt.in/blog/2018/06/22/ionic-local-storageprovider/">4. Local Storage Provider – Create and Use it in the Page/Component</a></p>
+<p><a href="http://mrnbt.in/blog/2018/06/16/ionic-temporary-storage/">5. Temporary Storage which persists only when the app is live</a></p>
+<p><a href="http://mrnbt.in/blog/2018/05/13/ionic-add-constants/">6. Add Constants and use across App</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="integrations">Integrations<a href="http://mrnbt.in/blog/2024/07/06/Ionic-tutorial#integrations" class="hash-link" aria-label="Direct link to Integrations" title="Direct link to Integrations">​</a></h2>
+<p><a href="http://mrnbt.in/blog/2018/04/29/ionic-fontawesomes/">1. Integrate FontAwesome</a></p>
+<p><a href="http://mrnbt.in/blog/2018/05/12/ionic-add-fontawesome-icons">2. Add FontAwesome Icons in the SideMenu</a></p>]]></content:encoded>
+            <category>Ionic</category>
+            <category>Angular</category>
+        </item>
+        <item>
             <title><![CDATA[Creating an Angular Application from Scratch]]></title>
             <link>http://mrnbt.in/blog/2024/03/28/angular-app-creation</link>
             <guid>http://mrnbt.in/blog/2024/03/28/angular-app-creation</guid>
@@ -500,73 +519,6 @@ framework will help you create dynamic and scalable web applications effortlessl
             <content:encoded><![CDATA[<table><thead><tr><th>#</th><th>Details</th></tr></thead><tbody><tr><td>Date</td><td>16-Dec-2023</td></tr><tr><td>Town</td><td>Rajmundary - AP</td></tr><tr><td>Transportation</td><td>Train</td></tr><tr><td>Visited</td><td>Godavari Pushkar Ghat, Temples nearby</td></tr><tr><td>Meet my Guru</td><td><a href="https://www.ramareddykarri.com/" target="_blank" rel="noopener noreferrer">Karri Rama Reddy</a></td></tr></tbody></table>]]></content:encoded>
             <category>travel</category>
             <category>meet</category>
-            <category>spiritual</category>
-        </item>
-        <item>
-            <title><![CDATA[Trip to Sri Maddi Anjaneya Temple by Walk]]></title>
-            <link>http://mrnbt.in/blog/2023/11/13/maddi-anjeneya-temple-by-walk</link>
-            <guid>http://mrnbt.in/blog/2023/11/13/maddi-anjeneya-temple-by-walk</guid>
-            <pubDate>Mon, 13 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[| Dwaraka Tirumala | Maddi Anjeneya - Gurvaigudem|]]></description>
-            <content:encoded><![CDATA[<table><thead><tr><th>Dwaraka Tirumala</th><th>Maddi Anjeneya - Gurvaigudem</th></tr></thead><tbody><tr><td><img decoding="async" loading="lazy" alt=" Dwaraka Tirumala " src="http://mrnbt.in/assets/images/dwaraka-0fe5964ec9f27c56513ab0b21937ddea.JPG" width="437" height="575" class="img_ev3q"></td><td><img decoding="async" loading="lazy" alt="Maddi Anjeneya Temple" src="http://mrnbt.in/assets/images/maddi-78cf5261cf489a10f722d2143eee6d17.JPG" width="449" height="585" class="img_ev3q"></td></tr></tbody></table>
-<p>Taken 3 Days for reaching temple and have darshan i.e from 10-11-2023 to 12-11-2023 by walk.
-It was a nice experience my iPhone Fitness app shows I had walked for entrie trip with 1st day
-as 50.55 km, 2nd Day 38.85 km and 3rd Day as 23.34 km Total 113 KM with pradakshanams
-and darshan etc.</p>
-<table><thead><tr><th>Day</th><th>Date</th><th>Distance walked (KM)</th></tr></thead><tbody><tr><td>1</td><td>10-Nov</td><td>50.55</td></tr><tr><td>2</td><td>11-Nov</td><td>38.85</td></tr><tr><td>3</td><td>12-Nov</td><td>23.34</td></tr><tr><td>#</td><td>Total</td><td>112.74</td></tr></tbody></table>
-<p>But the google map shows 83 km</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="route">Route<a href="http://mrnbt.in/blog/2023/11/13/maddi-anjeneya-temple-by-walk#route" class="hash-link" aria-label="Direct link to Route" title="Direct link to Route">​</a></h2>
-<p>10-Nov</p>
-<ol>
-<li>Atapaka to Eluru</li>
-<li>Eluru to Gundugolanu - Taken rest here</li>
-</ol>
-<p>11-Nov</p>
-<ol>
-<li>
-<p>Gundugolanu to Dwaraka Tirumala via Bhimadole</p>
-</li>
-<li>
-<p>Dwaraka Tirumala - Back side Temple Shivalayam to Edavali - Taken rest here</p>
-</li>
-</ol>
-<p>12-Nov</p>
-<ol>
-<li>Edavali to Gurvaigudem - Maddi Anjaneya temple</li>
-</ol>
-<p>Lot of greenary with Palm Oil and coconut Farms/Gardens along the way.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="travel">Travel<a href="http://mrnbt.in/blog/2023/11/13/maddi-anjeneya-temple-by-walk#travel" class="hash-link" aria-label="Direct link to Travel" title="Direct link to Travel">​</a></h2>
-<ul>
-<li>
-<p>Started walking on 10-11-2023 from Atapaka @08.00 A.M.</p>
-</li>
-<li>
-<p>Reached Dwaraka Tirumala on 11-11-2023 @02.00 P.M.</p>
-</li>
-<li>
-<p>Started from Dwaraka Tirumala Venkateswara Temple to Gurvaigudem, Maddi Anjaneya Temple @05.00 P.M</p>
-</li>
-<li>
-<p>Reached Gurvaigudem, Maddi Anjaneya Temple on 12-11-2023 @01.00 P.M.</p>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="addresses">Addresses<a href="http://mrnbt.in/blog/2023/11/13/maddi-anjeneya-temple-by-walk#addresses" class="hash-link" aria-label="Direct link to Addresses" title="Direct link to Addresses">​</a></h2>
-<ol>
-<li>
-<p>Sri Venkateswara Swamy vari Devasthanam,
-Dwaraka Tirumala (China Tirupathi)
-Andhra Pradesh: 534426
-Google Map coordinates: 16.955440554304612, 81.25677912183981</p>
-</li>
-<li>
-<p>Sri Maddi Anjaneya temple,
-Jangareddigudem, Gurvaigudem,
-Andhra Pradesh: 534447
-Google Map coordinates: 17.088157853456323, 81.27335789574464</p>
-</li>
-</ol>]]></content:encoded>
-            <category>travel</category>
-            <category>walk</category>
             <category>spiritual</category>
         </item>
     </channel>
