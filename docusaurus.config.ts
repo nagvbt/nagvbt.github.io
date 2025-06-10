@@ -198,7 +198,7 @@ const config: Config = {
           {
             title: 'SHOW CASE',
             items: [
-              { label: 'Projects', to: '/GithubProjects'},
+              { label: 'Projects', to: '/GithubProjectsPage'},
               { label: 'Docs', to: '/docs/intro' },
                { label: 'Case Converter', to: '/CaseConverter' },
               { label: 'My Tool Box', to: 'docs/Others/Tools' }

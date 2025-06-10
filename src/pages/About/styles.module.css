@@ -141,7 +141,7 @@
 }
 
 .cardHeader {
-  padding: 1.5rem;
+  padding: 0.5rem;
   background: linear-gradient(135deg, var(--ifm-color-primary-lightest), var(--ifm-color-primary));
   color: white;
   display: flex;

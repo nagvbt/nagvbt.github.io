@@ -13,6 +13,7 @@ import aboutData from '@site/src/data/aboutContent.json';
 import styles from './styles.module.css';
 import SlideShow from '../../components/SlideShow/SlideShow';
 import { SocialFollow } from '../../components/SocialFollow';
+import { GithubProjects } from '../../components/GithubProjects';
 
 // Card component for consistent styling
 const Card = ({ title, icon, children, className = '' }) => (
@@ -42,7 +43,7 @@ export default function About() {
 
   return (
     <Layout title={`${siteConfig.title}`}>
-      <PageHeader title={header} />
+      <PageHeader title={header} subTitle="Welcome to my world!" />
       <div className={styles.aboutWrapper}>
         <div className={styles.container}>
           {/* Introduction with alert */}
@@ -127,6 +128,10 @@ export default function About() {
               </div>
             </Alert>
           </div>
+
+          <h1>OPEN SOURCE PROJECTS</h1>
+
+          <GithubProjects></GithubProjects>
 
           <p>🌟 Thank you for visiting my profile.</p>
           <div className={styles.socialMediaSection}>
