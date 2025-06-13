@@ -6,7 +6,7 @@ sidebar_position: 10
 
 <!--markdownlint-disable MD036 MD024 MD025 MD001 MD026 MD004 MD051 MD056 MD020 -->
 
-## Definition :
+### Definition :
 
 A **class** is a user-defined blueprint or prototype from which objects are created. It defines
 properties (attributes/fields) and behaviors (methods). An **object** is a specific instance of a
@@ -14,7 +14,21 @@ class that holds actual values and can call the methods defined in the class.
 
 ---
 
-## C++
+### Concept Diagram (Common to All Languages)
+
+```mermaid
+classDiagram
+    class ClassName {
+        +attributes
+        +methods()
+    }
+
+    ClassName <|-- ObjectName : instantiates
+```
+
+---
+
+## **C++**
 
 ### Syntax
 
@@ -41,14 +55,11 @@ void ClassName::display() {
 #include <iostream>
 using namespace std;
 
-// Class definition
 class Student {
 public:
-    // Data members
     string name;
     int age;
 
-    // Member function to display details
     void displayInfo() {
         cout << "Name: " << name << endl;
         cout << "Age: " << age << endl;
@@ -56,43 +67,46 @@ public:
 };
 
 int main() {
-    // Creating an object of Student
     Student s1;
-
-    // Assigning values
     s1.name = "Alice";
     s1.age = 20;
-
-    // Calling member function
     s1.displayInfo();
 
     return 0;
 }
 ```
 
+### Diagram
+
+```mermaid
+classDiagram
+    class Student {
+        +string name
+        +int age
+        +displayInfo()
+    }
+    Student <|-- s1
+```
+
 ---
 
-## C#
+## **C#**
 
 ### Syntax
 
 ```csharp
 class className {
-    // Field
     string name;
 
-    // Constructor
     public className(string value) {
         name = value;
     }
 
-    // Method
     public void methodName() {
         Console.WriteLine(name);
     }
 }
 
-// Creating object
 className obj = new className("value");
 obj.methodName();
 ```
@@ -122,9 +136,20 @@ class Program {
 }
 ```
 
+### Diagram
+
+```mermaid
+classDiagram
+    class Person {
+        -string name
+        +displayName()
+    }
+    Person <|-- p
+```
+
 ---
 
-## Java
+## **Java**
 
 ### Syntax
 
@@ -141,7 +166,6 @@ class className {
     }
 }
 
-// Creating object
 className obj = new className("value");
 obj.methodName();
 ```
@@ -167,9 +191,20 @@ public class Person {
 }
 ```
 
+### Diagram
+
+```mermaid
+classDiagram
+    class Person {
+        -String name
+        +displayName()
+    }
+    Person <|-- p
+```
+
 ---
 
-## Python
+## **Python**
 
 ### Syntax
 
@@ -181,7 +216,6 @@ class className:
     def methodName(self):
         print(self.name)
 
-# Creating object
 obj = className("value")
 obj.methodName()
 ```
@@ -200,9 +234,20 @@ p = Person("Alice")
 p.display_name()
 ```
 
+### Diagram
+
+```mermaid
+classDiagram
+    class Person {
+        +name
+        +display_name()
+    }
+    Person <|-- p
+```
+
 ---
 
-## JavaScript
+## **JavaScript**
 
 ### Syntax
 
@@ -217,7 +262,6 @@ class className {
     }
 }
 
-// Creating object
 const obj = new className("value");
 obj.methodName();
 ```
@@ -239,29 +283,36 @@ const p = new Person("Alice");
 p.displayName();
 ```
 
+### Diagram
+
+```mermaid
+classDiagram
+    class Person {
+        +name
+        +displayName()
+    }
+    Person <|-- p
+```
+
 ---
 
-## TypeScript
+## **TypeScript**
 
 ### Syntax
 
 ```typescript
 class className {
-    // Field
     name: string;
 
-    // Constructor
     constructor(value: string) {
         this.name = value;
     }
 
-    // Method
     methodName(): void {
         console.log(this.name);
     }
 }
 
-// Creating object
 const obj = new className("value");
 obj.methodName();
 ```
@@ -283,6 +334,17 @@ class Person {
 
 const p = new Person("Alice");
 p.displayName();
+```
+
+### Diagram
+
+```mermaid
+classDiagram
+    class Person {
+        -name: string
+        +displayName(): void
+    }
+    Person <|-- p
 ```
 
 ---

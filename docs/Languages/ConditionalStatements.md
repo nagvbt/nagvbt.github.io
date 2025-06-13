@@ -8,11 +8,87 @@ sidebar_position: 7
 
 ---
 
-### **Definition (in simple words):**
+## **Definition of Conditional Statements**:
 
 **Conditional statements** let your program choose between different paths based on whether a
 condition is true or false. This includes basic `if` statements, multiple condition checks,
 and short expressions using shorthand.
+
+---
+
+## **C++**
+
+### **Full `if`, `else if`, `else`:**
+
+```cpp
+if (condition) {
+    // code if true
+} else if (anotherCondition) {
+    // code if this is true
+} else {
+    // code if none are true
+}
+````
+
+### **Switch:**
+
+```cpp
+switch (value) {
+    case option1:
+        // code
+        break;
+    default:
+        // code
+        break;
+}
+```
+
+### **Shorthand if-else (Ternary Operator):**
+
+```cpp
+condition ? valueIfTrue : valueIfFalse;
+```
+
+---
+
+### **Example with comments:**
+
+```cpp
+#include <iostream>
+#include <string>
+
+int main() {
+    int number = 2;
+
+    // Full if-else
+    if (number == 1) {
+        std::cout << "One" << std::endl;
+    } else if (number == 2) {
+        std::cout << "Two" << std::endl;
+    } else {
+        std::cout << "Other number" << std::endl;
+    }
+
+    // Switch case
+    switch (number) {
+        case 1:
+            std::cout << "One" << std::endl;
+            break;
+        case 2:
+            std::cout << "Two" << std::endl;
+            break;
+        default:
+            std::cout << "Other number" << std::endl;
+            break;
+    }
+
+    // Shorthand if-else
+    std::string result = (number == 2) ? "Matched Two" : "Not Two";
+    std::cout << result << std::endl;
+
+    return 0;
+}
+```
 
 ---
 
@@ -265,85 +341,40 @@ console.log(result);
 
 ---
 
-## **C++**
+## **TypeScript**
 
-### **Full `if`, `else if`, `else`:**
+### Syntax
 
-```cpp
+```typescript
+// if-else
 if (condition) {
-    // code if true
+  // code if true
 } else if (anotherCondition) {
-    // code if this is true
+  // code if second condition is true
 } else {
-    // code if none are true
+  // code if none match
 }
-````
 
-### **Switch:**
-
-```cpp
-switch (value) {
-    case option1:
-        // code
-        break;
-    default:
-        // code
-        break;
+// switch-case
+switch (expression) {
+  case value1:
+    // code block
+    break;
+  case value2:
+    // code block
+    break;
+  default:
+    // code block
+    break;
 }
-```
 
-### **Shorthand if-else (Ternary Operator):**
-
-```cpp
-condition ? valueIfTrue : valueIfFalse;
+// ternary operator
+let result = (condition) ? valueIfTrue : valueIfFalse;
 ```
 
 ---
 
-### **Example with comments:**
-
-```cpp
-#include <iostream>
-#include <string>
-
-int main() {
-    int number = 2;
-
-    // Full if-else
-    if (number == 1) {
-        std::cout << "One" << std::endl;
-    } else if (number == 2) {
-        std::cout << "Two" << std::endl;
-    } else {
-        std::cout << "Other number" << std::endl;
-    }
-
-    // Switch case
-    switch (number) {
-        case 1:
-            std::cout << "One" << std::endl;
-            break;
-        case 2:
-            std::cout << "Two" << std::endl;
-            break;
-        default:
-            std::cout << "Other number" << std::endl;
-            break;
-    }
-
-    // Shorthand if-else
-    std::string result = (number == 2) ? "Matched Two" : "Not Two";
-    std::cout << result << std::endl;
-
-    return 0;
-}
-```
-
----
-
-## TypeScript
-
-**Syntax:**
+### Example
 
 ```typescript
 let number: number = 2;
@@ -373,19 +404,22 @@ switch (number) {
 // Shorthand if-else (ternary operator)
 let result: string = (number == 2) ? "Matched Two" : "Not Two";
 console.log(result);
-
 ```
 
 ---
 
 ### Summary Table (with Shorthand)
 
-| Language       | `if-else` | `switch`  | Shorthand if-else (Ternary)     |
-| -------------- | --------- | --------- | ------------------------------- |
-| **C#**         | Yes         | Yes         | `(cond) ? trueVal : falseVal`   |
-| **Java**       | Yes         | Yes         | `(cond) ? trueVal : falseVal`   |
-| **Python**     | Yes         | Yes (but match) | `trueVal if cond else falseVal` |
-| **JavaScript** | Yes         | Yes         | `(cond) ? trueVal : falseVal`   |
+---
+
+| Language       | `if-else` | `switch`          | Shorthand if-else (Ternary)     |
+| -------------- | --------- | ----------------- | ------------------------------- |
+| **C++**        | Yes       | Yes               | `(cond) ? trueVal : falseVal`   |
+| **C#**         | Yes       | Yes               | `(cond) ? trueVal : falseVal`   |
+| **Java**       | Yes       | Yes               | `(cond) ? trueVal : falseVal`   |
+| **Python**     | Yes       | Yes (via `match`) | `trueVal if cond else falseVal` |
+| **JavaScript** | Yes       | Yes               | `(cond) ? trueVal : falseVal`   |
+| **TypeScript** | Yes       | Yes               | `(cond) ? trueVal : falseVal`   |
 
 ---
 

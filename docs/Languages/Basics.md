@@ -5,16 +5,16 @@ title: Basics
 
 ## Table of Contents
 
-<!--markdownlint-disable MD036 MD024-->
+<!--markdownlint-disable MD036 MD024 MD004-->
 
 | No. | Topic                       |
 |-----|-----------------------------|
-|1| [Definition](#definition)           |
-|2| [Comments](#comments)           |
+|1| [Definition](#definition-of-language)           |
+|2| [Comments](#definition-of-comments)           |
 
 ---
 
-## **Definition**
+## **Definition of Language**
 
 ## **C++**
 
@@ -168,6 +168,12 @@ JavaScript to run anywhere.
 
 ### Syntax Rules
 
+* Use `let` or `const` to declare variables.
+* Specify types using `:` (e.g., `let x: number = 5`).
+* Functions should declare parameter and return types.
+* Interfaces and types can define custom structures.
+* Optional parameters use `?`, and default values use `=`.
+
 ### Example
 
 ```typescript
@@ -185,9 +191,7 @@ function greet(name: string): string {
 
 [Back to Top](#table-of-contents)
 
-## **Comments**
-
-### Definition
+## **Definition of Comments**
 
 **Comments** are lines in the code that are not executed. They are used to explain what the code
 does, make notes for yourself or other developers, and temporarily disable code during testing.
@@ -224,7 +228,7 @@ int main() {
 
 ---
 
-## **C#* Comments*
+## **C\# Comments**
 
 ### Syntax
 

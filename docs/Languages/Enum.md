@@ -6,7 +6,7 @@ sidebar_position: 16
 
 <!--markdownlint-disable MD036 MD024 MD025 MD001 MD026 MD004 MD051 MD056 MD020 MD013-->
 
-## Definition
+### Definition
 
 An **enum** (short for enumeration) is a special data type that allows a variable to be one of
 a set of predefined named constants. It improves code readability and enforces variable constraints
@@ -20,134 +20,9 @@ to a limited set of values.
 
 ---
 
-## Syntax
+## **C++**
 
----
-
-### C#
-
-```csharp
-enum className {
-    VALUE1,
-    VALUE2,
-    VALUE3
-}
-```
-
-### Example
-
-```csharp
-using System;
-
-enum Color {
-    RED,
-    GREEN,
-    BLUE
-}
-
-class Program {
-    static void printColor(Color color) {
-        Console.WriteLine("Selected color: " + color);
-    }
-
-    static void Main() {
-        printColor(Color.GREEN);  // Output: Selected color: GREEN
-    }
-}
-```
-
----
-
-### Java
-
-```java
-enum className {
-    VALUE1,
-    VALUE2,
-    VALUE3
-}
-```
-
-### Example
-
-```java
-enum Color {
-    RED,
-    GREEN,
-    BLUE
-}
-
-public class Program {
-    static void printColor(Color color) {
-        System.out.println("Selected color: " + color);
-    }
-
-    public static void main(String[] args) {
-        printColor(Color.GREEN);  // Output: Selected color: GREEN
-    }
-}
-```
-
----
-
-### Python
-
-```python
-from enum import Enum
-
-class className(Enum):
-    VALUE1 = 1
-    VALUE2 = 2
-    VALUE3 = 3
-```
-
-### Example
-
-```python
-from enum import Enum
-
-class Color(Enum):
-    RED = 1
-    GREEN = 2
-    BLUE = 3
-
-def print_color(color):
-    print("Selected color:", color.name)
-
-print_color(Color.GREEN)  # Output: Selected color: GREEN
-```
-
----
-
-### JavaScript
-
-```javascript
-const className = Object.freeze({
-    VALUE1: "VALUE1",
-    VALUE2: "VALUE2",
-    VALUE3: "VALUE3"
-});
-```
-
-### Example
-
-```javascript
-const Color = Object.freeze({
-    RED: "RED",
-    GREEN: "GREEN",
-    BLUE: "BLUE"
-});
-
-function printColor(color) {
-    console.log("Selected color:", color);
-}
-
-printColor(Color.GREEN);  // Output: Selected color: GREEN
-```
-
----
-
-### C++
+### Syntax
 
 ```cpp
 enum class className {
@@ -191,7 +66,140 @@ int main() {
 
 ---
 
-### TypeScript
+## **C#**
+
+### Syntax
+
+```csharp
+enum className {
+    VALUE1,
+    VALUE2,
+    VALUE3
+}
+```
+
+### Example
+
+```csharp
+using System;
+
+enum Color {
+    RED,
+    GREEN,
+    BLUE
+}
+
+class Program {
+    static void printColor(Color color) {
+        Console.WriteLine("Selected color: " + color);
+    }
+
+    static void Main() {
+        printColor(Color.GREEN);  // Output: Selected color: GREEN
+    }
+}
+```
+
+---
+
+## **Java**
+
+### Syntax
+
+```java
+enum className {
+    VALUE1,
+    VALUE2,
+    VALUE3
+}
+```
+
+### Example
+
+```java
+enum Color {
+    RED,
+    GREEN,
+    BLUE
+}
+
+public class Program {
+    static void printColor(Color color) {
+        System.out.println("Selected color: " + color);
+    }
+
+    public static void main(String[] args) {
+        printColor(Color.GREEN);  // Output: Selected color: GREEN
+    }
+}
+```
+
+---
+
+## **Python**
+
+### Syntax
+
+```python
+from enum import Enum
+
+class className(Enum):
+    VALUE1 = 1
+    VALUE2 = 2
+    VALUE3 = 3
+```
+
+### Example
+
+```python
+from enum import Enum
+
+class Color(Enum):
+    RED = 1
+    GREEN = 2
+    BLUE = 3
+
+def print_color(color):
+    print("Selected color:", color.name)
+
+print_color(Color.GREEN)  # Output: Selected color: GREEN
+```
+
+---
+
+## **JavaScript**
+
+### Syntax
+
+```javascript
+const className = Object.freeze({
+    VALUE1: "VALUE1",
+    VALUE2: "VALUE2",
+    VALUE3: "VALUE3"
+});
+```
+
+### Example
+
+```javascript
+const Color = Object.freeze({
+    RED: "RED",
+    GREEN: "GREEN",
+    BLUE: "BLUE"
+});
+
+function printColor(color) {
+    console.log("Selected color:", color);
+}
+
+printColor(Color.GREEN);  // Output: Selected color: GREEN
+```
+
+---
+
+## **TypeScript**
+
+### Syntax
 
 ```typescript
 enum className {

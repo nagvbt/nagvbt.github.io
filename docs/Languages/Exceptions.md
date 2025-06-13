@@ -1,5 +1,6 @@
 ---
-sidebar_position: 17
+sidebar_position: 18
+
 ---
 
 # Exceptions
@@ -10,13 +11,85 @@ Handling **exceptions** is essential for building robust programs. Exceptions re
 situations or errors that occur during the execution of a program. Instead of crashing, programs
 can catch these exceptions and respond gracefully.
 
-## Common Example:
+### Common Example:
 
 **Attempt to divide a number by zero and handle the exception.**
 
 ---
 
-## C#
+## **C++**
+
+### Definition
+
+**Exception handling** in C++ is a mechanism to handle **runtime errors** or **unexpected events** that may disrupt program execution. It allows separating **error handling** code from **regular code** using three keywords:
+
+* `try` – defines a block of code to monitor for exceptions
+* `throw` – signals the occurrence of an exception
+* `catch` – defines a block of code to handle the exception
+
+This helps write robust, maintainable, and safe applications.
+
+---
+
+### Syntax
+
+```cpp
+try {
+    // Code that might throw an exception
+    if (someErrorCondition) {
+        throw exceptionType;
+    }
+}
+catch (exceptionType variableName) {
+    // Code to handle the exception
+}
+```
+
+**You can also use the standard exception class:**
+
+```cpp
+#include <stdexcept>
+
+try {
+    throw std::runtime_error("Something went wrong");
+}
+catch (std::exception& e) {
+    std::cout << e.what();
+}
+```
+
+---
+
+### Example
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int divide(int a, int b) {
+    if (b == 0) {
+        throw "Division by zero error!";
+    }
+    return a / b;
+}
+
+int main() {
+    int x = 10, y = 0;
+
+    try {
+        int result = divide(x, y);
+        cout << "Result: " << result << endl;
+    } catch (const char* msg) {
+        cout << "Exception caught: " << msg << endl;
+    }
+
+    return 0;
+}
+```
+
+---
+
+## **C#**
 
 ### Definition:
 
@@ -54,7 +127,7 @@ class Program {
 
 ---
 
-## Java
+## **Java**
 
 ### Definition:
 
@@ -89,7 +162,7 @@ public class Main {
 
 ---
 
-## Python
+## **Python**
 
 ### Definition:
 
@@ -118,7 +191,7 @@ except ZeroDivisionError as e:
 
 ---
 
-## JavaScript
+## **JavaScript**
 
 ### Definition:
 
@@ -150,79 +223,7 @@ try {
 
 ---
 
-## C++
-
-## **Definition**
-
-**Exception handling** in C++ is a mechanism to handle **runtime errors** or **unexpected events** that may disrupt program execution. It allows separating **error handling** code from **regular code** using three keywords:
-
-* `try` – defines a block of code to monitor for exceptions
-* `throw` – signals the occurrence of an exception
-* `catch` – defines a block of code to handle the exception
-
-This helps write robust, maintainable, and safe applications.
-
----
-
-## **Syntax**
-
-```cpp
-try {
-    // Code that might throw an exception
-    if (someErrorCondition) {
-        throw exceptionType;
-    }
-}
-catch (exceptionType variableName) {
-    // Code to handle the exception
-}
-```
-
-**You can also use the standard exception class:**
-
-```cpp
-#include <stdexcept>
-
-try {
-    throw std::runtime_error("Something went wrong");
-}
-catch (std::exception& e) {
-    std::cout << e.what();
-}
-```
-
----
-
-## **Example**
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int divide(int a, int b) {
-    if (b == 0) {
-        throw "Division by zero error!";
-    }
-    return a / b;
-}
-
-int main() {
-    int x = 10, y = 0;
-
-    try {
-        int result = divide(x, y);
-        cout << "Result: " << result << endl;
-    } catch (const char* msg) {
-        cout << "Exception caught: " << msg << endl;
-    }
-
-    return 0;
-}
-```
-
----
-
-## TypeScript
+## **TypeScript**
 
 ### Definition:
 

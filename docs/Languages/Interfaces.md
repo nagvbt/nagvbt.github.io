@@ -6,7 +6,7 @@ sidebar_position: 16
 
 <!--markdownlint-disable MD036 MD024 MD025 MD001 MD026 MD004 MD051 MD056 MD020 MD013-->
 
-## Definition
+### Definition
 
 An **interface** is a contract that specifies a set of methods (and sometimes properties) that
 implementing classes must provide. It defines *what* a class must do, but not *how* it does it.
@@ -20,162 +20,12 @@ implementing classes must provide. It defines *what* a class must do, but not *h
 
 ---
 
-## Syntax
-
----
-
-### C#
-
-```csharp
-interface className {
-    void methodName();  // method signature
-}
-
-class DerivedClass : className {
-    public void methodName() {
-        // method implementation
-    }
-}
-```
-
-### Example
-
-```csharp
-using System;
-
-interface IDrawable {
-    void draw();  // Interface method signature
-}
-
-class Circle : IDrawable {
-    public void draw() {
-        Console.WriteLine("Drawing a Circle");
-    }
-}
-
-class Program {
-    static void Main() {
-        IDrawable drawable = new Circle();
-        drawable.draw();  // Output: Drawing a Circle
-    }
-}
-```
-
----
-
-### Java
-
-```java
-interface className {
-    void methodName();  // method signature
-}
-
-class DerivedClass implements className {
-    public void methodName() {
-        // method implementation
-    }
-}
-```
-
-### Example
-
-```java
-interface Drawable {
-    void draw();  // Interface method signature
-}
-
-class Circle implements Drawable {
-    @Override
-    public void draw() {
-        System.out.println("Drawing a Circle");
-    }
-
-    public static void main(String[] args) {
-        Drawable drawable = new Circle();
-        drawable.draw();  // Output: Drawing a Circle
-    }
-}
-```
-
----
-
-### Python
-
-```python
-from abc import ABC, abstractmethod
-
-class className(ABC):
-    @abstractmethod
-    def methodName(self):
-        pass
-
-class DerivedClass(className):
-    def methodName(self):
-        # method implementation
-        pass
-```
-
-### Example
-
-```python
-from abc import ABC, abstractmethod
-
-class Drawable(ABC):
-    @abstractmethod
-    def draw(self):
-        pass
-
-class Circle(Drawable):
-    def draw(self):
-        print("Drawing a Circle")
-
-circle = Circle()
-circle.draw()  # Output: Drawing a Circle
-```
-
----
-
-### JavaScript (ES6+)
-
-```javascript
-class className {
-    methodName() {
-        throw new Error("Method 'methodName' must be implemented.");
-    }
-}
-
-class DerivedClass extends className {
-    methodName() {
-        // method implementation
-    }
-}
-```
-
-### Example
-
-```javascript
-class Drawable {
-    draw() {
-        throw new Error("Method 'draw()' must be implemented.");
-    }
-}
-
-class Circle extends Drawable {
-    draw() {
-        console.log("Drawing a Circle");
-    }
-}
-
-const circle = new Circle();
-circle.draw();  // Output: Drawing a Circle
-```
-
----
-
-### C++
+## **C++**
 
 > **Note:**
 > C++ has no explicit `interface` keyword. Interfaces are simulated by creating **pure abstract classes** — classes with only pure virtual functions (functions declared with `= 0`) and no data members.
+
+### Syntax
 
 ```cpp
 class className {
@@ -219,7 +69,165 @@ int main() {
 
 ---
 
-### TypeScript
+## **C#**
+
+### Syntax
+
+```csharp
+interface className {
+    void methodName();  // method signature
+}
+
+class DerivedClass : className {
+    public void methodName() {
+        // method implementation
+    }
+}
+```
+
+### Example
+
+```csharp
+using System;
+
+interface IDrawable {
+    void draw();  // Interface method signature
+}
+
+class Circle : IDrawable {
+    public void draw() {
+        Console.WriteLine("Drawing a Circle");
+    }
+}
+
+class Program {
+    static void Main() {
+        IDrawable drawable = new Circle();
+        drawable.draw();  // Output: Drawing a Circle
+    }
+}
+```
+
+---
+
+## **Java**
+
+### Syntax
+
+```java
+interface className {
+    void methodName();  // method signature
+}
+
+class DerivedClass implements className {
+    public void methodName() {
+        // method implementation
+    }
+}
+```
+
+### Example
+
+```java
+interface Drawable {
+    void draw();  // Interface method signature
+}
+
+class Circle implements Drawable {
+    @Override
+    public void draw() {
+        System.out.println("Drawing a Circle");
+    }
+
+    public static void main(String[] args) {
+        Drawable drawable = new Circle();
+        drawable.draw();  // Output: Drawing a Circle
+    }
+}
+```
+
+---
+
+## **Python**
+
+### Syntax
+
+```python
+from abc import ABC, abstractmethod
+
+class className(ABC):
+    @abstractmethod
+    def methodName(self):
+        pass
+
+class DerivedClass(className):
+    def methodName(self):
+        # method implementation
+        pass
+```
+
+### Example
+
+```python
+from abc import ABC, abstractmethod
+
+class Drawable(ABC):
+    @abstractmethod
+    def draw(self):
+        pass
+
+class Circle(Drawable):
+    def draw(self):
+        print("Drawing a Circle")
+
+circle = Circle()
+circle.draw()  # Output: Drawing a Circle
+```
+
+---
+
+## **JavaScript**
+
+### Syntax
+
+```javascript
+class className {
+    methodName() {
+        throw new Error("Method 'methodName' must be implemented.");
+    }
+}
+
+class DerivedClass extends className {
+    methodName() {
+        // method implementation
+    }
+}
+```
+
+### Example
+
+```javascript
+class Drawable {
+    draw() {
+        throw new Error("Method 'draw()' must be implemented.");
+    }
+}
+
+class Circle extends Drawable {
+    draw() {
+        console.log("Drawing a Circle");
+    }
+}
+
+const circle = new Circle();
+circle.draw();  // Output: Drawing a Circle
+```
+
+---
+
+## **TypeScript**
+
+### Syntax
 
 > **Note:**
 > TypeScript has explicit `interface` support, allowing you to define the shape of objects and enforce method implementations.

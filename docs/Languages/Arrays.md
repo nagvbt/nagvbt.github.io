@@ -8,12 +8,46 @@ sidebar_position: 8
 
 ---
 
-### **Definition (in simple words):**
+## **Definition of Arrays**
 
 An **array** is a collection of elements (like numbers or strings) stored under one variable name.
 
 * **Single-dimensional arrays** store data in a simple list format.
 * **Multi-dimensional arrays** store data in table or grid format (like rows and columns).
+
+---
+
+## **C++**
+
+### **Syntax:**
+
+```cpp
+// Single-dimensional
+int nums[3];               // Empty array of size 3
+int nums2[] = {1, 2, 3};   // Pre-filled
+
+// Multi-dimensional
+int grid[2][3];            // 2 rows, 3 columns
+int matrix[2][2] = { {1, 2}, {3, 4} };
+````
+
+### Example
+
+```cpp
+#include <iostream>
+
+int main() {
+    // Single-dimensional array
+    int scores[] = { 90, 80, 70 };
+    std::cout << scores[0] << std::endl; // Output: 90
+
+    // Multi-dimensional array
+    int matrix[2][2] = { {1, 2}, {3, 4} };
+    std::cout << matrix[1][0] << std::endl; // Output: 3 (2nd row, 1st column)
+
+    return 0;
+}
+```
 
 ---
 
@@ -109,7 +143,7 @@ print(matrix[1][0])  # Output: 3 (2nd row, 1st element)
 
 ## **JavaScript**
 
-### **Syntax:**
+### Syntax:
 
 ```javascript
 // Single-dimensional
@@ -136,65 +170,51 @@ console.log(matrix[1][0]); // Output: 3
 
 ---
 
-### **Syntax:**
+## **TypeScript**
 
-```cpp
-// Single-dimensional
-int nums[3];               // Empty array of size 3
-int nums2[] = {1, 2, 3};   // Pre-filled
+### Syntax
 
-// Multi-dimensional
-int grid[2][3];            // 2 rows, 3 columns
-int matrix[2][2] = { {1, 2}, {3, 4} };
-````
+```typescript
+// Single-dimensional array
+let arr: number[] = [value1, value2, value3];
 
-### Example
+// Multi-dimensional array (array of arrays)
+let arr: number[][] = [
+  [row1col1, row1col2],
+  [row2col1, row2col2]
+];
 
-```cpp
-#include <iostream>
-
-int main() {
-    // Single-dimensional array
-    int scores[] = { 90, 80, 70 };
-    std::cout << scores[0] << std::endl; // Output: 90
-
-    // Multi-dimensional array
-    int matrix[2][2] = { {1, 2}, {3, 4} };
-    std::cout << matrix[1][0] << std::endl; // Output: 3 (2nd row, 1st column)
-
-    return 0;
-}
+// Accessing elements
+arr[index]              // Single-dimensional
+arr[rowIndex][colIndex] // Multi-dimensional
 ```
 
 ---
 
-## TypeScript
-
-**Syntax:**
+### Example
 
 ```typescript
 // Single-dimensional array
 let scores: number[] = [90, 80, 70];
 console.log(scores[0]); // Output: 90
 
-// Multi-dimensional array (array of arrays)
+// Multi-dimensional array
 let matrix: number[][] = [
   [1, 2],
   [3, 4]
 ];
 console.log(matrix[1][0]); // Output: 3 (2nd row, 1st column)
-
 ```
 
 ---
 
-### Summary Table
+## **Array Feature Summary Table**
 
-| Feature                  | C#                           | Java                          | Python                | JavaScript                |
-| ------------------------ | ---------------------------- | ----------------------------- | --------------------- | ------------------------- |
-| Single-dimensional array | `int[] arr = {1,2,3}`        | `int[] arr = {1,2,3}`         | `arr = [1,2,3]`       | `let arr = [1,2,3]`       |
-| Multi-dimensional array  | `int[,] arr = {{1,2},{3,4}}` | `int[][] arr = {{1,2},{3,4}}` | `arr = [[1,2],[3,4]]` | `let arr = [[1,2],[3,4]]` |
-| Access element           | `arr[0]`, `arr[1,0]`         | `arr[0]`, `arr[1][0]`         | `arr[0]`, `arr[1][0]` | `arr[0]`, `arr[1][0]`     |
+| Feature                  | **C++**                          | C#                           | Java                          | Python                | JavaScript                | **TypeScript**                        |
+| ------------------------ | -------------------------------- | ---------------------------- | ----------------------------- | --------------------- | ------------------------- | ------------------------------------- |
+| Single-dimensional array | `int arr[] = {1, 2, 3};`         | `int[] arr = {1,2,3}`        | `int[] arr = {1,2,3}`         | `arr = [1,2,3]`       | `let arr = [1,2,3]`       | `let arr: number[] = [1,2,3]`         |
+| Multi-dimensional array  | `int arr[2][2] = {{1,2},{3,4}};` | `int[,] arr = {{1,2},{3,4}}` | `int[][] arr = {{1,2},{3,4}}` | `arr = [[1,2],[3,4]]` | `let arr = [[1,2],[3,4]]` | `let arr: number[][] = [[1,2],[3,4]]` |
+| Access element           | `arr[0][1]`                      | `arr[0]`, `arr[1,0]`         | `arr[0]`, `arr[1][0]`         | `arr[0]`, `arr[1][0]` | `arr[0]`, `arr[1][0]`     | `arr[0]`, `arr[1][0]`                 |
 
 ---
 

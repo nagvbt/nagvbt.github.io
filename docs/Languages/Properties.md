@@ -6,7 +6,7 @@ sidebar_position: 14
 
 <!--markdownlint-disable MD036 MD024 MD025 MD001 MD026 MD004 MD051 MD056 MD020 MD013-->
 
-## **Definition :**
+### Definition :
 
 A **property** is a class member that provides a flexible mechanism to **read**, **write**, or
 **compute** the value of a private field. Properties encapsulate private data while exposing
@@ -16,192 +16,7 @@ controlled access through **getters and setters**.
 
 ---
 
-## Syntax Format
-
----
-
-### C# (Uses built-in `get`/`set` keywords)
-
-```csharp
-class className {
-    private string name;
-
-    public string Name {
-        get { return name; }
-        set { name = value; }
-    }
-}
-```
-
----
-
-### Java (Uses explicit getter/setter methods)
-
-```java
-class className {
-    private String name;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String value) {
-        name = value;
-    }
-}
-```
-
----
-
-### Python (Uses `@property` decorator)
-
-```python
-class className:
-    def __init__(self):
-        self._name = ""
-
-    @property
-    def name(self):
-        return self._name
-
-    @name.setter
-    def name(self, value):
-        self._name = value
-```
-
----
-
-### JavaScript (Uses `get`/`set` in class definition)
-
-```javascript
-class className {
-    constructor() {
-        this._name = "";
-    }
-
-    get name() {
-        return this._name;
-    }
-
-    set name(value) {
-        this._name = value;
-    }
-}
-```
-
----
-
-## Examples
-
----
-
-### **C# Example**
-
-```csharp
-class Person {
-    private string name;
-
-    public string Name {
-        get { return name; }
-        set { name = value; }
-    }
-
-    public void displayName() {
-        Console.WriteLine("Name: " + Name);
-    }
-}
-
-class Program {
-    static void Main() {
-        Person p = new Person();
-        p.Name = "Alice";            // using property setter
-        p.displayName();             // using property getter inside method
-    }
-}
-```
-
----
-
-### **Java Example**
-
-```java
-public class Person {
-    private String name;
-
-    public String getName() {       // getter
-        return name;
-    }
-
-    public void setName(String name) { // setter
-        this.name = name;
-    }
-
-    public void displayName() {
-        System.out.println("Name: " + getName());
-    }
-
-    public static void main(String[] args) {
-        Person p = new Person();
-        p.setName("Alice");         // using setter
-        p.displayName();            // using getter inside method
-    }
-}
-```
-
----
-
-### **Python Example**
-
-```python
-class Person:
-    def __init__(self):
-        self._name = ""
-
-    @property
-    def name(self):                # getter
-        return self._name
-
-    @name.setter
-    def name(self, value):        # setter
-        self._name = value
-
-    def display_name(self):
-        print("Name:", self.name)
-
-p = Person()
-p.name = "Alice"                   # using setter
-p.display_name()                  # using getter
-```
-
----
-
-### **JavaScript Example**
-
-```javascript
-class Person {
-    constructor() {
-        this._name = "";
-    }
-
-    get name() {                  // getter
-        return this._name;
-    }
-
-    set name(value) {             // setter
-        this._name = value;
-    }
-
-    displayName() {
-        console.log("Name:", this.name); // using getter
-    }
-}
-
-const p = new Person();
-p.name = "Alice";                 // using setter
-p.displayName();                  // using getter
-```
-
-# C++
+## **C++**
 
 **Note:**
 C++ **does not have built-in properties** like C# or some other languages. Instead,
@@ -209,7 +24,7 @@ C++ **does not have built-in properties** like C# or some other languages. Inste
 
 ---
 
- **Syntax in C++ (Using Getter and Setter methods)**
+### Syntax (Using Getter and Setter methods)**
 
 ```cpp
 class ClassName {
@@ -229,9 +44,7 @@ public:
 };
 ```
 
----
-
- **Example in C++**
+### Example
 
 ```cpp
 #include <iostream>
@@ -267,7 +80,187 @@ int main() {
 }
 ```
 
-# TypeScript
+## **C#**
+
+### Syntax(Uses built-in `get`/`set` keywords)
+
+```csharp
+class className {
+    private string name;
+
+    public string Name {
+        get { return name; }
+        set { name = value; }
+    }
+}
+```
+
+### Example
+
+```csharp
+class Person {
+    private string name;
+
+    public string Name {
+        get { return name; }
+        set { name = value; }
+    }
+
+    public void displayName() {
+        Console.WriteLine("Name: " + Name);
+    }
+}
+
+class Program {
+    static void Main() {
+        Person p = new Person();
+        p.Name = "Alice";            // using property setter
+        p.displayName();             // using property getter inside method
+    }
+}
+```
+
+---
+---
+
+## **Java**
+
+### Syntax(Uses explicit getter/setter methods)
+
+```java
+class className {
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String value) {
+        name = value;
+    }
+}
+```
+
+### Example
+
+```java
+public class Person {
+    private String name;
+
+    public String getName() {       // getter
+        return name;
+    }
+
+    public void setName(String name) { // setter
+        this.name = name;
+    }
+
+    public void displayName() {
+        System.out.println("Name: " + getName());
+    }
+
+    public static void main(String[] args) {
+        Person p = new Person();
+        p.setName("Alice");         // using setter
+        p.displayName();            // using getter inside method
+    }
+}
+```
+
+---
+
+## **Python**
+
+### Syntax(Uses `@property` decorator)
+
+```python
+class className:
+    def __init__(self):
+        self._name = ""
+
+    @property
+    def name(self):
+        return self._name
+
+    @name.setter
+    def name(self, value):
+        self._name = value
+```
+
+### Example
+
+```python
+class Person:
+    def __init__(self):
+        self._name = ""
+
+    @property
+    def name(self):                # getter
+        return self._name
+
+    @name.setter
+    def name(self, value):        # setter
+        self._name = value
+
+    def display_name(self):
+        print("Name:", self.name)
+
+p = Person()
+p.name = "Alice"                   # using setter
+p.display_name()                  # using getter
+```
+
+---
+
+## **JavaScript**
+
+### Syntax(Uses `get`/`set` in class definition)
+
+```javascript
+class className {
+    constructor() {
+        this._name = "";
+    }
+
+    get name() {
+        return this._name;
+    }
+
+    set name(value) {
+        this._name = value;
+    }
+}
+```
+
+### Example
+
+```javascript
+class Person {
+    constructor() {
+        this._name = "";
+    }
+
+    get name() {                  // getter
+        return this._name;
+    }
+
+    set name(value) {             // setter
+        this._name = value;
+    }
+
+    displayName() {
+        console.log("Name:", this.name); // using getter
+    }
+}
+
+const p = new Person();
+p.name = "Alice";                 // using setter
+p.displayName();                  // using getter
+```
+
+---
+
+## **TypeScript**
 
 **Note:**
 TypeScript **supports getter and setter methods** using the `get` and `set` keywords, which
@@ -275,7 +268,7 @@ allow safe and controlled access to class properties—similar to C# and more el
 
 ---
 
-**Syntax in TypeScript (Using Getter and Setter methods)**
+### Syntax (Using Getter and Setter methods)
 
 ```typescript
 class ClassName {
@@ -295,7 +288,7 @@ class ClassName {
 
 ---
 
-**Example in TypeScript**
+### Example
 
 ```typescript
 class Account {

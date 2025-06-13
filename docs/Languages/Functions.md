@@ -1,241 +1,285 @@
 ---
 sidebar_position: 9
 ---
-
 # Functions
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033 MD040 MD042 MD001 MD051 MD025-->
-A function is a block of code that performs a specific task.
 
-Dividing a complex problem into smaller functions makes our program easy to understand the program.
+A **function** is a reusable block of code that performs a specific task. Breaking code into
+functions improves readability, reusability, and modularity.
 
-## Types of functions
+## **C++ Functions**
 
-```mermaid
-graph TD;
-    FunctionTypes-->Built-in-library;
-    FunctionTypes-->User-defined;
-```
+### Syntax
 
-1. Built-in library function:
-These are Standard functions that are available to use.
-
-2. User-defined function:
-Our own functions based on our requirements.
-
-## C++ Function
-
-```c
-access returnType functionName(dataType param, dataType param2,...) {
- // function body
-}
-
-// Example:
-public int add(int i, int j, int k){
-    return i+j+k; 
+```cpp
+returnType functionName(dataType param1, dataType param2) {
+    // function body
+    return value;
 }
 ```
 
-***NOTE:***
-C# and Java functions are similar to C++
+### Example
 
-## Javascript Function
+```cpp
+int add(int i, int j, int k) {
+    return i + j + k;
+}
+```
+
+### Anonymous Function (Lambda)
+
+```cpp
+auto add = [](int x, int y) {
+    return x + y;
+};
+```
+
+---
+
+## **C# Functions**
+
+### Syntax
+
+```csharp
+accessModifier returnType FunctionName(dataType param1, dataType param2) {
+    // function body
+    return value;
+}
+```
+
+### Example
+
+```csharp
+public int Add(int i, int j, int k) {
+    return i + j + k;
+}
+```
+
+### Anonymous Function (Lambda)
+
+```csharp
+Func<int, int, int> add = (x, y) => x + y;
+```
+
+---
+
+## **Java Functions**
+
+### Syntax
+
+```java
+// Inside a class
+returnType functionName(dataType param1, dataType param2) {
+    // function body
+    return value;
+}
+```
+
+### Example
+
+```java
+public int add(int i, int j, int k) {
+    return i + j + k;
+}
+```
+
+### Anonymous Function (Lambda – Java 8+)
+
+```java
+interface Add {
+    int operation(int a, int b);
+}
+
+Add add = (a, b) -> a + b;
+```
+
+---
+
+## **Python Functions**
+
+### Definition
+
+A **function** in Python is created using the `def` keyword. Functions can be nested, support
+multiple argument types, and allow anonymous (lambda) expressions.
+
+### Syntax
+
+```python
+def function_name(parameters):
+    # function body
+    return value
+```
+
+### Example
+
+```python
+def add_numbers(i, j, k):
+    return i + j + k
+```
+
+---
+
+### Default Arguments – Syntax
+
+```python
+def func_name(param=defaultValue):
+    # body
+```
+
+### Example
+
+```python
+def greet(name="User"):
+    print("Hello", name)
+```
+
+---
+
+### Keyword Arguments – Syntax
+
+```python
+def func_name(param1, param2):
+    # body
+```
+
+### Example
+
+```python
+def profile(name, age):
+    print(name, age)
+
+profile(age=30, name="Alice")
+```
+
+---
+
+### Positional Arguments – Syntax
+
+```python
+def func_name(param1, param2):
+    # body
+```
+
+### Example
+
+```python
+def person(name, age):
+    print(name, age)
+
+person("Alice", 30)
+```
+
+---
+
+### Arbitrary Arguments – Syntax
+
+```python
+def func_name(*args):   # Non-keyword
+def func_name(**kwargs):  # Keyword
+```
+
+### Example
+
+```python
+def many_args(*args):
+    for arg in args:
+        print(arg)
+
+def many_kwargs(**kwargs):
+    for k, v in kwargs.items():
+        print(f"{k} = {v}")
+```
+
+---
+
+### Nested Functions – Syntax
+
+```python
+def outer():
+    def inner():
+        # body
+    inner()
+```
+
+### Example
+
+```python
+def outer():
+    msg = "Nested"
+    def inner():
+        print(msg)
+    inner()
+```
+
+---
+
+### Anonymous Function (Lambda) – Syntax
+
+```python
+lambda arguments: expression
+```
+
+### Example
+
+```python
+add = lambda x, y: x + y
+print(add(2, 3))  # Output: 5
+```
+
+---
+
+## **JavaScript Functions**
+
+### Syntax
 
 ```js
-function functionName (param, param2,...) { 
-  // function body 
-}
-
-// Example:
-function add(i, j, k){
-  return i+j+k;
+function functionName(param1, param2) {
+    // body
 }
 ```
 
-## Python Functions
+### Example
 
-Python function is defined using the def keyword:
-
-```python
-def function_name(arguments):
-    # function body 
-    return
-
-#Example:
-def add_numbers(i, j, k):
-    sum = i + j + k
-    return sum
-
+```js
+function add(i, j, k) {
+    return i + j + k;
+}
 ```
 
-### Types of Python Function Arguments
+### Anonymous Function (Arrow Function)
 
-```mermaid
-graph TD;
-    FunctionArguments-->Default-argument;
-    FunctionArguments-->Keyword-arguments;
-    FunctionArguments-->Positional-arguments;
-    FunctionArguments-->Arbitrary-arguments;
+```js
+const add = (x, y) => x + y;
 ```
 
-***1. Default Arguments:***
+---
 
-A default argument is a parameter that assumes a default value if a value is not provided in the function call for that argument.
+## **TypeScript Functions**
 
-```python
-# Python program to demonstrate
-# default arguments
-def myFun(x, y=50):
- print("x: ", x)
- print("y: ", y)
+### Definition
 
+TypeScript functions are like JavaScript functions but with **type annotations** for parameters and
+return values.
 
-# Driver code (We call myFun() with only
-# argument)
-myFun(10)
+### Syntax
 
-""""
-Output
-x:  10
-y:  50
-""""
-````
+```ts
+function functionName(param1: type, param2: type): returnType {
+    // body
+}
+```
 
-***2. Keyword Arguments:***
+### Example
 
-Parameter Names are used to pass the argument during the function call.
-So that the caller does not need to remember the order of parameters.
+```ts
+function add(i: number, j: number, k: number): number {
+    return i + j + k;
+}
+```
 
-```python
-# Python program to demonstrate Keyword Arguments
-def Employee(firstname, lastname):
- print(firstname, lastname)
+### Anonymous Function (Typed Arrow Function)
 
+```ts
+const add = (x: number, y: number): number => x + y;
+```
 
-# Keyword arguments
-Employee(firstname='Ram', lastname='Das')
-Employee(lastname='Das', firstname='Ram')
-
-""""
-Output
-Ram Das
-Ram Das
-````
-
-***3.  Positional-arguments:***
-
-Arguments are passed in the order of parameters. The order defined in the order function declaration.
-
-Order of values cannot be changed to avoid the unexpected output.
-
-```python
-def Person(name, age):
- print("Hi, I am", name)
- print("My age is ", age)
-
-
-# You will get correct output because
-# argument is given in order
-print("Case-1:")
-Person("Ram", 47)
-# You will get incorrect output because
-# argument is not in order
-print("\nCase-2:")
-Person(47, "Ram")
-
-"""
-Output
-Case-1:
-Hi, I am Ram
-My age is  47
-
-Case-2:
-Hi, I am 47
-My age is  Ram
-
-"""
-````
-
-***3. Arbitrary argument***
-
-In Python Arbitrary Keyword Arguments, *args, and **kwargs can pass a variable number of arguments to a function using special symbols.
-
-There are two special symbols:
-
-- *args in Python (Non-Keyword Arguments)
-
-- **kwargs in Python (Keyword Arguments)
-
-Example 1: Variable length non-keywords argument
-
-```python
-# Python program to illustrate
-# *args for variable number of arguments
-def myFunc(*args):
- for arg in args:
-  print(arg)
-
-
-myFunc('Hello', 'Welcome', 'to', 'NBT')
-
-"""
-Output
-
-Hello
-Welcome
-to
-NBT
-"""
-````
-
-Example 2: Variable length keyword arguments
-
-```python
-# Python program to illustrate
-# *kwargs for variable number of keyword arguments
-
-
-def myFunc(**kwargs):
- for key, value in kwargs.items():
-  print("%s == %s" % (key, value))
-
-
-# Driver code
-myFunc(firstName='T', midName='Nag', lastName='VB')
-
-"""
-Output
-
-firstName == T
-midName == Nag
-lastName == VB
-"""
-````
-
-## Python Function within Functions
-
-A function that is defined inside another function is known as the inner function or nested function. Nested functions are able to access variables of the enclosing scope. Inner functions are used so that they can be protected from everything happening outside the function.
-
-```python
-# Python program to
-# demonstrate accessing of
-# variables of nested functions
-
-def f1():
- s = 'I love Nagvbt'
- 
- def f2():
-  print(s)
-  
- f2()
-
-# Driver's code
-f1()
-
-"""
-Output:
-
-I love Nagvbt
-"""
-````
-
-## Anonymous functions in Python
+---

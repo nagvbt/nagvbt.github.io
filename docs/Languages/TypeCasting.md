@@ -4,19 +4,9 @@ sidebar_position: 4
 
 # Type Casting
 
-<!--markdownlint-disable MD036 MD024 MD025 MD001 MD026 MD004 MD056-->
+<!--markdownlint-disable MD036 MD024 MD025 MD001 MD026 MD004 MD056 MD051-->
 
-## Table of Contents
-
-| No. | Topic                                                                        |
-|-----|-------------------------------------------                                   |
-|5| [Type Casting](#type-casting)                                                    |
-
-## **Type Casting**
-
----
-
-### **Definition :**
+## **Definition of Type Casting**
 
 **Type casting** is the process of converting a variable from one data type to another. It is often
 required when working with variables that store different types of data (e.g., converting a float
@@ -26,7 +16,7 @@ to an integer).
 
 ## **C++**
 
-### **Types of Type Casting:**
+### Types of Type Casting:
 
 - **Implicit Casting (Widening)**: Automatically converts smaller types to larger types
 (e.g., `int` to `double`).
@@ -69,7 +59,7 @@ int main() {
 
 ## **C#**
 
-### **Types of Type Casting:**
+### Types of Type Casting:
 
 * **Implicit Casting (Widening)**: Automatically converts smaller types to larger types
 (e.g., `int` to `double`).
@@ -109,7 +99,7 @@ class Program
 
 ## **Java**
 
-### **Types of Type Casting:**
+### Types of Type Casting:
 
 * **Implicit Casting (Widening)**: Converts a smaller type to a larger type.
 * **Explicit Casting (Narrowing)**: Converts a larger type to a smaller type.
@@ -143,7 +133,7 @@ public class Main {
 
 ## **Python**
 
-### **Types of Type Casting:**
+### Types of Type Casting:
 
 * **Implicit Casting**: Python automatically converts smaller types to larger types when required
 (e.g., `int` to `float`).
@@ -175,7 +165,7 @@ print("Explicit Cast:", my_new_int)  # 9 (decimal part lost)
 
 ## **JavaScript**
 
-### **Types of Type Casting:**
+### Types of Type Casting:
 
 * **Implicit Casting**: JavaScript automatically converts between types when required.
 * **Explicit Casting**: Developers use functions like `Number()`, `String()`, `Boolean()` to manually
@@ -206,7 +196,7 @@ console.log("Explicit Cast:", myNewString);  // "9.78"
 
 ## **TypeScript**
 
-### **Types of Type Casting:**
+### Types of Type Casting:
 
 * **Type Assertion (Explicit Casting):** TypeScript allows casting between types using
 **angle brackets** or **`as` keyword**.
@@ -215,7 +205,7 @@ conversions like JavaScript.
 
 ### Syntax
 
-* **Type Assertion (Explicit):**
+* Type Assertion (Explicit):
 
 ```ts
   let someValue: any = "hello";

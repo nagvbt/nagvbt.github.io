@@ -6,7 +6,7 @@ sidebar_position: 11
 
 <!--markdownlint-disable MD036 MD024 MD025 MD001 MD026 MD004 MD051 MD056 MD020 -->
 
-## Definition :
+### Definition :
 
 **Class members** are the components defined within a class. These include:
 
@@ -16,7 +16,7 @@ sidebar_position: 11
 
 ---
 
-## C++
+## **C++**
 
 ### Syntax
 
@@ -68,7 +68,7 @@ int main() {
 
 ---
 
-## C#
+## **C#**
 
 ### Syntax
 
@@ -116,7 +116,7 @@ class Program {
 
 ---
 
-## Java
+## **Java**
 
 ### Syntax
 
@@ -157,7 +157,7 @@ public class Person {
 
 ---
 
-## Python
+## **Python**
 
 ### Syntax
 
@@ -186,7 +186,7 @@ p.display_name()
 
 ---
 
-## JavaScript
+## **JavaScript**
 
 ### Syntax
 
@@ -221,7 +221,7 @@ p.displayName();
 
 ---
 
-## TypeScript
+## **TypeScript**
 
 ### Syntax
 

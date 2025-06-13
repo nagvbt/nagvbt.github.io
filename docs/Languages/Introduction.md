@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
 ---
+# Introduction
 
-# Comparing Software Languages
+## Comparing Software Languages
 
 <!--markdownlint-disable MD013-->
 
@@ -32,7 +33,9 @@ In this comparison, we will evaluate them across key dimensions like:
 Whether you're a beginner choosing your first language or a professional assessing tools for your
 next project, understanding the trade-offs between these languages will help you make an informed decision.
 
-## Comparison Table across several important criteria
+## Comparison Table
+
+Comparison Table across several important criteria
 
 | Feature / Language    | C++                        | C#                        | Java                      | Python                  | JavaScript               | TypeScript               |
 | --------------------- | -------------------------- | ------------------------- | ------------------------- | ----------------------- | ------------------------ | ------------------------ |

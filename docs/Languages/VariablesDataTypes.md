@@ -8,18 +8,14 @@ sidebar_position: 3
 
 ## Table of Contents
 
-| No. | Topic                                                                        |
-|-----|-------------------------------------------                                   |
-|3| [Variables](#variables)                                                          |
-|4|[Data Types](#data-types)                                                         |
+| No. | Topic                                              |
+|-----|-------------------------------------------         |
+|1| [Variables](#definition-of-variables)                  |
+|2|[Data Types](#definition-of-data-types)                 |
 
 ---
 
-## **Variables**
-
----
-
-### **Definition :**
+## **Definition of Variables**
 
 A **variable** is like a container used to store data such as numbers, text, or other values in a
 program. It allows you to use and change that data later by referring to the variable’s name.
@@ -34,7 +30,7 @@ program. It allows you to use and change that data later by referring to the var
 <datatype> <variableName> = <value>;
 ````
 
-### **Common data types:** `int`, `string` (from `<string>`), `double`, `bool`, `char`
+### Common data types: `int`, `string` (from `<string>`), `double`, `bool`, `char`
 
 > Note: To use `string`, include the `<string>` header and use the `std` namespace.
 
@@ -173,11 +169,7 @@ console.log(`${name} is ${age} years old.`);
 
 [Back to Top](#table-of-contents)
 
-## **Data Types**
-
----
-
-### **Definition :**
+## **Definition of Data Types**
 
 **Data types** define what kind of value a variable can store, such as numbers, text, true/false,
 etc. Each programming language has built-in data types used to store specific kinds of data.
@@ -186,7 +178,7 @@ etc. Each programming language has built-in data types used to store specific ki
 
 ## **C++**
 
-### **Common Data Types:**
+### Common Data Types:
 
 - `int` – whole numbers (e.g., `10`)
 - `double` – decimal numbers (e.g., `10.5`)
@@ -220,7 +212,7 @@ int main() {
 
 ## **C#**
 
-### **Common Data Types:**
+### Common Data Types:
 
 * `int` – whole numbers (e.g., 10)
 * `double` – decimal numbers (e.g., 10.5)
@@ -242,7 +234,7 @@ char grade = 'A';
 
 ## **Java**
 
-### **Common Data Types:**
+### Common Data Types:
 
 * `int` – whole numbers
 * `double` – decimal numbers
@@ -264,7 +256,7 @@ char grade = 'A';
 
 ## **Python**
 
-### **Common Data Types:**
+### Common Data Types:
 
 * `int` – whole numbers
 * `float` – decimal numbers
@@ -288,7 +280,7 @@ grade = 'A'
 
 ## **JavaScript**
 
-### **Common Data Types:**
+### Common Data Types:
 
 * `Number` – for all numbers (both integer and decimal)
 * `String` – text
@@ -312,7 +304,7 @@ let grade = 'A';
 
 ## **TypeScript**
 
-### **Common Data Types:**
+### Common Data Types:
 
 TypeScript builds on JavaScript by adding static type definitions. Below are the most commonly used
 data types in TypeScript:
@@ -335,11 +327,11 @@ data types in TypeScript:
 | `literal`    | `"yes"`, `42`                    | Specific value as type                      |
 | `type` / `interface` | `type User = {name: string}` | Custom structured types                 |
 
-> ✅ Tip: Use `type` and `interface` to define reusable and complex data structures.
+> Tip: Use `type` and `interface` to define reusable and complex data structures.
 
 ---
 
-🧠 **Type Safety** is the key feature of TypeScript—leverage these data types to write robust code.
+**Type Safety** is the key feature of TypeScript—leverage these data types to write robust code.
 
 ### Example
 

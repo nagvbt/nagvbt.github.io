@@ -1,0 +1,17 @@
+{
+  "MD002": { "level": 2 },
+  "MD013": { "line_length": 100 },
+  "MD024": false,
+  "MD029": { "one_or_ordered": true },
+  "MD033": false,
+
+  "default": true,
+  "first-line-h1": false,
+  "no-hard-tabs": true,
+  "no-trailing-punctuation": {
+    "punctuation": ".,;:!"
+  },
+  "no-trailing-spaces": {
+    "br_spaces": 2
+  }
+}

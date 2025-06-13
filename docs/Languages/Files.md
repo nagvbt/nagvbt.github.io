@@ -10,7 +10,80 @@ Working with **files** allows a program to read from and write data to disk. Thi
 
 ---
 
-## C#
+## **C++**
+
+In **C++**, **file handling** is done using the standard library `<fstream>`. It allows reading from and writing to files. File operations are performed using the following classes:
+
+* `ofstream` – for writing (output) to files
+* `ifstream` – for reading (input) from files
+* `fstream` – for both reading and writing
+
+These classes are part of the **`<fstream>`** header and use file streams (like `cin`/`cout` but for files).
+
+---
+
+### Syntax
+
+```cpp
+#include <fstream>  // Required for file operations
+
+// Writing to a file
+std::ofstream outFile("filename.txt");
+outFile << "Some text";
+outFile.close();
+
+// Reading from a file
+std::ifstream inFile("filename.txt");
+std::string data;
+inFile >> data;
+inFile.close();
+
+// Reading line-by-line
+std::string line;
+while (std::getline(inFile, line)) {
+    // process line
+}
+```
+
+---
+
+### Example
+
+```cpp
+#include <iostream>
+#include <fstream>
+#include <string>
+
+int main() {
+    // Writing to file
+    std::ofstream outFile("example.txt");
+    if (outFile.is_open()) {
+        outFile << "Hello, File!\n";
+        outFile << "C++ File I/O Example\n";
+        outFile.close();
+    } else {
+        std::cout << "Unable to open file for writing.\n";
+    }
+
+    // Reading from file
+    std::ifstream inFile("example.txt");
+    std::string line;
+    if (inFile.is_open()) {
+        while (std::getline(inFile, line)) {
+            std::cout << line << std::endl;
+        }
+        inFile.close();
+    } else {
+        std::cout << "Unable to open file for reading.\n";
+    }
+
+    return 0;
+}
+```
+
+---
+
+## **C#**
 
 ### Definition:
 
@@ -47,7 +120,7 @@ class Program {
 
 ---
 
-## Java
+## **Java**
 
 ### Definition:
 
@@ -82,7 +155,7 @@ public class Main {
 
 ---
 
-## Python
+## **Python**
 
 ### Definition:
 
@@ -113,7 +186,7 @@ with open("example.txt", "r") as file:
 
 ---
 
-## JavaScript (Node.js)
+## **JavaScript (Node.js)**
 
 ### Definition:
 
@@ -145,86 +218,15 @@ console.log(content);
 
 ---
 
-## C++
+## **TypeScript (Node.js)**
 
-In **C++**, **file handling** is done using the standard library `<fstream>`. It allows reading from and writing to files. File operations are performed using the following classes:
-
-* `ofstream` – for writing (output) to files
-* `ifstream` – for reading (input) from files
-* `fstream` – for both reading and writing
-
-These classes are part of the **`<fstream>`** header and use file streams (like `cin`/`cout` but for files).
-
----
-
-## **Syntax**
-
-```cpp
-#include <fstream>  // Required for file operations
-
-// Writing to a file
-std::ofstream outFile("filename.txt");
-outFile << "Some text";
-outFile.close();
-
-// Reading from a file
-std::ifstream inFile("filename.txt");
-std::string data;
-inFile >> data;
-inFile.close();
-
-// Reading line-by-line
-std::string line;
-while (std::getline(inFile, line)) {
-    // process line
-}
-```
-
----
-
-## **Example**
-
-```cpp
-#include <iostream>
-#include <fstream>
-#include <string>
-
-int main() {
-    // Writing to file
-    std::ofstream outFile("example.txt");
-    if (outFile.is_open()) {
-        outFile << "Hello, File!\n";
-        outFile << "C++ File I/O Example\n";
-        outFile.close();
-    } else {
-        std::cout << "Unable to open file for writing.\n";
-    }
-
-    // Reading from file
-    std::ifstream inFile("example.txt");
-    std::string line;
-    if (inFile.is_open()) {
-        while (std::getline(inFile, line)) {
-            std::cout << line << std::endl;
-        }
-        inFile.close();
-    } else {
-        std::cout << "Unable to open file for reading.\n";
-    }
-
-    return 0;
-}
-```
-
----
-
-## TypeScript (Node.js)
+### Definition:
 
 In **TypeScript** (running on Node.js), **file handling** is done using the built-in `fs` module. It allows reading from and writing to files. You can perform file operations either **synchronously** or **asynchronously**.
 
 ---
 
-## **Syntax**
+### Syntax
 
 ```typescript
 import * as fs from 'fs';
@@ -254,7 +256,7 @@ rl.on('line', (line) => {
 
 ---
 
-## **Example**
+### Example
 
 ```typescript
 import * as fs from 'fs';

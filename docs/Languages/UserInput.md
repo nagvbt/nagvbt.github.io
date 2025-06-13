@@ -4,17 +4,9 @@ sidebar_position: 5
 
 # User Input
 
-<!--markdownlint-disable MD036 MD024 MD025 MD001 MD026 MD004 MD056-->
+<!--markdownlint-disable MD036 MD024 MD025 MD001 MD026 MD004 MD056 MD051-->
 
-## Table of Contents
-
-| No. | Topic                                                                        |
-|-----|-------------------------------------------                                   |
-|6| [User Input](#user-input)                                                        |
-
----
-
-### **Definition :**
+## Definition of User Input:
 
 **User input** refers to the data that a user enters into a program, typically through the keyboard.
 This data can then be processed and used by the program. Most languages provide functions or methods
@@ -24,7 +16,7 @@ to read this input.
 
 ## **C++**
 
-### **Syntax for User Input:**
+### Syntax for User Input:
 
 In C++, the `std::cin` object is used to read user input from the console.
 
@@ -67,7 +59,7 @@ int main() {
 
 ## **C#**
 
-### **Syntax for User Input:**
+### Syntax for User Input:
 
 In C#, the `Console.ReadLine()` method is used to read user input as a string.
 
@@ -100,7 +92,7 @@ class Program
 
 ## **Java**
 
-### **Syntax for User Input:**
+### Syntax for User Input:
 
 In Java, you typically use the `Scanner` class to take user input. You must import `java.util.Scanner`.
 
@@ -135,7 +127,7 @@ public class Main {
 
 ## **Python**
 
-### **Syntax for User Input:**
+### Syntax for User Input:
 
 In Python, the `input()` function is used to get user input. By default, the `input()` function
 returns the input as a string. You can convert it to other types using `int()`, `float()`, etc.
@@ -157,7 +149,7 @@ print(f"Hello {name}, you are {age} years old.")
 
 ## **JavaScript**
 
-### **Syntax for User Input:**
+### Syntax for User Input:
 
 In JavaScript, the `prompt()` method is commonly used in browsers to take user input, returning the
 input as a string.
@@ -179,12 +171,12 @@ alert("Hello " + name + ", you are " + age + " years old.");
 
 ## **TypeScript**
 
-### **Syntax for User Input:**
+### Syntax for User Input:
 
 TypeScript **does not directly support user input** like `prompt()` in browser-based JS or `readline`
 in Node.js.
 
-**Alternative (in Node.js):**
+Alternative (in Node.js):
 
 ### Example
 
