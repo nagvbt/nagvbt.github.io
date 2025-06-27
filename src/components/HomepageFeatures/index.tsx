@@ -27,13 +27,12 @@ const features = [
         url: 'docs/category/languages-comparison'
       },
       {
+        title: '🎓 UI Frameworks',
+        url: 'docs/category/ui-frameworks'
+      },
+      {
         title: '🌍 Travel',
         url: 'blog/tags/travel'
-      },
-
-      {
-        title: '🎓 Tutorials',
-        url: 'docs/Tutorials/WCF'
       }
     ]
   },

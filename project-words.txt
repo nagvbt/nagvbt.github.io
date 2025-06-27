@@ -466,6 +466,7 @@ gend
 setid
 psetid
 getid
+Linq
 runat
 smtpcreds
 passoword
@@ -476,7 +477,6 @@ LINQ
 lname
 fname
 btndelete
-Linq
 asax
 Configurator
 Configsections
@@ -1400,6 +1400,13 @@ NNDA
 stylis
 toobar
 reder
+Alterate
+appname
+componenet
+Nums
+Operaor
+Reassignable
+reassignable
 cmfcmf
 aldridged
 HHDQ
