@@ -11,6 +11,11 @@ import { PageHeader } from '@site/src/components/PageHeader';
 import { ReactTyped } from '@site/src/components//ReactTyped';
 import { SocialFollow } from '@site/src/components//SocialFollow';
 import CaseConvert from '@site/src/components/CaseConvert/CaseConvert';
+import { ProjectListings } from '../Projects/Projects';
+import { Talk } from '@site/src/components/Talk';
+import styles from '../Talks/styles.module.css';
+import data from '../Talks/data.json';
+import { GithubProjects } from '@site/src/components/GithubProjects';
 
 export default function UI(): JSX.Element {
   return (
@@ -41,9 +46,34 @@ export default function UI(): JSX.Element {
           <h1>3. Social Follow</h1>
           <SocialFollow></SocialFollow>
         </div>
-        <br />
-        <CaseConvert></CaseConvert>
-        <br />
+
+        <div id="Projects">
+          <h1>4. Projects</h1>
+          <ProjectListings></ProjectListings>
+        </div>
+
+        <div id="Talks">
+          <h1>5. Talks</h1>
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {data.talks.map((project) => (
+                  <Talk
+                    title={project.title}
+                    id={project.id}
+                    permalink={project.permalink}
+                    formattedDate={project.formattedDate}
+                  ></Talk>
+                ))}
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div id="GithubProjects">
+          <h1>6. Github Projects</h1>
+          <GithubProjects></GithubProjects>
+        </div>
       </main>
     </Layout>
   );

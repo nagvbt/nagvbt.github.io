@@ -55,6 +55,15 @@ export default function About() {
             </Alert>
           </div>
 
+          <p>
+            My Journey with Code My love for programming began in 1995, back in my school days, when
+            I first discovered the magic of turning logic into creation. It started with the
+            simplicity of BASIC and the playful challenges of LOGO—little did I know then that this
+            curiosity would become a lifelong passion. Decades later, I’m still writing code, now in
+            C++ and beyond, but the thrill remains the same: solving problems, building solutions,
+            and pushing the boundaries of what technology can do.
+          </p>
+
           <div className={styles.overviewSection}>
             <Card title="OVERVIEW" icon="🔍" className={styles.overviewCard}>
               <ul className={styles.overviewList}>
