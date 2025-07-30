@@ -17,7 +17,7 @@ import styles from '../Talks/styles.module.css';
 import data from '../Talks/data.json';
 import { GithubProjects } from '@site/src/components/GithubProjects';
 
-export default function UI(): JSX.Element {
+export default function UI() {
   return (
     <Layout title="UI">
       <PageHeader title="UI" subTitle="Component Library"></PageHeader>

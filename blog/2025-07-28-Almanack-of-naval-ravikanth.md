@@ -3,17 +3,24 @@ tags: ["Books"]
 authors: [mrnbt]
 ---
 
-# 💡 Book Review: The Almanack of Naval Ravikant – Wealth, Happiness & Wisdom for a Lifetime
+# 📚 Book Review: The Almanack of Naval Ravikant – Wealth, Happiness & Wisdom for a Lifetime
 
-| Author        | Eric Jorgenson         |     |
-| :------------ | :--------------------- | --- |
-| Fiction ?     | NO                     |     |
-| Genres        | Self Helf              |     |
-| Rating        | 4/5                    |     |
-| Tags          | Happines, Motivation   |     |
-| Date Finished | July 28, 2025          |     |
+| Author        | Eric Jorgenson         |
+| :------------ | :--------------------- |
+| Fiction ?     | NO                     |
+| Genres        | Self Helf              |
+| Rating        | 4/5                    |
+| Tags          | Happines, Motivation   |
+| Date Finished | July 28, 2025          |
+| Edition       | Hardcover              |
 
 > _"A clear thinker is better than a smart thinker." – Naval Ravikant_
+
+[![The Almanack of Naval Ravikant](/img/books/Almanack-Naval-Ravikant.jpg)](https://amzn.to/45sK7Ko)
+
+To buy this book on Amazon: <https://amzn.to/45sK7Ko>
+
+<!--truncate-->
 
 ---
 
@@ -24,8 +31,6 @@ Jorgenson, distills Naval’s wisdom from years of podcasts, tweets, and intervi
 timeless guide.
 
 <!-- 📘 **Grab the book here**: The Almanack of Naval Ravikant – Buy on Amazon _(Affiliate link)_ -->
-
-## 🚀 The Book in 3 Sentences
 
 ## 🎨 Impressions
 
