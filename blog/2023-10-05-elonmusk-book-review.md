@@ -21,7 +21,7 @@ authors: [mrnbt]
 
 [![Walter Isaacson](/img/books/elon-musk.png)](https://amzn.to/46zY8Ho)
 
-To buy this book on Amazon: <https://amzn.to/46zY8Ho>
+To buy this book on Amazon: https://amzn.to/46zY8Ho
 
 <!--truncate-->
 

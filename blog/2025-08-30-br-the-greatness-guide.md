@@ -19,7 +19,7 @@ authors: [mrnbt]
 
 [![The Greatness Guide by Robin Sharma](/img/books/greatness-guide.jpg)](https://amzn.to/4l5hgjZ)
 
-To buy this book on Amazon: <https://amzn.to/4l5hgjZ>
+To buy this book on Amazon: https://amzn.to/4l5hgjZ
 
 <!--truncate-->
 
@@ -108,7 +108,7 @@ perspective, or practical step forward.
 
 ## 📦 Where to Buy
 
-To buy this book on Amazon: <https://amzn.to/4l5hgjZ>
+To buy this book on Amazon: https://amzn.to/4l5hgjZ
 
 ## 🧭 Final Thought
 

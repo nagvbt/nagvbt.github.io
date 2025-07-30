@@ -18,7 +18,7 @@ authors: [mrnbt]
 
 [![The Almanack of Naval Ravikant](/img/books/Almanack-Naval-Ravikant.jpg)](https://amzn.to/45sK7Ko)
 
-To buy this book on Amazon: <https://amzn.to/45sK7Ko>
+To buy this book on Amazon: https://amzn.to/45sK7Ko
 
 <!--truncate-->
 
