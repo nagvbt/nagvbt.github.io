@@ -16,7 +16,7 @@ const config: Config = {
   baseUrl: '/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  // If you aren't using GitHub pages, you don't need "these.
   organizationName: 'nagvbt', // Usually your GitHub org/user name.
   projectName: 'nagvbt.github.io', // Usually your repo name.
   deploymentBranch: 'deployment',
@@ -34,7 +34,7 @@ const config: Config = {
     mermaid: true
   },
 
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  plugins: [require.resolve("@easyops-cn/docusaurus-search-local")],
 
   // plugins: [
   //   // ...
