@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkNBT=self.webpackChunkNBT||[]).push([["70106"],{30284(e,c,s){s.d(c,{A:()=>l}),s(96540);var a=s(799),k=s(46784),u=s(37107),d=s(37875),h=s(66188);u.Yv.add(d.Cvc,h.X7I);let l={...a.A,icon:k.g}}}]);
