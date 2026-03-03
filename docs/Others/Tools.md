@@ -1,6 +1,6 @@
 ## System Utilities & Productivity Tools
 
-<!--markdownlint-disable MD013 MD029 MD036 MD024 MD033-->
+<!--markdownlint-disable MD013 MD029 MD036 MD024 MD060 MD033-->
 
 Practical toolbox for developers using Windows.
 
@@ -34,12 +34,10 @@ Practical toolbox for developers using Windows.
 
 ---
 
-
 ## Node Packages
 
 | Sl No | Name | Description | Command | URL |
 |-------|------|-------------|-----|-----|
 | 1 | 📝 **Yarn** | Yarn is a package manager for JavaScript projects, similar to npm. | `npm install --global yarn` | https://classic.yarnpkg.com/lang/en/docs/install |
-| 2 | **rimraf** | A deep deletion module for node (like rm -rf) | `yarn global add rimraf` | https://www.npmjs.com/package/rimraf | 
+| 2 | **rimraf** | A deep deletion module for node (like rm -rf) | `yarn global add rimraf` | https://www.npmjs.com/package/rimraf |
 | 3 | **depdoc** | Thirtyparty Pakages list generation | `npm install --global depdoc` Create markdown file of result `depdoc package.json -g` |   https://github.com/mrmartineau/depdoc |  
-
