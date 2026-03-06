@@ -4,34 +4,109 @@
         <title>I CAN MAKE THIS WORK</title>
         <link>http://mrnbt.in/blog</link>
         <description>The blog of NBT ❤️🌻</description>
-        <lastBuildDate>Thu, 01 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2023 - 2026 NBT.</copyright>
         <item>
+            <title><![CDATA[🧰 Windows Developer Toolbox 2026: Updated & Production Ready]]></title>
+            <link>http://mrnbt.in/blog/2026/03/03/toolbox-2026</link>
+            <guid>http://mrnbt.in/blog/2026/03/03/toolbox-2026</guid>
+            <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[In 2026, Windows remains a powerful development platform. With modern]]></description>
+            <content:encoded><![CDATA[<p>In 2026, Windows remains a powerful development platform. With modern
+tooling, a structured setup improves productivity and workflow
+efficiency.</p>
+<p>Whether you’re working on .NET, Node.js, APIs, or documentation, having the right utilities
+installed can save hours every week.</p>
+<p>Here’s an updated and practical toolbox for developers using Windows.</p>
+<p>Get List of all the below tools <a class="" href="http://mrnbt.in/docs/Others/Tools/">Refer the Artice.</a>.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-system-utilities--productivity-tools">🖥 System Utilities &amp; Productivity Tools<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#-system-utilities--productivity-tools" class="hash-link" aria-label="Direct link to 🖥 System Utilities &amp; Productivity Tools" title="Direct link to 🖥 System Utilities &amp; Productivity Tools" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="dupeguru">dupeGuru<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#dupeguru" class="hash-link" aria-label="Direct link to dupeGuru" title="Direct link to dupeGuru" translate="no">​</a></h3>
+<p>Tool to find and remove duplicate files based on name or content.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="treesize">TreeSize<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#treesize" class="hash-link" aria-label="Direct link to TreeSize" title="Direct link to TreeSize" translate="no">​</a></h3>
+<p>Disk space analyzer to visualize folder sizes and manage storage.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="obsidian">Obsidian<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#obsidian" class="hash-link" aria-label="Direct link to Obsidian" title="Direct link to Obsidian" translate="no">​</a></h3>
+<p>Markdown-based note-taking and knowledge management application.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="microsoft-powertoys">Microsoft PowerToys<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#microsoft-powertoys" class="hash-link" aria-label="Direct link to Microsoft PowerToys" title="Direct link to Microsoft PowerToys" translate="no">​</a></h3>
+<p>Productivity utilities for advanced Windows users.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ccleaner">CCleaner<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#ccleaner" class="hash-link" aria-label="Direct link to CCleaner" title="Direct link to CCleaner" translate="no">​</a></h3>
+<p>System cleaning tool to remove junk files.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-zip">7-Zip<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#7-zip" class="hash-link" aria-label="Direct link to 7-Zip" title="Direct link to 7-Zip" translate="no">​</a></h3>
+<p>Open-source file archiver with high compression ratio.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-development-tools">💻 Development Tools<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#-development-tools" class="hash-link" aria-label="Direct link to 💻 Development Tools" title="Direct link to 💻 Development Tools" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="notepad">Notepad++<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#notepad" class="hash-link" aria-label="Direct link to Notepad++" title="Direct link to Notepad++" translate="no">​</a></h3>
+<p>Lightweight source code editor with plugin support.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="visual-studio-code">Visual Studio Code<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#visual-studio-code" class="hash-link" aria-label="Direct link to Visual Studio Code" title="Direct link to Visual Studio Code" translate="no">​</a></h3>
+<p>Powerful code editor with rich extension ecosystem.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="git">Git<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#git" class="hash-link" aria-label="Direct link to Git" title="Direct link to Git" translate="no">​</a></h3>
+<p>Distributed version control system.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tortoisegit">TortoiseGit<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#tortoisegit" class="hash-link" aria-label="Direct link to TortoiseGit" title="Direct link to TortoiseGit" translate="no">​</a></h3>
+<p>Windows shell interface for Git.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="nodejs">Node.js<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#nodejs" class="hash-link" aria-label="Direct link to Node.js" title="Direct link to Node.js" translate="no">​</a></h3>
+<p>JavaScript runtime for backend and tooling.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="postman">Postman<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#postman" class="hash-link" aria-label="Direct link to Postman" title="Direct link to Postman" translate="no">​</a></h3>
+<p>API development and testing platform.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="winmerge">WinMerge<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#winmerge" class="hash-link" aria-label="Direct link to WinMerge" title="Direct link to WinMerge" translate="no">​</a></h3>
+<p>File and folder comparison tool.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="filelocator-pro">FileLocator Pro<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#filelocator-pro" class="hash-link" aria-label="Direct link to FileLocator Pro" title="Direct link to FileLocator Pro" translate="no">​</a></h3>
+<p>Advanced file search utility.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="baretail">BareTail<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#baretail" class="hash-link" aria-label="Direct link to BareTail" title="Direct link to BareTail" translate="no">​</a></h3>
+<p>Real-time log monitoring tool.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fiddler">Fiddler<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#fiddler" class="hash-link" aria-label="Direct link to Fiddler" title="Direct link to Fiddler" translate="no">​</a></h3>
+<p>Web debugging proxy for HTTP/HTTPS traffic inspection.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-node-package-utilities">📦 Node Package Utilities<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#-node-package-utilities" class="hash-link" aria-label="Direct link to 📦 Node Package Utilities" title="Direct link to 📦 Node Package Utilities" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="yarn">Yarn<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#yarn" class="hash-link" aria-label="Direct link to Yarn" title="Direct link to Yarn" translate="no">​</a></h3>
+<p>JavaScript package manager. Install: <code>npm install --global yarn</code></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rimraf">rimraf<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#rimraf" class="hash-link" aria-label="Direct link to rimraf" title="Direct link to rimraf" translate="no">​</a></h3>
+<p>Deep deletion module (like rm -rf). Install: <code>yarn global add rimraf</code></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="depdoc">depdoc<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#depdoc" class="hash-link" aria-label="Direct link to depdoc" title="Direct link to depdoc" translate="no">​</a></h3>
+<p>Generate third-party package documentation. Install:
+<code>npm install --global depdoc</code></p>
+<p>Generate markdown report: <code>depdoc package.json -g</code></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-final-thoughts">🚀 Final Thoughts<a href="http://mrnbt.in/blog/2026/03/03/toolbox-2026#-final-thoughts" class="hash-link" aria-label="Direct link to 🚀 Final Thoughts" title="Direct link to 🚀 Final Thoughts" translate="no">​</a></h2>
+<p>A well-prepared Windows development environment in 2026 combines
+productivity tools, version control, debugging utilities, and modern
+runtime ecosystems into a streamlined workflow.</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[My 2025 Tech Journey & Happy New Year 2026! 🎉]]></title>
             <link>http://mrnbt.in/blog/2026/01/01/happy-new-year</link>
             <guid>http://mrnbt.in/blog/2026/01/01/happy-new-year</guid>
             <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[As 2025 wraps up, I wanted to reflect on how my technology journey progressed this year and share my excitement for 2026.]]></description>
-            <content:encoded><![CDATA[<p>As 2025 wraps up, I wanted to reflect on how my technology journey progressed this year and share my excitement for 2026.</p>
+            <description><![CDATA[As 2025 wraps up, I wanted to reflect on how my technology journey progressed this year and share]]></description>
+            <content:encoded><![CDATA[<p>As 2025 wraps up, I wanted to reflect on how my technology journey progressed this year and share
+my excitement for 2026.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="highlights-from-2025">Highlights from 2025<a href="http://mrnbt.in/blog/2026/01/01/happy-new-year#highlights-from-2025" class="hash-link" aria-label="Direct link to Highlights from 2025" title="Direct link to Highlights from 2025" translate="no">​</a></h2>
 <ul>
 <li class="">
 <p><strong>Machine Learning &amp; AI:</strong><br>
-<!-- -->I spent significant time exploring AI applications in healthcare, case outcome predictions, and generative AI. I even experimented with building predictive systems in Python, which deepened my understanding of real-world ML implementations.</p>
+<!-- -->I spent significant time exploring AI applications in healthcare, case outcome predictions, and
+generative AI. I even experimented with building predictive systems in Python, which deepened my
+understanding of real-world ML implementations.</p>
 </li>
 <li class="">
 <p><strong>Programming &amp; Development:</strong><br>
-<!-- -->My journey with Python, Ruby on Rails, and React became more hands-on. I learned to set up projects, manage databases like MySQL, and build modern web applications with scalable architectures. Troubleshooting complex issues in Rails, such as database connections and server setups, sharpened my debugging skills.</p>
+<!-- -->My journey with Python, Ruby on Rails, and React became more hands-on. I learned to set up
+projects, manage databases like MySQL, and build modern web applications with scalable
+architectures. Troubleshooting complex issues in Rails, such as database connections and server
+setups, sharpened my debugging skills.</p>
 </li>
 <li class="">
 <p><strong>Reading &amp; Knowledge Expansion:</strong><br>
-<!-- -->I focused on deepening my knowledge through books on software architecture, AI, and tech philosophy. This year also included exploring Indian spiritual texts and their philosophical depth, blending my tech and personal growth journey.</p>
+<!-- -->I focused on deepening my knowledge through books on software architecture, AI, and tech
+philosophy. This year also included exploring Indian spiritual texts and their philosophical
+depth, blending my tech and personal growth journey.</p>
 <ul>
 <li class=""><strong>Academic Milestone:</strong><br>
-<!-- -->I successfully passed <strong>Intermediate BiPC in First Class from the Andhra Pradesh Open School Society</strong>, an important personal achievement that strengthened my foundation and confidence to pursue broader learning goals.</li>
+<!-- -->I successfully passed <strong>Intermediate BiPC in First Class from the Andhra Pradesh Open School
+Society</strong>, an important personal achievement that strengthened my foundation and confidence
+to pursue broader learning goals.</li>
 </ul>
 </li>
 </ul>
@@ -45,7 +120,7 @@
 <hr>
 <p>Wishing all my friends, mentors, and readers a <strong>Happy New Year 2026!</strong> 🥳<br>
 <!-- -->May 2026 bring innovation, learning, and exciting challenges that help us grow.</p>
-<p><em>Here’s to coding, creating, and conquering the new year! 🚀</em></p>]]></content:encoded>
+<p><strong>Here’s to coding, creating, and conquering the new year! 🚀</strong></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[📚 Book Review: The Greatness Guide by Robin Sharma]]></title>
@@ -620,25 +695,6 @@ into external files.</p>
 reusable, and maintainable applications. Stay tuned for more Angular tips and best practices!</p>]]></content:encoded>
             <category>Angular</category>
             <category>Front End</category>
-        </item>
-        <item>
-            <title><![CDATA[Ionic 3+ Tutorials]]></title>
-            <link>http://mrnbt.in/blog/2024/07/06/Ionic-tutorial</link>
-            <guid>http://mrnbt.in/blog/2024/07/06/Ionic-tutorial</guid>
-            <pubDate>Sat, 06 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Basic]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="basic">Basic<a href="http://mrnbt.in/blog/2024/07/06/Ionic-tutorial#basic" class="hash-link" aria-label="Direct link to Basic" title="Direct link to Basic" translate="no">​</a></h2>
-<p><a class="" href="http://mrnbt.in/blog/2018/02/03/ionic-basic-mobile-app">1. Create a basic ionic3+ application</a></p>
-<p><a class="" href="http://mrnbt.in/blog/2018/03/18/ionic-display-the-menu-always-for-tablets.">2. Display SideMenu always for Tablets</a></p>
-<p><a class="" href="http://mrnbt.in/blog/2018/06/02/how-to-add-providers-in-ionic3-apps/">3. Providers</a></p>
-<p><a class="" href="http://mrnbt.in/blog/2018/06/22/ionic-local-storageprovider/">4. Local Storage Provider – Create and Use it in the Page/Component</a></p>
-<p><a class="" href="http://mrnbt.in/blog/2018/06/16/ionic-temporary-storage/">5. Temporary Storage which persists only when the app is live</a></p>
-<p><a class="" href="http://mrnbt.in/blog/2018/05/13/ionic-add-constants/">6. Add Constants and use across App</a></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="integrations">Integrations<a href="http://mrnbt.in/blog/2024/07/06/Ionic-tutorial#integrations" class="hash-link" aria-label="Direct link to Integrations" title="Direct link to Integrations" translate="no">​</a></h2>
-<p><a class="" href="http://mrnbt.in/blog/2018/04/29/ionic-fontawesomes/">1. Integrate FontAwesome</a></p>
-<p><a class="" href="http://mrnbt.in/blog/2018/05/12/ionic-add-fontawesome-icons">2. Add FontAwesome Icons in the SideMenu</a></p>]]></content:encoded>
-            <category>Ionic</category>
-            <category>Angular</category>
         </item>
     </channel>
 </rss>
